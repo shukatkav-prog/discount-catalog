@@ -4,7 +4,7 @@
 
 const fs = require("fs");
 const path = require("path");
-const { CATEGORIES, EXCLUDE_KEYWORDS, SOURCES } = require("./config");
+const { CATEGORIES, EXTRA_CATEGORIES, EXCLUDE_KEYWORDS, SOURCES } = require("./config");
 
 const ROOT = __dirname;
 const DATA_DIR = path.join(ROOT, "data");
@@ -61,14 +61,28 @@ function isExcluded(name) {
   if (low.includes("алкогольн") && !low.includes("безалкогольн")) return true;
   return EXCLUDE_KEYWORDS.some(k => hasKeyword(low, k));
 }
-function categoryFor(name) {
+// cat.keywords — звичайний OR-збіг (будь-яке слово підходить).
+// cat.keywordGroups — список AND-груп: товар підходить, якщо містить УСІ слова
+// хоч однієї групи. Потрібно для випадків типу "безалкогольне пиво", де в
+// реальній назві товару ці два слова майже ніколи не стоять поруч (напр.
+// "Пиво Bitburger Drive світле безалкогольне") — проста підрядкова фраза
+// "безалкогольне пиво" такого не зловить.
+function matchesCategory(low, cat) {
+  if (cat.keywords && cat.keywords.some(k => hasKeyword(low, k))) return true;
+  if (cat.keywordGroups && cat.keywordGroups.some(group => group.every(k => hasKeyword(low, k)))) return true;
+  return false;
+}
+function categoryForList(name, categories) {
   const low = name.toLowerCase();
-  for (const cat of CATEGORIES) {
-    if (!cat.keywords.some(k => hasKeyword(low, k))) continue;
+  for (const cat of categories) {
+    if (!matchesCategory(low, cat)) continue;
     if (cat.excludeKeywords && cat.excludeKeywords.some(k => hasKeyword(low, k))) continue;
     return cat.id;
   }
   return null;
+}
+function categoryFor(name) {
+  return categoryForList(name, CATEGORIES);
 }
 function pct(oldP, newP) {
   if (!oldP || !newP || oldP <= newP) return null;
@@ -92,22 +106,39 @@ function jaccard(a, b) {
 // ---- фільтрація + категоризація ----
 const byCategory = {};
 for (const cat of CATEGORIES) byCategory[cat.id] = [];
+const byExtraCategory = {};
+for (const cat of EXTRA_CATEGORIES) byExtraCategory[cat.id] = [];
 
+// товари, що пройшли фільтр виключень, але не підійшли під жодну з 20 основних
+// категорій, перевіряємо ще й проти EXTRA_CATEGORIES (вино, пиво/сидр, одяг,
+// побутова хімія — реальні великі кластери, які інакше губились би мовчки).
+// Що не підійшло взагалі нікуди (декор, іграшки, канцтовари, батарейки тощо) —
+// саме це і викидаємо, а не всю решту одним смітником "Інше".
+let unmatchedCount = 0;
 for (const item of allItems) {
   if (!item.name || isExcluded(item.name)) continue;
-  const catId = categoryFor(item.name);
-  if (!catId) continue;
-  const p = pct(item.oldPrice, item.newPrice);
-  byCategory[catId].push({
+  const entry = {
     name: item.name,
     store: item.store,
     oldPrice: item.oldPrice,
     newPrice: item.newPrice,
-    pct: p,
+    pct: pct(item.oldPrice, item.newPrice),
     image: item.localImage || null,
     words: words(item.name),
-  });
+  };
+  const catId = categoryFor(item.name);
+  if (catId) {
+    byCategory[catId].push(entry);
+    continue;
+  }
+  const extraId = categoryForList(item.name, EXTRA_CATEGORIES);
+  if (extraId) {
+    byExtraCategory[extraId].push(entry);
+    continue;
+  }
+  unmatchedCount++;
 }
+console.log(`Не підійшло під жодну категорію (основну чи додаткову) — у каталог не йде: ${unmatchedCount}`);
 
 // ---- групування схожих товарів різних магазинів у межах категорії ----
 function groupCategory(items) {
@@ -144,6 +175,8 @@ function groupCategory(items) {
 
 const grouped = {};
 for (const cat of CATEGORIES) grouped[cat.id] = groupCategory(byCategory[cat.id]);
+const extraGrouped = {};
+for (const cat of EXTRA_CATEGORIES) extraGrouped[cat.id] = groupCategory(byExtraCategory[cat.id]);
 
 // ---------------- HTML ----------------
 function esc(s) { return String(s).replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c])); }
@@ -185,6 +218,7 @@ const CAT_ICON = {
   dairy:"🥛", eggs:"🥚", bread:"🥖", salads:"🥗", produce:"🍊", snacks:"🍟",
   sweets:"🍬", icecream:"🍦", drinks:"🥤", nabeer:"🍺", sauces:"🥫", pasta:"🍝",
   frozen:"❄️", tea:"🍵",
+  wine:"🍷", regbeer:"🍻", clothing:"🧦", homecare:"🧴",
 };
 
 const sections = CATEGORIES.map((cat, i) => {
@@ -202,7 +236,28 @@ const sections = CATEGORIES.map((cat, i) => {
   </section>`;
 }).join("\n");
 
-const navHtml = CATEGORIES.map(cat => `<a href="#${cat.id}">${CAT_ICON[cat.id]} ${esc(cat.title.split(" (")[0])}</a>`).join("\n");
+// Додаткові категорії (вино, пиво/сидр, одяг, побутова хімія) — реальні великі
+// кластери товарів, які магазини домішують у ті самі сторінки знижок, але які
+// НЕ входять у 20 основних харчових категорій Лери. Показуємо їх окремою секцією
+// нижче, з чіткою розбивкою по темі (а не одним смітником "Інше"), щоб нічого
+// не губилось непомітно — але й не змішувалось з основним списком.
+const extraSections = EXTRA_CATEGORIES.map(cat => {
+  const groups = extraGrouped[cat.id];
+  if (!groups.length) return "";
+  const cardsHtml = groups.map(g => renderGroup(g, CAT_ICON[cat.id])).join("\n");
+  return `<section class="category extra-category" id="${cat.id}">
+    <h2><span class="cat-icon">${CAT_ICON[cat.id]}</span>${esc(cat.title)} <span class="count">${groups.length}</span></h2>
+    <div class="grid">${cardsHtml}</div>
+  </section>`;
+}).join("\n");
+
+const hasExtra = EXTRA_CATEGORIES.some(cat => extraGrouped[cat.id].length);
+const extraBlock = hasExtra ? `<div class="extra-divider"><span>Інші категорії (поза основним списком)</span></div>
+${extraSections}` : "";
+
+const navHtml = CATEGORIES.map(cat => `<a href="#${cat.id}">${CAT_ICON[cat.id]} ${esc(cat.title.split(" (")[0])}</a>`).join("\n")
+  + (hasExtra ? "\n" + EXTRA_CATEGORIES.filter(cat => extraGrouped[cat.id].length)
+      .map(cat => `<a href="#${cat.id}" class="nav-extra">${CAT_ICON[cat.id]} ${esc(cat.title)}</a>`).join("\n") : "");
 const totalGroups = Object.values(grouped).reduce((s, g) => s + g.length, 0);
 const withPhotos = Object.values(grouped).reduce((s, g) => s + g.filter(x => x.image).length, 0);
 
@@ -220,11 +275,15 @@ const html = `<!DOCTYPE html>
   header { background:linear-gradient(135deg,#2b2622,#40372d); color:#f5f1ea; padding:22px 16px 16px; text-align:center; }
   header h1 { margin:0 0 6px; font-size:22px; }
   header p { margin:4px 0; color:#d8cdbd; font-size:13px; }
-  nav { position:sticky; top:0; z-index:10; background:#fffaf2; border-bottom:1px solid var(--border); padding:8px 10px; display:flex; flex-wrap:nowrap; gap:6px; overflow-x:auto; -webkit-overflow-scrolling:touch; white-space:nowrap; }
+  nav { position:sticky; top:0; z-index:10; background:#fffaf2; border-bottom:1px solid var(--border); padding:8px 10px; display:flex; flex-wrap:wrap; gap:6px; max-height:104px; overflow-y:auto; }
   nav a { flex:0 0 auto; font-size:12px; color:var(--ink); text-decoration:none; background:var(--card-bg); border:1px solid var(--border); border-radius:20px; padding:6px 12px; }
   nav a:hover { background:var(--gold); color:#fff; }
   .category { max-width:1180px; margin:0 auto; padding:22px 14px 4px; }
   .category h2 { font-size:18px; display:flex; align-items:center; gap:8px; border-bottom:2px solid var(--gold); padding-bottom:8px; margin-bottom:6px; }
+  .extra-divider { max-width:1180px; margin:34px auto 4px; padding:0 14px; display:flex; align-items:center; gap:10px; color:var(--ink-soft); font-size:12px; text-transform:uppercase; letter-spacing:.04em; }
+  .extra-divider::before, .extra-divider::after { content:""; flex:1; height:1px; background:var(--border); }
+  .extra-category h2 { border-bottom-color:var(--ink-soft); }
+  .nav-extra { opacity:.75; }
   .count { margin-left:auto; font-size:12px; font-weight:400; color:var(--ink-soft); background:var(--bg); border-radius:10px; padding:2px 9px; }
   .cat-note { font-size:12px; color:var(--ink-soft); background:#fff6e6; border:1px dashed var(--gold); border-radius:8px; padding:8px 12px; margin:8px 0 14px; }
   .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(210px,1fr)); gap:12px; }
@@ -255,6 +314,7 @@ const html = `<!DOCTYPE html>
 </header>
 <nav>${navHtml}</nav>
 ${sections}
+${extraBlock}
 <footer>
   Згенеровано локально скриптом discount-catalog-scraper (scrape.js + build.js) — реальні фото
   качаються з сайтів магазинів напряму на цьому комп'ютері. Групування однакових товарів між

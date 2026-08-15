@@ -1600,20 +1600,20 @@
     "localImage": "images/fora/колготки-жіночі-ciao-felicita-40-den-miele-р2-шт-3c366afc.png"
   },
   {
-    "name": "Ковпак карнавальний червоний, шт",
-    "oldPrice": 19.9,
-    "newPrice": 9.9,
-    "img": "https://content.fora.ua/sku/ecommerce/74/480x480wwm/749063_480x480wwm_abca65c8-54b6-7098-91b4-da479ed3ae6b.png",
-    "sourceUrl": "https://fora.ua/all-offers?to=7&from=7",
-    "localImage": "images/fora/ковпак-карнавальний-червоний-шт-4a3c649d.png"
-  },
-  {
     "name": "Сліди жіночі в асортименті, шт",
     "oldPrice": 18.5,
     "newPrice": 9.9,
     "img": "https://content.fora.ua/sku/ecommerce/79/480x480wwm/796434_480x480wwm_0102720d-211b-a1ca-0cb6-b1a01f6b5041.png",
     "sourceUrl": "https://fora.ua/all-offers?to=7&from=7",
     "localImage": "images/fora/сліди-жіночі-в-асортименті-шт-a9e0cfe0.png"
+  },
+  {
+    "name": "Ковпак карнавальний червоний, шт",
+    "oldPrice": 19.9,
+    "newPrice": 9.9,
+    "img": "https://content.fora.ua/sku/ecommerce/74/480x480wwm/749063_480x480wwm_abca65c8-54b6-7098-91b4-da479ed3ae6b.png",
+    "sourceUrl": "https://fora.ua/all-offers?to=7&from=7",
+    "localImage": "images/fora/ковпак-карнавальний-червоний-шт-4a3c649d.png"
   },
   {
     "name": "Прикраса декорат Гілка з подарунком срібляс15*23см, шт",
@@ -1888,14 +1888,6 @@
     "localImage": "images/fora/стрічка-липка-від-мух-predator-шт-d95ce223.png"
   },
   {
-    "name": "Колготки жіночі ESLI Filana 20 visone р.2, шт",
-    "oldPrice": 34.9,
-    "newPrice": 9.9,
-    "img": "https://content.fora.ua/app/no_photo.png",
-    "sourceUrl": "https://fora.ua/all-offers?to=8&from=8",
-    "localImage": "images/fora/колготки-жіночі-esli-filana-20-visone-р2-шт-5d005699.png"
-  },
-  {
     "name": "Колготки Intuicia Comfort 120 den чорні р.3, шт",
     "oldPrice": 179,
     "newPrice": 9.9,
@@ -1910,6 +1902,14 @@
     "img": "https://content.fora.ua/sku/ecommerce/82/480x480wwm/822302_480x480wwm_8cfe87ef-f330-ad5e-2b46-ef89558163b6.png",
     "sourceUrl": "https://fora.ua/all-offers?to=8&from=8",
     "localImage": "images/fora/шкарпетки-дитячі-duna-9062-темно-зелений-р16-18-1-пара-705a58a5.png"
+  },
+  {
+    "name": "Колготки жіночі ESLI Filana 20 visone р.2, шт",
+    "oldPrice": 34.9,
+    "newPrice": 9.9,
+    "img": "https://content.fora.ua/app/no_photo.png",
+    "sourceUrl": "https://fora.ua/all-offers?to=8&from=8",
+    "localImage": "images/fora/колготки-жіночі-esli-filana-20-visone-р2-шт-5d005699.png"
   },
   {
     "name": "Сумка для окулярів 18*8,5см, шт",
@@ -4798,5 +4798,3797 @@
     "img": "https://content.fora.ua/sku/ecommerce/58/480x480wwm/585488_480x480wwm_2f3d8a98-ced4-b027-5f79-3ce0373373d0.png",
     "sourceUrl": "https://fora.ua/all-offers?to=20&from=20",
     "localImage": "images/fora/листівка-дуже-добре-категорія-е-шт-85cf07ae.png"
+  },
+  {
+    "name": "Сосиски Зірковий вибір Апетитні варені 1с, 300г",
+    "oldPrice": null,
+    "newPrice": 49.9,
+    "img": "https://content.fora.ua/sku/ecommerce/98/480x480wwm/980384_480x480wwm_d3044e4c-3631-5c75-75a6-cf6a9cc353a1.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/сосиски-зірковий-вибір-апетитні-варені-1с-300г-94add3e3.png"
+  },
+  {
+    "name": "Сосиски «Бащинський» «Міні з сиром» варені 1 сорт, без оболонки, 0,3кг",
+    "oldPrice": null,
+    "newPrice": 121.9,
+    "img": "https://content.fora.ua/shop/uploads/pictures/928310-676eb05636509_fora.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/сосиски-бащинський-міні-з-сиром-варені-1-сорт-без-оболонки-0-37bad350.png"
+  },
+  {
+    "name": "Ковбаса «Укрпромпостач» «Стейкова» к/з 1 ґатунок, нарізка, 170г",
+    "oldPrice": null,
+    "newPrice": 99.9,
+    "img": "https://content.fora.ua/sku/ecommerce/74/480x480wwm/740083_480x480wwm_eee2817e-501a-d650-b9d7-c93644767aaf.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/ковбаса-укрпромпостач-стейкова-к-з-1-ґатунок-нарізка-170г-d19efb7f.png"
+  },
+  {
+    "name": "Ковбаса «Глобино» «Салямі Італійська» с/к в/ґ нарізка, 80г",
+    "oldPrice": null,
+    "newPrice": 78.3,
+    "img": "https://content.fora.ua/sku/ecommerce/55/480x480wwm/553606_480x480wwm_feef0d3c-5d08-53ef-6cf4-fdecd99a4853.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/ковбаса-глобино-салямі-італійська-с-к-в-ґ-нарізка-80г-e1d45ed6.png"
+  },
+  {
+    "name": "Сосиски Укрпромпостач Топтуни з куркою варені, 0,19кг",
+    "oldPrice": null,
+    "newPrice": 68.5,
+    "img": "https://content.fora.ua/sku/ecommerce/98/480x480wwm/986887_480x480wwm_c92094ae-7cc1-cdba-15e8-4b3c287b8c4e.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/сосиски-укрпромпостач-топтуни-з-куркою-варені-019кг-9441b84c.png"
+  },
+  {
+    "name": "Грудинка \"Бащинський\" \"Українська\" варено-копчена, вищий сорт, 100г",
+    "oldPrice": null,
+    "newPrice": 65.9,
+    "img": "https://content.fora.ua/sku/ecommerce/37/480x480wwm/377650_480x480wwm_0459882b-f056-da7d-54df-b96628d5b2a5.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/грудинка-бащинський-українська-варено-копчена-вищий-сорт-100-03a114a3.png"
+  },
+  {
+    "name": "Ковбаса «Глобино» «Лікарська» в/ґ, 100г",
+    "oldPrice": null,
+    "newPrice": 56.7,
+    "img": "https://content.fora.ua/sku/ecommerce/32/480x480wwm/322756_480x480wwm_356ac7ce-df17-8117-bedd-376ad8cd6189.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/ковбаса-глобино-лікарська-в-ґ-100г-f517c197.png"
+  },
+  {
+    "name": "Паштет Зірковий вибір Апетитний, 125г",
+    "oldPrice": null,
+    "newPrice": 19.9,
+    "img": "https://content.fora.ua/sku/ecommerce/99/480x480wwm/995568_480x480wwm_c003eeeb-fadd-4bba-abcc-be8039eef540.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/паштет-зірковий-вибір-апетитний-125г-a8f36c85.png"
+  },
+  {
+    "name": "Сосиски Укрпромпостач Топтуни з індичкою варені, 0,19кг",
+    "oldPrice": null,
+    "newPrice": 71.5,
+    "img": "https://content.fora.ua/sku/ecommerce/98/480x480wwm/986888_480x480wwm_0ce9e0ad-af71-22ee-0e64-2ead1d9fd4a1.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/сосиски-укрпромпостач-топтуни-з-індичкою-варені-019кг-fc462458.png"
+  },
+  {
+    "name": "Сосиски «Глобино» «Підкопчені» варені, 325г",
+    "oldPrice": null,
+    "newPrice": 79.9,
+    "img": "https://content.fora.ua/sku/ecommerce/79/480x480wwm/795530_480x480wwm_e1a0110d-de4a-cbf0-dc6e-ab236f7d725c.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/сосиски-глобино-підкопчені-варені-325г-c901eba4.png"
+  },
+  {
+    "name": "Кабаноси MeatUP зі свининою в/к, 70г",
+    "oldPrice": null,
+    "newPrice": 79.9,
+    "img": "https://content.fora.ua/sku/ecommerce/99/480x480wwm/992779_480x480wwm_400d024c-a312-552b-8fda-54da77d676e1.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/кабаноси-meatup-зі-свининою-в-к-70г-ce9cea4c.png"
+  },
+  {
+    "name": "Грудинка «Глобино» «Банкетна» к/в в/ґ нарізка, 120г",
+    "oldPrice": null,
+    "newPrice": 96.9,
+    "img": "https://content.fora.ua/sku/ecommerce/72/480x480wwm/725871_480x480wwm_b01ad30a-1c45-6868-f5cb-27a9746685c9.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/грудинка-глобино-банкетна-к-в-в-ґ-нарізка-120г-18b84314.png"
+  },
+  {
+    "name": "Сардельки «Глобино» «Пузяки» 1 ґ н/о г/п, 100г",
+    "oldPrice": null,
+    "newPrice": 42.9,
+    "img": "https://content.fora.ua/sku/ecommerce/70/480x480wwm/709974_480x480wwm_402af22d-859c-9e61-b595-e67bf273cb17.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/сардельки-глобино-пузяки-1-ґ-н-о-г-п-100г-d4cafbaf.png"
+  },
+  {
+    "name": "Ковбаса «Алан» «Дитяча» в/ґ н/о, 100г",
+    "oldPrice": null,
+    "newPrice": 61.5,
+    "img": "https://content.fora.ua/sku/ecommerce/47/480x480wwm/472662_480x480wwm_c30daeb3-6658-ea44-eff6-f86120ef0aff.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/ковбаса-алан-дитяча-в-ґ-н-о-100г-2bc2f37a.png"
+  },
+  {
+    "name": "Салямі «Глобино» «Фуршетна» н/к, 100г",
+    "oldPrice": null,
+    "newPrice": 53.7,
+    "img": "https://content.fora.ua/sku/ecommerce/18/480x480wwm/183812_480x480wwm_753ef4d8-d7ec-2114-87c7-d4bb2c4ad327.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/салямі-глобино-фуршетна-н-к-100г-154de18e.png"
+  },
+  {
+    "name": "Сардельки Зірковий вибір Ніжні ц/о 1с, 400г",
+    "oldPrice": null,
+    "newPrice": 89.9,
+    "img": "https://content.fora.ua/sku/ecommerce/100/480x480wwm/1008207_480x480wwm_518b3e03-5b3c-4456-9bff-9644ae0c437c.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/сардельки-зірковий-вибір-ніжні-ц-о-1с-400г-792ae7eb.png"
+  },
+  {
+    "name": "Крильця курячі «Бащинський» до пива, копчено-варені, вищий сорт, 100г",
+    "oldPrice": null,
+    "newPrice": 44.7,
+    "img": "https://content.fora.ua/shop/uploads/pictures/587328-677e79802c0ff_fora.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/крильця-курячі-бащинський-до-пива-копчено-варені-вищий-сорт--61bc42aa.png"
+  },
+  {
+    "name": "Ковбаса «Ранчо» «З молоком» з м'яса птиці 1 ґ, 350г",
+    "oldPrice": null,
+    "newPrice": 90.3,
+    "img": "https://content.fora.ua/sku/ecommerce/75/480x480wwm/758268_480x480wwm_ce041076-657b-adcd-25aa-e05b14f587e7.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/ковбаса-ранчо-з-молоком-з-мяса-птиці-1-ґ-350г-46cb8890.png"
+  },
+  {
+    "name": "Ковбаса «Фарро» «Краківська» н/к в/ґ, 100г",
+    "oldPrice": null,
+    "newPrice": 93.9,
+    "img": "https://content.fora.ua/sku/ecommerce/4/480x480wwm/44618_480x480wwm_bb7d34d3-8d8d-2de0-5c7e-c6b7a439a325.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/ковбаса-фарро-краківська-н-к-в-ґ-100г-a9146d77.png"
+  },
+  {
+    "name": "Ковбаски Tarczynski Kabanos Exclusive Chilli с/к, 90г",
+    "oldPrice": null,
+    "newPrice": 99.9,
+    "img": "https://content.fora.ua/sku/ecommerce/96/480x480wwm/966918_480x480wwm_e150361d-fdd2-0efe-8be2-a5814d4f1d47.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/ковбаски-tarczynski-kabanos-exclusive-chilli-с-к-90г-c4003b8b.png"
+  },
+  {
+    "name": "Ковбаски Favore Баварські с/к в/с, 120г",
+    "oldPrice": null,
+    "newPrice": 99.9,
+    "img": "https://content.fora.ua/sku/ecommerce/97/480x480wwm/979096_480x480wwm_69d9b971-6ac4-2d9f-7930-3f7454ed6063.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/ковбаски-favore-баварські-с-к-в-с-120г-7e8b155d.png"
+  },
+  {
+    "name": "Сосиски «Глобино» «Нямські» з телятиною б/о в/ґ, 275г",
+    "oldPrice": null,
+    "newPrice": 110.9,
+    "img": "https://content.fora.ua/sku/ecommerce/83/480x480wwm/830988_480x480wwm_295f5545-f154-ccf0-d0e6-01de6fc230f8.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/сосиски-глобино-нямські-з-телятиною-б-о-в-ґ-275г-3139362e.png"
+  },
+  {
+    "name": "Закуска Chill out зі смаком шаурма, 90г",
+    "oldPrice": null,
+    "newPrice": 26.5,
+    "img": "https://content.fora.ua/sku/ecommerce/101/480x480wwm/1017307_480x480wwm_e2a2afc1-3ed7-ab48-38ce-2166af3245de.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/закуска-chill-out-зі-смаком-шаурма-90г-80c8c325.png"
+  },
+  {
+    "name": "Ковбаса «Укрпромпостач» «Дрогобицька» н/к в/ґ, 100г",
+    "oldPrice": null,
+    "newPrice": 78.3,
+    "img": "https://content.fora.ua/sku/ecommerce/52/480x480wwm/524332_480x480wwm_7bf94e0b-0b04-1e45-420f-023655de9a0f.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/ковбаса-укрпромпостач-дрогобицька-н-к-в-ґ-100г-58c07755.png"
+  },
+  {
+    "name": "Кабаноси MeatUP із м'яса птиці з сиром в/к, 70г",
+    "oldPrice": null,
+    "newPrice": 79.9,
+    "img": "https://content.fora.ua/sku/ecommerce/99/480x480wwm/992778_480x480wwm_34f728dd-bff4-1204-59ed-14f398dac38a.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/кабаноси-meatup-із-мяса-птиці-з-сиром-в-к-70г-8ca98a72.png"
+  },
+  {
+    "name": "Ковбаса Зірковий вибір Салямі н/к 1с ц/б в/уп, 400г",
+    "oldPrice": null,
+    "newPrice": 139,
+    "img": "https://content.fora.ua/sku/ecommerce/100/480x480wwm/1009416_480x480wwm_a7c605e5-6e23-7766-6032-c7ef1c02d637.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/ковбаса-зірковий-вибір-салямі-н-к-1с-ц-б-в-уп-400г-6c71c8f7.png"
+  },
+  {
+    "name": "Ковбаса з м'ясом птиці «Бащинський» «Салямі Золотиста» сирокопчена, вищий сорт, 0,27кг",
+    "oldPrice": null,
+    "newPrice": 198.9,
+    "img": "https://content.fora.ua/sku/ecommerce/96/480x480wwm/961331_480x480wwm_1bb61db7-67bb-44c5-9131-4769487e6d58.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/ковбаса-з-мясом-птиці-бащинський-салямі-золотиста-сирокопчен-94e3525d.png"
+  },
+  {
+    "name": "Ковбаса «Фарро» «Салямі Женевська» с/к в/ґ, нарізка, 80г",
+    "oldPrice": null,
+    "newPrice": 87.9,
+    "img": "https://content.fora.ua/sku/ecommerce/87/480x480wwm/871811_480x480wwm_6a3f730d-0c13-74b1-ee0a-650f19c37750.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/ковбаса-фарро-салямі-женевська-с-к-в-ґ-нарізка-80г-11feea0e.png"
+  },
+  {
+    "name": "Ковбаса «Глобино» «Мортаделька» білкова в/ґ, 400г",
+    "oldPrice": null,
+    "newPrice": 165.9,
+    "img": "https://content.fora.ua/sku/ecommerce/82/480x480wwm/827531_480x480wwm_9455d010-4653-41ef-7bec-088dce05e997.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/ковбаса-глобино-мортаделька-білкова-в-ґ-400г-7aaf1d2e.png"
+  },
+  {
+    "name": "Ковбаса Алан Українська с/к в/ґ, 330г",
+    "oldPrice": null,
+    "newPrice": 409,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/955030_480x480wwm_8ebe4be3-fd61-7056-15f1-ee5beb33f03c.png",
+    "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
+    "localImage": "images/fora/ковбаса-алан-українська-с-к-в-ґ-330г-d84bc5a3.png"
+  },
+  {
+    "name": "Олія соняшникова «Олейна» «Традиційна» рафінована, 3л",
+    "oldPrice": null,
+    "newPrice": 363,
+    "img": "https://content.fora.ua/sku/ecommerce/87/480x480wwm/878597_480x480wwm_227252ca-efe3-c9ad-0418-6c3848342112.png",
+    "sourceUrl": "https://fora.ua/category/oliia-2494",
+    "localImage": "images/fora/олія-соняшникова-олейна-традиційна-рафінована-3л-1d9414d3.png"
+  },
+  {
+    "name": "Олія ріпакова Олейна з базиліком, орегано та розмарином рафінована, 250мл",
+    "oldPrice": null,
+    "newPrice": 127.9,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/943048_480x480wwm_8f0c2430-309a-4ccf-9a4e-ff2068b9a1df.png",
+    "sourceUrl": "https://fora.ua/category/oliia-2494",
+    "localImage": "images/fora/олія-ріпакова-олейна-з-базиліком-орегано-та-розмарином-рафін-c7edd5e0.png"
+  },
+  {
+    "name": "Олія оливкова Santolino Extra Virgin, 250мл",
+    "oldPrice": null,
+    "newPrice": 269,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/953410_480x480wwm_823618d7-2a3c-f982-b055-763edcd62fd9.png",
+    "sourceUrl": "https://fora.ua/category/oliia-2494",
+    "localImage": "images/fora/олія-оливкова-santolino-extra-virgin-250мл-6f222c17.png"
+  },
+  {
+    "name": "Олія лляна Олейна нерафінована недезодорована, 250мл",
+    "oldPrice": null,
+    "newPrice": 168.9,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/945840_480x480wwm_4a593bd4-9d32-12a6-a2f0-5046d2b53cf8.png",
+    "sourceUrl": "https://fora.ua/category/oliia-2494",
+    "localImage": "images/fora/олія-лляна-олейна-нерафінована-недезодорована-250мл-112b53f6.png"
+  },
+  {
+    "name": "Олія оливкова Alianza Extra Virgin, 250мл",
+    "oldPrice": null,
+    "newPrice": 234,
+    "img": "https://content.fora.ua/shop/uploads/pictures/982468-67f92b7d28eb6_fora.png",
+    "sourceUrl": "https://fora.ua/category/oliia-2494",
+    "localImage": "images/fora/олія-оливкова-alianza-extra-virgin-250мл-ce7ced22.png"
+  },
+  {
+    "name": "Олія оливкова Alianza Pomace, 500мл",
+    "oldPrice": null,
+    "newPrice": 234,
+    "img": "https://content.fora.ua/sku/ecommerce/98/480x480wwm/982470_480x480wwm_89845540-e27c-0039-1af3-1c56edc9870d.png",
+    "sourceUrl": "https://fora.ua/category/oliia-2494",
+    "localImage": "images/fora/олія-оливкова-alianza-pomace-500мл-01bfe549.png"
+  },
+  {
+    "name": "Олія кокосова Vera рафінована, 500мл",
+    "oldPrice": null,
+    "newPrice": 349,
+    "img": "https://content.fora.ua/sku/ecommerce/87/480x480wwm/879219_480x480wwm_f3d70fce-6fd8-7b87-eec7-d1ee742a3fd7.png",
+    "sourceUrl": "https://fora.ua/category/oliia-2494",
+    "localImage": "images/fora/олія-кокосова-vera-рафінована-500мл-f3825f25.png"
+  },
+  {
+    "name": "Олія оливкова Enzo Mucelli Extra Virgin, 250мл",
+    "oldPrice": null,
+    "newPrice": 249,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/954856_480x480wwm_abc31cc8-4ddd-22c9-a9c0-0a946c728bb5.png",
+    "sourceUrl": "https://fora.ua/category/oliia-2494",
+    "localImage": "images/fora/олія-оливкова-enzo-mucelli-extra-virgin-250мл-6618516b.png"
+  },
+  {
+    "name": "Олія кунжутна Golden Kings of Ukraine Extra Virgin, 0,24л",
+    "oldPrice": null,
+    "newPrice": 298.9,
+    "img": "https://content.fora.ua/sku/ecommerce/93/480x480wwm/934057_480x480wwm_f0c79ba1-e652-aa8b-0e50-9457d44bbd0f.png",
+    "sourceUrl": "https://fora.ua/category/oliia-2494",
+    "localImage": "images/fora/олія-кунжутна-golden-kings-of-ukraine-extra-virgin-024л-793afad0.png"
+  },
+  {
+    "name": "Олія оливкова Santolino Extra Virgin, 500мл",
+    "oldPrice": null,
+    "newPrice": 449,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/953411_480x480wwm_ac4c75f7-23c7-1b1a-1b0d-b27380b08e0f.png",
+    "sourceUrl": "https://fora.ua/category/oliia-2494",
+    "localImage": "images/fora/олія-оливкова-santolino-extra-virgin-500мл-32d21f32.png"
+  },
+  {
+    "name": "Олія оливкова Olive Extra Virgin перш хол віджиму, 500мл",
+    "oldPrice": null,
+    "newPrice": 499,
+    "img": "https://content.fora.ua/shop/uploads/pictures/985660-67f92c0d2efc3_fora.png",
+    "sourceUrl": "https://fora.ua/category/oliia-2494",
+    "localImage": "images/fora/олія-оливкова-olive-extra-virgin-перш-хол-віджиму-500мл-d9760ffa.png"
+  },
+  {
+    "name": "Олія Monini Extra vergine оливкова c/б, 1л",
+    "oldPrice": null,
+    "newPrice": 969,
+    "img": "https://content.fora.ua/sku/ecommerce/62/480x480wwm/624948_480x480wwm_2b5b6c49-00d3-78a4-0bb2-38b04d645182.png",
+    "sourceUrl": "https://fora.ua/category/oliia-2494",
+    "localImage": "images/fora/олія-monini-extra-vergine-оливкова-c-б-1л-e44fe40c.png"
+  },
+  {
+    "name": "Олія кукурудзяна «Кама» рафінована дезодорована, 1л",
+    "oldPrice": null,
+    "newPrice": 168.9,
+    "img": "https://content.fora.ua/sku/ecommerce/34/480x480wwm/340005_480x480wwm_d87860ea-0cf4-1ce6-5005-31e3333242e7.png",
+    "sourceUrl": "https://fora.ua/category/oliia-2494",
+    "localImage": "images/fora/олія-кукурудзяна-кама-рафінована-дезодорована-1л-ca9f0944.png"
+  },
+  {
+    "name": "Олія кукурудзяна «Кама» нерафінована першого віджиму, 1л",
+    "oldPrice": null,
+    "newPrice": 143.9,
+    "img": "https://content.fora.ua/sku/ecommerce/48/480x480wwm/485148_480x480wwm_1d389a7a-2108-4eee-0d43-b75081066b19.png",
+    "sourceUrl": "https://fora.ua/category/oliia-2494",
+    "localImage": "images/fora/олія-кукурудзяна-кама-нерафінована-першого-віджиму-1л-6a6d5e8e.png"
+  },
+  {
+    "name": "Олія оливкова Alianza Extra Virgin, 500мл",
+    "oldPrice": null,
+    "newPrice": 384,
+    "img": "https://content.fora.ua/shop/uploads/pictures/982469-67f92b870f3a5_fora.png",
+    "sourceUrl": "https://fora.ua/category/oliia-2494",
+    "localImage": "images/fora/олія-оливкова-alianza-extra-virgin-500мл-edf1a230.png"
+  },
+  {
+    "name": "Олія оливкова Olive Extra Virgin перш хол віджиму, 250мл",
+    "oldPrice": null,
+    "newPrice": 289,
+    "img": "https://content.fora.ua/shop/uploads/pictures/985659-67f92c02b9ab5_fora.png",
+    "sourceUrl": "https://fora.ua/category/oliia-2494",
+    "localImage": "images/fora/олія-оливкова-olive-extra-virgin-перш-хол-віджиму-250мл-57949895.png"
+  },
+  {
+    "name": "Олія оливкова Favore Pomace, 1л",
+    "oldPrice": null,
+    "newPrice": 279.9,
+    "img": "https://content.fora.ua/sku/ecommerce/100/480x480wwm/1002600_480x480wwm_e37a223f-7718-798f-cf54-35d752e0154e.png",
+    "sourceUrl": "https://fora.ua/category/oliia-2494",
+    "localImage": "images/fora/олія-оливкова-favore-pomace-1л-36c51777.png"
+  },
+  {
+    "name": "Олія оливкова Favore Extra Virgin, 250мл",
+    "oldPrice": null,
+    "newPrice": 165.5,
+    "img": "https://content.fora.ua/sku/ecommerce/100/480x480wwm/1002598_480x480wwm_852a7878-daf9-25ea-4827-c299230c55d8.png",
+    "sourceUrl": "https://fora.ua/category/oliia-2494",
+    "localImage": "images/fora/олія-оливкова-favore-extra-virgin-250мл-b80501be.png"
+  },
+  {
+    "name": "Суміш олій рослинних Олейна Три зерна, 500мл",
+    "oldPrice": null,
+    "newPrice": 198.9,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/945839_480x480wwm_ec8c45e9-8038-0dc9-f901-2e94df929f12.png",
+    "sourceUrl": "https://fora.ua/category/oliia-2494",
+    "localImage": "images/fora/суміш-олій-рослинних-олейна-три-зерна-500мл-ebccc5ca.png"
+  },
+  {
+    "name": "Олія лляна Golden Kings of Ukraine Extra Virgin, 0,24л",
+    "oldPrice": null,
+    "newPrice": 198.9,
+    "img": "https://content.fora.ua/sku/ecommerce/93/480x480wwm/934058_480x480wwm_9669258a-7a66-7fd5-b90c-205c47c8dfc6.png",
+    "sourceUrl": "https://fora.ua/category/oliia-2494",
+    "localImage": "images/fora/олія-лляна-golden-kings-of-ukraine-extra-virgin-024л-56b49e43.png"
+  },
+  {
+    "name": "Олія оливкова Favore Extra Virgin, 500мл",
+    "oldPrice": null,
+    "newPrice": 296,
+    "img": "https://content.fora.ua/sku/ecommerce/100/480x480wwm/1002599_480x480wwm_59fb280a-58e8-bfc6-6255-a8a52965c042.png",
+    "sourceUrl": "https://fora.ua/category/oliia-2494",
+    "localImage": "images/fora/олія-оливкова-favore-extra-virgin-500мл-d5dca222.png"
+  },
+  {
+    "name": "Олія гарбузова Golden Kings of Ukraine Extra Virgin, 0,24л",
+    "oldPrice": null,
+    "newPrice": 353,
+    "img": "https://content.fora.ua/sku/ecommerce/93/480x480wwm/934056_480x480wwm_9dee6dc0-1191-c456-debf-44eccf4da58b.png",
+    "sourceUrl": "https://fora.ua/category/oliia-2494",
+    "localImage": "images/fora/олія-гарбузова-golden-kings-of-ukraine-extra-virgin-024л-ada4d930.png"
+  },
+  {
+    "name": "Оселедець Водний світ шматочки філе слабосолоні, 200г",
+    "oldPrice": null,
+    "newPrice": 94.9,
+    "img": "https://content.fora.ua/sku/ecommerce/34/480x480wwm/348545_480x480wwm_856e9302-8507-142a-db5b-176bda3169a1.png",
+    "sourceUrl": "https://fora.ua/category/m-iaso-ta-ryba-2699",
+    "localImage": "images/fora/оселедець-водний-світ-шматочки-філе-слабосолоні-200г-ae50e58d.png"
+  },
+  {
+    "name": "Набір Iceberg до пива з лосося солоного, 100г",
+    "oldPrice": null,
+    "newPrice": 35.9,
+    "img": "https://content.fora.ua/sku/ecommerce/72/480x480wwm/724515_480x480wwm_e6864eb3-ecca-d530-696d-3ec24214f14f.png",
+    "sourceUrl": "https://fora.ua/category/m-iaso-ta-ryba-2699",
+    "localImage": "images/fora/набір-iceberg-до-пива-з-лосося-солоного-100г-8b2ddbce.png"
+  },
+  {
+    "name": "Ікра скандинавських риб Водний світ зі шматочками лосося, 160г",
+    "oldPrice": null,
+    "newPrice": 86.5,
+    "img": "https://content.fora.ua/sku/ecommerce/86/480x480wwm/865919_480x480wwm_d1e4f272-090c-2fe8-5250-626a6ad3d8ed.png",
+    "sourceUrl": "https://fora.ua/category/m-iaso-ta-ryba-2699",
+    "localImage": "images/fora/ікра-скандинавських-риб-водний-світ-зі-шматочками-лосося-160-3ae85549.png"
+  },
+  {
+    "name": "Палички крабові Водний світ Сніжний краб охолоджені, 250г",
+    "oldPrice": null,
+    "newPrice": 178.9,
+    "img": "https://content.fora.ua/sku/ecommerce/90/480x480wwm/906008_480x480wwm_08a8d62a-1ad5-1f55-8b7c-fef390f9cbb8.png",
+    "sourceUrl": "https://fora.ua/category/m-iaso-ta-ryba-2699",
+    "localImage": "images/fora/палички-крабові-водний-світ-сніжний-краб-охолоджені-250г-ca47de3e.png"
+  },
+  {
+    "name": "Креветки Norven варено-охолоджені без голови, 330г",
+    "oldPrice": null,
+    "newPrice": 289.9,
+    "img": "https://content.fora.ua/sku/ecommerce/100/480x480wwm/1002070_480x480wwm_772c8d59-d8cc-a3e2-9fc0-729b04307e2b.png",
+    "sourceUrl": "https://fora.ua/category/m-iaso-ta-ryba-2699",
+    "localImage": "images/fora/креветки-norven-варено-охолоджені-без-голови-330г-7649c35e.png"
+  },
+  {
+    "name": "Салака Бріз-Т середня х/к в/у, 200г",
+    "oldPrice": null,
+    "newPrice": 59.9,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/956981_480x480wwm_08d9c519-9fb1-7057-85f4-28502c7524fa.png",
+    "sourceUrl": "https://fora.ua/category/m-iaso-ta-ryba-2699",
+    "localImage": "images/fora/салака-бріз-т-середня-х-к-в-у-200г-3d0c5939.png"
+  },
+  {
+    "name": "Паста рибна «Русалочка» «Адміральська», 150г",
+    "oldPrice": null,
+    "newPrice": 59.9,
+    "img": "https://content.fora.ua/sku/ecommerce/35/480x480wwm/351302_480x480wwm_27f53d5e-191e-b3a2-8fb9-2fa74ec986ac.png",
+    "sourceUrl": "https://fora.ua/category/m-iaso-ta-ryba-2699",
+    "localImage": "images/fora/паста-рибна-русалочка-адміральська-150г-1321bd72.png"
+  },
+  {
+    "name": "Ікра сайди Водний світ, 100г",
+    "oldPrice": null,
+    "newPrice": 79.9,
+    "img": "https://content.fora.ua/sku/ecommerce/86/480x480wwm/861585_480x480wwm_8bf585ce-4c50-c389-952c-80d9caa35095.png",
+    "sourceUrl": "https://fora.ua/category/m-iaso-ta-ryba-2699",
+    "localImage": "images/fora/ікра-сайди-водний-світ-100г-5d97ad2c.png"
+  },
+  {
+    "name": "Сьомга Norven слабосолена філе шматок, 180г",
+    "oldPrice": null,
+    "newPrice": 239,
+    "img": "https://content.fora.ua/sku/ecommerce/41/480x480wwm/415204_480x480wwm_15f3e938-de2c-40b0-e794-62fd48b3793f.png",
+    "sourceUrl": "https://fora.ua/category/m-iaso-ta-ryba-2699",
+    "localImage": "images/fora/сьомга-norven-слабосолена-філе-шматок-180г-91a72c23.png"
+  },
+  {
+    "name": "Мойва «Бріз-Т» холодного копчення, 200г",
+    "oldPrice": null,
+    "newPrice": 119.9,
+    "img": "https://content.fora.ua/sku/ecommerce/16/480x480wwm/167451_480x480wwm_01221d89-6e15-b595-0d0f-23236cc95666.png",
+    "sourceUrl": "https://fora.ua/category/m-iaso-ta-ryba-2699",
+    "localImage": "images/fora/мойва-бріз-т-холодного-копчення-200г-183f0c2f.png"
+  },
+  {
+    "name": "Фарш лососевий морожений, 500г",
+    "oldPrice": null,
+    "newPrice": 86.9,
+    "img": "https://content.fora.ua/sku/ecommerce/97/480x480wwm/978028_480x480wwm_19e2bafd-74f7-c15e-cc97-174b614b26fa.png",
+    "sourceUrl": "https://fora.ua/category/m-iaso-ta-ryba-2699",
+    "localImage": "images/fora/фарш-лососевий-морожений-500г-868c822a.png"
+  },
+  {
+    "name": "Оселедець Зірковий вибір філе-шматочки з цибулею, 180г",
+    "oldPrice": null,
+    "newPrice": 68.9,
+    "img": "https://content.fora.ua/sku/ecommerce/98/480x480wwm/989779_480x480wwm_01e423df-23da-2b26-4fdb-c249ae7962e3.png",
+    "sourceUrl": "https://fora.ua/category/m-iaso-ta-ryba-2699",
+    "localImage": "images/fora/оселедець-зірковий-вибір-філе-шматочки-з-цибулею-180г-ef6439fd.png"
+  },
+  {
+    "name": "Ікра Водний світ скандинавських риб з копченою сьомгою, 160г",
+    "oldPrice": null,
+    "newPrice": 85.9,
+    "img": "https://content.fora.ua/sku/ecommerce/86/480x480wwm/865917_480x480wwm_22f4c73d-36b8-3f8f-1e4a-3a4d25f57629.png",
+    "sourceUrl": "https://fora.ua/category/m-iaso-ta-ryba-2699",
+    "localImage": "images/fora/ікра-водний-світ-скандинавських-риб-з-копченою-сьомгою-160г-0e66ece4.png"
+  },
+  {
+    "name": "Кальмар Norven смужки варені з кунжутом в соусі Унагі, 100г",
+    "oldPrice": null,
+    "newPrice": 119.9,
+    "img": "https://content.fora.ua/sku/ecommerce/100/480x480wwm/1000068_480x480wwm_98324d9e-9cff-5963-62f9-c565b09e99c7.png",
+    "sourceUrl": "https://fora.ua/category/m-iaso-ta-ryba-2699",
+    "localImage": "images/fora/кальмар-norven-смужки-варені-з-кунжутом-в-соусі-унагі-100г-765d1ff0.png"
+  },
+  {
+    "name": "Креветки варено-охолоджені цілі 20-40, 600г",
+    "oldPrice": null,
+    "newPrice": 389,
+    "img": "https://content.fora.ua/sku/ecommerce/102/480x480wwm/1024322_480x480wwm_32a87718-dab3-d4e4-4769-80aa565b4997.png",
+    "sourceUrl": "https://fora.ua/category/m-iaso-ta-ryba-2699",
+    "localImage": "images/fora/креветки-варено-охолоджені-цілі-20-40-600г-a140e0ac.png"
+  },
+  {
+    "name": "Салат Зірковий вибір Морська капуста маринована, 250г",
+    "oldPrice": null,
+    "newPrice": 38.6,
+    "img": "https://content.fora.ua/sku/ecommerce/99/480x480wwm/990638_480x480wwm_b809eda0-f0c0-2af5-6f31-36862a920573.png",
+    "sourceUrl": "https://fora.ua/category/m-iaso-ta-ryba-2699",
+    "localImage": "images/fora/салат-зірковий-вибір-морська-капуста-маринована-250г-6e88c651.png"
+  },
+  {
+    "name": "Паста Водний світ з ікри скандинавських риб зі шматочками лосося, 160г",
+    "oldPrice": null,
+    "newPrice": 78.5,
+    "img": "https://content.fora.ua/sku/ecommerce/86/480x480wwm/865922_480x480wwm_ddf62863-bcb7-b4d7-68e1-093d51adfead.png",
+    "sourceUrl": "https://fora.ua/category/m-iaso-ta-ryba-2699",
+    "localImage": "images/fora/паста-водний-світ-з-ікри-скандинавських-риб-зі-шматочками-ло-d11046cd.png"
+  },
+  {
+    "name": "Оселедець Veladis Козацький філе в олії з італійськими спеціями, 240г",
+    "oldPrice": null,
+    "newPrice": 119.9,
+    "img": "https://content.fora.ua/sku/ecommerce/85/480x480wwm/859748_480x480wwm_acc9ced2-266e-b9f1-d5e8-6a411d7678ba.png",
+    "sourceUrl": "https://fora.ua/category/m-iaso-ta-ryba-2699",
+    "localImage": "images/fora/оселедець-veladis-козацький-філе-в-олії-з-італійськими-спеці-a14e6047.png"
+  },
+  {
+    "name": "Оселедець Norven по-скандинавськи шматочки філе в олії, 300г",
+    "oldPrice": null,
+    "newPrice": 133.9,
+    "img": "https://content.fora.ua/sku/ecommerce/93/480x480wwm/936590_480x480wwm_5a15cfeb-7995-9e18-fe31-3807296b79d8.png",
+    "sourceUrl": "https://fora.ua/category/m-iaso-ta-ryba-2699",
+    "localImage": "images/fora/оселедець-norven-по-скандинавськи-шматочки-філе-в-олії-300г-b9f17a7f.png"
+  },
+  {
+    "name": "Ікра мойви Norven натуральна пастеризована, 100г",
+    "oldPrice": null,
+    "newPrice": 99.9,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/955430_480x480wwm_ca89bafa-6e14-5169-a884-2a6451e817bd.png",
+    "sourceUrl": "https://fora.ua/category/m-iaso-ta-ryba-2699",
+    "localImage": "images/fora/ікра-мойви-norven-натуральна-пастеризована-100г-ed6b16d4.png"
+  },
+  {
+    "name": "Оселедець Водний світ філе слабосолене, 250г",
+    "oldPrice": null,
+    "newPrice": 113.9,
+    "img": "https://content.fora.ua/sku/ecommerce/42/480x480wwm/423515_480x480wwm_8f6e817d-a955-7b5b-763d-23973681719d.png",
+    "sourceUrl": "https://fora.ua/category/m-iaso-ta-ryba-2699",
+    "localImage": "images/fora/оселедець-водний-світ-філе-слабосолене-250г-8ce40f92.png"
+  },
+  {
+    "name": "Ікра лососева Приморська зерниста з/б, 60г",
+    "oldPrice": null,
+    "newPrice": 298.9,
+    "img": "https://content.fora.ua/sku/ecommerce/101/480x480wwm/1015642_480x480wwm_770e2cfe-d26c-f3c3-a806-30219a6d4537.png",
+    "sourceUrl": "https://fora.ua/category/m-iaso-ta-ryba-2699",
+    "localImage": "images/fora/ікра-лососева-приморська-зерниста-з-б-60г-3b779cda.png"
+  },
+  {
+    "name": "Раки Delfin варено-морожені в білому вині 40/60, 500г",
+    "oldPrice": null,
+    "newPrice": 359,
+    "img": "https://content.fora.ua/sku/ecommerce/92/480x480wwm/920194_480x480wwm_3245bbcc-30eb-b231-6894-4b2640120e86.png",
+    "sourceUrl": "https://fora.ua/category/m-iaso-ta-ryba-2699",
+    "localImage": "images/fora/раки-delfin-варено-морожені-в-білому-вині-40-60-500г-afd5b484.png"
+  },
+  {
+    "name": "Паста Зірковий вибір з ікрою риб та лососем, 160г",
+    "oldPrice": null,
+    "newPrice": 68.9,
+    "img": "https://content.fora.ua/sku/ecommerce/101/480x480wwm/1012645_480x480wwm_1d86ca86-b07f-28d1-3c3e-f874d6a9856c.png",
+    "sourceUrl": "https://fora.ua/category/m-iaso-ta-ryba-2699",
+    "localImage": "images/fora/паста-зірковий-вибір-з-ікрою-риб-та-лососем-160г-f872c714.png"
+  },
+  {
+    "name": "Ікра тріски Водний світ, 100г",
+    "oldPrice": null,
+    "newPrice": 78.9,
+    "img": "https://content.fora.ua/sku/ecommerce/86/480x480wwm/861583_480x480wwm_3a059dfc-afda-e65a-6fcd-7f14432fe8d1.png",
+    "sourceUrl": "https://fora.ua/category/m-iaso-ta-ryba-2699",
+    "localImage": "images/fora/ікра-тріски-водний-світ-100г-98e77803.png"
+  },
+  {
+    "name": "Ікра Caps Food імітована смак золот осетра паст дп, 250г",
+    "oldPrice": null,
+    "newPrice": 95.9,
+    "img": "https://content.fora.ua/sku/ecommerce/99/480x480wwm/995342_480x480wwm_96f9192e-7899-33cf-d932-bc0c053d3e78.png",
+    "sourceUrl": "https://fora.ua/category/m-iaso-ta-ryba-2699",
+    "localImage": "images/fora/ікра-caps-food-імітована-смак-золот-осетра-паст-дп-250г-f9550a26.png"
+  },
+  {
+    "name": "Оселедець Norven філе в олії, 240г",
+    "oldPrice": null,
+    "newPrice": 109.5,
+    "img": "https://content.fora.ua/sku/ecommerce/83/480x480wwm/834525_480x480wwm_31687a96-58ee-fccd-2f86-e0bd01110d34.png",
+    "sourceUrl": "https://fora.ua/category/prygotovlena-ryba-ta-moreprodukty-2701",
+    "localImage": "images/fora/оселедець-norven-філе-в-олії-240г-8ba4183a.png"
+  },
+  {
+    "name": "Ікра минтая Veladis пробійна слабосолена с/б, 180г",
+    "oldPrice": null,
+    "newPrice": 149.9,
+    "img": "https://content.fora.ua/sku/ecommerce/76/480x480wwm/764661_480x480wwm_0172cbc0-f6d6-d232-c88f-58894e3494ca.png",
+    "sourceUrl": "https://fora.ua/category/prygotovlena-ryba-ta-moreprodukty-2701",
+    "localImage": "images/fora/ікра-минтая-veladis-пробійна-слабосолена-с-б-180г-bd827d6e.png"
+  },
+  {
+    "name": "Лосось Дом Фактор шматочки с/с, 300г",
+    "oldPrice": null,
+    "newPrice": 174.9,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/947085_480x480wwm_df814673-f768-f741-2132-ba625a28271a.png",
+    "sourceUrl": "https://fora.ua/category/prygotovlena-ryba-ta-moreprodukty-2701",
+    "localImage": "images/fora/лосось-дом-фактор-шматочки-с-с-300г-750b4d58.png"
+  },
+  {
+    "name": "М’ясо мідій Водний світ по-сицилійськи, 150г",
+    "oldPrice": null,
+    "newPrice": 79.9,
+    "img": "https://content.fora.ua/sku/ecommerce/58/480x480wwm/584531_480x480wwm_3ecc0fa5-f4ae-586f-bdac-9c76050dc0b4.png",
+    "sourceUrl": "https://fora.ua/category/prygotovlena-ryba-ta-moreprodukty-2701",
+    "localImage": "images/fora/м-ясо-мідій-водний-світ-по-сицилійськи-150г-a5e8085d.png"
+  },
+  {
+    "name": "Яйця курячі «Ясенсвіт» харчові столові С1, 10шт",
+    "oldPrice": null,
+    "newPrice": 57.9,
+    "img": "https://content.fora.ua/sku/ecommerce/80/480x480wwm/809640_480x480wwm_d051b56e-9808-0e94-eb68-ce2fec1a9af2.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/яйця-курячі-ясенсвіт-харчові-столові-с1-10шт-ba04886a.png"
+  },
+  {
+    "name": "Сметана Яготинська 15% п/е, 350г",
+    "oldPrice": null,
+    "newPrice": 66.9,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/947879_480x480wwm_2a6373bd-564b-2445-a3f0-2a1fd4f877bd.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/сметана-яготинська-15-п-е-350г-72da1fa3.png"
+  },
+  {
+    "name": "Молоко Зірковий вибір 2,6% п/е, 900г",
+    "oldPrice": null,
+    "newPrice": 40.9,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/953387_480x480wwm_b146b874-4841-e8ad-6a42-9ca2c322379e.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/молоко-зірковий-вибір-26-п-е-900г-b777848d.png"
+  },
+  {
+    "name": "Яйця Від доброї курки Свіжість С1, 10шт",
+    "oldPrice": null,
+    "newPrice": 51.99,
+    "img": "https://content.fora.ua/sku/ecommerce/83/480x480wwm/833420_480x480wwm_2270eb74-8973-58ff-3148-8ce3902968b4.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/яйця-від-доброї-курки-свіжість-с1-10шт-d0d917bd.png"
+  },
+  {
+    "name": "Сир кисломолочний Яготинський 5% флоу-пак, 180г",
+    "oldPrice": null,
+    "newPrice": 54.9,
+    "img": "https://content.fora.ua/sku/ecommerce/87/480x480wwm/872537_480x480wwm_5a6e963c-c7e1-9606-e439-2961400476fb.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/сир-кисломолочний-яготинський-5-флоу-пак-180г-f1879757.png"
+  },
+  {
+    "name": "Молоко пастеризоване «Яготинське» 2,6%, 870г",
+    "oldPrice": null,
+    "newPrice": 59.9,
+    "img": "https://content.fora.ua/sku/ecommerce/86/480x480wwm/866829_480x480wwm_c375bfdb-113a-cb6d-3e99-8a16db71c94a.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/молоко-пастеризоване-яготинське-26-870г-3a65a096.png"
+  },
+  {
+    "name": "Молоко «Яготинське» 2,6% п/е, 900г",
+    "oldPrice": null,
+    "newPrice": 53.5,
+    "img": "https://content.fora.ua/sku/ecommerce/54/480x480wwm/548446_480x480wwm_af41db30-8afa-4cf0-d7de-afbdae77e6a4.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/молоко-яготинське-26-п-е-900г-4def71b9.png"
+  },
+  {
+    "name": "Сметана Яготинська 20%, стакан, 300г",
+    "oldPrice": null,
+    "newPrice": 63.7,
+    "img": "https://content.fora.ua/sku/ecommerce/90/480x480wwm/908737_480x480wwm_8b000065-6681-91c4-444a-78b514f8765d.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/сметана-яготинська-20-стакан-300г-f07e1256.png"
+  },
+  {
+    "name": "Вершки Бурьонка стерилізовані 10%, 500г",
+    "oldPrice": null,
+    "newPrice": 75.9,
+    "img": "https://content.fora.ua/sku/ecommerce/32/480x480wwm/329025_480x480wwm_f296d4ec-c334-92ed-f35e-a7c00189c2db.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/вершки-бурьонка-стерилізовані-10-500г-0530524d.png"
+  },
+  {
+    "name": "Яйця курячі Від доброї курки Київська С1, 20шт",
+    "oldPrice": null,
+    "newPrice": 110,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/942730_480x480wwm_22d96b38-434c-1646-14cc-4ddb676ecd6f.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/яйця-курячі-від-доброї-курки-київська-с1-20шт-b0723ce5.png"
+  },
+  {
+    "name": "Молоко пастеризоване Молокія 2,5% пляшка, 870г",
+    "oldPrice": null,
+    "newPrice": 67.9,
+    "img": "https://content.fora.ua/sku/ecommerce/91/480x480wwm/917218_480x480wwm_51772b65-15c6-b587-2712-548f398e0b20.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/молоко-пастеризоване-молокія-25-пляшка-870г-e001d417.png"
+  },
+  {
+    "name": "Кефір Зірковий вибір 2,5% п/е, 900г",
+    "oldPrice": null,
+    "newPrice": 45.9,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/948593_480x480wwm_a2fc7ac4-d2a2-cf37-6e5d-7cdbe8cf5a29.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/кефір-зірковий-вибір-25-п-е-900г-7db32b5c.png"
+  },
+  {
+    "name": "Сир кисломолочний Яготинський 5%, 350г",
+    "oldPrice": null,
+    "newPrice": 95.9,
+    "img": "https://content.fora.ua/sku/ecommerce/80/480x480wwm/802382_480x480wwm_6c2cc836-3758-97e0-b059-16f067f99bae.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/сир-кисломолочний-яготинський-5-350г-beed4606.png"
+  },
+  {
+    "name": "Ряжанка Яготинська  3,2% стакан, 300г",
+    "oldPrice": null,
+    "newPrice": 35.9,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/953422_480x480wwm_97849ac6-3482-ccfa-5eea-718b8bf5b304.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/ряжанка-яготинська-32-стакан-300г-8dee739b.png"
+  },
+  {
+    "name": "Молоко пастеризоване «Ферма» 3,2%, 840г",
+    "oldPrice": null,
+    "newPrice": 66.9,
+    "img": "https://content.fora.ua/sku/ecommerce/83/480x480wwm/837450_480x480wwm_62372a29-0b19-337e-7e73-608df88fb8c7.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/молоко-пастеризоване-ферма-32-840г-2161a0c5.png"
+  },
+  {
+    "name": "Сметана Яготинська 15% стакан, 300г",
+    "oldPrice": null,
+    "newPrice": 55.5,
+    "img": "https://content.fora.ua/sku/ecommerce/90/480x480wwm/908738_480x480wwm_962eaef5-9c9e-78c2-04e3-8dc86a0e30e8.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/сметана-яготинська-15-стакан-300г-eb3ff52c.png"
+  },
+  {
+    "name": "Сметана Яготинська 20% п/е, 350г",
+    "oldPrice": null,
+    "newPrice": 78.9,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/947880_480x480wwm_79dbb144-91dc-69eb-da04-430663dc4cb0.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/сметана-яготинська-20-п-е-350г-45d1003c.png"
+  },
+  {
+    "name": "Молоко «Галичина» «З чистих Карпат» 2,5%, 900г",
+    "oldPrice": null,
+    "newPrice": 61.9,
+    "img": "https://content.fora.ua/sku/ecommerce/71/480x480wwm/716286_480x480wwm_b54e667e-4052-6f48-ef90-98ed6224524b.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/молоко-галичина-з-чистих-карпат-25-900г-ff9e1fcf.png"
+  },
+  {
+    "name": "Молоко пастеризоване Молочні вершини 3,2%, 2кг",
+    "oldPrice": null,
+    "newPrice": 129,
+    "img": "https://content.fora.ua/sku/ecommerce/98/480x480wwm/987322_480x480wwm_b94d04b0-4403-4e48-2bc6-ca2e6fc85c51.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/молоко-пастеризоване-молочні-вершини-32-2кг-cb508b33.png"
+  },
+  {
+    "name": "Сир кисломолочний Біло 5%, 180г",
+    "oldPrice": null,
+    "newPrice": 44.4,
+    "img": "https://content.fora.ua/sku/ecommerce/86/480x480wwm/865982_480x480wwm_70c1d4b3-7630-99a3-08a7-0726cc08d8f5.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/сир-кисломолочний-біло-5-180г-91825660.png"
+  },
+  {
+    "name": "Молоко пастеризоване ПростоНаше 2,5%, пляшка, 870г",
+    "oldPrice": null,
+    "newPrice": 60.7,
+    "img": "https://content.fora.ua/sku/ecommerce/93/480x480wwm/935139_480x480wwm_8b35c1dd-025b-4397-4202-fd2d3d64adb5.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/молоко-пастеризоване-простонаше-25-пляшка-870г-54e0c27a.png"
+  },
+  {
+    "name": "Сметана «Молокія» 20%, 300г",
+    "oldPrice": null,
+    "newPrice": 63.9,
+    "img": "https://content.fora.ua/sku/ecommerce/84/480x480wwm/842271_480x480wwm_2584ce32-d51b-8ab2-4240-aedcf9782f83.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/сметана-молокія-20-300г-bdcc3b94.png"
+  },
+  {
+    "name": "Кефір «Яготинський» 2,5%, пляшка, 850г",
+    "oldPrice": null,
+    "newPrice": 65.9,
+    "img": "https://content.fora.ua/sku/ecommerce/84/480x480wwm/842283_480x480wwm_3a1be511-2afa-c695-b184-0a78d222c9c8.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/кефір-яготинський-25-пляшка-850г-07f39760.png"
+  },
+  {
+    "name": "Йогурт Яготинський з вишнею та черешнею 1,5%, пляшка, 750г",
+    "oldPrice": null,
+    "newPrice": 85.9,
+    "img": "https://content.fora.ua/sku/ecommerce/100/480x480wwm/1003675_480x480wwm_e01c907b-ca0b-3e5c-f599-f47b3eb75d3c.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/йогурт-яготинський-з-вишнею-та-черешнею-15-пляшка-750г-865aa3fd.png"
+  },
+  {
+    "name": "Сир кисломолочний Зірковий вибір 5%, 300г",
+    "oldPrice": null,
+    "newPrice": 72.9,
+    "img": "https://content.fora.ua/sku/ecommerce/96/480x480wwm/960408_480x480wwm_716f0307-cdfa-f532-ad54-4db2f15bb563.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/сир-кисломолочний-зірковий-вибір-5-300г-df3043ee.png"
+  },
+  {
+    "name": "Напій Alpro соєвий банановий т/б, 1л",
+    "oldPrice": null,
+    "newPrice": 179.9,
+    "img": "https://content.fora.ua/shop/uploads/pictures/737704-68b5d06758906_fora.jpg",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/напій-alpro-соєвий-банановий-т-б-1л-d89e5179.jpg"
+  },
+  {
+    "name": "Сир кисломолочний Зірковий вибір нежирний, 300г",
+    "oldPrice": null,
+    "newPrice": 67.5,
+    "img": "https://content.fora.ua/sku/ecommerce/96/480x480wwm/960407_480x480wwm_a41ad22a-d22a-62a9-bbe8-05fdfef0e75f.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/сир-кисломолочний-зірковий-вибір-нежирний-300г-bdeb1918.png"
+  },
+  {
+    "name": "Сир кисломолочний Зірковий вибір 9%, 300г",
+    "oldPrice": null,
+    "newPrice": 75.9,
+    "img": "https://content.fora.ua/sku/ecommerce/96/480x480wwm/960409_480x480wwm_53d40a27-2e56-7ded-cba6-a45bb7338799.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/сир-кисломолочний-зірковий-вибір-9-300г-5e33b1db.png"
+  },
+  {
+    "name": "Напій кисломолочний Яготинський Айран 2% пляшка, 450г",
+    "oldPrice": null,
+    "newPrice": 32.8,
+    "img": "https://content.fora.ua/sku/ecommerce/70/480x480wwm/704727_480x480wwm_5d8e8b9d-eab1-74d4-6136-580ca70034da.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/напій-кисломолочний-яготинський-айран-2-пляшка-450г-02eb9b1b.png"
+  },
+  {
+    "name": "Біфідойогурт Активіа 5 злаків питний 1,2%, 260г",
+    "oldPrice": null,
+    "newPrice": 36.9,
+    "img": "https://content.fora.ua/sku/ecommerce/100/480x480wwm/1001368_480x480wwm_801052aa-a9d1-2b49-ec3c-d4ea198dfbdf.png",
+    "sourceUrl": "https://fora.ua/category/molochni-produkty-ta-iaitsia-2656",
+    "localImage": "images/fora/біфідойогурт-активіа-5-злаків-питний-12-260г-909f05ed.png"
+  },
+  {
+    "name": "Кефір Зірковий вибір 2,5% п/е, 400г",
+    "oldPrice": null,
+    "newPrice": 24.5,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/948595_480x480wwm_35264c18-5ac1-d084-7cdd-309f506add48.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/кефір-зірковий-вибір-25-п-е-400г-172121b2.png"
+  },
+  {
+    "name": "Сметана Яготинська 15% стакан, 180г",
+    "oldPrice": null,
+    "newPrice": 38.9,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/950417_480x480wwm_eff96061-131a-6ad5-1270-8082f5dedcec.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/сметана-яготинська-15-стакан-180г-9223667d.png"
+  },
+  {
+    "name": "Кефір Зірковий вибір 1% п/е, 900г",
+    "oldPrice": null,
+    "newPrice": 42.9,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/948592_480x480wwm_5d64424c-c0dc-470d-aba4-eaf3b42d509c.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/кефір-зірковий-вибір-1-п-е-900г-4df9efd8.png"
+  },
+  {
+    "name": "Кефір Галичина Карпатський 2,5%, пляшка, 870г",
+    "oldPrice": null,
+    "newPrice": 65.3,
+    "img": "https://content.fora.ua/sku/ecommerce/54/480x480wwm/547132_480x480wwm_647dc8a2-0eb0-f6a2-a7a2-81606817fbbb.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/кефір-галичина-карпатський-25-пляшка-870г-4aae1939.png"
+  },
+  {
+    "name": "Кефір «Яготинський» 2,5% п/е, 900г",
+    "oldPrice": null,
+    "newPrice": 57.9,
+    "img": "https://content.fora.ua/sku/ecommerce/54/480x480wwm/543964_480x480wwm_0506b5cd-2d04-5350-b51c-621e337422e8.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/кефір-яготинський-25-п-е-900г-f8802c4e.png"
+  },
+  {
+    "name": "Сметана Hollandia 10% стакан, 300г",
+    "oldPrice": null,
+    "newPrice": 55.9,
+    "img": "https://content.fora.ua/sku/ecommerce/99/480x480wwm/996874_480x480wwm_036daa05-0268-cf9c-35de-34c69003b432.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/сметана-hollandia-10-стакан-300г-cca5a7c8.png"
+  },
+  {
+    "name": "Сметана Простонаше 20%, стакан, 180г",
+    "oldPrice": null,
+    "newPrice": 38.5,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/954287_480x480wwm_156bec88-bf2c-4837-c442-1a2cd869f465.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/сметана-простонаше-20-стакан-180г-63ae5c06.png"
+  },
+  {
+    "name": "Кефір Зірковий вибір 1% п/е, 400г",
+    "oldPrice": null,
+    "newPrice": 19.9,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/948594_480x480wwm_7964c88d-4fff-a02f-bb5c-0c4399b278f7.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/кефір-зірковий-вибір-1-п-е-400г-e4adfb07.png"
+  },
+  {
+    "name": "Кефір Молочні вершини 2,5% пл, 900г",
+    "oldPrice": null,
+    "newPrice": 57.9,
+    "img": "https://content.fora.ua/app/no_photo.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/кефір-молочні-вершини-25-пл-900г-5d005699.png"
+  },
+  {
+    "name": "Айран Яготинський з кропом 1,8%, 450г",
+    "oldPrice": null,
+    "newPrice": 33.9,
+    "img": "https://content.fora.ua/sku/ecommerce/75/480x480wwm/753176_480x480wwm_c36889f1-bb25-926d-4644-92637f86e73c.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/айран-яготинський-з-кропом-18-450г-794ecc3b.png"
+  },
+  {
+    "name": "Сметана ПростоНаше 15% п/е, 350г",
+    "oldPrice": null,
+    "newPrice": 58.7,
+    "img": "https://content.fora.ua/sku/ecommerce/93/480x480wwm/935146_480x480wwm_96a47092-972a-3de4-e3b2-638d91c3138a.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/сметана-простонаше-15-п-е-350г-e7dd7b7a.png"
+  },
+  {
+    "name": "Кефір «Яготинський» 2,5%, 450г",
+    "oldPrice": null,
+    "newPrice": 42.5,
+    "img": "https://content.fora.ua/sku/ecommerce/38/480x480wwm/381862_480x480wwm_a0ee95d2-9bce-e2ba-1798-41f2dc78dc86.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/кефір-яготинський-25-450г-5e3bc23d.png"
+  },
+  {
+    "name": "Кефір «Ферма» 2,5%, 840г",
+    "oldPrice": null,
+    "newPrice": 72.9,
+    "img": "https://content.fora.ua/sku/ecommerce/83/480x480wwm/837452_480x480wwm_4e46198d-7f1d-fd5c-1150-411f95267a85.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/кефір-ферма-25-840г-088a6cdd.png"
+  },
+  {
+    "name": "Ряжанка Яготинська 3,2% пляшка, 750г",
+    "oldPrice": null,
+    "newPrice": 68.9,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/953424_480x480wwm_661213bf-81a0-4a07-5ccb-7dca4b73ca1e.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/ряжанка-яготинська-32-пляшка-750г-5cd53004.png"
+  },
+  {
+    "name": "Кефір ПростоНаше 1% пет, 870г",
+    "oldPrice": null,
+    "newPrice": 59.7,
+    "img": "https://content.fora.ua/sku/ecommerce/93/480x480wwm/935134_480x480wwm_2ab3678d-f930-5830-e6d1-792571eb5809.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/кефір-простонаше-1-пет-870г-af6b9f32.png"
+  },
+  {
+    "name": "Кефір Яготинський безлактозний 2,5% пляшка, 750г",
+    "oldPrice": null,
+    "newPrice": 63.7,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/947483_480x480wwm_f72de169-3b38-d604-81d4-ba614c6766fe.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": null
+  },
+  {
+    "name": "Сметана Молочні вершини 21% стакан, 160г",
+    "oldPrice": null,
+    "newPrice": 32.9,
+    "img": "https://content.fora.ua/app/no_photo.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/сметана-молочні-вершини-21-стакан-160г-5d005699.png"
+  },
+  {
+    "name": "Сметана «Галичина» 15%, 300г",
+    "oldPrice": null,
+    "newPrice": 59.9,
+    "img": "https://content.fora.ua/sku/ecommerce/91/480x480wwm/914623_480x480wwm_2bdea14c-a851-dc13-2335-8950fcdee378.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/сметана-галичина-15-300г-5ccad7ec.png"
+  },
+  {
+    "name": "Ряжанка Зірковий вибір 4% п/е, 400г",
+    "oldPrice": null,
+    "newPrice": 27.6,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/953383_480x480wwm_4f320b7f-bcfb-7edd-b97e-acfca953634d.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/ряжанка-зірковий-вибір-4-п-е-400г-282f36cb.png"
+  },
+  {
+    "name": "Кефір «Молокія» густий 2,5%, пляшка, 870г",
+    "oldPrice": null,
+    "newPrice": 65.9,
+    "img": "https://content.fora.ua/sku/ecommerce/82/480x480wwm/821846_480x480wwm_a1b4267f-2a3b-ca99-0591-a71d7b8e08d4.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/кефір-молокія-густий-25-пляшка-870г-db10fc92.png"
+  },
+  {
+    "name": "Сметана Простонаше 15%, стакан, 180г",
+    "oldPrice": null,
+    "newPrice": 36.9,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/954286_480x480wwm_35dfa255-8671-94c8-046a-9524b79b24ca.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/сметана-простонаше-15-стакан-180г-1045db5e.png"
+  },
+  {
+    "name": "Сметана Зірковий вибір 21% п/е, 350г",
+    "oldPrice": null,
+    "newPrice": 54.9,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/953385_480x480wwm_2392b1b3-9377-28e5-3f42-74e2a21c4940.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/сметана-зірковий-вибір-21-п-е-350г-ca87a221.png"
+  },
+  {
+    "name": "Сметана ПростоНаше 20% стакан, 300г",
+    "oldPrice": null,
+    "newPrice": 66.9,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/954289_480x480wwm_67fc0838-f08e-6684-5afd-335281e94844.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/сметана-простонаше-20-стакан-300г-c5673d4e.png"
+  },
+  {
+    "name": "Кефір Молочні вершини 1% пл, 900г",
+    "oldPrice": null,
+    "newPrice": 52.9,
+    "img": "https://content.fora.ua/app/no_photo.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/кефір-молочні-вершини-1-пл-900г-5d005699.png"
+  },
+  {
+    "name": "Кефір «Галичина» «Карпатський» 1%, 250г",
+    "oldPrice": null,
+    "newPrice": 22.9,
+    "img": "https://content.fora.ua/sku/ecommerce/79/480x480wwm/795319_480x480wwm_6a428b7b-cc1d-b6df-b533-6ed48f1518c6.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/кефір-галичина-карпатський-1-250г-397d714a.png"
+  },
+  {
+    "name": "Ряжанка Яготинська 3,2% пл, 450г",
+    "oldPrice": null,
+    "newPrice": 41.9,
+    "img": "https://content.fora.ua/sku/ecommerce/102/480x480wwm/1026673_480x480wwm_acf1eb7c-2a22-5701-00ef-4756ac45cd3a.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/ряжанка-яготинська-32-пл-450г-6214f159.png"
+  },
+  {
+    "name": "Сметана Яготинська 20% п/е, 200г",
+    "oldPrice": null,
+    "newPrice": 44.9,
+    "img": "https://content.fora.ua/sku/ecommerce/101/480x480wwm/1019105_480x480wwm_2dc21fd8-e0c4-9770-e631-aa0467ddd2d2.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/сметана-яготинська-20-п-е-200г-0f92cd6b.png"
+  },
+  {
+    "name": "Сметана President 15% стакан, 300г",
+    "oldPrice": null,
+    "newPrice": 57.3,
+    "img": "https://content.fora.ua/sku/ecommerce/58/480x480wwm/584246_480x480wwm_1849fdc2-1667-b38d-855d-c7d17a5c568a.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/сметана-president-15-стакан-300г-661ef126.png"
+  },
+  {
+    "name": "Сметана President 20% стакан, 300г",
+    "oldPrice": null,
+    "newPrice": 65.9,
+    "img": "https://content.fora.ua/sku/ecommerce/58/480x480wwm/584247_480x480wwm_db16bf8e-96d7-fab6-8e07-7a8e3e99e839.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/сметана-president-20-стакан-300г-4b1607f6.png"
+  },
+  {
+    "name": "Сметана «ГаличанськА» 20%, 370г",
+    "oldPrice": null,
+    "newPrice": 72.9,
+    "img": "https://content.fora.ua/sku/ecommerce/86/480x480wwm/863690_480x480wwm_c7bae85d-19ce-d272-93e4-e126c63711d4.png",
+    "sourceUrl": "https://fora.ua/category/kyslomolochna-produktsiia-2658",
+    "localImage": "images/fora/сметана-галичанська-20-370г-c7dde357.png"
+  },
+  {
+    "name": "Молоко пастеризоване ПростоНаше 1%, пляшка, 870г",
+    "oldPrice": null,
+    "newPrice": 57.9,
+    "img": "https://content.fora.ua/sku/ecommerce/93/480x480wwm/935140_480x480wwm_a2ef2acc-18cf-7909-f858-b79df754970e.png",
+    "sourceUrl": "https://fora.ua/category/moloko-vershky-2659",
+    "localImage": "images/fora/молоко-пастеризоване-простонаше-1-пляшка-870г-3ebe23f2.png"
+  },
+  {
+    "name": "Молоко «Яготинське» 3,2% п/е, 900г",
+    "oldPrice": null,
+    "newPrice": 62.9,
+    "img": "https://content.fora.ua/sku/ecommerce/54/480x480wwm/548448_480x480wwm_23f0bba2-cd7f-4183-524f-0107527fccd6.png",
+    "sourceUrl": "https://fora.ua/category/moloko-vershky-2659",
+    "localImage": "images/fora/молоко-яготинське-32-п-е-900г-359bd937.png"
+  },
+  {
+    "name": "Вершки ПростоНаше 15% т/б, 200г",
+    "oldPrice": null,
+    "newPrice": 49.9,
+    "img": "https://content.fora.ua/sku/ecommerce/93/480x480wwm/935152_480x480wwm_163ca4ed-ef03-dde9-6839-3980c0b241c1.png",
+    "sourceUrl": "https://fora.ua/category/moloko-vershky-2659",
+    "localImage": "images/fora/вершки-простонаше-15-т-б-200г-8f530665.png"
+  },
+  {
+    "name": "Молоко суперпастеризоване «Селянське» 3,2%, 900г",
+    "oldPrice": null,
+    "newPrice": 64.9,
+    "img": "https://content.fora.ua/sku/ecommerce/2/480x480wwm/28735_480x480wwm_9751ac95-22f1-b278-8906-6bf4599a7a20.png",
+    "sourceUrl": "https://fora.ua/category/moloko-vershky-2659",
+    "localImage": "images/fora/молоко-суперпастеризоване-селянське-32-900г-6ac7841e.png"
+  },
+  {
+    "name": "Молоко «Яготинське для дітей» 3,2%, 950г",
+    "oldPrice": null,
+    "newPrice": 78.9,
+    "img": "https://content.fora.ua/sku/ecommerce/91/480x480wwm/916970_480x480wwm_e4699fd9-d90e-28e5-6cb5-337245ba4572.png",
+    "sourceUrl": "https://fora.ua/category/moloko-vershky-2659",
+    "localImage": "images/fora/молоко-яготинське-для-дітей-32-950г-6a946a57.png"
+  },
+  {
+    "name": "Коктейль молочний Danone «ДанКолекція» полуниця 2,5%, 212г",
+    "oldPrice": null,
+    "newPrice": 29.9,
+    "img": "https://content.fora.ua/sku/ecommerce/79/480x480wwm/792086_480x480wwm_ba4b3f31-72f1-ef76-818d-631cce1b8821.png",
+    "sourceUrl": "https://fora.ua/category/moloko-vershky-2659",
+    "localImage": "images/fora/коктейль-молочний-danone-данколекція-полуниця-25-212г-602a3c20.png"
+  },
+  {
+    "name": "Молоко «Яготинське» пряжене 2,6% п/е, 900г",
+    "oldPrice": null,
+    "newPrice": 61.9,
+    "img": "https://content.fora.ua/sku/ecommerce/64/480x480wwm/647784_480x480wwm_0550ccea-2aac-ee5e-caec-be88c884cd3b.png",
+    "sourceUrl": "https://fora.ua/category/moloko-vershky-2659",
+    "localImage": "images/fora/молоко-яготинське-пряжене-26-п-е-900г-980df446.png"
+  },
+  {
+    "name": "Молоко «Яготинське для дітей» ультрапастеризоване безлактозне від 9 міс. 3,2%, 950г",
+    "oldPrice": null,
+    "newPrice": 96.9,
+    "img": "https://content.fora.ua/sku/ecommerce/77/480x480wwm/777701_480x480wwm_7496428d-ef90-0dba-0e9d-8ae6f66608f0.png",
+    "sourceUrl": "https://fora.ua/category/moloko-vershky-2659",
+    "localImage": "images/fora/молоко-яготинське-для-дітей-ультрапастеризоване-безлактозне--bb9f8110.png"
+  },
+  {
+    "name": "Молоко згущене Ічня незбиране з цукром 8,5%, д/п, 150г",
+    "oldPrice": null,
+    "newPrice": 37.9,
+    "img": "https://content.fora.ua/sku/ecommerce/101/480x480wwm/1011512_480x480wwm_71770425-cfa2-5d25-4517-91b22ed16dea.png",
+    "sourceUrl": "https://fora.ua/category/moloko-vershky-2659",
+    "localImage": "images/fora/молоко-згущене-ічня-незбиране-з-цукром-85-д-п-150г-33ea403a.png"
+  },
+  {
+    "name": "Молоко ультрапастеризоване Молокія Ультра 2,5% т/п, 950г",
+    "oldPrice": null,
+    "newPrice": 83.7,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/957116_480x480wwm_ecb1da5a-195f-5562-5435-89ba8d931fcf.png",
+    "sourceUrl": "https://fora.ua/category/moloko-vershky-2659",
+    "localImage": "images/fora/молоко-ультрапастеризоване-молокія-ультра-25-т-п-950г-9a72bf44.png"
+  },
+  {
+    "name": "Молоко ультрапастеризоване Lactel Комфорт безлактозне 2,5%, 1000г",
+    "oldPrice": null,
+    "newPrice": 87.9,
+    "img": "https://content.fora.ua/sku/ecommerce/81/480x480wwm/816914_480x480wwm_a71a0c21-a1c1-69f9-4101-fc1f8dbd372e.png",
+    "sourceUrl": "https://fora.ua/category/moloko-vershky-2659",
+    "localImage": "images/fora/молоко-ультрапастеризоване-lactel-комфорт-безлактозне-25-100-b070549e.png"
+  },
+  {
+    "name": "Молоко згущене «Ічня» незбиране з цукром 8,5%, 370г",
+    "oldPrice": null,
+    "newPrice": 75.3,
+    "img": "https://content.fora.ua/sku/ecommerce/60/480x480wwm/609903_480x480wwm_68993442-9baa-d5cf-71d8-5b52528330bd.png",
+    "sourceUrl": "https://fora.ua/category/moloko-vershky-2659",
+    "localImage": "images/fora/молоко-згущене-ічня-незбиране-з-цукром-85-370г-71571041.png"
+  },
+  {
+    "name": "Молоко згущене «Ічня» незбиране з цукром 8,5%, 480г",
+    "oldPrice": null,
+    "newPrice": 98.9,
+    "img": "https://content.fora.ua/sku/ecommerce/60/480x480wwm/609883_480x480wwm_3ef453fa-5aee-c53a-281e-6759e8aad9da.png",
+    "sourceUrl": "https://fora.ua/category/moloko-vershky-2659",
+    "localImage": "images/fora/молоко-згущене-ічня-незбиране-з-цукром-85-480г-d62ade90.png"
+  },
+  {
+    "name": "Вершки «Ферма» ультрапастеризовані відбірні 33%, 500г",
+    "oldPrice": null,
+    "newPrice": 229.5,
+    "img": "https://content.fora.ua/sku/ecommerce/69/480x480wwm/692625_480x480wwm_3d9982f0-23bc-07a6-4c66-61c7880593ef.png",
+    "sourceUrl": "https://fora.ua/category/moloko-vershky-2659",
+    "localImage": "images/fora/вершки-ферма-ультрапастеризовані-відбірні-33-500г-3fa07199.png"
+  },
+  {
+    "name": "Молоко ультрапаст Молокія Ультра б/лактоз 2,5% т/п, 950г",
+    "oldPrice": null,
+    "newPrice": 87.9,
+    "img": "https://content.fora.ua/sku/ecommerce/99/480x480wwm/997193_480x480wwm_8cf2621c-db83-aff2-720f-734812bb95a9.png",
+    "sourceUrl": "https://fora.ua/category/moloko-vershky-2659",
+    "localImage": "images/fora/молоко-ультрапаст-молокія-ультра-б-лактоз-25-т-п-950г-7d86ca98.png"
+  },
+  {
+    "name": "Молоко пастеризоване «Ферма» 2,5%, 840г",
+    "oldPrice": null,
+    "newPrice": 61.9,
+    "img": "https://content.fora.ua/sku/ecommerce/83/480x480wwm/837449_480x480wwm_1dab597e-b4db-41e8-f0b8-a7ef66a3e786.png",
+    "sourceUrl": "https://fora.ua/category/moloko-vershky-2659",
+    "localImage": "images/fora/молоко-пастеризоване-ферма-25-840г-e76dca0f.png"
+  },
+  {
+    "name": "Молоко «Галичина» «Українське» 2,5%, 870г",
+    "oldPrice": null,
+    "newPrice": 63.9,
+    "img": "https://content.fora.ua/sku/ecommerce/68/480x480wwm/682859_480x480wwm_90095a49-b4bd-45e1-9547-f612efb45ea1.png",
+    "sourceUrl": "https://fora.ua/category/moloko-vershky-2659",
+    "localImage": "images/fora/молоко-галичина-українське-25-870г-a11eda05.png"
+  },
+  {
+    "name": "Молоко пастеризоване Молочні вершини 2,5%, 2кг",
+    "oldPrice": null,
+    "newPrice": 119.9,
+    "img": "https://content.fora.ua/sku/ecommerce/98/480x480wwm/987321_480x480wwm_cc5e8824-d143-bea6-b074-ea398a8f84e2.png",
+    "sourceUrl": "https://fora.ua/category/moloko-vershky-2659",
+    "localImage": "images/fora/молоко-пастеризоване-молочні-вершини-25-2кг-ea01e155.png"
+  },
+  {
+    "name": "Молоко пастеризоване Молочні вершини 2,5% пл, 900г",
+    "oldPrice": null,
+    "newPrice": 49.9,
+    "img": "https://content.fora.ua/app/no_photo.png",
+    "sourceUrl": "https://fora.ua/category/moloko-vershky-2659",
+    "localImage": "images/fora/молоко-пастеризоване-молочні-вершини-25-пл-900г-5d005699.png"
+  },
+  {
+    "name": "Молоко Зірковий вибір 2,6% п/е, 450г",
+    "oldPrice": null,
+    "newPrice": 21.3,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/953386_480x480wwm_ee3b1b6d-82dc-45cc-25ec-5c30eecbd0f3.png",
+    "sourceUrl": "https://fora.ua/category/moloko-vershky-2659",
+    "localImage": "images/fora/молоко-зірковий-вибір-26-п-е-450г-a62b0a9c.png"
+  },
+  {
+    "name": "Вершки «Бурьонка» стерилізовані 10%, 200г",
+    "oldPrice": null,
+    "newPrice": 34.9,
+    "img": "https://content.fora.ua/sku/ecommerce/48/480x480wwm/488639_480x480wwm_2d86d66f-e534-1f8c-5542-2a96cbe34008.png",
+    "sourceUrl": "https://fora.ua/category/moloko-vershky-2659",
+    "localImage": "images/fora/вершки-бурьонка-стерилізовані-10-200г-78ad5a23.png"
+  },
+  {
+    "name": "Яйце куряче С1/С0, шт",
+    "oldPrice": null,
+    "newPrice": 3.49,
+    "img": "https://content.fora.ua/sku/ecommerce/6/480x480wwm/64519_480x480wwm_c6c5cf5e-8281-5771-f6b5-61cb36b2f0cd.png",
+    "sourceUrl": "https://fora.ua/category/yaitsia-2942",
+    "localImage": "images/fora/яйце-куряче-с1-с0-шт-a1ed6116.png"
+  },
+  {
+    "name": "Яйця «Від доброї курки» «Формула здоров'я», 10шт",
+    "oldPrice": null,
+    "newPrice": 74.9,
+    "img": "https://content.fora.ua/sku/ecommerce/77/480x480wwm/779342_480x480wwm_ebf4b133-ee3c-d10b-0dac-17f12eabfc45.png",
+    "sourceUrl": "https://fora.ua/category/yaitsia-2942",
+    "localImage": "images/fora/яйця-від-доброї-курки-формула-здоровя-10шт-f9add510.png"
+  },
+  {
+    "name": "Яйце «Ясенсвіт» «Справжні велетні» С0, 10шт",
+    "oldPrice": null,
+    "newPrice": 58.5,
+    "img": "https://content.fora.ua/sku/ecommerce/18/480x480wwm/181642_480x480wwm_532f2414-1269-2a28-1b82-59180cbfc879.png",
+    "sourceUrl": "https://fora.ua/category/yaitsia-2942",
+    "localImage": "images/fora/яйце-ясенсвіт-справжні-велетні-с0-10шт-6c9a8992.png"
+  },
+  {
+    "name": "Яйця курячі Свіжак харчові столові C2, 10шт",
+    "oldPrice": null,
+    "newPrice": 49.9,
+    "img": "https://content.fora.ua/sku/ecommerce/100/480x480wwm/1003918_480x480wwm_9489a8ab-5885-4b47-81f7-846075eeca6a.png",
+    "sourceUrl": "https://fora.ua/category/yaitsia-2942",
+    "localImage": "images/fora/яйця-курячі-свіжак-харчові-столові-c2-10шт-e505a517.png"
+  },
+  {
+    "name": "Яйця курячі Свіжак харчові столові 1 категорії C1, 10шт",
+    "oldPrice": null,
+    "newPrice": 56.99,
+    "img": "https://content.fora.ua/sku/ecommerce/97/480x480wwm/977564_480x480wwm_48f9882b-bb22-39fa-f398-3ab0ac23175e.png",
+    "sourceUrl": "https://fora.ua/category/yaitsia-2942",
+    "localImage": "images/fora/яйця-курячі-свіжак-харчові-столові-1-категорії-c1-10шт-e11e5c4f.png"
+  },
+  {
+    "name": "Хліб «Київхліб» тостовий світлий нарізаний, 350г",
+    "oldPrice": null,
+    "newPrice": 32.9,
+    "img": "https://content.fora.ua/sku/ecommerce/76/480x480wwm/764208_480x480wwm_64bb70c3-4d02-aa56-be85-56bf4468f7e1.png",
+    "sourceUrl": "https://fora.ua/category/khlib-ta-vypichka-2902",
+    "localImage": "images/fora/хліб-київхліб-тостовий-світлий-нарізаний-350г-1c0a2cf5.png"
+  },
+  {
+    "name": "Хліб Рідні традиції Щедрий половинка, 350г",
+    "oldPrice": null,
+    "newPrice": 22.4,
+    "img": "https://content.fora.ua/sku/ecommerce/100/480x480wwm/1007935_480x480wwm_c6ed542a-9e78-e05d-e1bb-d7a731263f5d.png",
+    "sourceUrl": "https://fora.ua/category/khlib-ta-vypichka-2902",
+    "localImage": "images/fora/хліб-рідні-традиції-щедрий-половинка-350г-4cbf807a.png"
+  },
+  {
+    "name": "Булочки Київхліб Малятко 1 ґ 6 шт., 300г",
+    "oldPrice": null,
+    "newPrice": 32.9,
+    "img": "https://content.fora.ua/sku/ecommerce/101/480x480wwm/1018778_480x480wwm_86a7b8de-0537-8cb2-2cdc-ba82b8f217f7.png",
+    "sourceUrl": "https://fora.ua/category/khlib-ta-vypichka-2902",
+    "localImage": "images/fora/булочки-київхліб-малятко-1-ґ-6-шт-300г-980a45e9.png"
+  },
+  {
+    "name": "Хліб «Кулиничі» «Київська Русь» половинка нарізаний, 350г",
+    "oldPrice": null,
+    "newPrice": 30.9,
+    "img": "https://content.fora.ua/sku/ecommerce/91/480x480wwm/911723_480x480wwm_7185793f-fbde-d346-cbca-ad86f89d2583.png",
+    "sourceUrl": "https://fora.ua/category/khlib-ta-vypichka-2902",
+    "localImage": "images/fora/хліб-кулиничі-київська-русь-половинка-нарізаний-350г-55bcce14.png"
+  },
+  {
+    "name": "Батон Київхліб Молочний половинка нарізаний, 200г",
+    "oldPrice": null,
+    "newPrice": 21.3,
+    "img": "https://content.fora.ua/sku/ecommerce/96/480x480wwm/962301_480x480wwm_784eb7bb-2ec3-be28-5480-a9aa55a6ee3f.png",
+    "sourceUrl": "https://fora.ua/category/khlib-ta-vypichka-2902",
+    "localImage": "images/fora/батон-київхліб-молочний-половинка-нарізаний-200г-07f56763.png"
+  },
+  {
+    "name": "Хліб Кулиничі Пушкарівський половинка нарізана, 300г",
+    "oldPrice": null,
+    "newPrice": 26.35,
+    "img": "https://content.fora.ua/sku/ecommerce/102/480x480wwm/1025709_480x480wwm_631b23e9-7513-cc31-603b-f38520310793.png",
+    "sourceUrl": "https://fora.ua/category/khlib-ta-vypichka-2902",
+    "localImage": "images/fora/хліб-кулиничі-пушкарівський-половинка-нарізана-300г-63287df9.png"
+  },
+  {
+    "name": "Булочка Кулиничі зі смородиною, 100г",
+    "oldPrice": null,
+    "newPrice": 21.5,
+    "img": "https://content.fora.ua/sku/ecommerce/93/480x480wwm/935746_480x480wwm_a0c1a177-1313-e677-ecf2-d28a288fae29.png",
+    "sourceUrl": "https://fora.ua/category/khlib-ta-vypichka-2902",
+    "localImage": "images/fora/булочка-кулиничі-зі-смородиною-100г-48c58abd.png"
+  },
+  {
+    "name": "Хліб Київхліб Пшеничний нарізаний, 600г",
+    "oldPrice": null,
+    "newPrice": 38.7,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/959749_480x480wwm_faa71195-a485-c76d-eb8d-290388215a4e.png",
+    "sourceUrl": "https://fora.ua/category/khlib-ta-vypichka-2902",
+    "localImage": "images/fora/хліб-київхліб-пшеничний-нарізаний-600г-6fbb7049.png"
+  },
+  {
+    "name": "Хліб Київхліб Рустикальний цільнозерновий нарізаний в упаковці, 350г",
+    "oldPrice": null,
+    "newPrice": 50.9,
+    "img": "https://content.fora.ua/sku/ecommerce/97/480x480wwm/976758_480x480wwm_1557ca7c-6a01-35ec-da47-6a90789e6b19.png",
+    "sourceUrl": "https://fora.ua/category/khlib-ta-vypichka-2902",
+    "localImage": "images/fora/хліб-київхліб-рустикальний-цільнозерновий-нарізаний-в-упаков-e4b8b33b.png"
+  },
+  {
+    "name": "Хліб Київхліб Карпатський половинка нарізаний, 400г",
+    "oldPrice": null,
+    "newPrice": 29.9,
+    "img": "https://content.fora.ua/sku/ecommerce/99/480x480wwm/994238_480x480wwm_f0aae424-0740-3a8e-5c4b-4ca6a131cdfb.png",
+    "sourceUrl": "https://fora.ua/category/khlib-ta-vypichka-2902",
+    "localImage": "images/fora/хліб-київхліб-карпатський-половинка-нарізаний-400г-43610e1e.png"
+  },
+  {
+    "name": "Хліб «Кулиничі» «Домашній» на заквасці половинка нарізаний, 450г",
+    "oldPrice": null,
+    "newPrice": 42.9,
+    "img": "https://content.fora.ua/sku/ecommerce/91/480x480wwm/917619_480x480wwm_134e06d0-caca-93de-f0cd-d48d8208cf8b.png",
+    "sourceUrl": "https://fora.ua/category/khlib-ta-vypichka-2902",
+    "localImage": "images/fora/хліб-кулиничі-домашній-на-заквасці-половинка-нарізаний-450г-e14af349.png"
+  },
+  {
+    "name": "Лаваш Кулиничі міні класичний бездріжджовий, 10*18г",
+    "oldPrice": null,
+    "newPrice": 39.9,
+    "img": "https://content.fora.ua/sku/ecommerce/97/480x480wwm/972103_480x480wwm_bcadff17-39e3-ccbd-244e-9730000dba97.png",
+    "sourceUrl": "https://fora.ua/category/khlib-ta-vypichka-2902",
+    "localImage": "images/fora/лаваш-кулиничі-міні-класичний-бездріжджовий-10-18г-b12b3249.png"
+  },
+  {
+    "name": "Хліб Київхліб Литовський житній половина нарізаний, 475г",
+    "oldPrice": null,
+    "newPrice": 37.9,
+    "img": "https://content.fora.ua/sku/ecommerce/101/480x480wwm/1018635_480x480wwm_0c5c56df-c34a-2b24-f950-ae94ced8c23c.png",
+    "sourceUrl": "https://fora.ua/category/khlib-ta-vypichka-2902",
+    "localImage": "images/fora/хліб-київхліб-литовський-житній-половина-нарізаний-475г-71c42db4.png"
+  },
+  {
+    "name": "Рулетик Цар-Хліб з начинкою зі смаком абрикоса, 0,1кг",
+    "oldPrice": null,
+    "newPrice": 21.5,
+    "img": "https://content.fora.ua/sku/ecommerce/102/480x480wwm/1028991_480x480wwm_c76e455c-cfea-a838-8d27-74a78b28796c.png",
+    "sourceUrl": "https://fora.ua/category/khlib-ta-vypichka-2902",
+    "localImage": "images/fora/рулетик-цар-хліб-з-начинкою-зі-смаком-абрикоса-01кг-049304d1.png"
+  },
+  {
+    "name": "Хліб Рідні традиції Український, 950г",
+    "oldPrice": null,
+    "newPrice": 42.4,
+    "img": "https://content.fora.ua/sku/ecommerce/100/480x480wwm/1007934_480x480wwm_6b673282-c9e3-1137-3dbb-95f7ec4435ef.png",
+    "sourceUrl": "https://fora.ua/category/khlib-ta-vypichka-2902",
+    "localImage": "images/fora/хліб-рідні-традиції-український-950г-91356151.png"
+  },
+  {
+    "name": "Рогалики Київхліб Студентські з посипкою, 300г",
+    "oldPrice": null,
+    "newPrice": 38.5,
+    "img": "https://content.fora.ua/sku/ecommerce/92/480x480wwm/929284_480x480wwm_cec2dae3-d589-55d6-c601-86132b9d40f9.png",
+    "sourceUrl": "https://fora.ua/category/khlib-ta-vypichka-2902",
+    "localImage": "images/fora/рогалики-київхліб-студентські-з-посипкою-300г-2d16499e.png"
+  },
+  {
+    "name": "Рогалики «Кулиничі» з кунжутом на молочній сироватці, 360г",
+    "oldPrice": null,
+    "newPrice": 44.9,
+    "img": "https://content.fora.ua/sku/ecommerce/53/480x480wwm/534830_480x480wwm_95029525-3f1c-00bc-e6d7-ab9c3c46ca2f.png",
+    "sourceUrl": "https://fora.ua/category/khlib-ta-vypichka-2902",
+    "localImage": "images/fora/рогалики-кулиничі-з-кунжутом-на-молочній-сироватці-360г-87240ab9.png"
+  },
+  {
+    "name": "Хліб «Кулиничі» «Домашній» на заквасці нарізаний, 900г",
+    "oldPrice": null,
+    "newPrice": 80.9,
+    "img": "https://content.fora.ua/sku/ecommerce/91/480x480wwm/917620_480x480wwm_fc5fd379-0c04-6d69-396f-a1044532e344.png",
+    "sourceUrl": "https://fora.ua/category/khlib-ta-vypichka-2902",
+    "localImage": "images/fora/хліб-кулиничі-домашній-на-заквасці-нарізаний-900г-a54f5c99.png"
+  },
+  {
+    "name": "Хліб «Кулиничі» «Гірчичний» подовий нарізаний в/с, 500г",
+    "oldPrice": null,
+    "newPrice": 45.9,
+    "img": "https://content.fora.ua/sku/ecommerce/70/480x480wwm/702045_480x480wwm_861180e0-a450-e8de-4115-6de601de402a.png",
+    "sourceUrl": "https://fora.ua/category/khlib-ta-vypichka-2902",
+    "localImage": "images/fora/хліб-кулиничі-гірчичний-подовий-нарізаний-в-с-500г-56895659.png"
+  },
+  {
+    "name": "Булочка «Кулиничі» для гамбургера, 200г",
+    "oldPrice": null,
+    "newPrice": 36.5,
+    "img": "https://content.fora.ua/sku/ecommerce/74/480x480wwm/741880_480x480wwm_a0c5e206-dd59-d8f6-b4f9-76dc08f10e7d.png",
+    "sourceUrl": "https://fora.ua/category/khlib-ta-vypichka-2902",
+    "localImage": "images/fora/булочка-кулиничі-для-гамбургера-200г-77027e6e.png"
+  },
+  {
+    "name": "Соломка «Київхліб» солодка, 100г",
+    "oldPrice": null,
+    "newPrice": 21.9,
+    "img": "https://content.fora.ua/sku/ecommerce/24/480x480wwm/249962_480x480wwm_929a85b5-ddab-4e00-57ff-28d8f5d8b433.png",
+    "sourceUrl": "https://fora.ua/category/khlib-ta-vypichka-2902",
+    "localImage": "images/fora/соломка-київхліб-солодка-100г-786542d9.png"
+  },
+  {
+    "name": "Лаваш «Київхліб» «Вірменський», 220г",
+    "oldPrice": null,
+    "newPrice": 39.9,
+    "img": "https://content.fora.ua/sku/ecommerce/44/480x480wwm/444707_480x480wwm_283b82d9-e48f-3bdf-3761-a020fe177673.png",
+    "sourceUrl": "https://fora.ua/category/khlib-ta-vypichka-2902",
+    "localImage": "images/fora/лаваш-київхліб-вірменський-220г-2694e18c.png"
+  },
+  {
+    "name": "Хліб «Кулиничі» «Український» новий, бух",
+    "oldPrice": null,
+    "newPrice": 52.4,
+    "img": "https://content.fora.ua/sku/ecommerce/53/480x480wwm/536024_480x480wwm_b71657c9-83c6-8be8-26dd-a749f35bd5ff.png",
+    "sourceUrl": "https://fora.ua/category/khlib-ta-vypichka-2902",
+    "localImage": "images/fora/хліб-кулиничі-український-новий-бух-06993ed4.png"
+  },
+  {
+    "name": "Круасан Зірковий вибір з начин смак шокол та горіх, 65г",
+    "oldPrice": null,
+    "newPrice": 20.9,
+    "img": "https://content.fora.ua/sku/ecommerce/99/480x480wwm/995882_480x480wwm_8a5a18df-0068-b09b-a6eb-2f69c89edebd.png",
+    "sourceUrl": "https://fora.ua/category/khlib-ta-vypichka-2902",
+    "localImage": "images/fora/круасан-зірковий-вибір-з-начин-смак-шокол-та-горіх-65г-d612a1de.png"
+  },
+  {
+    "name": "Соломка «Київхліб» солодка, 200г",
+    "oldPrice": null,
+    "newPrice": 54.9,
+    "img": "https://content.fora.ua/sku/ecommerce/74/480x480wwm/746480_480x480wwm_9ea7e263-17c8-971b-369c-896d8ad7a449.png",
+    "sourceUrl": "https://fora.ua/category/khlib-ta-vypichka-2902",
+    "localImage": "images/fora/соломка-київхліб-солодка-200г-f0914384.png"
+  },
+  {
+    "name": "Пряники Delicia Ворзельські заварні з декором, 0,4кг",
+    "oldPrice": null,
+    "newPrice": 134.9,
+    "img": "https://content.fora.ua/sku/ecommerce/93/480x480wwm/938160_480x480wwm_d3d3c259-5920-a6db-6263-99de774d5632.png",
+    "sourceUrl": "https://fora.ua/category/khlib-ta-vypichka-2902",
+    "localImage": "images/fora/пряники-delicia-ворзельські-заварні-з-декором-04кг-436a9f36.png"
+  },
+  {
+    "name": "Салат Пучок-Свіжачок Тоскана Мікс фрізе з шпинатом, 100г",
+    "oldPrice": null,
+    "newPrice": 54.9,
+    "img": "https://content.fora.ua/sku/ecommerce/102/480x480wwm/1025401_480x480wwm_f05d9a89-53e9-81f0-aa47-7143e58d5361.png",
+    "sourceUrl": "https://fora.ua/category/salat-2795",
+    "localImage": "images/fora/салат-пучок-свіжачок-тоскана-мікс-фрізе-з-шпинатом-100г-41c41070.png"
+  },
+  {
+    "name": "Салат Айсберг, шт",
+    "oldPrice": null,
+    "newPrice": 69.9,
+    "img": "https://content.fora.ua/sku/ecommerce/54/480x480wwm/540258_480x480wwm_bb4b5250-7fc5-6b77-ed66-f1c41db5ed40.png",
+    "sourceUrl": "https://fora.ua/category/salat-2795",
+    "localImage": "images/fora/салат-айсберг-шт-6a1acdab.png"
+  },
+  {
+    "name": "Салат «Пучок-Свіжачок» бебі мікс, 75г",
+    "oldPrice": null,
+    "newPrice": 59.9,
+    "img": "https://content.fora.ua/sku/ecommerce/83/480x480wwm/839694_480x480wwm_9a212846-0516-ffa7-fe44-e97520f28a18.png",
+    "sourceUrl": "https://fora.ua/category/salat-2795",
+    "localImage": "images/fora/салат-пучок-свіжачок-бебі-мікс-75г-34f7b34f.png"
+  },
+  {
+    "name": "Шпинат Бебі, 75г",
+    "oldPrice": null,
+    "newPrice": 59.9,
+    "img": "https://content.fora.ua/sku/ecommerce/75/480x480wwm/759416_480x480wwm_d3a11b6b-7bc4-8a45-63bd-5a7576474e36.png",
+    "sourceUrl": "https://fora.ua/category/salat-2795",
+    "localImage": "images/fora/шпинат-бебі-75г-970fa2a3.png"
+  },
+  {
+    "name": "Салат Fit&Easy Smart, 100г",
+    "oldPrice": null,
+    "newPrice": 49.9,
+    "img": "https://content.fora.ua/sku/ecommerce/98/480x480wwm/984948_480x480wwm_28377978-02ca-4f7c-f763-e3cc0112916f.png",
+    "sourceUrl": "https://fora.ua/category/salat-2795",
+    "localImage": "images/fora/салат-fit-easy-smart-100г-c03e3f80.png"
+  },
+  {
+    "name": "Салат Fit&Easy Рукола, 100г",
+    "oldPrice": null,
+    "newPrice": 52.9,
+    "img": "https://content.fora.ua/sku/ecommerce/97/480x480wwm/977510_480x480wwm_d524695c-0c8e-221c-6c7c-7d88b49de626.png",
+    "sourceUrl": "https://fora.ua/category/salat-2795",
+    "localImage": "images/fora/салат-fit-easy-рукола-100г-8c62cd9e.png"
+  },
+  {
+    "name": "Банан, кг",
+    "oldPrice": null,
+    "newPrice": 59.9,
+    "img": "https://content.fora.ua/sku/ecommerce/3/480x480wwm/32485_480x480wwm_728f5bf5-1446-2059-4add-d77694bd7614.png",
+    "sourceUrl": "https://fora.ua/category/frukty-ovochi-ta-solinnia-2790",
+    "localImage": "images/fora/банан-кг-480ead0d.png"
+  },
+  {
+    "name": "Кавун сортовий, кг",
+    "oldPrice": null,
+    "newPrice": 19.9,
+    "img": "https://content.fora.ua/shop/uploads/pictures/518380-683851365bd1a_fora.png",
+    "sourceUrl": "https://fora.ua/category/frukty-ovochi-ta-solinnia-2790",
+    "localImage": "images/fora/кавун-сортовий-кг-ade13a01.png"
+  },
+  {
+    "name": "Огірок екстра, кг",
+    "oldPrice": null,
+    "newPrice": 39.9,
+    "img": "/images/fora/placeholders/not-found-new.svg",
+    "sourceUrl": "https://fora.ua/category/frukty-ovochi-ta-solinnia-2790",
+    "localImage": null
+  },
+  {
+    "name": "Перець червоний, кг",
+    "oldPrice": null,
+    "newPrice": 109,
+    "img": "https://content.fora.ua/sku/ecommerce/3/480x480wwm/32887_480x480wwm_afad0d9d-3341-87a8-7b5e-12a1d1f266b7.png",
+    "sourceUrl": "https://fora.ua/category/frukty-ovochi-ta-solinnia-2790",
+    "localImage": "images/fora/перець-червоний-кг-f84f0e79.png"
+  },
+  {
+    "name": "Персик, кг",
+    "oldPrice": null,
+    "newPrice": 99.9,
+    "img": "https://content.fora.ua/sku/ecommerce/5/480x480wwm/51604_480x480wwm_bb187eea-e23f-6aa9-a03e-aaf5460e8dbd.png",
+    "sourceUrl": "https://fora.ua/category/frukty-ovochi-ta-solinnia-2790",
+    "localImage": "images/fora/персик-кг-3eb83d75.png"
+  },
+  {
+    "name": "Нектарин, кг",
+    "oldPrice": null,
+    "newPrice": 99.9,
+    "img": "https://content.fora.ua/sku/ecommerce/4/480x480wwm/45823_480x480wwm_fc3b523c-bf42-2164-788b-d86975cc1a92.png",
+    "sourceUrl": "https://fora.ua/category/frukty-ovochi-ta-solinnia-2790",
+    "localImage": "images/fora/нектарин-кг-d3f049a8.png"
+  },
+  {
+    "name": "Апельсин, кг",
+    "oldPrice": null,
+    "newPrice": 69.9,
+    "img": "https://content.fora.ua/sku/ecommerce/3/480x480wwm/32546_480x480wwm_e63b4e7a-b472-cc0f-cbc7-7970983a2c33.png",
+    "sourceUrl": "https://fora.ua/category/frukty-ovochi-ta-solinnia-2790",
+    "localImage": "images/fora/апельсин-кг-12e805e6.png"
+  },
+  {
+    "name": "Часник фасований, 100г",
+    "oldPrice": null,
+    "newPrice": 24.9,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/943840_480x480wwm_ed07f26c-dc2d-883c-4626-4d2e86800e39.png",
+    "sourceUrl": "https://fora.ua/category/frukty-ovochi-ta-solinnia-2790",
+    "localImage": "images/fora/часник-фасований-100г-e8c8050e.png"
+  },
+  {
+    "name": "Авокадо Ready to Eat, шт",
+    "oldPrice": null,
+    "newPrice": 89.9,
+    "img": "https://content.fora.ua/sku/ecommerce/53/480x480wwm/538208_480x480wwm_dbcf8cd0-7f6b-b524-be99-0b3488fae789.png",
+    "sourceUrl": "https://fora.ua/category/frukty-ovochi-ta-solinnia-2790",
+    "localImage": "images/fora/авокадо-ready-to-eat-шт-6be1d163.png"
+  },
+  {
+    "name": "Яблуко раннє, кг",
+    "oldPrice": null,
+    "newPrice": 44.9,
+    "img": "https://content.fora.ua/sku/ecommerce/78/480x480wwm/789476_480x480wwm_4a691e85-214c-fe61-1fb3-dd74a6a3e143.png",
+    "sourceUrl": "https://fora.ua/category/frukty-ovochi-ta-solinnia-2790",
+    "localImage": "images/fora/яблуко-раннє-кг-b2f751f4.png"
+  },
+  {
+    "name": "Абрикос відбірний, кг",
+    "oldPrice": null,
+    "newPrice": 128.9,
+    "img": "https://content.fora.ua/sku/ecommerce/8/480x480wwm/84215_480x480wwm_507ea1b2-5bfb-727a-6131-c94dea57b948.png",
+    "sourceUrl": "https://fora.ua/category/frukty-ovochi-ta-solinnia-2790",
+    "localImage": "images/fora/абрикос-відбірний-кг-8c476f4f.png"
+  },
+  {
+    "name": "Слива Угорка, кг",
+    "oldPrice": null,
+    "newPrice": 49.9,
+    "img": "https://content.fora.ua/app/no_photo.png",
+    "sourceUrl": "https://fora.ua/category/frukty-ovochi-ta-solinnia-2790",
+    "localImage": "images/fora/слива-угорка-кг-5d005699.png"
+  },
+  {
+    "name": "Мікс зелені кріп і петрушка, 60г",
+    "oldPrice": null,
+    "newPrice": 24.9,
+    "img": "https://content.fora.ua/sku/ecommerce/56/480x480wwm/569110_480x480wwm_5d6c5197-d71d-b42a-6679-39369ac3b911.png",
+    "sourceUrl": "https://fora.ua/category/frukty-ovochi-ta-solinnia-2790",
+    "localImage": "images/fora/мікс-зелені-кріп-і-петрушка-60г-6b039cf8.png"
+  },
+  {
+    "name": "Кукурудза, шт",
+    "oldPrice": null,
+    "newPrice": 19.9,
+    "img": "https://content.fora.ua/sku/ecommerce/55/480x480wwm/553099_480x480wwm_2fe6313f-728c-76a1-20eb-cdc319c94789.png",
+    "sourceUrl": "https://fora.ua/category/frukty-ovochi-ta-solinnia-2790",
+    "localImage": "images/fora/кукурудза-шт-d5d6d451.png"
+  },
+  {
+    "name": "Груша Зелена, кг",
+    "oldPrice": null,
+    "newPrice": 139.9,
+    "img": "https://content.fora.ua/sku/ecommerce/9/480x480wwm/96243_480x480wwm_75913afa-ff4e-4232-306b-a9fe256468d9.png",
+    "sourceUrl": "https://fora.ua/category/frukty-ovochi-ta-solinnia-2790",
+    "localImage": "images/fora/груша-зелена-кг-2a55d178.png"
+  },
+  {
+    "name": "Капуста броколі, кг",
+    "oldPrice": null,
+    "newPrice": 79.9,
+    "img": "https://content.fora.ua/sku/ecommerce/3/480x480wwm/35736_480x480wwm_e9fef0a7-cfd8-0d8e-17d4-52dcb55d1f90.png",
+    "sourceUrl": "https://fora.ua/category/frukty-ovochi-ta-solinnia-2790",
+    "localImage": "images/fora/капуста-броколі-кг-cc2d74d9.png"
+  },
+  {
+    "name": "Грейпфрут, кг",
+    "oldPrice": null,
+    "newPrice": 79.9,
+    "img": "https://content.fora.ua/sku/ecommerce/3/480x480wwm/32549_480x480wwm_3f227640-ef5c-2454-4198-7232936c7ebe.png",
+    "sourceUrl": "https://fora.ua/category/frukty-ovochi-ta-solinnia-2790",
+    "localImage": "images/fora/грейпфрут-кг-e874753e.png"
+  },
+  {
+    "name": "Буряк, кг",
+    "oldPrice": null,
+    "newPrice": 10.9,
+    "img": "https://content.fora.ua/sku/ecommerce/3/480x480wwm/32570_480x480wwm_723258c7-4206-5cae-e6fd-2260d5328f3d.png",
+    "sourceUrl": "https://fora.ua/category/frukty-ovochi-ta-solinnia-2790",
+    "localImage": "images/fora/буряк-кг-cff830b5.png"
+  },
+  {
+    "name": "М'ята, 50г",
+    "oldPrice": null,
+    "newPrice": 29.9,
+    "img": "https://content.fora.ua/sku/ecommerce/51/480x480wwm/512186_480x480wwm_b6c0b44c-1039-f4de-a8b7-f0f15586c30f.png",
+    "sourceUrl": "https://fora.ua/category/frukty-ovochi-ta-solinnia-2790",
+    "localImage": "images/fora/мята-50г-a718d323.png"
+  },
+  {
+    "name": "Імбир, кг",
+    "oldPrice": null,
+    "newPrice": 175,
+    "img": "https://content.fora.ua/sku/ecommerce/3/480x480wwm/35274_480x480wwm_f41863cc-5537-93f5-219e-d293e3e016d5.png",
+    "sourceUrl": "https://fora.ua/category/frukty-ovochi-ta-solinnia-2790",
+    "localImage": "images/fora/імбир-кг-9d5bf1e5.png"
+  },
+  {
+    "name": "Гриби печериці, 100г",
+    "oldPrice": null,
+    "newPrice": 13.99,
+    "img": "https://content.fora.ua/sku/ecommerce/3/480x480wwm/32571_480x480wwm_d2ae2d49-3e03-9ab6-7021-9ee8d1747256.png",
+    "sourceUrl": "https://fora.ua/category/frukty-ovochi-ta-solinnia-2790",
+    "localImage": "images/fora/гриби-печериці-100г-5d3b6b36.png"
+  },
+  {
+    "name": "Кінза, 50г",
+    "oldPrice": null,
+    "newPrice": 39.9,
+    "img": "https://content.fora.ua/sku/ecommerce/57/480x480wwm/577095_480x480wwm_c23e47a3-7a9e-2c9f-1789-f285f9821547.png",
+    "sourceUrl": "https://fora.ua/category/frukty-ovochi-ta-solinnia-2790",
+    "localImage": "images/fora/кінза-50г-5c794785.png"
+  },
+  {
+    "name": "Томати черрі Гордій, 500г",
+    "oldPrice": null,
+    "newPrice": 89.9,
+    "img": "https://content.fora.ua/sku/ecommerce/43/480x480wwm/434555_480x480wwm_9e68bde3-4f85-bcb6-815b-27e924c404a6.png",
+    "sourceUrl": "https://fora.ua/category/frukty-ovochi-ta-solinnia-2790",
+    "localImage": "images/fora/томати-черрі-гордій-500г-6c62c457.png"
+  },
+  {
+    "name": "Чипси яблучні ГАДЗ оригінальні, 40г",
+    "oldPrice": null,
+    "newPrice": 65.9,
+    "img": "https://content.fora.ua/sku/ecommerce/90/480x480wwm/904717_480x480wwm_bd08fa68-7a8b-5f9a-3f14-eeac3635eca0.png",
+    "sourceUrl": "https://fora.ua/category/frukty-ovochi-ta-solinnia-2790",
+    "localImage": "images/fora/чипси-яблучні-гадз-оригінальні-40г-4082c7d1.png"
+  },
+  {
+    "name": "Гарбуз Хоккайдо, кг",
+    "oldPrice": null,
+    "newPrice": 59.9,
+    "img": "https://content.fora.ua/sku/ecommerce/48/480x480wwm/482922_480x480wwm_afc31920-e8d5-18c4-7036-acec9d43580c.png",
+    "sourceUrl": "https://fora.ua/category/frukty-ovochi-ta-solinnia-2790",
+    "localImage": "images/fora/гарбуз-хоккайдо-кг-661e3d8a.png"
+  },
+  {
+    "name": "Палички кукурудзяні Сова солодкі неглазуровані, 65г",
+    "oldPrice": null,
+    "newPrice": 20.6,
+    "img": "https://content.fora.ua/sku/ecommerce/7/480x480wwm/70288_480x480wwm_44b1cacd-ae79-774f-5204-dcbabc764d6a.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/палички-кукурудзяні-сова-солодкі-неглазуровані-65г-ac0f57c2.png"
+  },
+  {
+    "name": "Сухарики Flint пшенично-житні зі смаком холодцю з хроном, 60г",
+    "oldPrice": null,
+    "newPrice": 18.9,
+    "img": "https://content.fora.ua/sku/ecommerce/98/480x480wwm/982069_480x480wwm_9d375930-814f-a1ec-dcb1-0b5ce108ffa9.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/сухарики-flint-пшенично-житні-зі-смаком-холодцю-з-хроном-60г-67a55cf8.png"
+  },
+  {
+    "name": "Насіння соняшника Сан Санич Преміум смугасте смажене солоне, 95г",
+    "oldPrice": null,
+    "newPrice": 51.9,
+    "img": "https://content.fora.ua/sku/ecommerce/99/480x480wwm/992462_480x480wwm_7f7b2ebb-547b-ecc6-d192-fd498c715002.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/насіння-соняшника-сан-санич-преміум-смугасте-смажене-солоне--60b52baa.png"
+  },
+  {
+    "name": "Грінки Flint житні зі смаком «Телятина з аджикою», 100г",
+    "oldPrice": null,
+    "newPrice": 34.5,
+    "img": "https://content.fora.ua/sku/ecommerce/87/480x480wwm/878980_480x480wwm_2b5fadd5-7e9f-02d8-11f6-b4d57fcd46cb.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/грінки-flint-житні-зі-смаком-телятина-з-аджикою-100г-9f62d65a.png"
+  },
+  {
+    "name": "Чипси кукурудзяні Doritos зі смаком сиру, 90г",
+    "oldPrice": null,
+    "newPrice": 60.7,
+    "img": "https://content.fora.ua/sku/ecommerce/92/480x480wwm/929719_480x480wwm_b57c9a12-395c-e9cf-1e2d-0377e690b267.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/чипси-кукурудзяні-doritos-зі-смаком-сиру-90г-e054e7a0.png"
+  },
+  {
+    "name": "Чипси Chipster's картопляні зі смаком сметани з зеленню, 100г",
+    "oldPrice": null,
+    "newPrice": 56.9,
+    "img": "https://content.fora.ua/sku/ecommerce/100/480x480wwm/1000849_480x480wwm_67247dbd-48a8-bb1f-e353-7b7da4a03055.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/чипси-chipsters-картопляні-зі-смаком-сметани-з-зеленню-100г-0f6ce1d4.png"
+  },
+  {
+    "name": "Чипси Lay's картопляні зі смаком краба, 60г",
+    "oldPrice": null,
+    "newPrice": 43.5,
+    "img": "https://content.fora.ua/sku/ecommerce/92/480x480wwm/921343_480x480wwm_04c7acc6-77dd-f8ed-a7b3-98dcea81771f.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/чипси-lays-картопляні-зі-смаком-краба-60г-65523da5.png"
+  },
+  {
+    "name": "Чипси Lay's картопляні зі смаком краба, 120г",
+    "oldPrice": null,
+    "newPrice": 75.5,
+    "img": "https://content.fora.ua/sku/ecommerce/92/480x480wwm/920457_480x480wwm_6e8dfc3a-b1ac-0a09-68fa-675461262b9b.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/чипси-lays-картопляні-зі-смаком-краба-120г-ed109906.png"
+  },
+  {
+    "name": "Чипси Chipster's картопляні зі смаком крабу, 100г",
+    "oldPrice": null,
+    "newPrice": 61.9,
+    "img": "https://content.fora.ua/sku/ecommerce/100/480x480wwm/1000848_480x480wwm_53521b78-1e0a-6e55-2bd4-b5886810e20d.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/чипси-chipsters-картопляні-зі-смаком-крабу-100г-6ef1a6c9.png"
+  },
+  {
+    "name": "Чипси Lay's картопляні зі смаком сиру, 60г",
+    "oldPrice": null,
+    "newPrice": 42.9,
+    "img": "https://content.fora.ua/sku/ecommerce/92/480x480wwm/920461_480x480wwm_f68eb549-1995-e486-9c24-4bb29422e22d.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/чипси-lays-картопляні-зі-смаком-сиру-60г-ff59a63d.png"
+  },
+  {
+    "name": "Грінки Flint житні зі смаком «Баварські ковбаски», 100г",
+    "oldPrice": null,
+    "newPrice": 34.5,
+    "img": "https://content.fora.ua/sku/ecommerce/87/480x480wwm/878979_480x480wwm_e3facf81-846d-0371-71d9-6bf6f8359562.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/грінки-flint-житні-зі-смаком-баварські-ковбаски-100г-b2c02cd0.png"
+  },
+  {
+    "name": "Арахіс Big Bob в хрусткій оболонці зі смаком сиру, 55г",
+    "oldPrice": null,
+    "newPrice": 29.9,
+    "img": "https://content.fora.ua/sku/ecommerce/88/480x480wwm/886963_480x480wwm_78438c48-ceb6-9037-dbae-b7304521a1ab.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/арахіс-big-bob-в-хрусткій-оболонці-зі-смаком-сиру-55г-601881f5.png"
+  },
+  {
+    "name": "Селар жовтосмугий До Бочкового сушений солоний, 100г",
+    "oldPrice": null,
+    "newPrice": 139.9,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/959820_480x480wwm_2cb6a98b-0bc2-e601-fb56-b5bb0e88f23b.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/селар-жовтосмугий-до-бочкового-сушений-солоний-100г-4a6abdec.png"
+  },
+  {
+    "name": "Сухарики ХрумTeam Багет Королівський краб, 90г",
+    "oldPrice": null,
+    "newPrice": 26.6,
+    "img": "https://content.fora.ua/sku/ecommerce/99/480x480wwm/990352_480x480wwm_4d322bc4-50b2-d56e-7eb3-3eb0d347487d.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/сухарики-хрумteam-багет-королівський-краб-90г-7ccbf7a5.png"
+  },
+  {
+    "name": "Сухарики житні Gonzo зі смаком холодцю з хріном, 50г",
+    "oldPrice": null,
+    "newPrice": 17.9,
+    "img": "https://content.fora.ua/sku/ecommerce/90/480x480wwm/903649_480x480wwm_d4b90212-fcef-5c6b-80f8-8935bf5955ee.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/сухарики-житні-gonzo-зі-смаком-холодцю-з-хріном-50г-aee801d1.png"
+  },
+  {
+    "name": "Сухарики Flint пшенично-житні зі смаком краб, 100г",
+    "oldPrice": null,
+    "newPrice": 35.3,
+    "img": "https://content.fora.ua/sku/ecommerce/98/480x480wwm/981092_480x480wwm_7e5ff169-5469-73c2-ff4d-209e5301183c.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/сухарики-flint-пшенично-житні-зі-смаком-краб-100г-393e89d1.png"
+  },
+  {
+    "name": "Брускети Maretti зі смаком часнику, 80г",
+    "oldPrice": null,
+    "newPrice": 56.9,
+    "img": "https://content.fora.ua/sku/ecommerce/98/480x480wwm/982383_480x480wwm_5ad8999c-2225-529d-2362-7d7d23c02be3.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/брускети-maretti-зі-смаком-часнику-80г-4e624f5e.png"
+  },
+  {
+    "name": "Путасу До Бочкового філе сушене солоне, 100г",
+    "oldPrice": null,
+    "newPrice": 149.9,
+    "img": "https://content.fora.ua/sku/ecommerce/99/480x480wwm/996014_480x480wwm_f16c792f-4372-99b0-5bca-12955302ae15.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/путасу-до-бочкового-філе-сушене-солоне-100г-6f937ea2.png"
+  },
+  {
+    "name": "Чипси Хрум Ленд зі смаком бекону, 60г",
+    "oldPrice": null,
+    "newPrice": 17.3,
+    "img": "https://content.fora.ua/sku/ecommerce/99/480x480wwm/999156_480x480wwm_6e006ea1-9e71-84b0-2b8d-9ad04103216a.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/чипси-хрум-ленд-зі-смаком-бекону-60г-0bb70c14.png"
+  },
+  {
+    "name": "Снек Snack mood пшеничні зі смаком бекону, 140г",
+    "oldPrice": null,
+    "newPrice": 55.9,
+    "img": "https://content.fora.ua/sku/ecommerce/90/480x480wwm/904174_480x480wwm_093ece2f-8488-a81f-063c-c13ace1eda6b.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/снек-snack-mood-пшеничні-зі-смаком-бекону-140г-d58eecb7.png"
+  },
+  {
+    "name": "Слайси курячі РябChick сушені з медом та гірчицею, 30г",
+    "oldPrice": null,
+    "newPrice": 97.3,
+    "img": "https://content.fora.ua/sku/ecommerce/90/480x480wwm/905503_480x480wwm_d273649d-dec1-999e-d2f6-bcb15004c1b3.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/слайси-курячі-рябchick-сушені-з-медом-та-гірчицею-30г-6b0a9302.png"
+  },
+  {
+    "name": "Соломка фрі Gonzo зі смаком кетчупу, 40г",
+    "oldPrice": null,
+    "newPrice": 15.2,
+    "img": "https://content.fora.ua/sku/ecommerce/90/480x480wwm/903647_480x480wwm_542f6d40-b75c-cbcc-3244-df739fc99d67.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/соломка-фрі-gonzo-зі-смаком-кетчупу-40г-e5a1b336.png"
+  },
+  {
+    "name": "Насіння соняшнику Sultan Premium смажене солоне, 120г",
+    "oldPrice": null,
+    "newPrice": 59.9,
+    "img": "https://content.fora.ua/sku/ecommerce/86/480x480wwm/861734_480x480wwm_e5e79c6c-993e-3f41-863e-a41d1023be49.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/насіння-соняшнику-sultan-premium-смажене-солоне-120г-f0ffdb4e.png"
+  },
+  {
+    "name": "Чипси Lay's Max рифлені зі смаком лобстера, 95г",
+    "oldPrice": null,
+    "newPrice": 63.5,
+    "img": "https://content.fora.ua/sku/ecommerce/97/480x480wwm/974168_480x480wwm_057a5064-3ea4-7760-9150-f330a50350c1.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/чипси-lays-max-рифлені-зі-смаком-лобстера-95г-b3b77854.png"
+  },
+  {
+    "name": "Палички кукурудзяні Сова солодкі неглазуровані, 450г",
+    "oldPrice": null,
+    "newPrice": 98.7,
+    "img": "https://content.fora.ua/sku/ecommerce/72/480x480wwm/728276_480x480wwm_a1dbec73-7c6f-dc88-3cba-2c5da5934a25.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/палички-кукурудзяні-сова-солодкі-неглазуровані-450г-8803a74f.png"
+  },
+  {
+    "name": "Насіння гарбузове «Сан Санич» солоне, 80г",
+    "oldPrice": null,
+    "newPrice": 49.9,
+    "img": "https://content.fora.ua/sku/ecommerce/60/480x480wwm/605800_480x480wwm_331c298b-4adc-29ac-4521-1df2dde9d71a.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/насіння-гарбузове-сан-санич-солоне-80г-419359d7.png"
+  },
+  {
+    "name": "Чипси Люкс зі смаком паприки, 125г",
+    "oldPrice": null,
+    "newPrice": 72.9,
+    "img": "https://content.fora.ua/sku/ecommerce/97/480x480wwm/973489_480x480wwm_28d76d58-5ea1-e74d-3b94-0e19a4bc2615.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/чипси-люкс-зі-смаком-паприки-125г-3b9a9a4f.png"
+  },
+  {
+    "name": "Брускети Maretti зі смаком краба, 80г",
+    "oldPrice": null,
+    "newPrice": 56.9,
+    "img": "https://content.fora.ua/sku/ecommerce/98/480x480wwm/982384_480x480wwm_d31f7c10-13ca-5f50-5428-8e2fc7f85b75.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/брускети-maretti-зі-смаком-краба-80г-32bc8753.png"
+  },
+  {
+    "name": "Арахіс Big Bob смажений зі смаком сиру, 60г",
+    "oldPrice": null,
+    "newPrice": 27.5,
+    "img": "https://content.fora.ua/sku/ecommerce/88/480x480wwm/884192_480x480wwm_961eb996-93d5-3d10-d594-11536b0e9e5f.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/арахіс-big-bob-смажений-зі-смаком-сиру-60г-8198d8c4.png"
+  },
+  {
+    "name": "Чипси Chipster's хвилясті смак лобстер, 95г",
+    "oldPrice": null,
+    "newPrice": 61.9,
+    "img": "https://content.fora.ua/sku/ecommerce/101/480x480wwm/1017649_480x480wwm_2f83e5c9-538b-6ca8-88c1-e73b79882801.png",
+    "sourceUrl": "https://fora.ua/category/sneky-2730",
+    "localImage": "images/fora/чипси-chipsters-хвилясті-смак-лобстер-95г-f5f1dee2.png"
+  },
+  {
+    "name": "Гумка жувальна Orbit Sweet Mint драже, 14г",
+    "oldPrice": null,
+    "newPrice": 20.5,
+    "img": "https://content.fora.ua/sku/ecommerce/60/480x480wwm/609138_480x480wwm_db816008-4eff-2803-7069-1bd62e8f84e6.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/гумка-жувальна-orbit-sweet-mint-драже-14г-9e2369a7.png"
+  },
+  {
+    "name": "Вафлі «Світоч» «Артек» зі смаком пломбіру, 71г",
+    "oldPrice": null,
+    "newPrice": 23.4,
+    "img": "https://content.fora.ua/sku/ecommerce/91/480x480wwm/915942_480x480wwm_4edfde5f-d8fd-8a2e-12ea-67e133eb58ea.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/вафлі-світоч-артек-зі-смаком-пломбіру-71г-24b7e36a.png"
+  },
+  {
+    "name": "Шоколадий батончик Twix з карамеллю, 50г",
+    "oldPrice": null,
+    "newPrice": 32.5,
+    "img": "https://content.fora.ua/sku/ecommerce/59/480x480wwm/597393_480x480wwm_dace236a-1f8c-304a-1f6b-d6ffa0e1286e.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/шоколадий-батончик-twix-з-карамеллю-50г-61fb4fa4.png"
+  },
+  {
+    "name": "Вафлі «Світоч» «Артек» зі смаком шоколаду, 71г",
+    "oldPrice": null,
+    "newPrice": 23.4,
+    "img": "https://content.fora.ua/sku/ecommerce/91/480x480wwm/915940_480x480wwm_6cc0dde7-d4f4-c780-6047-90c7c392d5b9.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/вафлі-світоч-артек-зі-смаком-шоколаду-71г-672b3cba.png"
+  },
+  {
+    "name": "Шоколадий батончик Twix Extra з карамеллю, 75г",
+    "oldPrice": null,
+    "newPrice": 47.9,
+    "img": "https://content.fora.ua/sku/ecommerce/65/480x480wwm/659819_480x480wwm_cf5ca709-aa07-5376-337a-03ef6360148e.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/шоколадий-батончик-twix-extra-з-карамеллю-75г-f5742b47.png"
+  },
+  {
+    "name": "Шоколад молочний Roshen Lacmi молочна начинка-печиво, 100г",
+    "oldPrice": null,
+    "newPrice": 73.9,
+    "img": "https://content.fora.ua/sku/ecommerce/87/480x480wwm/872110_480x480wwm_d3b0d405-0748-da61-068a-5baa125b8636.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/шоколад-молочний-roshen-lacmi-молочна-начинка-печиво-100г-4391f0dc.png"
+  },
+  {
+    "name": "Шоколад Kinder «Кантрі» зі злаками, 23,5г",
+    "oldPrice": null,
+    "newPrice": 25.5,
+    "img": "https://content.fora.ua/sku/ecommerce/33/480x480wwm/332489_480x480wwm_7d4cc639-5a34-61e8-759d-6195c28c6888.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/шоколад-kinder-кантрі-зі-злаками-235г-f2f72567.png"
+  },
+  {
+    "name": "Яйце шоколадне Kinder «Сюрприз», 20г",
+    "oldPrice": null,
+    "newPrice": 68.9,
+    "img": "https://content.fora.ua/sku/ecommerce/0/480x480wwm/1970_480x480wwm_6f228353-3282-4d65-112f-a02dcf8001be.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/яйце-шоколадне-kinder-сюрприз-20г-b45b018d.png"
+  },
+  {
+    "name": "Батончик Roshen молочно-шоколадний з начинкою крем-брюле, 43г",
+    "oldPrice": null,
+    "newPrice": 23.3,
+    "img": "https://content.fora.ua/sku/ecommerce/67/480x480wwm/678646_480x480wwm_1c4e8fba-c8fa-743e-e280-336aef746288.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/батончик-roshen-молочно-шоколадний-з-начинкою-крем-брюле-43г-03db7d67.png"
+  },
+  {
+    "name": "Батончик Roshen Fondant з начинкою шоколадний, 43г",
+    "oldPrice": null,
+    "newPrice": 23.3,
+    "img": "https://content.fora.ua/sku/ecommerce/74/480x480wwm/749887_480x480wwm_37a60fce-2833-50fb-0b3f-d4d9df0bd897.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/батончик-roshen-fondant-з-начинкою-шоколадний-43г-ef8e07c4.png"
+  },
+  {
+    "name": "Батончик Bounty Trio з м'якоттю кокосу у молочному шоколаді, 85г",
+    "oldPrice": null,
+    "newPrice": 51.9,
+    "img": "https://content.fora.ua/sku/ecommerce/59/480x480wwm/597389_480x480wwm_b3488515-a338-7601-ebc6-3778b8f3ce60.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/батончик-bounty-trio-з-мякоттю-кокосу-у-молочному-шоколаді-8-d36013df.png"
+  },
+  {
+    "name": "Карамель Chupa Chups «Фрукти» асорті, 11г",
+    "oldPrice": null,
+    "newPrice": 10.9,
+    "img": "https://content.fora.ua/sku/ecommerce/68/480x480wwm/688734_480x480wwm_6c2a9587-05af-44e4-0ddc-26f56926fb35.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/карамель-chupa-chups-фрукти-асорті-11г-f914b795.png"
+  },
+  {
+    "name": "Цукерки Roshen «Шалена бджілка» фрутті желейна, 200г",
+    "oldPrice": null,
+    "newPrice": 44.9,
+    "img": "https://content.fora.ua/sku/ecommerce/66/480x480wwm/664298_480x480wwm_33e66f83-73bf-64d9-4ad1-1c0d2f3c6d0f.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/цукерки-roshen-шалена-бджілка-фрутті-желейна-200г-fb7b2679.png"
+  },
+  {
+    "name": "Шоколад молочний Roshen Nut Out Whole Almonds, 90г",
+    "oldPrice": null,
+    "newPrice": 93.9,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/948158_480x480wwm_f003ce55-2898-6c8e-8a02-9df1e62c72d0.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/шоколад-молочний-roshen-nut-out-whole-almonds-90г-d72cecf5.png"
+  },
+  {
+    "name": "Халва Zolotoi Vek соняшникова ванільна, 60г",
+    "oldPrice": null,
+    "newPrice": 15.9,
+    "img": "https://content.fora.ua/sku/ecommerce/66/480x480wwm/660846_480x480wwm_dafb1882-0478-2dfc-ecaf-a5b8bbb5908a.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/халва-zolotoi-vek-соняшникова-ванільна-60г-1ef539b1.png"
+  },
+  {
+    "name": "Снеки мультизлакові Kresko шоколадний смак, 74г",
+    "oldPrice": null,
+    "newPrice": 31.9,
+    "img": "https://content.fora.ua/sku/ecommerce/91/480x480wwm/917314_480x480wwm_1632118d-ca6d-722c-e306-35c8d6259147.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/снеки-мультизлакові-kresko-шоколадний-смак-74г-e92f25c6.png"
+  },
+  {
+    "name": "Цукерки Nuts Duo з цілими лісовими горіхами, 2*30г",
+    "oldPrice": null,
+    "newPrice": 63.9,
+    "img": "https://content.fora.ua/sku/ecommerce/100/480x480wwm/1006590_480x480wwm_d4f226be-06ad-8883-f844-9785f236a02d.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/цукерки-nuts-duo-з-цілими-лісовими-горіхами-2-30г-60af19c4.png"
+  },
+  {
+    "name": "Шоколад чорний Roshen з підсоленим мигдалем, 85г",
+    "oldPrice": null,
+    "newPrice": 77.3,
+    "img": "https://content.fora.ua/sku/ecommerce/86/480x480wwm/861864_480x480wwm_9ea55393-080b-202a-2999-0161740a7c88.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/шоколад-чорний-roshen-з-підсоленим-мигдалем-85г-f81dfdc8.png"
+  },
+  {
+    "name": "Батончик Picnic, 48г",
+    "oldPrice": null,
+    "newPrice": 32.6,
+    "img": "https://content.fora.ua/sku/ecommerce/92/480x480wwm/924891_480x480wwm_ea3d2f40-b691-3036-4d0d-f6fe715f3f1f.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/батончик-picnic-48г-da636c00.png"
+  },
+  {
+    "name": "Вафлі Kinder Cards з молочною і какао начинкою, 76,8г",
+    "oldPrice": null,
+    "newPrice": 86.3,
+    "img": "https://content.fora.ua/sku/ecommerce/100/480x480wwm/1003195_480x480wwm_764dee1b-10be-664f-a583-7cee20cf6166.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/вафлі-kinder-cards-з-молочною-і-какао-начинкою-768г-f2843e29.png"
+  },
+  {
+    "name": "Карамель Roshen евкаліпт-ментол, 100г",
+    "oldPrice": null,
+    "newPrice": 14.89,
+    "img": "https://content.fora.ua/sku/ecommerce/14/480x480wwm/142794_480x480wwm_0df296a7-ece0-6641-98c9-97d8461352ef.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/карамель-roshen-евкаліпт-ментол-100г-738d9ffa.png"
+  },
+  {
+    "name": "Батончик Bueno шоколадно-вафельний, 43г",
+    "oldPrice": null,
+    "newPrice": 49.6,
+    "img": "https://content.fora.ua/sku/ecommerce/0/480x480wwm/6327_480x480wwm_ade256a4-76f8-8fad-e1b3-9830c01293bc.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/батончик-bueno-шоколадно-вафельний-43г-4e38eab1.png"
+  },
+  {
+    "name": "Вафлі Roshen Wafers Cocoa, 216г",
+    "oldPrice": null,
+    "newPrice": 63.9,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/943010_480x480wwm_d12ad0b2-0e09-92fb-105d-3a0ba3a97e3d.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/вафлі-roshen-wafers-cocoa-216г-169715a6.png"
+  },
+  {
+    "name": "Цукерки Roshen «Шалена бджілка», 100г",
+    "oldPrice": null,
+    "newPrice": 17.19,
+    "img": "https://content.fora.ua/sku/ecommerce/37/480x480wwm/373380_480x480wwm_67e89425-6959-9f98-134e-1b4e2aedd209.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/цукерки-roshen-шалена-бджілка-100г-d2825b9d.png"
+  },
+  {
+    "name": "Цукерки Roshen Ko-Ko Choco White, 100г",
+    "oldPrice": null,
+    "newPrice": 37.9,
+    "img": "https://content.fora.ua/sku/ecommerce/56/480x480wwm/563259_480x480wwm_d4a5a3e9-0d99-def9-df87-4320a57297f2.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/цукерки-roshen-ko-ko-choco-white-100г-93ec21a2.png"
+  },
+  {
+    "name": "Яйце шоколадне Kinder-Surprise, ліцензійна серія, 20г",
+    "oldPrice": null,
+    "newPrice": 68.9,
+    "img": "https://content.fora.ua/sku/ecommerce/36/480x480wwm/366984_480x480wwm_b1a977b3-4454-be47-d2dd-92226c34be9b.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/яйце-шоколадне-kinder-surprise-ліцензійна-серія-20г-1a5cf65a.png"
+  },
+  {
+    "name": "Вафлі Roshen Roshetto Dark глазуровані, 34г",
+    "oldPrice": null,
+    "newPrice": 13.9,
+    "img": "https://content.fora.ua/sku/ecommerce/87/480x480wwm/871958_480x480wwm_addba431-a810-d2e1-b699-20427468cef3.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/вафлі-roshen-roshetto-dark-глазуровані-34г-a13cf13a.png"
+  },
+  {
+    "name": "Печиво Yarych «Марія», 160г",
+    "oldPrice": null,
+    "newPrice": 21.9,
+    "img": "https://content.fora.ua/sku/ecommerce/44/480x480wwm/441073_480x480wwm_aa770cfb-e05c-b0ed-20e7-9ad92df6a59a.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/печиво-yarych-марія-160г-ed03c2f5.png"
+  },
+  {
+    "name": "Крекер Yarych зі смаком цибулі та сметани, 80г",
+    "oldPrice": null,
+    "newPrice": 25.5,
+    "img": "https://content.fora.ua/sku/ecommerce/78/480x480wwm/781646_480x480wwm_7756ff7f-a18b-244b-3b01-bf9e5d85f34a.png",
+    "sourceUrl": "https://fora.ua/category/291solodoshchi-2913",
+    "localImage": "images/fora/крекер-yarych-зі-смаком-цибулі-та-сметани-80г-6f8270d6.png"
+  },
+  {
+    "name": "Морозиво «Рудь» «Супер шоколад» у вафельному стаканчику, 70г",
+    "oldPrice": null,
+    "newPrice": 36.9,
+    "img": "https://content.fora.ua/sku/ecommerce/50/480x480wwm/503253_480x480wwm_bab8dafb-80ff-1824-1fe9-824b55738111.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-рудь-супер-шоколад-у-вафельному-стаканчику-70г-ccc4ed97.png"
+  },
+  {
+    "name": "Морозиво «Три ведмеді» зі смаком фісташки у вафельному стакані, 75г",
+    "oldPrice": null,
+    "newPrice": 41.9,
+    "img": "https://content.fora.ua/sku/ecommerce/82/480x480wwm/827094_480x480wwm_66e6482b-4c97-2666-6936-bc2b1cbc541c.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-три-ведмеді-зі-смаком-фісташки-у-вафельному-стакані-87467b00.png"
+  },
+  {
+    "name": "Морозиво «Рудь» «Дитяче бажання» у вафельному стаканчику, 70г",
+    "oldPrice": null,
+    "newPrice": 36.9,
+    "img": "https://content.fora.ua/sku/ecommerce/46/480x480wwm/465673_480x480wwm_5e0cb8c8-3d60-3f7a-e3d1-8a084fc965c2.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-рудь-дитяче-бажання-у-вафельному-стаканчику-70г-8e450f45.png"
+  },
+  {
+    "name": "Морозиво Rud Eskimos пломбір безлактозний, 70г",
+    "oldPrice": null,
+    "newPrice": 46.9,
+    "img": "https://content.fora.ua/sku/ecommerce/98/480x480wwm/989541_480x480wwm_21d12d6e-1fd2-9aa7-cfd0-ffe49e44f506.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-rud-eskimos-пломбір-безлактозний-70г-bf2362c2.png"
+  },
+  {
+    "name": "Морозиво «Хрещатик» «Пломбірна корівка» карамельне 12%, 75г",
+    "oldPrice": null,
+    "newPrice": 67.9,
+    "img": "https://content.fora.ua/sku/ecommerce/85/480x480wwm/859687_480x480wwm_f9805ce1-2ff6-fd98-1d91-306282d1608d.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-хрещатик-пломбірна-корівка-карамельне-12-75г-8e325a06.png"
+  },
+  {
+    "name": "Морозиво «Ласунка» «Великан» з чорносливом та курагою у вафельному стакані, 90г",
+    "oldPrice": null,
+    "newPrice": 49.9,
+    "img": "https://content.fora.ua/sku/ecommerce/87/480x480wwm/874618_480x480wwm_9d41ce61-58c9-89a7-f403-f6e41b3c1a9d.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-ласунка-великан-з-чорносливом-та-курагою-у-вафельно-f6f65226.png"
+  },
+  {
+    "name": "Морозиво «Золотий Каштан» «Класичний» пломбір у вершковій глазурі, 70г",
+    "oldPrice": null,
+    "newPrice": 65.7,
+    "img": "https://content.fora.ua/sku/ecommerce/54/480x480wwm/542504_480x480wwm_06a601db-5757-2b73-887a-028b25cf6daf.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-золотий-каштан-класичний-пломбір-у-вершковій-глазур-c369c023.png"
+  },
+  {
+    "name": "Морозиво «Ласунка» «Стоп-наркотик» крем-брюле з маком, 85г",
+    "oldPrice": null,
+    "newPrice": 52.8,
+    "img": "https://content.fora.ua/sku/ecommerce/43/480x480wwm/433631_480x480wwm_a7e2662d-7d24-c7d3-c0c1-372a55812476.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-ласунка-стоп-наркотик-крем-брюле-з-маком-85г-2f08a787.png"
+  },
+  {
+    "name": "Морозиво «Ласунка» «Великан» зі згущеним молоком у вафельному стакані, 100г",
+    "oldPrice": null,
+    "newPrice": 49.9,
+    "img": "https://content.fora.ua/sku/ecommerce/87/480x480wwm/874617_480x480wwm_2935c6fc-41e2-a4eb-6a2e-8a9907128e76.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-ласунка-великан-зі-згущеним-молоком-у-вафельному-ст-ee8b76f3.png"
+  },
+  {
+    "name": "Морозиво «Три ведмеді» зі смаком манго-йогурт двошарове у ріжку, 150г",
+    "oldPrice": null,
+    "newPrice": 88.9,
+    "img": "https://content.fora.ua/sku/ecommerce/86/480x480wwm/862298_480x480wwm_51bf1ef9-cd64-a083-fa4d-97160d473240.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-три-ведмеді-зі-смаком-манго-йогурт-двошарове-у-ріжк-94cf12f8.png"
+  },
+  {
+    "name": "Морозиво Ласунка Стакан Великан пломбір 15%, 95г",
+    "oldPrice": null,
+    "newPrice": 49.9,
+    "img": "https://content.fora.ua/sku/ecommerce/92/480x480wwm/921831_480x480wwm_85f7b25f-7147-1404-4adf-8cb92dc7be43.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-ласунка-стакан-великан-пломбір-15-95г-aabbe68a.png"
+  },
+  {
+    "name": "Морозиво Laska «Лакомка» в глазурі, 100г",
+    "oldPrice": null,
+    "newPrice": 54.9,
+    "img": "https://content.fora.ua/sku/ecommerce/60/480x480wwm/609107_480x480wwm_29c0e7dc-f8fe-2517-ee7a-f74034bd60ea.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-laska-лакомка-в-глазурі-100г-e08d30ed.png"
+  },
+  {
+    "name": "Морозиво «Магнат» Strawberry Cheesecake в ріжку, 140г",
+    "oldPrice": null,
+    "newPrice": 84.9,
+    "img": "https://content.fora.ua/sku/ecommerce/85/480x480wwm/859699_480x480wwm_de026910-3b5c-9257-2725-f38c41c91b23.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-магнат-strawberry-cheesecake-в-ріжку-140г-ce848d04.png"
+  },
+  {
+    "name": "Морозиво Лімо 1965 Junior ескімо полуничне двошарове у шоколадній глазурі 12%, 65г",
+    "oldPrice": null,
+    "newPrice": 44.5,
+    "img": "https://content.fora.ua/sku/ecommerce/102/480x480wwm/1022746_480x480wwm_58a713e3-d088-f83a-dd57-6f60db733acf.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-лімо-1965-junior-ескімо-полуничне-двошарове-у-шокол-c52d3e49.png"
+  },
+  {
+    "name": "Морозиво Київський пломбір Класичний карт ст 12%, 140г",
+    "oldPrice": null,
+    "newPrice": 81.9,
+    "img": "https://content.fora.ua/sku/ecommerce/102/480x480wwm/1025600_480x480wwm_f9c847bf-3d35-284a-0819-a28ba7586e34.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-київський-пломбір-класичний-карт-ст-12-140г-a2bf08e1.png"
+  },
+  {
+    "name": "Морозиво Magnat Yogurt Mango&Passion fruit у ріжку, 140г",
+    "oldPrice": null,
+    "newPrice": 84.9,
+    "img": "https://content.fora.ua/sku/ecommerce/98/480x480wwm/988844_480x480wwm_1ca65691-eec3-8c47-4022-2168eaea7258.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-magnat-yogurt-mango-passion-fruit-у-ріжку-140г-e210a7d4.png"
+  },
+  {
+    "name": "Морозиво Snickers батончик, 48г",
+    "oldPrice": null,
+    "newPrice": 58.9,
+    "img": "https://content.fora.ua/sku/ecommerce/11/480x480wwm/111698_480x480wwm_52a59fb9-f2a3-2a44-237f-023fba32e433.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-snickers-батончик-48г-7852c2a3.png"
+  },
+  {
+    "name": "Морозиво Ласунка Малюк-Ам пломбір вафельний стакан, 80г",
+    "oldPrice": null,
+    "newPrice": 39.5,
+    "img": "https://content.fora.ua/sku/ecommerce/75/480x480wwm/751035_480x480wwm_21988a84-163e-1918-f3e9-796eba24fb30.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-ласунка-малюк-ам-пломбір-вафельний-стакан-80г-b19bfac4.png"
+  },
+  {
+    "name": "Морозиво Три ведмеді Лимон шоколад двошарове п/е, 500г",
+    "oldPrice": null,
+    "newPrice": 199.9,
+    "img": "https://content.fora.ua/sku/ecommerce/98/480x480wwm/988150_480x480wwm_da3d0bff-a473-098b-3352-eee1e83c8a51.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-три-ведмеді-лимон-шоколад-двошарове-п-е-500г-7a1e41f3.png"
+  },
+  {
+    "name": "Морозиво Три ведмеді манго-суниця рубі в глазурі, 75г",
+    "oldPrice": null,
+    "newPrice": 59.9,
+    "img": "https://content.fora.ua/sku/ecommerce/92/480x480wwm/927963_480x480wwm_464b4f5f-a9cf-1fb2-e910-eccd6769a06e.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-три-ведмеді-манго-суниця-рубі-в-глазурі-75г-106dd419.png"
+  },
+  {
+    "name": "Морозиво «Ласка» Maximuse брикет, 90г",
+    "oldPrice": null,
+    "newPrice": 52.9,
+    "img": "https://content.fora.ua/sku/ecommerce/26/480x480wwm/260770_480x480wwm_b2ea8bda-2898-30b1-1a05-0578083cceab.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-ласка-maximuse-брикет-90г-de5b0994.png"
+  },
+  {
+    "name": "Морозиво Київський пломбір без цукру ваф ст 12%, 80г",
+    "oldPrice": null,
+    "newPrice": 60.5,
+    "img": "https://content.fora.ua/app/no_photo.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-київський-пломбір-без-цукру-ваф-ст-12-80г-5d005699.png"
+  },
+  {
+    "name": "Морозиво Dadu фісташкове глазуроване вафельн ріжок, 90г",
+    "oldPrice": null,
+    "newPrice": 72.9,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/953720_480x480wwm_1a560675-d520-f567-c0a4-734015c39108.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-dadu-фісташкове-глазуроване-вафельн-ріжок-90г-a66e7736.png"
+  },
+  {
+    "name": "Морозиво Зірковий вибір з ароматом ванілі стакан, 60г",
+    "oldPrice": null,
+    "newPrice": 13.9,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/950863_480x480wwm_61830948-11dd-8715-1cc4-f0a0bbd3ed0a.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-зірковий-вибір-з-ароматом-ванілі-стакан-60г-7189f8a3.png"
+  },
+  {
+    "name": "Морозиво «Ласунка» «Гран-Прі» пломбір манго-полуниця, 155г",
+    "oldPrice": null,
+    "newPrice": 81.5,
+    "img": "https://content.fora.ua/sku/ecommerce/84/480x480wwm/842987_480x480wwm_153b8ad9-0ba7-2279-0042-da7fb5a56a20.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-ласунка-гран-прі-пломбір-манго-полуниця-155г-afc08b6b.png"
+  },
+  {
+    "name": "Морозиво Dadu кленовий сироп з волось горіх ваф ст, 73г",
+    "oldPrice": null,
+    "newPrice": 42.9,
+    "img": "https://content.fora.ua/shop/uploads/pictures/982337-681dedc82d894_fora.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-dadu-кленовий-сироп-з-волось-горіх-ваф-ст-73г-c56b9e6b.png"
+  },
+  {
+    "name": "Морозиво Три ведмеді пломбір ріжок, 100г",
+    "oldPrice": null,
+    "newPrice": 71.5,
+    "img": "https://content.fora.ua/sku/ecommerce/102/480x480wwm/1022885_480x480wwm_7bd51c71-6122-1d8f-7cc3-601fde0740e3.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-три-ведмеді-пломбір-ріжок-100г-99a285f8.png"
+  },
+  {
+    "name": "Морозиво Magnat Raspberry panna cotta, стакан, 350г",
+    "oldPrice": null,
+    "newPrice": 153.9,
+    "img": "https://content.fora.ua/sku/ecommerce/98/480x480wwm/989531_480x480wwm_bcce75f3-89b3-e64b-7022-f18e6be7ee29.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-magnat-raspberry-panna-cotta-стакан-350г-99b6e4b0.png"
+  },
+  {
+    "name": "Морозиво «Три Ведмеді» Monaco Desert «Ягідний мільфей», 500г",
+    "oldPrice": null,
+    "newPrice": 268.9,
+    "img": "https://content.fora.ua/sku/ecommerce/86/480x480wwm/862294_480x480wwm_8fbe1546-ba96-7c4b-bca6-f8b737081d4d.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-три-ведмеді-monaco-desert-ягідний-мільфей-500г-145258bd.png"
+  },
+  {
+    "name": "Морозиво Blissini манго малина в білій кон глаз10%, 75г",
+    "oldPrice": null,
+    "newPrice": 39.9,
+    "img": "https://content.fora.ua/app/no_photo.png",
+    "sourceUrl": "https://fora.ua/category/morozyvo-2687",
+    "localImage": "images/fora/морозиво-blissini-манго-малина-в-білій-кон-глаз10-75г-5d005699.png"
+  },
+  {
+    "name": "Напій Pepsi Cola пет, 0,33л",
+    "oldPrice": null,
+    "newPrice": 19.9,
+    "img": "https://content.fora.ua/sku/ecommerce/87/480x480wwm/875693_480x480wwm_cde7e776-b4b2-a92e-74b3-abec276f7b5c.png",
+    "sourceUrl": "https://fora.ua/category/soky-ta-bezalkogolni-napoi-2479",
+    "localImage": "images/fora/напій-pepsi-cola-пет-033л-c6e14f51.png"
+  },
+  {
+    "name": "Напій соковмісний Моршинська Лимонада апельсин-персик, 0,5л",
+    "oldPrice": null,
+    "newPrice": 29.9,
+    "img": "https://content.fora.ua/sku/ecommerce/92/480x480wwm/924942_480x480wwm_194beeee-4775-8abe-78e4-115893cfc68a.png",
+    "sourceUrl": "https://fora.ua/category/soky-ta-bezalkogolni-napoi-2479",
+    "localImage": "images/fora/напій-соковмісний-моршинська-лимонада-апельсин-персик-05л-5fd7da40.png"
+  },
+  {
+    "name": "Напій Pepsi Cola Нуль цукру, 1,75л",
+    "oldPrice": null,
+    "newPrice": 59.9,
+    "img": "https://content.fora.ua/sku/ecommerce/97/480x480wwm/973751_480x480wwm_673461ec-c1dc-0cdc-f919-d1aa6ffb1192.png",
+    "sourceUrl": "https://fora.ua/category/soky-ta-bezalkogolni-napoi-2479",
+    "localImage": "images/fora/напій-pepsi-cola-нуль-цукру-175л-d754c04c.png"
+  },
+  {
+    "name": "Напій Pepsi Cola Нуль цукру пет, 0,33л",
+    "oldPrice": null,
+    "newPrice": 19.9,
+    "img": "https://content.fora.ua/sku/ecommerce/87/480x480wwm/875694_480x480wwm_79b1e971-2202-7018-021d-8b605e88b190.png",
+    "sourceUrl": "https://fora.ua/category/soky-ta-bezalkogolni-napoi-2479",
+    "localImage": "images/fora/напій-pepsi-cola-нуль-цукру-пет-033л-68c89743.png"
+  },
+  {
+    "name": "Напій енергетичний Non Stop Original безалкогольний без цукру, 500мл",
+    "oldPrice": null,
+    "newPrice": 40.9,
+    "img": "https://content.fora.ua/sku/ecommerce/100/480x480wwm/1002404_480x480wwm_bedc95bf-4254-d557-cd56-c5a82fd6c2e8.png",
+    "sourceUrl": "https://fora.ua/category/soky-ta-bezalkogolni-napoi-2479",
+    "localImage": "images/fora/напій-енергетичний-non-stop-original-безалкогольний-без-цукр-12c8584a.png"
+  },
+  {
+    "name": "Квас Львівський квас Білий з/б, 0,5л",
+    "oldPrice": null,
+    "newPrice": 38.1,
+    "img": "https://content.fora.ua/sku/ecommerce/102/480x480wwm/1022420_480x480wwm_09acb9d9-0425-fbdc-28d4-2a2cb885c17b.png",
+    "sourceUrl": "https://fora.ua/category/soky-ta-bezalkogolni-napoi-2479",
+    "localImage": "images/fora/квас-львівський-квас-білий-з-б-05л-9753621d.png"
+  },
+  {
+    "name": "Напій Borjomi Limonati Аджарський мандарин сильногазований з/б, 0,33л",
+    "oldPrice": null,
+    "newPrice": 63.7,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/952804_480x480wwm_631676e8-d650-bdc9-84ce-7093f1ffa6be.png",
+    "sourceUrl": "https://fora.ua/category/soky-ta-bezalkogolni-napoi-2479",
+    "localImage": "images/fora/напій-borjomi-limonati-аджарський-мандарин-сильногазований-з-0c95e588.png"
+  },
+  {
+    "name": "Напій енергетичний Best Shot Original безалкогольний з/б, 0,25л",
+    "oldPrice": null,
+    "newPrice": 34.9,
+    "img": "https://content.fora.ua/sku/ecommerce/102/480x480wwm/1022421_480x480wwm_8e7e9866-2b01-92ac-243a-346a199e6125.png",
+    "sourceUrl": "https://fora.ua/category/soky-ta-bezalkogolni-napoi-2479",
+    "localImage": "images/fora/напій-енергетичний-best-shot-original-безалкогольний-з-б-025-cc9b6939.png"
+  },
+  {
+    "name": "Квас «Квас Тарас» «Білий хлібний» з/б, 0,5л",
+    "oldPrice": null,
+    "newPrice": 33.3,
+    "img": "https://content.fora.ua/sku/ecommerce/75/480x480wwm/755633_480x480wwm_aba82f97-87af-8952-2e30-85327b8ea97e.png",
+    "sourceUrl": "https://fora.ua/category/soky-ta-bezalkogolni-napoi-2479",
+    "localImage": "images/fora/квас-квас-тарас-білий-хлібний-з-б-05л-4cdc331f.png"
+  },
+  {
+    "name": "Напій енергетичний Non Stop Сокова серія Сплеш безалкогольний сильногазований з/б, 0,5л",
+    "oldPrice": null,
+    "newPrice": 46.9,
+    "img": "https://content.fora.ua/sku/ecommerce/101/480x480wwm/1016424_480x480wwm_d2959636-2343-21c3-3cb3-8d061c4d805b.png",
+    "sourceUrl": "https://fora.ua/category/soky-ta-bezalkogolni-napoi-2479",
+    "localImage": "images/fora/напій-енергетичний-non-stop-сокова-серія-сплеш-безалкогольни-27920ba3.png"
+  },
+  {
+    "name": "Напій соковий Джусік ананас-кокос пастеризований, 0,2л",
+    "oldPrice": null,
+    "newPrice": 19.5,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/958046_480x480wwm_8bb9fb53-f5b0-fd74-9f93-a56ee3d32cce.png",
+    "sourceUrl": "https://fora.ua/category/soky-ta-bezalkogolni-napoi-2479",
+    "localImage": "images/fora/напій-соковий-джусік-ананас-кокос-пастеризований-02л-6e9f2ca4.png"
+  },
+  {
+    "name": "Напій енергетичний Моршинська Воля ягідний мікс з/б, 0,33л",
+    "oldPrice": null,
+    "newPrice": 44.8,
+    "img": "https://content.fora.ua/sku/ecommerce/98/480x480wwm/980774_480x480wwm_1c70ff9c-1370-b9cc-fea3-bc2004bbdb7c.png",
+    "sourceUrl": "https://fora.ua/category/soky-ta-bezalkogolni-napoi-2479",
+    "localImage": "images/fora/напій-енергетичний-моршинська-воля-ягідний-мікс-з-б-033л-a3de4322.png"
+  },
+  {
+    "name": "Напій енергетичний Моршинська Воля ківі-полуниця безалкогольний з/б, 0,33л",
+    "oldPrice": null,
+    "newPrice": 44.8,
+    "img": "/images/fora/placeholders/not-found-new.svg",
+    "sourceUrl": "https://fora.ua/category/soky-ta-bezalkogolni-napoi-2479",
+    "localImage": null
+  },
+  {
+    "name": "Енергетичний напій Red Bull безалкогольний, 0,473л",
+    "oldPrice": null,
+    "newPrice": 94.5,
+    "img": "https://content.fora.ua/sku/ecommerce/39/480x480wwm/392086_480x480wwm_50a1877d-2ac0-052c-6cc4-1151eb15e4a2.png",
+    "sourceUrl": "https://fora.ua/category/soky-ta-bezalkogolni-napoi-2479",
+    "localImage": "images/fora/енергетичний-напій-red-bull-безалкогольний-0473л-53613260.png"
+  },
+  {
+    "name": "Сік «Садочок» мультивітамін, 0,95л",
+    "oldPrice": null,
+    "newPrice": 63.9,
+    "img": "https://content.fora.ua/sku/ecommerce/49/480x480wwm/498760_480x480wwm_977d2dd1-6812-4d7b-9a6d-dbaaf0fa8e80.png",
+    "sourceUrl": "https://fora.ua/category/soky-ta-bezalkogolni-napoi-2479",
+    "localImage": "images/fora/сік-садочок-мультивітамін-095л-e71068c7.png"
+  },
+  {
+    "name": "Сік Садочок томатний з м'якоттю, 0,95л",
+    "oldPrice": null,
+    "newPrice": 70.9,
+    "img": "https://content.fora.ua/sku/ecommerce/92/480x480wwm/925329_480x480wwm_75094646-0148-47ae-7ac9-5d1732dc7914.png",
+    "sourceUrl": "https://fora.ua/category/soky-ta-bezalkogolni-napoi-2479",
+    "localImage": "images/fora/сік-садочок-томатний-з-мякоттю-095л-05c92426.png"
+  },
+  {
+    "name": "Напій енергетичний Vitamizu Марадона газ з/б, 250мл",
+    "oldPrice": null,
+    "newPrice": 38.9,
+    "img": "https://content.fora.ua/sku/ecommerce/96/480x480wwm/962342_480x480wwm_1287c6d6-f032-8061-274f-3216c02b1c2c.png",
+    "sourceUrl": "https://fora.ua/category/soky-ta-bezalkogolni-napoi-2479",
+    "localImage": "images/fora/напій-енергетичний-vitamizu-марадона-газ-з-б-250мл-e6b1f36e.png"
+  },
+  {
+    "name": "Напій соковий Садочок мультифрукт з м'якоттю, 0,2л",
+    "oldPrice": null,
+    "newPrice": 18.2,
+    "img": "https://content.fora.ua/sku/ecommerce/99/480x480wwm/994174_480x480wwm_7bcfd15e-1a63-80ea-9dda-028141cfbd77.png",
+    "sourceUrl": "https://fora.ua/category/soky-ta-bezalkogolni-napoi-2479",
+    "localImage": "images/fora/напій-соковий-садочок-мультифрукт-з-мякоттю-02л-6b93bf1e.png"
+  },
+  {
+    "name": "Напій енергетичний Моршинська Воля безалкогольний середньогазований з/б, 0,33л",
+    "oldPrice": null,
+    "newPrice": 44.7,
+    "img": "https://content.fora.ua/sku/ecommerce/91/480x480wwm/919446_480x480wwm_a442038a-a73b-0c7a-bbb3-61bc7cef2244.png",
+    "sourceUrl": "https://fora.ua/category/soky-ta-bezalkogolni-napoi-2479",
+    "localImage": "images/fora/напій-енергетичний-моршинська-воля-безалкогольний-середньога-a7fc7c3d.png"
+  },
+  {
+    "name": "Сік «Садочок» яблучний, 0,2л",
+    "oldPrice": null,
+    "newPrice": 19.9,
+    "img": "https://content.fora.ua/sku/ecommerce/88/480x480wwm/881155_480x480wwm_8233a2dc-22e5-c57a-7bb8-8e9783ea6829.png",
+    "sourceUrl": "https://fora.ua/category/soky-ta-bezalkogolni-napoi-2479",
+    "localImage": "images/fora/сік-садочок-яблучний-02л-962bc5f5.png"
+  },
+  {
+    "name": "Напій соковий Jaffa Vital Energy грейпфрут-мандарин, 0,5л",
+    "oldPrice": null,
+    "newPrice": 48.5,
+    "img": "https://content.fora.ua/sku/ecommerce/76/480x480wwm/768048_480x480wwm_a90025d6-930d-2a20-e848-a62c95fd2d23.png",
+    "sourceUrl": "https://fora.ua/category/soky-ta-bezalkogolni-napoi-2479",
+    "localImage": "images/fora/напій-соковий-jaffa-vital-energy-грейпфрут-мандарин-05л-89889ef7.png"
+  },
+  {
+    "name": "Пиво Stella Artois, 0,5л",
+    "oldPrice": null,
+    "newPrice": 69.3,
+    "img": "https://content.fora.ua/sku/ecommerce/1/480x480wwm/17332_480x480wwm_a4457ea1-4c0b-aaa4-fea8-32826595f697.png",
+    "sourceUrl": "https://fora.ua/category/pyvo-2465",
+    "localImage": "images/fora/пиво-stella-artois-05л-ed637c28.png"
+  },
+  {
+    "name": "Пиво Повна Діжка М'яке світле з/б, 0,5л",
+    "oldPrice": null,
+    "newPrice": 41.6,
+    "img": "https://content.fora.ua/sku/ecommerce/92/480x480wwm/922719_480x480wwm_a14a2871-36db-69ef-0681-29510af1d014.png",
+    "sourceUrl": "https://fora.ua/category/pyvo-2465",
+    "localImage": "images/fora/пиво-повна-діжка-мяке-світле-з-б-05л-3d1809f4.png"
+  },
+  {
+    "name": "Пиво Повна Діжка М'яке світле, 0,9л",
+    "oldPrice": null,
+    "newPrice": 65.7,
+    "img": "https://content.fora.ua/sku/ecommerce/92/480x480wwm/920842_480x480wwm_b1778061-ac73-24b9-eea4-ff4bccf0c7bb.png",
+    "sourceUrl": "https://fora.ua/category/pyvo-2465",
+    "localImage": "images/fora/пиво-повна-діжка-мяке-світле-09л-b886563b.png"
+  },
+  {
+    "name": "Пиво Kronenbourg 1664 Rose Edition пшеничне з/б, 0,33л",
+    "oldPrice": null,
+    "newPrice": 38.6,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/947893_480x480wwm_dc04a948-acdd-e0e3-2e60-682c5ff9ac5d.png",
+    "sourceUrl": "https://fora.ua/category/pyvo-2465",
+    "localImage": "images/fora/пиво-kronenbourg-1664-rose-edition-пшеничне-з-б-033л-0ad9ac7d.png"
+  },
+  {
+    "name": "Пиво Чернігівське світле, 2,25л",
+    "oldPrice": null,
+    "newPrice": 116.9,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/942623_480x480wwm_55d2bfd0-32a6-6b0b-78bc-7e9cc2ceaa4e.png",
+    "sourceUrl": "https://fora.ua/category/pyvo-2465",
+    "localImage": "images/fora/пиво-чернігівське-світле-225л-2a7c749d.png"
+  },
+  {
+    "name": "Пиво «Перша приватна броварня» «Бочкове» світле 4,8% з/б, 0,5л",
+    "oldPrice": null,
+    "newPrice": 42.9,
+    "img": "https://content.fora.ua/sku/ecommerce/79/480x480wwm/797106_480x480wwm_231008ce-e8a0-e7cf-8d84-555924f0803e.png",
+    "sourceUrl": "https://fora.ua/category/pyvo-2465",
+    "localImage": "images/fora/пиво-перша-приватна-броварня-бочкове-світле-48-з-б-05л-392d0e28.png"
+  },
+  {
+    "name": "Пиво Чернігівське Біле Fruter кавун та м'ята з/б, 0,5л",
+    "oldPrice": null,
+    "newPrice": 43.6,
+    "img": "https://content.fora.ua/sku/ecommerce/98/480x480wwm/983684_480x480wwm_bdfef27f-6bb3-e4c4-3677-3dfb5e67dd15.png",
+    "sourceUrl": "https://fora.ua/category/pyvo-2465",
+    "localImage": "images/fora/пиво-чернігівське-біле-fruter-кавун-та-мята-з-б-05л-f7341e45.png"
+  },
+  {
+    "name": "Пиво Tuborg Green світле, 0,9л",
+    "oldPrice": null,
+    "newPrice": 71.9,
+    "img": "https://content.fora.ua/sku/ecommerce/92/480x480wwm/925391_480x480wwm_faa4abb5-7159-91ce-d028-cae48932ac51.png",
+    "sourceUrl": "https://fora.ua/category/pyvo-2465",
+    "localImage": "images/fora/пиво-tuborg-green-світле-09л-893fdc3f.png"
+  },
+  {
+    "name": "Пиво Velkopopovitsky Kozel темне з/б, 0,5л",
+    "oldPrice": null,
+    "newPrice": 48.4,
+    "img": "https://content.fora.ua/sku/ecommerce/78/480x480wwm/786391_480x480wwm_bc482318-f0f0-859d-3b06-9566a8ee1714.png",
+    "sourceUrl": "https://fora.ua/category/pyvo-2465",
+    "localImage": "images/fora/пиво-velkopopovitsky-kozel-темне-з-б-05л-d185f6de.png"
+  },
+  {
+    "name": "Пиво Чернігівське Light світле, 1,95л",
+    "oldPrice": null,
+    "newPrice": 97.9,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/942624_480x480wwm_e2dc7857-0903-708b-39a2-40a3bd048d7a.png",
+    "sourceUrl": "https://fora.ua/category/pyvo-2465",
+    "localImage": "images/fora/пиво-чернігівське-light-світле-195л-66c08856.png"
+  },
+  {
+    "name": "Пиво Перша приватна броварня лимон-лайм св б/а з/б, 500мл",
+    "oldPrice": null,
+    "newPrice": 54.9,
+    "img": "https://content.fora.ua/sku/ecommerce/90/480x480wwm/909676_480x480wwm_59fdeda0-90a9-7d77-d75c-1b943deb1c9d.png",
+    "sourceUrl": "https://fora.ua/category/pyvo-2465",
+    "localImage": "images/fora/пиво-перша-приватна-броварня-лимон-лайм-св-б-а-з-б-500мл-a35d3b45.png"
+  },
+  {
+    "name": "Сидр Somersby з соком чорниці, 0,5л",
+    "oldPrice": null,
+    "newPrice": 59.5,
+    "img": "https://content.fora.ua/shop/uploads/pictures/743669-688c70220c8d4_fora.webp",
+    "sourceUrl": "https://fora.ua/category/sydr-2469",
+    "localImage": "images/fora/сидр-somersby-з-соком-чорниці-05л-598d9a92.webp"
+  },
+  {
+    "name": "Сидр «Гріх і Мед» зі смаком персика білий газований з/б, 0,5л",
+    "oldPrice": null,
+    "newPrice": 49.9,
+    "img": "https://content.fora.ua/sku/ecommerce/102/480x480wwm/1027566_480x480wwm_1c3e3315-3683-5e04-6033-cab95123bcae.png",
+    "sourceUrl": "https://fora.ua/category/sydr-2469",
+    "localImage": "images/fora/сидр-гріх-і-мед-зі-смаком-персика-білий-газований-з-б-05л-6e3c3f22.png"
+  },
+  {
+    "name": "Сидр «Гріх і Мед» зі смаком яблука білий газований з/б, 0,5л",
+    "oldPrice": null,
+    "newPrice": 49.9,
+    "img": "https://content.fora.ua/sku/ecommerce/102/480x480wwm/1027565_480x480wwm_181153e5-9974-5212-0272-2cf6fc86c2ad.png",
+    "sourceUrl": "https://fora.ua/category/sydr-2469",
+    "localImage": "images/fora/сидр-гріх-і-мед-зі-смаком-яблука-білий-газований-з-б-05л-73354780.png"
+  },
+  {
+    "name": "Сидр Apps зі смаком груші солодкий газований з/б, 500мл",
+    "oldPrice": null,
+    "newPrice": 45.5,
+    "img": "https://content.fora.ua/sku/ecommerce/100/480x480wwm/1000472_480x480wwm_aa55d1bf-6bcd-200e-0f43-73721184c6d0.png",
+    "sourceUrl": "https://fora.ua/category/sydr-2469",
+    "localImage": "images/fora/сидр-apps-зі-смаком-груші-солодкий-газований-з-б-500мл-a8a8c9a8.png"
+  },
+  {
+    "name": "Сидр Ciber Груша білий солодкий газований з/б, 0,5л",
+    "oldPrice": null,
+    "newPrice": 48.9,
+    "img": "https://content.fora.ua/sku/ecommerce/96/480x480wwm/964201_480x480wwm_ee24e2d7-2117-2802-361d-b12638193424.png",
+    "sourceUrl": "https://fora.ua/category/sydr-2469",
+    "localImage": "images/fora/сидр-ciber-груша-білий-солодкий-газований-з-б-05л-08fabe1b.png"
+  },
+  {
+    "name": "Сидр Villa Bianca Fragolino Bianco з/б, 0,33л",
+    "oldPrice": null,
+    "newPrice": 39.9,
+    "img": "https://content.fora.ua/sku/ecommerce/92/480x480wwm/924598_480x480wwm_0b485ae9-85cd-cdf6-6a4b-4b8b3a26169d.png",
+    "sourceUrl": "https://fora.ua/category/sydr-2469",
+    "localImage": "images/fora/сидр-villa-bianca-fragolino-bianco-з-б-033л-d25418ed.png"
+  },
+  {
+    "name": "Сидр Cidre Royal яблучний напівсухий газований с/п, 0,7л",
+    "oldPrice": null,
+    "newPrice": 143.9,
+    "img": "https://content.fora.ua/sku/ecommerce/63/480x480wwm/635760_480x480wwm_3da91863-e1ec-a654-3025-0254d98894b3.png",
+    "sourceUrl": "https://fora.ua/category/sydr-2469",
+    "localImage": "images/fora/сидр-cidre-royal-яблучний-напівсухий-газований-с-п-07л-96f09af3.png"
+  },
+  {
+    "name": "Сидр Gardenz полуниця-виноград рожевий солодкий газований з/б, 0,5л",
+    "oldPrice": null,
+    "newPrice": 55.9,
+    "img": "https://content.fora.ua/sku/ecommerce/91/480x480wwm/913924_480x480wwm_ad86b7df-78bc-fb5f-b7e9-5c6ec02925fb.png",
+    "sourceUrl": "https://fora.ua/category/sydr-2469",
+    "localImage": "images/fora/сидр-gardenz-полуниця-виноград-рожевий-солодкий-газований-з--123201f9.png"
+  },
+  {
+    "name": "Сидр Ciber Чорниця червоний солодкий газований з/б, 0,5л",
+    "oldPrice": null,
+    "newPrice": 48.9,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/942767_480x480wwm_bbaba98c-f6bc-f1d5-5adc-3e55874e4537.png",
+    "sourceUrl": "https://fora.ua/category/sydr-2469",
+    "localImage": "images/fora/сидр-ciber-чорниця-червоний-солодкий-газований-з-б-05л-63f21e64.png"
+  },
+  {
+    "name": "Сидр Ciber Apple білий солодкий газований з/б, 0,5л",
+    "oldPrice": null,
+    "newPrice": 48.9,
+    "img": "https://content.fora.ua/sku/ecommerce/92/480x480wwm/923498_480x480wwm_2d99d8d2-142a-fb7f-4f51-42cb5714ceaf.png",
+    "sourceUrl": "https://fora.ua/category/sydr-2469",
+    "localImage": "images/fora/сидр-ciber-apple-білий-солодкий-газований-з-б-05л-66ea49a1.png"
+  },
+  {
+    "name": "Сидр «Збітєнь» «Золотоніський» солодкий газований, 0,7л",
+    "oldPrice": null,
+    "newPrice": 143.9,
+    "img": "https://content.fora.ua/sku/ecommerce/72/480x480wwm/722153_480x480wwm_458dc146-a948-1daf-21d1-30ed6a3865ac.png",
+    "sourceUrl": "https://fora.ua/category/sydr-2469",
+    "localImage": "images/fora/сидр-збітєнь-золотоніський-солодкий-газований-07л-bd341b5c.png"
+  },
+  {
+    "name": "Сидр Gardenz груша солодкий газований з/б, 0,5л",
+    "oldPrice": null,
+    "newPrice": 55.9,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/949974_480x480wwm_e0d04d56-2582-1956-69e9-1da760b063f1.png",
+    "sourceUrl": "https://fora.ua/category/sydr-2469",
+    "localImage": "images/fora/сидр-gardenz-груша-солодкий-газований-з-б-05л-1d74c08b.png"
+  },
+  {
+    "name": "Сидр Gardenz яблучний білий солодкий газований з/б, 0,5л",
+    "oldPrice": null,
+    "newPrice": 55.9,
+    "img": "https://content.fora.ua/sku/ecommerce/91/480x480wwm/911961_480x480wwm_4122117f-abf5-f29e-e45d-13416600f462.png",
+    "sourceUrl": "https://fora.ua/category/sydr-2469",
+    "localImage": "images/fora/сидр-gardenz-яблучний-білий-солодкий-газований-з-б-05л-838887bd.png"
+  },
+  {
+    "name": "Тунець Oceano подрібнений у соняшниковій олії, 160г",
+    "oldPrice": null,
+    "newPrice": 75.9,
+    "img": "https://content.fora.ua/sku/ecommerce/100/480x480wwm/1006287_480x480wwm_41cb3672-49cc-0643-9a58-a6e9f491bd4d.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/тунець-oceano-подрібнений-у-соняшниковій-олії-160г-73d682da.png"
+  },
+  {
+    "name": "Вермішель «Мівіна» «Щедра порція» зі смаком курки, овочів та зелені, 73,5г",
+    "oldPrice": null,
+    "newPrice": 27.4,
+    "img": "https://content.fora.ua/sku/ecommerce/87/480x480wwm/878528_480x480wwm_eb0ccae6-4359-1123-0600-2bdd3091a23d.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/вермішель-мівіна-щедра-порція-зі-смаком-курки-овочів-та-зеле-c739611c.png"
+  },
+  {
+    "name": "Крупа Зірковий вибірна манна, 800г",
+    "oldPrice": null,
+    "newPrice": 23.9,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/942536_480x480wwm_e3da6d78-1135-cf2d-f7a4-594514b4e490.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/крупа-зірковий-вибірна-манна-800г-c53aa55e.png"
+  },
+  {
+    "name": "Кетчуп Торчин лагідний д/п, 250г",
+    "oldPrice": null,
+    "newPrice": 36.5,
+    "img": "https://content.fora.ua/sku/ecommerce/92/480x480wwm/923829_480x480wwm_61aa33dc-2369-4b20-d2e7-707f0b6c136c.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/кетчуп-торчин-лагідний-д-п-250г-88ab2524.png"
+  },
+  {
+    "name": "Цукор ванільний Зірковий вибір, 10г",
+    "oldPrice": null,
+    "newPrice": 1.9,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/948434_480x480wwm_4914554d-73db-ffbe-375b-25c06115f817.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/цукор-ванільний-зірковий-вибір-10г-4845c92b.png"
+  },
+  {
+    "name": "Вироби макаронні Pastelia Fusilli, 400г",
+    "oldPrice": null,
+    "newPrice": 57.3,
+    "img": "https://content.fora.ua/sku/ecommerce/92/480x480wwm/922027_480x480wwm_c846cb58-b804-d6c1-ebe7-1191f3701aa4.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/вироби-макаронні-pastelia-fusilli-400г-6beb4daa.png"
+  },
+  {
+    "name": "Желе «Мрія» зі смаком ківі, 78г",
+    "oldPrice": null,
+    "newPrice": 19.6,
+    "img": "https://content.fora.ua/sku/ecommerce/91/480x480wwm/915969_480x480wwm_1f0274b5-f9ab-421e-14ba-cf3134efcea9.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/желе-мрія-зі-смаком-ківі-78г-c25a66c4.png"
+  },
+  {
+    "name": "Соус Зірковий вибір Український класичний, 485г",
+    "oldPrice": null,
+    "newPrice": 54.9,
+    "img": "https://content.fora.ua/sku/ecommerce/100/480x480wwm/1002545_480x480wwm_df9e95a6-367d-0b31-6f11-9df2ce6f3965.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/соус-зірковий-вибір-український-класичний-485г-50987928.png"
+  },
+  {
+    "name": "Майонез Торчин Європейський 72% д/п, 500г",
+    "oldPrice": null,
+    "newPrice": 98.3,
+    "img": "https://content.fora.ua/sku/ecommerce/102/480x480wwm/1027498_480x480wwm_f865d0b3-f2d2-e403-a9c6-c71942f81128.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/майонез-торчин-європейський-72-д-п-500г-f420f62d.png"
+  },
+  {
+    "name": "Розпушувач тіста Зірковий вибір, 12г",
+    "oldPrice": null,
+    "newPrice": 2.9,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/948433_480x480wwm_1fa4e677-5f30-e15d-c170-c248df76ab92.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/розпушувач-тіста-зірковий-вибір-12г-0294d067.png"
+  },
+  {
+    "name": "Соус «Торчин» «Шаурма» д/п, 200г",
+    "oldPrice": null,
+    "newPrice": 38.6,
+    "img": "https://content.fora.ua/sku/ecommerce/86/480x480wwm/861658_480x480wwm_6f264f05-8835-aeee-8afc-bf813cafc41d.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/соус-торчин-шаурма-д-п-200г-75773dc1.png"
+  },
+  {
+    "name": "Вироби макаронні Рідні традиції Ріжки виті ЕкстраА, 400г",
+    "oldPrice": null,
+    "newPrice": 45.9,
+    "img": "https://content.fora.ua/sku/ecommerce/100/480x480wwm/1005097_480x480wwm_8b023677-fffa-f37e-1fa7-62fd425bc30a.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/вироби-макаронні-рідні-традиції-ріжки-виті-екстраа-400г-953c8d2b.png"
+  },
+  {
+    "name": "Кислота лимонна Зірковий вибір, 100г",
+    "oldPrice": null,
+    "newPrice": 17.9,
+    "img": "https://content.fora.ua/sku/ecommerce/101/480x480wwm/1014391_480x480wwm_ad284676-e22f-5b85-fe48-3b7ae746c498.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/кислота-лимонна-зірковий-вибір-100г-d6a93dbc.png"
+  },
+  {
+    "name": "Кетчуп Королівський Смак Для дітей від 3-х років, 180г",
+    "oldPrice": null,
+    "newPrice": 32.4,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/955043_480x480wwm_afd4682d-29c8-e3f9-4a5c-2e4054eefb76.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/кетчуп-королівський-смак-для-дітей-від-3-х-років-180г-61ae8350.png"
+  },
+  {
+    "name": "Перець «Мрія» чорний горошок, 20г",
+    "oldPrice": null,
+    "newPrice": 23.5,
+    "img": "https://content.fora.ua/sku/ecommerce/1/480x480wwm/19760_480x480wwm_016fd43b-0ea6-bf0a-1b0b-a51b65cb1b62.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/перець-мрія-чорний-горошок-20г-df9f76ff.png"
+  },
+  {
+    "name": "Пластівці Favore вівсяні подрібнені, 500г",
+    "oldPrice": null,
+    "newPrice": 50.9,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/956970_480x480wwm_56710921-6350-f6fc-7706-fc7a95c1e91a.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/пластівці-favore-вівсяні-подрібнені-500г-905917a6.png"
+  },
+  {
+    "name": "Горошок Kwidzyn зелений консервований, 400г",
+    "oldPrice": null,
+    "newPrice": 66.9,
+    "img": "https://content.fora.ua/sku/ecommerce/46/480x480wwm/468757_480x480wwm_820aba50-bdc9-2225-7fd7-5e0d0c12e805.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/горошок-kwidzyn-зелений-консервований-400г-2b00c6c0.png"
+  },
+  {
+    "name": "Крупа Рідні традиції ячна, 800г",
+    "oldPrice": null,
+    "newPrice": 29.5,
+    "img": "https://content.fora.ua/sku/ecommerce/97/480x480wwm/975350_480x480wwm_0971f896-71a3-0264-dcaf-68a0bc43304e.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/крупа-рідні-традиції-ячна-800г-021f2998.png"
+  },
+  {
+    "name": "Паштет Profi з індички, 250г",
+    "oldPrice": null,
+    "newPrice": 63.9,
+    "img": "https://content.fora.ua/shop/uploads/pictures/955814-67989371c09c6_fora.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/паштет-profi-з-індички-250г-40b45697.png"
+  },
+  {
+    "name": "Желатин Зірковий вибір, 15г",
+    "oldPrice": null,
+    "newPrice": 13.9,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/948430_480x480wwm_b8b8d6c1-9557-8455-3e95-6ad9465adc6a.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/желатин-зірковий-вибір-15г-ae4f7789.png"
+  },
+  {
+    "name": "Тунець Favore подрібнений в олії, 185г",
+    "oldPrice": null,
+    "newPrice": 56.9,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/950439_480x480wwm_06d3abfe-6a47-d7ff-3a0a-4c64b573e58d.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/тунець-favore-подрібнений-в-олії-185г-3f1a4c4c.png"
+  },
+  {
+    "name": "Соус «Щедро» кисло-солодкий д/п, 200г",
+    "oldPrice": null,
+    "newPrice": 42.2,
+    "img": "https://content.fora.ua/sku/ecommerce/85/480x480wwm/859496_480x480wwm_84d53dde-a1a5-30e0-0a52-9460a0375a86.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/соус-щедро-кисло-солодкий-д-п-200г-d546d238.png"
+  },
+  {
+    "name": "Желе «Мрія» зі смаком полуниці, 78г",
+    "oldPrice": null,
+    "newPrice": 19.6,
+    "img": "https://content.fora.ua/sku/ecommerce/91/480x480wwm/915966_480x480wwm_03661886-0230-00e0-d36a-39b4ddad623c.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/желе-мрія-зі-смаком-полуниці-78г-2ee1d17d.png"
+  },
+  {
+    "name": "Цукор Favore пресований, 250г",
+    "oldPrice": null,
+    "newPrice": 21.9,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/959634_480x480wwm_b51f13f8-33a2-184a-66d3-650917a4c0a6.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/цукор-favore-пресований-250г-3866a9d6.png"
+  },
+  {
+    "name": "Гірчиця Favore Французька в зернах, 190г",
+    "oldPrice": null,
+    "newPrice": 30.9,
+    "img": "https://content.fora.ua/sku/ecommerce/99/480x480wwm/997694_480x480wwm_0471e03e-9315-a171-086c-4edc297e74d6.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/гірчиця-favore-французька-в-зернах-190г-54a278a2.png"
+  },
+  {
+    "name": "Кетчуп «Щедро» «Лагідний», 250г",
+    "oldPrice": null,
+    "newPrice": 43.9,
+    "img": "https://content.fora.ua/sku/ecommerce/80/480x480wwm/803391_480x480wwm_c7b566f6-4a74-a9b7-7d7a-2db74eaa5cf7.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/кетчуп-щедро-лагідний-250г-8567d3a2.png"
+  },
+  {
+    "name": "Паштет Hame з качиною печінкою для гурманів, 105г",
+    "oldPrice": null,
+    "newPrice": 91.9,
+    "img": "https://content.fora.ua/sku/ecommerce/78/480x480wwm/786270_480x480wwm_de4aefcd-30fc-b5c2-33d8-4818d924ce3f.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/паштет-hame-з-качиною-печінкою-для-гурманів-105г-20c6aede.png"
+  },
+  {
+    "name": "Соус Асканія-Пак Часниковий стакан, 45г",
+    "oldPrice": null,
+    "newPrice": 9.9,
+    "img": "https://content.fora.ua/sku/ecommerce/93/480x480wwm/935332_480x480wwm_e9121188-8b3e-1cd5-b58d-3ed73e3f3116.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/соус-асканія-пак-часниковий-стакан-45г-8cfe32c7.png"
+  },
+  {
+    "name": "Крупа Favore пшенична Артек, 4*70г",
+    "oldPrice": null,
+    "newPrice": 29.9,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/955877_480x480wwm_785a9775-3d03-3a38-13f7-4cd1cf441739.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/крупа-favore-пшенична-артек-4-70г-6b7e030e.png"
+  },
+  {
+    "name": "Соус «Торчин» «Сацебелі» д/п, 200г",
+    "oldPrice": null,
+    "newPrice": 38.7,
+    "img": "https://content.fora.ua/sku/ecommerce/54/480x480wwm/548669_480x480wwm_41ff3f89-650a-e4e3-4412-d02dcfc5f543.png",
+    "sourceUrl": "https://fora.ua/category/bakaliia-konservy-ta-sousy-2492",
+    "localImage": "images/fora/соус-торчин-сацебелі-д-п-200г-9804bf42.png"
+  },
+  {
+    "name": "Каша вівсяна AXA з вершками та полуницею, 40г",
+    "oldPrice": null,
+    "newPrice": 20.9,
+    "img": "https://content.fora.ua/sku/ecommerce/67/480x480wwm/679641_480x480wwm_2837a6f5-27e9-5370-9dbe-c6165630420f.png",
+    "sourceUrl": "https://fora.ua/category/krupy-2495",
+    "localImage": "images/fora/каша-вівсяна-axa-з-вершками-та-полуницею-40г-f75f436e.png"
+  },
+  {
+    "name": "Каша вівсяна AXA з вершками та лісовими ягодами, 40г",
+    "oldPrice": null,
+    "newPrice": 21.1,
+    "img": "https://content.fora.ua/sku/ecommerce/67/480x480wwm/679642_480x480wwm_29fe3f62-c15e-c2c3-ee1f-024c597e0764.png",
+    "sourceUrl": "https://fora.ua/category/krupy-2495",
+    "localImage": "images/fora/каша-вівсяна-axa-з-вершками-та-лісовими-ягодами-40г-f0bdc3b1.png"
+  },
+  {
+    "name": "Каша вівсяна AXA з вершками та лохиною, 40г",
+    "oldPrice": null,
+    "newPrice": 21.5,
+    "img": "https://content.fora.ua/sku/ecommerce/75/480x480wwm/757532_480x480wwm_7bab1ebb-b175-a07b-3126-71c595605abd.png",
+    "sourceUrl": "https://fora.ua/category/krupy-2495",
+    "localImage": "images/fora/каша-вівсяна-axa-з-вершками-та-лохиною-40г-4db5c1cc.png"
+  },
+  {
+    "name": "Пластівці Dobele вівсяні подрібнені, 500г",
+    "oldPrice": null,
+    "newPrice": 49.9,
+    "img": "https://content.fora.ua/sku/ecommerce/96/480x480wwm/960385_480x480wwm_5fb5afdc-b8cc-a691-ae06-a6a94dbe2047.png",
+    "sourceUrl": "https://fora.ua/category/krupy-2495",
+    "localImage": "images/fora/пластівці-dobele-вівсяні-подрібнені-500г-bcac7c0d.png"
+  },
+  {
+    "name": "Крупа Хуторок Панський пшенична Булгур, 4*100г",
+    "oldPrice": null,
+    "newPrice": 51.5,
+    "img": "https://content.fora.ua/sku/ecommerce/92/480x480wwm/929895_480x480wwm_9244360e-ead8-7efa-b64a-2f47f1985818.png",
+    "sourceUrl": "https://fora.ua/category/krupy-2495",
+    "localImage": "images/fora/крупа-хуторок-панський-пшенична-булгур-4-100г-50995ddc.png"
+  },
+  {
+    "name": "Пластівці кукурудзяні «Сквирянка» миттєвого приготування, дрібного помелу, 0,4кг",
+    "oldPrice": null,
+    "newPrice": 43.2,
+    "img": "https://content.fora.ua/sku/ecommerce/66/480x480wwm/667742_480x480wwm_e9b12eab-7777-e660-cca1-b4ee1cbe489b.png",
+    "sourceUrl": "https://fora.ua/category/krupy-2495",
+    "localImage": "images/fora/пластівці-кукурудзяні-сквирянка-миттєвого-приготування-дрібн-a88eab08.png"
+  },
+  {
+    "name": "Каша вівсяна AXA з курагою, 40г",
+    "oldPrice": null,
+    "newPrice": 18.7,
+    "img": "https://content.fora.ua/sku/ecommerce/75/480x480wwm/757530_480x480wwm_78cc369c-5b12-7c0d-ea7a-62fba5c43af9.png",
+    "sourceUrl": "https://fora.ua/category/krupy-2495",
+    "localImage": "images/fora/каша-вівсяна-axa-з-курагою-40г-81c2bf19.png"
+  },
+  {
+    "name": "Квасоля «Сто пудів» біла, 200г",
+    "oldPrice": null,
+    "newPrice": 31.6,
+    "img": "https://content.fora.ua/sku/ecommerce/78/480x480wwm/783007_480x480wwm_67fc0c4c-c769-b1f8-3f87-969dd59a5dba.png",
+    "sourceUrl": "https://fora.ua/category/krupy-2495",
+    "localImage": "images/fora/квасоля-сто-пудів-біла-200г-833d82fd.png"
+  },
+  {
+    "name": "Крупа «Сквирянка» кукурудзяна без глютена екстра, 800г",
+    "oldPrice": null,
+    "newPrice": 48,
+    "img": "https://content.fora.ua/sku/ecommerce/72/480x480wwm/729876_480x480wwm_b91f2907-e2f0-6acb-d158-9639f31fd8bb.png",
+    "sourceUrl": "https://fora.ua/category/krupy-2495",
+    "localImage": "images/fora/крупа-сквирянка-кукурудзяна-без-глютена-екстра-800г-767e9a19.png"
+  },
+  {
+    "name": "Рис Хуторок Панський довгий, 1кг",
+    "oldPrice": null,
+    "newPrice": 116.9,
+    "img": "https://content.fora.ua/sku/ecommerce/30/480x480wwm/304812_480x480wwm_0d063e50-b763-7f40-14ac-14a0b1470923.png",
+    "sourceUrl": "https://fora.ua/category/krupy-2495",
+    "localImage": "images/fora/рис-хуторок-панський-довгий-1кг-ca880284.png"
+  },
+  {
+    "name": "Рис Art Foods Жасмин, 4*100г",
+    "oldPrice": null,
+    "newPrice": 88.9,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/940688_480x480wwm_213e38e2-fe0f-2e75-ab27-6d546b765d69.png",
+    "sourceUrl": "https://fora.ua/category/krupy-2495",
+    "localImage": "images/fora/рис-art-foods-жасмин-4-100г-ca3bdb16.png"
+  },
+  {
+    "name": "Амарант Сто пудов, 250г",
+    "oldPrice": null,
+    "newPrice": 49.9,
+    "img": "https://content.fora.ua/sku/ecommerce/71/480x480wwm/714268_480x480wwm_df7b7934-79e5-8aa9-b51f-eac1c9bec04d.png",
+    "sourceUrl": "https://fora.ua/category/krupy-2495",
+    "localImage": "images/fora/амарант-сто-пудов-250г-2a933947.png"
+  },
+  {
+    "name": "Каша Зірковий вибір вівсяна з полуницею аром вершк, 40г",
+    "oldPrice": null,
+    "newPrice": 12.5,
+    "img": "https://content.fora.ua/sku/ecommerce/101/480x480wwm/1012254_480x480wwm_b60e187e-2ae7-9db5-1135-f145afdaefdf.png",
+    "sourceUrl": "https://fora.ua/category/krupy-2495",
+    "localImage": "images/fora/каша-зірковий-вибір-вівсяна-з-полуницею-аром-вершк-40г-5422a0c5.png"
+  },
+  {
+    "name": "Кіноа Сто пудів Мікс, 200г",
+    "oldPrice": null,
+    "newPrice": 105.5,
+    "img": "https://content.fora.ua/sku/ecommerce/96/480x480wwm/962316_480x480wwm_de06c9ea-d2af-eece-bdae-a5670ead79ae.png",
+    "sourceUrl": "https://fora.ua/category/krupy-2495",
+    "localImage": "images/fora/кіноа-сто-пудів-мікс-200г-371e5ff4.png"
+  },
+  {
+    "name": "Крупа Рідні традиції гречана ядриця, 1кг",
+    "oldPrice": null,
+    "newPrice": 85.9,
+    "img": "https://content.fora.ua/sku/ecommerce/97/480x480wwm/975345_480x480wwm_75efdda6-34bb-bc5d-dadb-9a51f088edcd.png",
+    "sourceUrl": "https://fora.ua/category/krupy-2495",
+    "localImage": "images/fora/крупа-рідні-традиції-гречана-ядриця-1кг-60b38359.png"
+  },
+  {
+    "name": "Рис Зірковий вибір довгозернистий, 1кг",
+    "oldPrice": null,
+    "newPrice": 46.9,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/942542_480x480wwm_bec6c63e-6956-2e45-42a5-b9e9a5feea9f.png",
+    "sourceUrl": "https://fora.ua/category/krupy-2495",
+    "localImage": "images/fora/рис-зірковий-вибір-довгозернистий-1кг-a263779b.png"
+  },
+  {
+    "name": "Рис Favore круглозернистий шліфований, 5*80г",
+    "oldPrice": null,
+    "newPrice": 72.5,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/955873_480x480wwm_861d4a8d-f87a-570f-67fc-244b81c63ef9.png",
+    "sourceUrl": "https://fora.ua/category/krupy-2495",
+    "localImage": "images/fora/рис-favore-круглозернистий-шліфований-5-80г-f3839018.png"
+  },
+  {
+    "name": "Каша вівсяна АХА з чорницею, 40г",
+    "oldPrice": null,
+    "newPrice": 18.9,
+    "img": "https://content.fora.ua/sku/ecommerce/48/480x480wwm/488984_480x480wwm_2244244f-0b89-fd8c-3560-dee46132fc81.png",
+    "sourceUrl": "https://fora.ua/category/krupy-2495",
+    "localImage": "images/fora/каша-вівсяна-аха-з-чорницею-40г-f0f6f152.png"
+  },
+  {
+    "name": "Булгур Favore зі 100% твердих сортів пшениці, 5*80г",
+    "oldPrice": null,
+    "newPrice": 43.9,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/955875_480x480wwm_38127007-0a61-2416-f473-fe3085aaac30.png",
+    "sourceUrl": "https://fora.ua/category/krupy-2495",
+    "localImage": "images/fora/булгур-favore-зі-100-твердих-сортів-пшениці-5-80г-51d596c7.png"
+  },
+  {
+    "name": "Пластівці Dobele вівсяні цільні, 500г",
+    "oldPrice": null,
+    "newPrice": 49.9,
+    "img": "https://content.fora.ua/sku/ecommerce/96/480x480wwm/960384_480x480wwm_7e920301-84db-ee68-2e31-80ca044bfb86.png",
+    "sourceUrl": "https://fora.ua/category/krupy-2495",
+    "localImage": "images/fora/пластівці-dobele-вівсяні-цільні-500г-ec53109d.png"
+  },
+  {
+    "name": "Крупа Сто пудів Булгур з овочами, 400г",
+    "oldPrice": null,
+    "newPrice": 62.9,
+    "img": "https://content.fora.ua/sku/ecommerce/98/480x480wwm/981737_480x480wwm_dd810c30-4f32-361e-c061-56a18baf5c53.png",
+    "sourceUrl": "https://fora.ua/category/krupy-2495",
+    "localImage": "images/fora/крупа-сто-пудів-булгур-з-овочами-400г-d9f81e7d.png"
+  },
+  {
+    "name": "Каша АХА вівсяна з яблуком і корицею, 40г",
+    "oldPrice": null,
+    "newPrice": 17.9,
+    "img": "https://content.fora.ua/sku/ecommerce/48/480x480wwm/483947_480x480wwm_f2cc97ba-29cf-7086-07d3-6ca167953ce0.png",
+    "sourceUrl": "https://fora.ua/category/krupy-2495",
+    "localImage": "images/fora/каша-аха-вівсяна-з-яблуком-і-корицею-40г-a3dba4a3.png"
+  },
+  {
+    "name": "Крупа Хуторок Панський гречана, 400г",
+    "oldPrice": null,
+    "newPrice": 63.9,
+    "img": "https://content.fora.ua/sku/ecommerce/45/480x480wwm/456955_480x480wwm_7612a1f7-62d6-0b23-6e1d-899ceab2070d.png",
+    "sourceUrl": "https://fora.ua/category/krupy-2495",
+    "localImage": "images/fora/крупа-хуторок-панський-гречана-400г-3fd34ab6.png"
+  },
+  {
+    "name": "Рис Art Foods Басматі, 4*100г",
+    "oldPrice": null,
+    "newPrice": 87.9,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/940687_480x480wwm_c6d96082-63b5-5a36-e426-85332fae2b23.png",
+    "sourceUrl": "https://fora.ua/category/krupy-2495",
+    "localImage": "images/fora/рис-art-foods-басматі-4-100г-838a73ea.png"
+  },
+  {
+    "name": "Рис Favore Камоліно, 1кг",
+    "oldPrice": null,
+    "newPrice": 89.9,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/955882_480x480wwm_ec59967d-a6d4-6213-342e-1a347794ec12.png",
+    "sourceUrl": "https://fora.ua/category/krupy-2495",
+    "localImage": "images/fora/рис-favore-камоліно-1кг-6db56fc8.png"
+  },
+  {
+    "name": "Кус-кус Сто пудів Птітім, 400г",
+    "oldPrice": null,
+    "newPrice": 59.3,
+    "img": "https://content.fora.ua/sku/ecommerce/99/480x480wwm/994458_480x480wwm_0cf52607-1d6f-ac97-503a-79188bd95fff.png",
+    "sourceUrl": "https://fora.ua/category/krupy-2495",
+    "localImage": "images/fora/кус-кус-сто-пудів-птітім-400г-bcace86f.png"
+  },
+  {
+    "name": "Морозиво «Рудь» «Ескімос» пломбір в шоколаді ескімо, 80г",
+    "oldPrice": null,
+    "newPrice": 71.9,
+    "img": "https://content.fora.ua/sku/ecommerce/57/480x480wwm/574041_480x480wwm_606037cf-a022-0b9c-ac16-b9d3dbb9a76a.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/морозиво-рудь-ескімос-пломбір-в-шоколаді-ескімо-80г-a9c78f3e.png"
+  },
+  {
+    "name": "Морозиво Три ведмеді лимонно-шоколадне у вафельному стакані, 75г",
+    "oldPrice": null,
+    "newPrice": 41.9,
+    "img": "https://content.fora.ua/sku/ecommerce/90/480x480wwm/905574_480x480wwm_84e4f270-8baf-999c-f471-155e0e79be5d.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/морозиво-три-ведмеді-лимонно-шоколадне-у-вафельному-стакані--269a6e0f.png"
+  },
+  {
+    "name": "Морозиво «Хладик» «Хрещатик» пломбір у кондитерській глазурі, 75г",
+    "oldPrice": null,
+    "newPrice": 64.9,
+    "img": "https://content.fora.ua/sku/ecommerce/46/480x480wwm/469107_480x480wwm_638ff1af-30a8-304c-a535-dab46b0751a3.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/морозиво-хладик-хрещатик-пломбір-у-кондитерській-глазурі-75г-ee44acb3.png"
+  },
+  {
+    "name": "Морозиво Rud Ананас кокос, 80г",
+    "oldPrice": null,
+    "newPrice": 48.7,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/953511_480x480wwm_9d897fa1-1b99-ef03-bdec-05dc612aa1f6.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/морозиво-rud-ананас-кокос-80г-2667cf9b.png"
+  },
+  {
+    "name": "Морозиво «Хрещатик» плодово-ягідне, 80г",
+    "oldPrice": null,
+    "newPrice": 56.9,
+    "img": "https://content.fora.ua/sku/ecommerce/67/480x480wwm/674806_480x480wwm_a56b0824-1ca9-445a-653c-e6d76fc1b197.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/морозиво-хрещатик-плодово-ягідне-80г-24482045.png"
+  },
+  {
+    "name": "Морозиво «Ласунка» «Світлофор», 95г",
+    "oldPrice": null,
+    "newPrice": 28.7,
+    "img": "https://content.fora.ua/sku/ecommerce/18/480x480wwm/180316_480x480wwm_b4f1d219-6393-77c7-ab1c-9f2eb6108222.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/морозиво-ласунка-світлофор-95г-66ccc7f2.png"
+  },
+  {
+    "name": "Морозиво Хрещатик Плодово-ягідне у вафельному стакані, 90г",
+    "oldPrice": null,
+    "newPrice": 41.2,
+    "img": "https://content.fora.ua/sku/ecommerce/102/480x480wwm/1024287_480x480wwm_8e77fb17-08e5-d95f-d443-c4217ee3fc0c.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/морозиво-хрещатик-плодово-ягідне-у-вафельному-стакані-90г-831ff255.png"
+  },
+  {
+    "name": "Морозиво «Хладик» «Хрещатик» шоколадне в шоколадній глазурі, 75г",
+    "oldPrice": null,
+    "newPrice": 64.9,
+    "img": "https://content.fora.ua/sku/ecommerce/46/480x480wwm/469106_480x480wwm_871be2f4-7b68-c923-689d-5a103937c1e3.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/морозиво-хладик-хрещатик-шоколадне-в-шоколадній-глазурі-75г-77392e29.png"
+  },
+  {
+    "name": "Морозиво Rud Mochi Jelly Персик пломбір, 50г",
+    "oldPrice": null,
+    "newPrice": 42.4,
+    "img": "https://content.fora.ua/sku/ecommerce/98/480x480wwm/984833_480x480wwm_f23d3561-8fc8-beff-0346-3dde72292ac4.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/морозиво-rud-mochi-jelly-персик-пломбір-50г-213fd1a9.png"
+  },
+  {
+    "name": "Морозиво Хрещатик Манго-Апельсин вершкове у соковому покритті, 70г",
+    "oldPrice": null,
+    "newPrice": 46.4,
+    "img": "https://content.fora.ua/sku/ecommerce/102/480x480wwm/1023672_480x480wwm_366a7c11-5e37-117e-9251-372ab8d8b769.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/морозиво-хрещатик-манго-апельсин-вершкове-у-соковому-покритт-32a9ae11.png"
+  },
+  {
+    "name": "Морозиво Хрещатик Полуниця вершкове у соковому покритті, 70г",
+    "oldPrice": null,
+    "newPrice": 46.5,
+    "img": "https://content.fora.ua/sku/ecommerce/102/480x480wwm/1023671_480x480wwm_c17a885f-e158-566d-de08-212e4ce2d146.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/морозиво-хрещатик-полуниця-вершкове-у-соковому-покритті-70г-3c6f97d0.png"
+  },
+  {
+    "name": "Морозиво «Рудь» Millennium молочний шоколад-фундук, 80г",
+    "oldPrice": null,
+    "newPrice": 72.9,
+    "img": "https://content.fora.ua/sku/ecommerce/86/480x480wwm/863684_480x480wwm_86c92a7d-c553-f0b9-28b5-b2d4d08dc270.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/морозиво-рудь-millennium-молочний-шоколад-фундук-80г-e28324af.png"
+  },
+  {
+    "name": "Морозиво Рудь Imperium Три шоколади пломбір у ріжку, 100г",
+    "oldPrice": null,
+    "newPrice": 62.9,
+    "img": "https://content.fora.ua/sku/ecommerce/57/480x480wwm/574630_480x480wwm_ba492e94-53c4-8070-bab6-c0beb5e2f757.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/морозиво-рудь-imperium-три-шоколади-пломбір-у-ріжку-100г-9311c118.png"
+  },
+  {
+    "name": "Морозиво Рудь 100%, 1000г",
+    "oldPrice": null,
+    "newPrice": 298.9,
+    "img": "https://content.fora.ua/sku/ecommerce/6/480x480wwm/66922_480x480wwm_16fd8de8-0bd5-3c6c-5f35-b4ed96a90a49.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/морозиво-рудь-100-1000г-73f76553.png"
+  },
+  {
+    "name": "Морозиво Київський пломбір Класичний цукр ріж 12%, 110г",
+    "oldPrice": null,
+    "newPrice": 77.9,
+    "img": "https://content.fora.ua/app/no_photo.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/морозиво-київський-пломбір-класичний-цукр-ріж-12-110г-5d005699.png"
+  },
+  {
+    "name": "Морозиво Зірковий вибір плодово ягідне, 75г",
+    "oldPrice": null,
+    "newPrice": 25.4,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/950869_480x480wwm_6a398cc9-bfa6-e8d6-1012-203bff1a61e2.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/морозиво-зірковий-вибір-плодово-ягідне-75г-48095f81.png"
+  },
+  {
+    "name": "Морозиво Зірковий вибір Крем брюле стакан, 60г",
+    "oldPrice": null,
+    "newPrice": 13.9,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/950862_480x480wwm_9b746999-131a-7b2c-efa4-194c597315b3.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/морозиво-зірковий-вибір-крем-брюле-стакан-60г-932aaac8.png"
+  },
+  {
+    "name": "Морозиво Хрещатик пломбір циліндр, 500г",
+    "oldPrice": null,
+    "newPrice": 198.9,
+    "img": "https://content.fora.ua/sku/ecommerce/48/480x480wwm/486019_480x480wwm_47c886f6-5997-6871-9818-059e10fabbde.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/морозиво-хрещатик-пломбір-циліндр-500г-b9454d11.png"
+  },
+  {
+    "name": "Морозиво Laska «Лакомка» з какао в глазурі, 100г",
+    "oldPrice": null,
+    "newPrice": 54.9,
+    "img": "https://content.fora.ua/sku/ecommerce/60/480x480wwm/609108_480x480wwm_2e2affd8-ca95-935e-2719-16e11dd78781.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/морозиво-laska-лакомка-з-какао-в-глазурі-100г-ffd498e9.png"
+  },
+  {
+    "name": "Морозиво Dadu ванільне з мигдалем, 73г",
+    "oldPrice": null,
+    "newPrice": 62.9,
+    "img": "https://content.fora.ua/shop/uploads/pictures/982334-681ded978f134_fora.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/морозиво-dadu-ванільне-з-мигдалем-73г-9e124d76.png"
+  },
+  {
+    "name": "Пельмені Laska «Маню-ням» з м'ясом індика та кролика, 400г",
+    "oldPrice": null,
+    "newPrice": 133.9,
+    "img": "https://content.fora.ua/sku/ecommerce/91/480x480wwm/912911_480x480wwm_2d327bf2-c6f5-6dd1-37d6-28ac2900fc63.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/пельмені-laska-маню-ням-з-мясом-індика-та-кролика-400г-65070449.png"
+  },
+  {
+    "name": "Млинці «Левада» з курячим м'ясом, 310г",
+    "oldPrice": null,
+    "newPrice": 69.5,
+    "img": "https://content.fora.ua/sku/ecommerce/86/480x480wwm/868235_480x480wwm_643c1628-769e-b808-1bf4-50cdf7724cb4.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/млинці-левада-з-курячим-мясом-310г-d59c1924.png"
+  },
+  {
+    "name": "Морозиво Зірковий вибір з какао стакан, 60г",
+    "oldPrice": null,
+    "newPrice": 13.9,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/950866_480x480wwm_6234cee2-d27b-5697-ea7f-f66d0f3d8cc3.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/морозиво-зірковий-вибір-з-какао-стакан-60г-091160f0.png"
+  },
+  {
+    "name": "Пельмені Три ведмеді Мішутка з телятиною та вершками, 400г",
+    "oldPrice": null,
+    "newPrice": 158.9,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/942806_480x480wwm_0a009445-a1c3-f6f6-a728-bf3b06a2dcf0.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/пельмені-три-ведмеді-мішутка-з-телятиною-та-вершками-400г-a9aa875a.png"
+  },
+  {
+    "name": "Млинці «Левада» з солодким сиром, 310г",
+    "oldPrice": null,
+    "newPrice": 64.9,
+    "img": "https://content.fora.ua/sku/ecommerce/86/480x480wwm/868236_480x480wwm_47a6848e-99a0-4a36-41e0-94333e5f6166.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/млинці-левада-з-солодким-сиром-310г-461dc4e4.png"
+  },
+  {
+    "name": "Млинці Хуторок Французькі з вишнями, 370г",
+    "oldPrice": null,
+    "newPrice": 75.5,
+    "img": "https://content.fora.ua/sku/ecommerce/97/480x480wwm/974972_480x480wwm_75628705-a0c3-34a8-f3aa-39018fa30936.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/млинці-хуторок-французькі-з-вишнями-370г-1f2d2409.png"
+  },
+  {
+    "name": "Пельмені Три ведмеді Мішутка з індичкою та вершками, 400г",
+    "oldPrice": null,
+    "newPrice": 150.9,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/942807_480x480wwm_167ed0d9-3251-1bd6-671b-426aedc62816.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/пельмені-три-ведмеді-мішутка-з-індичкою-та-вершками-400г-b0ebb6d9.png"
+  },
+  {
+    "name": "Морозиво Зірковий вибір з какао, 800г",
+    "oldPrice": null,
+    "newPrice": 139,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/950872_480x480wwm_a711a13f-b2cf-2d3b-b6b0-58fda3e1e7aa.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/морозиво-зірковий-вибір-з-какао-800г-1c695f5e.png"
+  },
+  {
+    "name": "Морозиво Зірковий вибір з ароматом ванілі, 800г",
+    "oldPrice": null,
+    "newPrice": 139,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/950871_480x480wwm_f7577f32-32ad-35fa-9e51-21339b66bfad.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/морозиво-зірковий-вибір-з-ароматом-ванілі-800г-866c94b7.png"
+  },
+  {
+    "name": "Суміш овочева Bauer Easy Wok швидкозаморожена, 400г",
+    "oldPrice": null,
+    "newPrice": 99.9,
+    "img": "https://content.fora.ua/sku/ecommerce/91/480x480wwm/918415_480x480wwm_6cae3b92-7d40-3e92-882c-0e4d9b11b21d.png",
+    "sourceUrl": "https://fora.ua/category/zamorozhena-produktsiia-2686",
+    "localImage": "images/fora/суміш-овочева-bauer-easy-wok-швидкозаморожена-400г-ddd602d1.png"
+  },
+  {
+    "name": "Напій кавовий Nescafe Xtra strong 3в1 розчинний, 12г",
+    "oldPrice": null,
+    "newPrice": 8.8,
+    "img": "https://content.fora.ua/sku/ecommerce/96/480x480wwm/967819_480x480wwm_47508915-12f4-b740-01cd-8b3b7e3ca6d9.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/напій-кавовий-nescafe-xtra-strong-3в1-розчинний-12г-3c83d7d5.png"
+  },
+  {
+    "name": "Напій кавовий Jacobs Monarch 3 в 1, 15г",
+    "oldPrice": null,
+    "newPrice": 12.3,
+    "img": "https://content.fora.ua/sku/ecommerce/76/480x480wwm/764878_480x480wwm_7f4514d4-f0bf-7cf3-077b-dc86a50d240d.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/напій-кавовий-jacobs-monarch-3-в-1-15г-7a68759d.png"
+  },
+  {
+    "name": "Напій кавовий Nescafe Caramel cappuccino розчинний, 14г",
+    "oldPrice": null,
+    "newPrice": 18.1,
+    "img": "https://content.fora.ua/sku/ecommerce/98/480x480wwm/981638_480x480wwm_af00d65d-ba9c-3edb-8c25-062abf1bf192.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/напій-кавовий-nescafe-caramel-cappuccino-розчинний-14г-360393af.png"
+  },
+  {
+    "name": "Кава розчинна Nescafe Espresso порошкоподібна, 1,8г",
+    "oldPrice": null,
+    "newPrice": 8.3,
+    "img": "https://content.fora.ua/sku/ecommerce/76/480x480wwm/766555_480x480wwm_88fd3226-e752-6de3-73eb-9c330a91a488.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/кава-розчинна-nescafe-espresso-порошкоподібна-18г-3e2cdee3.png"
+  },
+  {
+    "name": "Напій кавовий Nescafe Creamy 3в1 розчинний, 12г",
+    "oldPrice": null,
+    "newPrice": 8.8,
+    "img": "https://content.fora.ua/sku/ecommerce/96/480x480wwm/967820_480x480wwm_798ea579-4250-9c8c-3d1e-2bc19f3b50c9.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/напій-кавовий-nescafe-creamy-3в1-розчинний-12г-0dca51c5.png"
+  },
+  {
+    "name": "Кава мелена Don Carlos Puro Arabica, 250г",
+    "oldPrice": null,
+    "newPrice": 334,
+    "img": "https://content.fora.ua/sku/ecommerce/95/480x480wwm/950436_480x480wwm_c83e8466-6436-dcfa-9d90-912268499e6a.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/кава-мелена-don-carlos-puro-arabica-250г-4994ff92.png"
+  },
+  {
+    "name": "Напій кавовий MacCoffee «Лісовий горіх» з вершками та цукром, 18г",
+    "oldPrice": null,
+    "newPrice": 7.2,
+    "img": "https://content.fora.ua/sku/ecommerce/1/480x480wwm/10050_480x480wwm_f92ba8f1-cba6-e40f-d379-a6bc83d08ca2.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/напій-кавовий-maccoffee-лісовий-горіх-з-вершками-та-цукром-1-33480715.png"
+  },
+  {
+    "name": "Напій кавовий Nescafe Original 3в1 розчинний, 12г",
+    "oldPrice": null,
+    "newPrice": 8.3,
+    "img": "https://content.fora.ua/shop/uploads/pictures/967818-676531f412f96_fora.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/напій-кавовий-nescafe-original-3в1-розчинний-12г-17645e99.png"
+  },
+  {
+    "name": "Напій кавовий Jacobs 3 в 1 Dynamix, 12,5г",
+    "oldPrice": null,
+    "newPrice": 8.6,
+    "img": "https://content.fora.ua/sku/ecommerce/71/480x480wwm/712705_480x480wwm_304fd800-ece8-8de2-e0e3-0fae050c36fd.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/напій-кавовий-jacobs-3-в-1-dynamix-125г-f9dcd170.png"
+  },
+  {
+    "name": "Напій кавовий Jacobs Original 3 в 1, 12г",
+    "oldPrice": null,
+    "newPrice": 8.6,
+    "img": "https://content.fora.ua/sku/ecommerce/36/480x480wwm/366101_480x480wwm_dce132db-6bfa-d92f-3f93-a61fcd72ce58.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/напій-кавовий-jacobs-original-3-в-1-12г-a64bce10.png"
+  },
+  {
+    "name": "Кава розчинна Nescafe натуральна сублімована, 1,8г",
+    "oldPrice": null,
+    "newPrice": 7.3,
+    "img": "https://content.fora.ua/sku/ecommerce/76/480x480wwm/765227_480x480wwm_4e914d30-caed-56a2-20a8-6d68a2700c86.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/кава-розчинна-nescafe-натуральна-сублімована-18г-2d094a0a.png"
+  },
+  {
+    "name": "Напій кавовий Nescafe Tiramisu Cappuccino зі смаком тірамісу, 14,6г",
+    "oldPrice": null,
+    "newPrice": 12.5,
+    "img": "https://content.fora.ua/sku/ecommerce/102/480x480wwm/1020229_480x480wwm_a9ec01ba-c671-5620-d48b-e36d26295dde.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/напій-кавовий-nescafe-tiramisu-cappuccino-зі-смаком-тірамісу-cf3928d0.png"
+  },
+  {
+    "name": "Кава розчинна Nescafe Gold натуральна, 165г",
+    "oldPrice": null,
+    "newPrice": 399,
+    "img": "https://content.fora.ua/sku/ecommerce/78/480x480wwm/786157_480x480wwm_126dced3-ff5d-6331-8ffa-34196f184a8e.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/кава-розчинна-nescafe-gold-натуральна-165г-c2d68312.png"
+  },
+  {
+    "name": "Напій кавовий MacCoffee DiTorino «Капучино» розчинний, 25г",
+    "oldPrice": null,
+    "newPrice": 11.9,
+    "img": "https://content.fora.ua/sku/ecommerce/76/480x480wwm/767908_480x480wwm_d705a451-0c71-09f0-14d9-3c18e33bfa58.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/напій-кавовий-maccoffee-ditorino-капучино-розчинний-25г-b12fac68.png"
+  },
+  {
+    "name": "Чай чорний Hillway English Breakfast, 25*2г",
+    "oldPrice": null,
+    "newPrice": 73.5,
+    "img": "https://content.fora.ua/sku/ecommerce/86/480x480wwm/865834_480x480wwm_43dc018f-a1e6-a688-456d-32c9d53d364a.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/чай-чорний-hillway-english-breakfast-25-2г-f3a0bf94.png"
+  },
+  {
+    "name": "Напій кавовий Jacobs 3 в 1 Milka Cappuccino, 18г",
+    "oldPrice": null,
+    "newPrice": 19.1,
+    "img": "https://content.fora.ua/sku/ecommerce/87/480x480wwm/873831_480x480wwm_9170c59a-d5f4-2d20-51fe-bea702ca7d8d.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/напій-кавовий-jacobs-3-в-1-milka-cappuccino-18г-01f41b6e.png"
+  },
+  {
+    "name": "Чай зелений Pickwick байховий, 20*1,5г",
+    "oldPrice": null,
+    "newPrice": 63.3,
+    "img": "https://content.fora.ua/sku/ecommerce/90/480x480wwm/907476_480x480wwm_880c23e6-c488-c322-00ae-3f7f5e37182a.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/чай-зелений-pickwick-байховий-20-15г-fbda2911.png"
+  },
+  {
+    "name": "Напій з какао Nesquik Opti-Start швидкорозчинний, 140г",
+    "oldPrice": null,
+    "newPrice": 97.3,
+    "img": "https://content.fora.ua/sku/ecommerce/68/480x480wwm/685386_480x480wwm_a0e51a35-119a-54fd-358e-ca93ce954175.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/напій-з-какао-nesquik-opti-start-швидкорозчинний-140г-a58292a2.png"
+  },
+  {
+    "name": "Кава мелена Lavazza Crema e Gusto, 250г",
+    "oldPrice": null,
+    "newPrice": 389,
+    "img": "https://content.fora.ua/sku/ecommerce/3/480x480wwm/31791_480x480wwm_47b456ff-46fb-f412-b4a2-3e566610aa1b.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/кава-мелена-lavazza-crema-e-gusto-250г-8243abd1.png"
+  },
+  {
+    "name": "Чай чорний Monomax Original 100% Цейлон крупнолистовий, 90г",
+    "oldPrice": null,
+    "newPrice": 111.9,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/940492_480x480wwm_8b340824-5550-6250-952a-358c905c40af.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/чай-чорний-monomax-original-100-цейлон-крупнолистовий-90г-fa91ca49.png"
+  },
+  {
+    "name": "Напій кавовий Jacobs Cappuccino 3 в 1 розчинний, 12,5г",
+    "oldPrice": null,
+    "newPrice": 9.8,
+    "img": "https://content.fora.ua/sku/ecommerce/57/480x480wwm/579172_480x480wwm_6e1d9ae5-fb36-f3f5-e2d6-13091667ec3b.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/напій-кавовий-jacobs-cappuccino-3-в-1-розчинний-125г-d4a2f851.png"
+  },
+  {
+    "name": "Напій кавовий Jacobs 3в1 Капучино зі смаком дубайського шоколаду, 19,5г",
+    "oldPrice": null,
+    "newPrice": 19.5,
+    "img": "https://content.fora.ua/sku/ecommerce/99/480x480wwm/998829_480x480wwm_7d644672-0842-8b92-fa5a-97775e488d84.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/напій-кавовий-jacobs-3в1-капучино-зі-смаком-дубайського-шоко-a0ae74c0.png"
+  },
+  {
+    "name": "Чай Ahmad tea «Англійський до сніданку», 40*2г",
+    "oldPrice": null,
+    "newPrice": 95.9,
+    "img": "https://content.fora.ua/sku/ecommerce/3/480x480wwm/31339_480x480wwm_5f70e3c2-8247-e45d-ef97-7c291fb0ecf8.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/чай-ahmad-tea-англійський-до-сніданку-40-2г-4fcc4b4b.png"
+  },
+  {
+    "name": "Кава розчинна Brisa de Aroma натур сублімована д/п, 100г",
+    "oldPrice": null,
+    "newPrice": 183.8,
+    "img": "https://content.fora.ua/sku/ecommerce/99/480x480wwm/992127_480x480wwm_135643ad-6d67-c351-5348-f891959890ef.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/кава-розчинна-brisa-de-aroma-натур-сублімована-д-п-100г-9fc79230.png"
+  },
+  {
+    "name": "Чай Lovare Бризки шампанського, 32*2г",
+    "oldPrice": null,
+    "newPrice": 113.5,
+    "img": "https://content.fora.ua/sku/ecommerce/94/480x480wwm/949952_480x480wwm_eae96d50-3477-1ea3-6dea-b9775d044a23.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/чай-lovare-бризки-шампанського-32-2г-175d2ae4.png"
+  },
+  {
+    "name": "Кава розчинна Jacobs Monarch натуральна сублімована с/б, 95г",
+    "oldPrice": null,
+    "newPrice": 325,
+    "img": "https://content.fora.ua/sku/ecommerce/57/480x480wwm/579161_480x480wwm_22fd4612-67b6-a52c-43c0-2f62014bc46a.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/кава-розчинна-jacobs-monarch-натуральна-сублімована-с-б-95г-2aff4d0d.png"
+  },
+  {
+    "name": "Чай трав'яний «Бескид» «Лісова ягода», 20*1,5г",
+    "oldPrice": null,
+    "newPrice": 29.4,
+    "img": "https://content.fora.ua/sku/ecommerce/91/480x480wwm/914638_480x480wwm_41f2dce3-b2a7-32d5-6b67-c45b4a3f477b.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/чай-травяний-бескид-лісова-ягода-20-15г-c9f321b2.png"
+  },
+  {
+    "name": "Напій кавовий Jacobs Baileys Cappuccino, 15г",
+    "oldPrice": null,
+    "newPrice": 18.8,
+    "img": "https://content.fora.ua/sku/ecommerce/93/480x480wwm/931756_480x480wwm_85ff3fd4-bf49-629d-2b89-01a6b87cafc4.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/напій-кавовий-jacobs-baileys-cappuccino-15г-0041563d.png"
+  },
+  {
+    "name": "Кава розчинна Carte Noire Classic сублімована, 1,8г",
+    "oldPrice": null,
+    "newPrice": 9.3,
+    "img": "https://content.fora.ua/sku/ecommerce/92/480x480wwm/926066_480x480wwm_6237d64f-145c-e940-8e5d-492dfc5e194f.png",
+    "sourceUrl": "https://fora.ua/category/kava-chai-2775",
+    "localImage": "images/fora/кава-розчинна-carte-noire-classic-сублімована-18г-ef178cf8.png"
   }
 ]

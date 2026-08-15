@@ -130,6 +130,29 @@ const STORE_EXTRACTORS = {
     });
     return out;
   },
+
+  // Novus, але НЕ novus.ua/sales.html (Magento) — це novus.zakaz.ua, окрема
+  // платформа (React/Next), звичайні категорії товарів. Потрібна тут, щоб мати
+  // РЕГУЛЯРНІ (не лише акційні) ціни Novus для порівняння з іншими магазинами.
+  novuszakaz: function () {
+    function num(s) {
+      if (!s) return null;
+      const v = parseFloat(String(s).replace(/\s/g, "").replace(",", "."));
+      return isNaN(v) ? null : v;
+    }
+    const out = [];
+    document.querySelectorAll(".ProductTile").forEach(card => {
+      const name = card.querySelector(".ProductTile__title")?.textContent.trim();
+      const img = card.querySelector(".ProductTile__imageContainer img");
+      let src = img?.getAttribute("src") || img?.getAttribute("data-src");
+      const newPrice = num(card.querySelector('[data-marker="Discounted Price"] .Price__value_caption')?.textContent);
+      const oldPrice = num(card.querySelector('[data-marker="Old Price"] .Price__value_body')?.textContent);
+      if (!name || !src || newPrice == null) return;
+      if (src.startsWith("//")) src = "https:" + src;
+      out.push({ name, oldPrice: oldPrice || null, newPrice, img: src });
+    });
+    return out;
+  },
 };
 
 const CHALLENGE_TITLE_RE = /just a moment|attention required|access denied|checking your browser|перевірка браузера/i;
@@ -198,12 +221,6 @@ async function scrapeStore(browser, storeKey, storeCfg) {
   const storeImgDir = path.join(IMAGES_DIR, storeKey);
   fs.mkdirSync(storeImgDir, { recursive: true });
 
-  const extractor = STORE_EXTRACTORS[storeCfg.mode];
-  if (!extractor) {
-    console.log(`  ! невідомий mode "${storeCfg.mode}" для ${storeKey}, пропускаю`);
-    return [];
-  }
-
   // ВАЖЛИВО: свіжий browser context на КОЖНУ сторінку, а не один на весь магазин.
   // З'ясовано живим тестуванням: Сільпо й АТБ стоять за Cloudflare, і повторні
   // навігації в межах однієї сесії (той самий context/cookies) після 1-ї сторінки
@@ -212,8 +229,18 @@ async function scrapeStore(browser, storeKey, storeCfg) {
   // повністю це обходить (перевірено на 4+ послідовних сторінках).
   const results = [];
   let pageIdx = 0;
-  for (const url of storeCfg.pages) {
+  for (const pageEntry of storeCfg.pages) {
     pageIdx++;
+    // сторінка може бути просто URL-рядком (mode = storeCfg.mode) або
+    // об'єктом { url, mode } — потрібно, коли частина сторінок магазину
+    // насправді на іншій платформі з іншою версткою (напр. novus.zakaz.ua).
+    const url = typeof pageEntry === "string" ? pageEntry : pageEntry.url;
+    const mode = typeof pageEntry === "string" ? storeCfg.mode : (pageEntry.mode || storeCfg.mode);
+    const extractor = STORE_EXTRACTORS[mode];
+    if (!extractor) {
+      console.log(`  ! невідомий mode "${mode}" для ${url}, пропускаю`);
+      continue;
+    }
     const context = await browser.newContext({
       userAgent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
       viewport: { width: 1400, height: 1000 },
