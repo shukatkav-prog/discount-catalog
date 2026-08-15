@@ -1,0 +1,47 @@
+name: Update discount catalog
+
+on:
+  schedule:
+    # П'ятниця 05:00 UTC (~08:00 Київ) — після того, як магазини вже оновили
+    # тижневі знижки (Сільпо "Цінотижики" оновлюються щочетверга).
+    - cron: "0 5 * * 5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-catalog
+  cancel-in-progress: false
+
+jobs:
+  scrape-and-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm ci
+
+      - run: npx playwright install --with-deps chromium
+
+      - name: Scrape stores
+        run: node scrape.js
+
+      - name: Build catalog.html
+        run: node build.js
+
+      - name: Copy catalog as index.html for GitHub Pages
+        run: cp catalog.html index.html
+
+      - name: Commit updated catalog + photo library
+        run: |
+          git config user.name "catalog-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add catalog.html index.html data images
+          git diff --cached --quiet || git commit -m "Оновлення каталогу знижок $(date -u +%Y-%m-%d)"
+          git push
