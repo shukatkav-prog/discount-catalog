@@ -1600,20 +1600,20 @@
     "localImage": "images/fora/колготки-жіночі-ciao-felicita-40-den-miele-р2-шт-3c366afc.png"
   },
   {
-    "name": "Ковпак карнавальний червоний, шт",
-    "oldPrice": 19.9,
-    "newPrice": 9.9,
-    "img": "https://content.fora.ua/sku/ecommerce/74/480x480wwm/749063_480x480wwm_abca65c8-54b6-7098-91b4-da479ed3ae6b.png",
-    "sourceUrl": "https://fora.ua/all-offers?to=7&from=7",
-    "localImage": "images/fora/ковпак-карнавальний-червоний-шт-4a3c649d.png"
-  },
-  {
     "name": "Сліди жіночі в асортименті, шт",
     "oldPrice": 18.5,
     "newPrice": 9.9,
     "img": "https://content.fora.ua/sku/ecommerce/79/480x480wwm/796434_480x480wwm_0102720d-211b-a1ca-0cb6-b1a01f6b5041.png",
     "sourceUrl": "https://fora.ua/all-offers?to=7&from=7",
     "localImage": "images/fora/сліди-жіночі-в-асортименті-шт-a9e0cfe0.png"
+  },
+  {
+    "name": "Ковпак карнавальний червоний, шт",
+    "oldPrice": 19.9,
+    "newPrice": 9.9,
+    "img": "https://content.fora.ua/sku/ecommerce/74/480x480wwm/749063_480x480wwm_abca65c8-54b6-7098-91b4-da479ed3ae6b.png",
+    "sourceUrl": "https://fora.ua/all-offers?to=7&from=7",
+    "localImage": "images/fora/ковпак-карнавальний-червоний-шт-4a3c649d.png"
   },
   {
     "name": "Прикраса декорат Гілка з подарунком срібляс15*23см, шт",
@@ -1888,14 +1888,6 @@
     "localImage": "images/fora/стрічка-липка-від-мух-predator-шт-d95ce223.png"
   },
   {
-    "name": "Колготки жіночі ESLI Filana 20 visone р.2, шт",
-    "oldPrice": 34.9,
-    "newPrice": 9.9,
-    "img": "https://content.fora.ua/app/no_photo.png",
-    "sourceUrl": "https://fora.ua/all-offers?to=8&from=8",
-    "localImage": "images/fora/колготки-жіночі-esli-filana-20-visone-р2-шт-5d005699.png"
-  },
-  {
     "name": "Колготки Intuicia Comfort 120 den чорні р.3, шт",
     "oldPrice": 179,
     "newPrice": 9.9,
@@ -1910,6 +1902,14 @@
     "img": "https://content.fora.ua/sku/ecommerce/82/480x480wwm/822302_480x480wwm_8cfe87ef-f330-ad5e-2b46-ef89558163b6.png",
     "sourceUrl": "https://fora.ua/all-offers?to=8&from=8",
     "localImage": "images/fora/шкарпетки-дитячі-duna-9062-темно-зелений-р16-18-1-пара-705a58a5.png"
+  },
+  {
+    "name": "Колготки жіночі ESLI Filana 20 visone р.2, шт",
+    "oldPrice": 34.9,
+    "newPrice": 9.9,
+    "img": "https://content.fora.ua/app/no_photo.png",
+    "sourceUrl": "https://fora.ua/all-offers?to=8&from=8",
+    "localImage": "images/fora/колготки-жіночі-esli-filana-20-visone-р2-шт-5d005699.png"
   },
   {
     "name": "Сумка для окулярів 18*8,5см, шт",
@@ -2024,20 +2024,20 @@
     "localImage": "images/fora/колготки-жіночі-intuicia-sense-energia-20-den-чорні-р3-шт-df73eae4.png"
   },
   {
-    "name": "Губка для взуття Vilo Shine now чорна + безбарвна, 2шт",
-    "oldPrice": 59.9,
-    "newPrice": 39.9,
-    "img": "https://content.fora.ua/sku/ecommerce/96/480x480wwm/969764_480x480wwm_f1ccb03e-9327-21f7-a13e-32299a3a4516.png",
-    "sourceUrl": "https://fora.ua/all-offers?to=9&from=9",
-    "localImage": "images/fora/губка-для-взуття-vilo-shine-now-чорна-безбарвна-2шт-98a2899a.png"
-  },
-  {
     "name": "Шкарпетки дитячі Легка Хода 9309 сірий меланж р.22-24, 1 пара",
     "oldPrice": 59.9,
     "newPrice": 39.9,
     "img": "https://content.fora.ua/sku/ecommerce/93/480x480wwm/938977_480x480wwm_f5113686-72a6-1402-c2b5-161c8e5ccb09.png",
     "sourceUrl": "https://fora.ua/all-offers?to=9&from=9",
     "localImage": "images/fora/шкарпетки-дитячі-легка-хода-9309-сірий-меланж-р22-24-1-пара-2015ba85.png"
+  },
+  {
+    "name": "Губка для взуття Vilo Shine now чорна + безбарвна, 2шт",
+    "oldPrice": 59.9,
+    "newPrice": 39.9,
+    "img": "https://content.fora.ua/sku/ecommerce/96/480x480wwm/969764_480x480wwm_f1ccb03e-9327-21f7-a13e-32299a3a4516.png",
+    "sourceUrl": "https://fora.ua/all-offers?to=9&from=9",
+    "localImage": "images/fora/губка-для-взуття-vilo-shine-now-чорна-безбарвна-2шт-98a2899a.png"
   },
   {
     "name": "Батарейка Work's Lithium CR2032W-5B, 5шт",
@@ -2048,20 +2048,20 @@
     "localImage": "images/fora/батарейка-works-lithium-cr2032w-5b-5шт-d6ab9b74.png"
   },
   {
-    "name": "Губка з дозатором Salton для гладкої шкіри чорний, шт",
-    "oldPrice": 89.9,
-    "newPrice": 44.9,
-    "img": "https://content.fora.ua/sku/ecommerce/39/480x480wwm/391126_480x480wwm_bcd85d05-9c8d-6e0e-c27c-923e17757867.png",
-    "sourceUrl": "https://fora.ua/all-offers?to=9&from=9",
-    "localImage": "images/fora/губка-з-дозатором-salton-для-гладкої-шкіри-чорний-шт-d6b231da.png"
-  },
-  {
     "name": "Батарейки GP SUPER ALKALINE 1.5V LR6 AA, 2шт/уп",
     "oldPrice": 66.9,
     "newPrice": 44.9,
     "img": "https://content.fora.ua/sku/ecommerce/12/480x480wwm/122759_480x480wwm_b2ec9be1-6f8d-5983-27db-15cf846a33d1.png",
     "sourceUrl": "https://fora.ua/all-offers?to=9&from=9",
     "localImage": "images/fora/батарейки-gp-super-alkaline-15v-lr6-aa-2шт-уп-c4f84a91.png"
+  },
+  {
+    "name": "Губка з дозатором Salton для гладкої шкіри чорний, шт",
+    "oldPrice": 89.9,
+    "newPrice": 44.9,
+    "img": "https://content.fora.ua/sku/ecommerce/39/480x480wwm/391126_480x480wwm_bcd85d05-9c8d-6e0e-c27c-923e17757867.png",
+    "sourceUrl": "https://fora.ua/all-offers?to=9&from=9",
+    "localImage": "images/fora/губка-з-дозатором-salton-для-гладкої-шкіри-чорний-шт-d6b231da.png"
   },
   {
     "name": "Шкарпетки чоловічі Легка Хода 6392 білий р.27, 1 пара",
@@ -2080,14 +2080,6 @@
     "localImage": "images/fora/лампа-videx-led-a60e-10w-4100к-e27-шт-3ce7370e.png"
   },
   {
-    "name": "Лампа Videx LED C37e 7W 3000K E27, шт",
-    "oldPrice": 69.9,
-    "newPrice": 46.9,
-    "img": "https://content.fora.ua/sku/ecommerce/79/480x480wwm/797257_480x480wwm_09ae3f89-83e3-4538-facb-dad827351ffd.png",
-    "sourceUrl": "https://fora.ua/all-offers?to=9&from=9",
-    "localImage": "images/fora/лампа-videx-led-c37e-7w-3000k-e27-шт-340258df.png"
-  },
-  {
     "name": "Лампа Videx LED G45e 7W 4100K E14, шт",
     "oldPrice": 69.9,
     "newPrice": 46.9,
@@ -2102,6 +2094,14 @@
     "img": "https://content.fora.ua/sku/ecommerce/79/480x480wwm/797262_480x480wwm_f13c100c-3e2e-09a0-5d9c-e17317b85b4b.png",
     "sourceUrl": "https://fora.ua/all-offers?to=9&from=9",
     "localImage": "images/fora/лампа-videx-led-g45e-7w-4100k-e27-шт-976bd8e3.png"
+  },
+  {
+    "name": "Лампа Videx LED C37e 7W 3000K E27, шт",
+    "oldPrice": 69.9,
+    "newPrice": 46.9,
+    "img": "https://content.fora.ua/sku/ecommerce/79/480x480wwm/797257_480x480wwm_09ae3f89-83e3-4538-facb-dad827351ffd.png",
+    "sourceUrl": "https://fora.ua/all-offers?to=9&from=9",
+    "localImage": "images/fora/лампа-videx-led-c37e-7w-3000k-e27-шт-340258df.png"
   },
   {
     "name": "Насіння соняшника Semki M смажене солоне, 100г",
