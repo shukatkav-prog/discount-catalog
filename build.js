@@ -357,15 +357,12 @@ const LIST_SCRIPT = [
 "    }",
 "  }",
 "  function renderFab(){",
-"    var counts = {}, total = 0;",
-"    Object.keys(state.items).forEach(function(k){ var it = state.items[k]; counts[it.store] = (counts[it.store]||0)+1; total++; });",
+"    var total = Object.keys(state.items).length;",
 "    var fab = document.getElementById('list-fab');",
 "    if (!fab) return;",
 "    if (total === 0) { fab.style.display = 'none'; return; }",
 "    fab.style.display = 'flex';",
-"    var parts = [];",
-"    STORES.forEach(function(s){ if (counts[s]) parts.push(s + ': ' + counts[s]); });",
-"    fab.querySelector('.fab-counts').textContent = parts.join(' · ');",
+"    fab.querySelector('.fab-badge').textContent = total;",
 "  }",
 "  function renderAll(){ renderButtons(); renderFab(); if (document.getElementById('list-overlay').className.indexOf('open') !== -1) renderListOverlay(); }",
 "  function openOverlay(){ document.getElementById('list-overlay').className = 'open'; renderListOverlay(); document.body.style.overflow='hidden'; }",
@@ -495,10 +492,11 @@ const html = `<!DOCTYPE html>
   #stale-banner { display:none; position:sticky; top:44px; z-index:9; background:#fff6e6; border-bottom:1px solid var(--gold); padding:8px 14px; font-size:12.5px; color:var(--ink); align-items:center; justify-content:center; gap:10px; flex-wrap:wrap; text-align:center; }
   #stale-banner button { border:1px solid var(--border); background:#fff; border-radius:16px; padding:5px 12px; font-size:12px; cursor:pointer; }
   #stale-banner .stale-clear { border-color:var(--accent); color:var(--accent); }
-  #list-fab { display:none; position:fixed; left:12px; right:12px; bottom:12px; z-index:20; max-width:480px; margin:0 auto; background:var(--ink); color:#fff; border-radius:16px; padding:12px 16px; align-items:center; justify-content:space-between; gap:10px; cursor:pointer; box-shadow:0 6px 20px rgba(0,0,0,.25); border:none; font-family:inherit; text-align:left; }
-  #list-fab .fab-title { font-size:12px; font-weight:700; }
-  #list-fab .fab-counts { font-size:11px; color:#d8cdbd; }
-  #list-fab .fab-arrow { font-size:18px; }
+  /* Маленька кругла кнопка в кутку, а не широка панель на весь низ екрана —
+     широка панель весь час лежала поверх карток товарів і заважала читати.
+     Кнопка лише сигналізує кількістю (бейдж), сам список — тільки за тапом. */
+  #list-fab { display:none; position:fixed; right:14px; bottom:14px; z-index:20; width:52px; height:52px; border-radius:50%; background:var(--ink); color:#fff; align-items:center; justify-content:center; cursor:pointer; box-shadow:0 4px 14px rgba(0,0,0,.3); border:none; font-size:22px; padding:0; }
+  #list-fab .fab-badge { position:absolute; top:-4px; right:-4px; min-width:20px; height:20px; padding:0 4px; border-radius:10px; background:var(--accent); color:#fff; font-size:11px; font-weight:700; display:flex; align-items:center; justify-content:center; font-family:-apple-system,"Helvetica Neue",Arial,sans-serif; }
   #list-overlay { display:none; position:fixed; inset:0; z-index:30; background:rgba(20,17,14,.55); align-items:flex-end; justify-content:center; }
   #list-overlay.open { display:flex; }
   .list-modal { background:var(--bg); width:100%; max-width:560px; max-height:88vh; border-radius:18px 18px 0 0; display:flex; flex-direction:column; overflow:hidden; }
@@ -545,9 +543,8 @@ ${extraBlock}
   (за схожістю назв), тому час від часу звір руками.
 </footer>
 
-<button id="list-fab" type="button">
-  <span><span class="fab-title">🛒 Список покупок</span><br><span class="fab-counts"></span></span>
-  <span class="fab-arrow">›</span>
+<button id="list-fab" type="button" aria-label="Список покупок">
+  🛒<span class="fab-badge"></span>
 </button>
 
 <div id="list-overlay">
