@@ -215,15 +215,20 @@ function money(v) { return v == null ? "—" : `${v} ₴`; }
 
 function renderEntry(e, cheapestStore, multi) {
   // "найдешевше" має сенс лише якщо є з чим порівнювати — якщо товар знайдено
-  // лише в одному магазині, зірку не показуємо (порівняння не відбулось).
+  // лише в одному магазині, зелену рамку не показуємо (порівняння не відбулось).
+  // Саму рамку/фон достатньо, щоб позначити переможця — окремий текстовий
+  // напис поруч з назвою магазину лише дублює той самий сигнал і, до того ж,
+  // ламав однаковий розмір карток у 2x2-сітці (переносився на новий рядок).
   const isCheap = multi && e.store === cheapestStore && cheapestStore;
   const pctHtml = e.pct != null ? `<span class="pct">-${e.pct}%</span>` : "";
   const oldHtml = e.oldPrice ? `<span class="old">${money(e.oldPrice)}</span>` : "";
-  const star = isCheap ? ` <span class="star">★ найдешевше</span>` : "";
   const icon = STORE_ICON[e.store] ? `<img class="store-icon" src="${STORE_ICON[e.store]}" alt="">` : "";
+  // pct-бейдж живе в price-row (поруч зі старою/новою ціною), а не в store-row
+  // разом з назвою магазину — інакше в вузькій 2-колонковій сітці рядок з
+  // назвою переносився через тісноту, і картки виходили різної висоти.
   return `<div class="entry ${isCheap ? "cheapest" : ""}">
-    <div class="store-row"><span class="store">${icon}${esc(e.store)}${star}</span>${pctHtml}</div>
-    <div class="price-row">${oldHtml}<span class="new">${money(e.newPrice)}</span></div>
+    <div class="store-row"><span class="store">${icon}${esc(e.store)}</span></div>
+    <div class="price-row">${oldHtml}${pctHtml}<span class="new">${money(e.newPrice)}</span></div>
   </div>`;
 }
 
@@ -309,7 +314,10 @@ const html = `<!DOCTYPE html>
   header { background:linear-gradient(135deg,#2b2622,#40372d); color:#f5f1ea; padding:22px 16px 16px; text-align:center; }
   header h1 { margin:0 0 6px; font-size:24px; font-family:var(--font-display); font-weight:700; }
   header p { margin:4px 0; color:#d8cdbd; font-size:13px; }
-  nav { position:sticky; top:0; z-index:10; background:#fffaf2; border-bottom:1px solid var(--border); padding:8px 10px; display:flex; flex-wrap:wrap; gap:6px; max-height:148px; overflow-y:auto; }
+  /* max-height = рівно 3 ряди пігулок (8px padding + 3×44px + 2×6px gap +
+     8px padding) — будь-яке інше число обрізає 4-й ряд пігулок посередині,
+     і виглядає як зламаний скрол замість чіткого краю. */
+  nav { position:sticky; top:0; z-index:10; background:#fffaf2; border-bottom:1px solid var(--border); padding:8px 10px; display:flex; flex-wrap:wrap; gap:6px; max-height:calc(16px + 3*44px + 2*6px); overflow-y:auto; }
   nav a { flex:0 0 auto; font-size:12.5px; color:var(--ink); text-decoration:none; background:var(--card-bg); border:1px solid var(--border); border-radius:20px; padding:12px 14px; display:inline-flex; align-items:center; }
   nav a:hover { background:var(--gold); color:#fff; }
   .category { max-width:1180px; margin:0 auto; padding:22px 14px 4px; }
@@ -330,34 +338,37 @@ const html = `<!DOCTYPE html>
   .card-name { font-size:13px; font-weight:600; margin-bottom:4px; }
   .cmp-badge { display:inline-block; font-size:9.5px; color:var(--accent2); background:var(--cheap-bg); border-radius:8px; padding:1px 7px; margin-bottom:6px; }
   /* 2 колонки, коли є з чим порівнювати (2-4 магазини) — легше зіставити ціни
-     оком, ніж гортати список зверху вниз; єдина позиція лишається на всю ширину. */
-  .entries { display:grid; grid-template-columns:1fr; gap:6px; margin-top:6px; }
+     оком, ніж гортати список зверху вниз; єдина позиція лишається на всю ширину.
+     grid-auto-rows:1fr вирівнює висоту між рядками сітки (2х2), щоб усі 4
+     картки виглядали однакового розміру, а не "стрибали" залежно від того,
+     чи є в тій позиції знижка. */
+  .entries { display:grid; grid-template-columns:1fr; grid-auto-rows:1fr; gap:6px; margin-top:6px; }
   .entries.entries-compare { grid-template-columns:1fr 1fr; }
-  .entry { border:1px solid var(--border); border-radius:8px; padding:6px 8px; background:#fbf9f5; min-width:0; }
+  .entry { border:1px solid var(--border); border-radius:8px; padding:6px 8px; background:#fbf9f5; min-width:0; display:flex; flex-direction:column; justify-content:center; gap:3px; }
   .entry.cheapest { background:var(--cheap-bg); border-color:var(--cheap-border); }
-  .store-row { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:2px 6px; }
+  .store-row { display:flex; align-items:center; }
   .store { font-size:11px; font-weight:700; display:inline-flex; align-items:center; gap:4px; min-width:0; }
   .store-icon { width:14px; height:14px; object-fit:contain; border-radius:3px; vertical-align:middle; flex-shrink:0; }
-  .star { color:var(--accent2); font-size:9.5px; font-weight:700; }
-  .pct { font-size:10.5px; font-weight:700; color:#fff; background:var(--accent); border-radius:6px; padding:1px 6px; white-space:nowrap; }
-  .price-row { margin-top:3px; display:flex; align-items:baseline; gap:6px; flex-wrap:wrap; }
+  .pct { font-size:10px; font-weight:700; color:#fff; background:var(--accent); border-radius:6px; padding:1px 5px; white-space:nowrap; }
+  .price-row { display:flex; align-items:baseline; gap:5px; flex-wrap:wrap; }
   .old { font-size:11px; color:#a39a8d; text-decoration:line-through; }
   .new { font-size:14px; font-weight:800; color:var(--accent2); }
   footer { text-align:center; padding:26px 20px 46px; font-size:11px; color:var(--ink-soft); }
+  .footer-meta { font-size:13px; font-weight:600; color:var(--ink); margin:0 0 10px; }
 </style>
 </head>
 <body>
 <header>
   <h1>🛒 Каталог знижок тижня</h1>
-  <p>Сільпо · Novus · Фора · АТБ · станом на ${TODAY} · ${totalGroups} товарних груп, фото знайдено для ${withPhotos}</p>
 </header>
 <nav>${navHtml}</nav>
 ${sections}
 ${extraBlock}
 <footer>
-  Згенеровано локально скриптом discount-catalog-scraper (scrape.js + build.js) — реальні фото
-  качаються з сайтів магазинів напряму на цьому комп'ютері. Групування однакових товарів між
-  магазинами — евристичне (за схожістю назв), тому час від часу звір руками.
+  <p class="footer-meta">Сільпо · Novus · Фора · АТБ · станом на ${TODAY} · ${totalGroups} товарних груп, фото знайдено для ${withPhotos}</p>
+  Оновлюється щоп'ятниці автоматично (GitHub Actions) — реальні фото качаються напряму
+  з сайтів магазинів. Групування однакових товарів між магазинами — евристичне
+  (за схожістю назв), тому час від часу звір руками.
 </footer>
 </body>
 </html>`;
