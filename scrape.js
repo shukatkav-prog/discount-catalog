@@ -232,10 +232,15 @@ async function scrapeStore(browser, storeKey, storeCfg) {
   for (const pageEntry of storeCfg.pages) {
     pageIdx++;
     // сторінка може бути просто URL-рядком (mode = storeCfg.mode) або
-    // об'єктом { url, mode } — потрібно, коли частина сторінок магазину
-    // насправді на іншій платформі з іншою версткою (напр. novus.zakaz.ua).
+    // об'єктом { url, mode, expect } — mode потрібен, коли частина сторінок
+    // магазину насправді на іншій платформі з іншою версткою (напр.
+    // novus.zakaz.ua); expect — коли ця сторінка на сайті магазину є ОДНІЄЮ
+    // конкретною категорією (напр. "Чипси") — build.js довіряє цьому більше,
+    // ніж власному пошуку за ключовими словами в назві (який плутає, скажімо,
+    // чипси зі смаком курки з самою куркою).
     const url = typeof pageEntry === "string" ? pageEntry : pageEntry.url;
     const mode = typeof pageEntry === "string" ? storeCfg.mode : (pageEntry.mode || storeCfg.mode);
+    const expectCategory = typeof pageEntry === "string" ? null : (pageEntry.expect || null);
     const extractor = STORE_EXTRACTORS[mode];
     if (!extractor) {
       console.log(`  ! невідомий mode "${mode}" для ${url}, пропускаю`);
@@ -276,6 +281,7 @@ async function scrapeStore(browser, storeKey, storeCfg) {
       console.log(`  ${url} -> ${found.length} карток`);
       for (const item of found) {
         item.sourceUrl = url;
+        item.sourceCategory = expectCategory;
         results.push(item);
       }
     } catch (e) {
@@ -285,11 +291,16 @@ async function scrapeStore(browser, storeKey, storeCfg) {
     }
   }
 
-  // дедуп по (назва + нова ціна)
+  // дедуп по (назва + нова ціна). Один товар часто трапляється і на сторінці
+  // знижок (без відомої категорії), і на своїй сторінці категорії (з відомою) —
+  // лишаємо версію з відомою sourceCategory, якщо така є, а не першу-ліпшу.
   const dedup = new Map();
   for (const r of results) {
     const key = r.name + "|" + r.newPrice;
-    if (!dedup.has(key)) dedup.set(key, r);
+    const existing = dedup.get(key);
+    if (!existing || (!existing.sourceCategory && r.sourceCategory)) {
+      dedup.set(key, r);
+    }
   }
   const deduped = Array.from(dedup.values());
 

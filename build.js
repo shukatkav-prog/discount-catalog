@@ -130,7 +130,9 @@ for (const cat of EXTRA_CATEGORIES) byExtraCategory[cat.id] = [];
 // побутова хімія — реальні великі кластери, які інакше губились би мовчки).
 // Що не підійшло взагалі нікуди (декор, іграшки, канцтовари, батарейки тощо) —
 // саме це і викидаємо, а не всю решту одним смітником "Інше".
+const CATEGORY_IDS = new Set(CATEGORIES.map(c => c.id));
 let unmatchedCount = 0;
+let sourceOverrideCount = 0;
 for (const item of allItems) {
   if (!item.name || isExcluded(item.name)) continue;
   const entry = {
@@ -142,6 +144,18 @@ for (const item of allItems) {
     image: item.localImage || null,
     words: words(item.name),
   };
+  // Якщо товар зішкрябано зі сторінки, яка на сайті МАГАЗИНУ й так є однією
+  // конкретною категорією (напр. "Чипси"), довіряємо цьому більше, ніж
+  // власному пошуку за ключовими словами в назві — інакше "Чипси зі смаком
+  // курки" потрапляють у "Птицю" тільки тому, що в назві є слово "курка".
+  // sourceCategory виставляється тільки для сторінок з config.js, де category
+  // сайту однозначна (не для змішаних сторінок знижок/акцій).
+  if (item.sourceCategory && CATEGORY_IDS.has(item.sourceCategory)) {
+    const keywordCatId = categoryFor(item.name);
+    if (keywordCatId !== item.sourceCategory) sourceOverrideCount++;
+    byCategory[item.sourceCategory].push(entry);
+    continue;
+  }
   const catId = categoryFor(item.name);
   if (catId) {
     byCategory[catId].push(entry);
@@ -154,6 +168,7 @@ for (const item of allItems) {
   }
   unmatchedCount++;
 }
+console.log(`Категорія підтверджена/виправлена за сторінкою магазину (а не лише ключовими словами): ${sourceOverrideCount} товарів переставлено`);
 console.log(`Не підійшло під жодну категорію (основну чи додаткову) — у каталог не йде: ${unmatchedCount}`);
 
 // ---- групування схожих товарів різних магазинів у межах категорії ----
