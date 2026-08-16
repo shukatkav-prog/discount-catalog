@@ -213,7 +213,7 @@ for (const cat of EXTRA_CATEGORIES) extraGrouped[cat.id] = groupCategory(byExtra
 function esc(s) { return String(s).replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c])); }
 function money(v) { return v == null ? "—" : `${v} ₴`; }
 
-function renderEntry(e, cheapestStore, multi) {
+function renderEntry(e, cheapestStore, multi, groupName, groupImage) {
   // "найдешевше" має сенс лише якщо є з чим порівнювати — якщо товар знайдено
   // лише в одному магазині, зелену рамку не показуємо (порівняння не відбулось).
   // Саму рамку/фон достатньо, щоб позначити переможця — окремий текстовий
@@ -226,8 +226,9 @@ function renderEntry(e, cheapestStore, multi) {
   // pct-бейдж живе в price-row (поруч зі старою/новою ціною), а не в store-row
   // разом з назвою магазину — інакше в вузькій 2-колонковій сітці рядок з
   // назвою переносився через тісноту, і картки виходили різної висоти.
-  return `<div class="entry ${isCheap ? "cheapest" : ""}">
-    <div class="store-row"><span class="store">${icon}${esc(e.store)}</span></div>
+  // data-* атрибути читає script.js для списку покупок (додати/прибрати).
+  return `<div class="entry ${isCheap ? "cheapest" : ""}" data-store="${esc(e.store)}" data-name="${esc(groupName)}" data-price="${e.newPrice}" data-img="${esc(groupImage || "")}">
+    <div class="store-row"><span class="store">${icon}${esc(e.store)}</span><button class="add-btn" type="button" aria-label="Додати у список ${esc(e.store)}">+</button></div>
     <div class="price-row">${oldHtml}${pctHtml}<span class="new">${money(e.newPrice)}</span></div>
   </div>`;
 }
@@ -241,7 +242,7 @@ function renderGroup(g, catIcon) {
     : `<div class="thumb thumb-fallback"><span>${catIcon}</span></div>`;
   const entriesHtml = g.entries
     .sort((a, b) => (a.newPrice ?? 1e9) - (b.newPrice ?? 1e9))
-    .map(e => renderEntry(e, g.cheapestStore, multi)).join("\n");
+    .map(e => renderEntry(e, g.cheapestStore, multi, g.displayName, g.image)).join("\n");
   return `<div class="card">
     ${thumb}
     <div class="card-body">
@@ -300,6 +301,139 @@ const navHtml = CATEGORIES.map(cat => `<a href="#${cat.id}">${CAT_ICON[cat.id]} 
 const totalGroups = Object.values(grouped).reduce((s, g) => s + g.length, 0);
 const withPhotos = Object.values(grouped).reduce((s, g) => s + g.filter(x => x.image).length, 0);
 
+// Клієнтський JS для списку покупок (додати товар / переглянути по магазинах).
+// Ніяких залежностей, зберігається в localStorage браузера — сайт статичний,
+// сервера немає. Написано без backtick-рядків (щоб не конфліктувати з
+// backtick-шаблоном самого build.js, у який цей рядок вставляється як є).
+const LIST_SCRIPT = [
+"(function(){",
+"  var LS_KEY = 'discountCatalogList_v1';",
+"  var TODAY = " + JSON.stringify(TODAY) + ";",
+"  var STORES = ['Сільпо','АТБ','Novus','Фора'];",
+"  function loadState(){",
+"    try {",
+"      var raw = localStorage.getItem(LS_KEY);",
+"      if (!raw) return { date: TODAY, items: {} };",
+"      var parsed = JSON.parse(raw);",
+"      if (!parsed.items) parsed.items = {};",
+"      return parsed;",
+"    } catch(e) { return { date: TODAY, items: {} }; }",
+"  }",
+"  function saveState(){ try { localStorage.setItem(LS_KEY, JSON.stringify(state)); } catch(e) {} }",
+"  var state = loadState();",
+"  var activeTab = STORES[0];",
+"  function keyFor(store, name){ return store + '__' + name; }",
+"  function esc(s){ return String(s).replace(/[&<>\"']/g, function(c){ if (c==='&') return '&amp;'; if (c==='<') return '&lt;'; if (c==='>') return '&gt;'; if (c==='\"') return '&quot;'; return '&#39;'; }); }",
+"  function toggleItem(entryEl){",
+"    var store = entryEl.getAttribute('data-store');",
+"    var name = entryEl.getAttribute('data-name');",
+"    var price = parseFloat(entryEl.getAttribute('data-price'));",
+"    var img = entryEl.getAttribute('data-img') || '';",
+"    var key = keyFor(store, name);",
+"    if (state.items[key]) { delete state.items[key]; }",
+"    else { state.items[key] = { store: store, name: name, price: price, img: img, picked: false }; }",
+"    state.date = TODAY;",
+"    saveState();",
+"    renderAll();",
+"  }",
+"  function removeItem(key){ delete state.items[key]; saveState(); renderAll(); }",
+"  function togglePicked(key){ if (state.items[key]) { state.items[key].picked = !state.items[key].picked; saveState(); renderListOverlay(); } }",
+"  function clearStoreList(store){",
+"    Object.keys(state.items).forEach(function(k){ if (state.items[k].store === store) delete state.items[k]; });",
+"    saveState(); renderAll();",
+"  }",
+"  function renderButtons(){",
+"    var entries = document.querySelectorAll('.entry');",
+"    for (var i=0;i<entries.length;i++){",
+"      var entryEl = entries[i];",
+"      var store = entryEl.getAttribute('data-store');",
+"      var name = entryEl.getAttribute('data-name');",
+"      var btn = entryEl.querySelector('.add-btn');",
+"      if (!btn) continue;",
+"      var active = !!state.items[keyFor(store, name)];",
+"      btn.className = 'add-btn' + (active ? ' added' : '');",
+"      btn.setAttribute('aria-label', (active ? 'Прибрати зі списку ' : 'Додати у список ') + store);",
+"      btn.textContent = active ? '✓' : '+';",
+"    }",
+"  }",
+"  function renderFab(){",
+"    var counts = {}, total = 0;",
+"    Object.keys(state.items).forEach(function(k){ var it = state.items[k]; counts[it.store] = (counts[it.store]||0)+1; total++; });",
+"    var fab = document.getElementById('list-fab');",
+"    if (!fab) return;",
+"    if (total === 0) { fab.style.display = 'none'; return; }",
+"    fab.style.display = 'flex';",
+"    var parts = [];",
+"    STORES.forEach(function(s){ if (counts[s]) parts.push(s + ': ' + counts[s]); });",
+"    fab.querySelector('.fab-counts').textContent = parts.join(' · ');",
+"  }",
+"  function renderAll(){ renderButtons(); renderFab(); if (document.getElementById('list-overlay').className.indexOf('open') !== -1) renderListOverlay(); }",
+"  function openOverlay(){ document.getElementById('list-overlay').className = 'open'; renderListOverlay(); document.body.style.overflow='hidden'; }",
+"  function closeOverlay(){ document.getElementById('list-overlay').className = ''; document.body.style.overflow=''; }",
+"  function switchTab(store){ activeTab = store; renderListOverlay(); }",
+"  function renderListOverlay(){",
+"    var tabsEl = document.getElementById('list-tabs');",
+"    var tabsHtml = '';",
+"    STORES.forEach(function(s){",
+"      var count = 0;",
+"      Object.keys(state.items).forEach(function(k){ if (state.items[k].store === s) count++; });",
+"      tabsHtml += '<button type=\"button\" class=\"list-tab' + (s===activeTab?' active':'') + '\" data-store=\"' + esc(s) + '\">' + esc(s) + ' (' + count + ')</button>';",
+"    });",
+"    tabsEl.innerHTML = tabsHtml;",
+"    var panel = document.getElementById('list-panel');",
+"    var keys = Object.keys(state.items).filter(function(k){ return state.items[k].store === activeTab; });",
+"    if (!keys.length) { panel.innerHTML = '<p class=\"list-empty\">Список порожній. Натисни «+» біля ціни в каталозі, щоб додати товар.</p>'; return; }",
+"    var total = 0, rows = '';",
+"    keys.forEach(function(key){",
+"      var it = state.items[key];",
+"      total += it.price;",
+"      rows += '<div class=\"list-item-row' + (it.picked?' picked':'') + '\">' +",
+"        '<button type=\"button\" class=\"pick-btn\" data-key=\"' + esc(key) + '\" aria-label=\"Позначити взято\">' + (it.picked?'☑':'☐') + '</button>' +",
+"        (it.img ? '<img class=\"list-item-img\" src=\"' + esc(it.img) + '\" alt=\"\">' : '') +",
+"        '<span class=\"list-item-name\">' + esc(it.name) + '</span>' +",
+"        '<span class=\"list-item-price\">' + it.price + ' ₴</span>' +",
+"        '<button type=\"button\" class=\"remove-btn\" data-key=\"' + esc(key) + '\" aria-label=\"Прибрати\">×</button>' +",
+"        '</div>';",
+"    });",
+"    panel.innerHTML = rows +",
+"      '<div class=\"list-total\">Разом у ' + esc(activeTab) + ': ' + total.toFixed(2) + ' ₴</div>' +",
+"      '<button type=\"button\" class=\"clear-store-btn\" data-store=\"' + esc(activeTab) + '\">Очистити список ' + esc(activeTab) + '</button>';",
+"  }",
+"  function checkStale(){",
+"    if (state.date !== TODAY && Object.keys(state.items).length > 0) {",
+"      var banner = document.getElementById('stale-banner');",
+"      banner.querySelector('.stale-date').textContent = state.date;",
+"      banner.style.display = 'flex';",
+"    }",
+"  }",
+"  function dismissStale(clearIt){",
+"    if (clearIt) { state = { date: TODAY, items: {} }; }",
+"    else { state.date = TODAY; }",
+"    saveState(); renderAll();",
+"    document.getElementById('stale-banner').style.display = 'none';",
+"  }",
+"  document.addEventListener('click', function(ev){",
+"    var addBtn = ev.target.closest('.add-btn');",
+"    if (addBtn) { toggleItem(addBtn.closest('.entry')); return; }",
+"    if (ev.target.closest('#list-fab')) { openOverlay(); return; }",
+"    if (ev.target.closest('.list-close')) { closeOverlay(); return; }",
+"    if (ev.target === document.getElementById('list-overlay')) { closeOverlay(); return; }",
+"    var tab = ev.target.closest('.list-tab');",
+"    if (tab) { switchTab(tab.getAttribute('data-store')); return; }",
+"    var pickBtn = ev.target.closest('.pick-btn');",
+"    if (pickBtn) { togglePicked(pickBtn.getAttribute('data-key')); return; }",
+"    var removeBtn = ev.target.closest('.remove-btn');",
+"    if (removeBtn) { removeItem(removeBtn.getAttribute('data-key')); return; }",
+"    var clearBtn = ev.target.closest('.clear-store-btn');",
+"    if (clearBtn) { clearStoreList(clearBtn.getAttribute('data-store')); return; }",
+"    if (ev.target.closest('.stale-keep')) { dismissStale(false); return; }",
+"    if (ev.target.closest('.stale-clear')) { dismissStale(true); return; }",
+"  });",
+"  renderAll();",
+"  checkStale();",
+"})();"
+].join("\n");
+
 const html = `<!DOCTYPE html>
 <html lang="uk">
 <head>
@@ -346,14 +480,49 @@ const html = `<!DOCTYPE html>
   .entries.entries-compare { grid-template-columns:1fr 1fr; }
   .entry { border:1px solid var(--border); border-radius:8px; padding:6px 8px; background:#fbf9f5; min-width:0; display:flex; flex-direction:column; justify-content:center; gap:3px; }
   .entry.cheapest { background:var(--cheap-bg); border-color:var(--cheap-border); }
-  .store-row { display:flex; align-items:center; }
+  .store-row { display:flex; align-items:center; justify-content:space-between; gap:6px; }
   .store { font-size:11px; font-weight:700; display:inline-flex; align-items:center; gap:4px; min-width:0; }
   .store-icon { width:14px; height:14px; object-fit:contain; border-radius:3px; vertical-align:middle; flex-shrink:0; }
   .pct { font-size:10px; font-weight:700; color:#fff; background:var(--accent); border-radius:6px; padding:1px 5px; white-space:nowrap; }
   .price-row { display:flex; align-items:baseline; gap:5px; flex-wrap:wrap; }
   .old { font-size:11px; color:#a39a8d; text-decoration:line-through; }
   .new { font-size:14px; font-weight:800; color:var(--accent2); }
-  footer { text-align:center; padding:26px 20px 46px; font-size:11px; color:var(--ink-soft); }
+
+  /* ---- список покупок (додати товар / переглянути по магазинах) ---- */
+  .add-btn { flex-shrink:0; width:22px; height:22px; border-radius:50%; border:1px solid var(--border); background:#fff; color:var(--accent2); font-size:15px; font-weight:700; line-height:1; display:flex; align-items:center; justify-content:center; cursor:pointer; padding:0; }
+  .add-btn:hover { background:var(--cheap-bg); border-color:var(--cheap-border); }
+  .add-btn.added { background:var(--accent2); border-color:var(--accent2); color:#fff; }
+  #stale-banner { display:none; position:sticky; top:44px; z-index:9; background:#fff6e6; border-bottom:1px solid var(--gold); padding:8px 14px; font-size:12.5px; color:var(--ink); align-items:center; justify-content:center; gap:10px; flex-wrap:wrap; text-align:center; }
+  #stale-banner button { border:1px solid var(--border); background:#fff; border-radius:16px; padding:5px 12px; font-size:12px; cursor:pointer; }
+  #stale-banner .stale-clear { border-color:var(--accent); color:var(--accent); }
+  #list-fab { display:none; position:fixed; left:12px; right:12px; bottom:12px; z-index:20; max-width:480px; margin:0 auto; background:var(--ink); color:#fff; border-radius:16px; padding:12px 16px; align-items:center; justify-content:space-between; gap:10px; cursor:pointer; box-shadow:0 6px 20px rgba(0,0,0,.25); border:none; font-family:inherit; text-align:left; }
+  #list-fab .fab-title { font-size:12px; font-weight:700; }
+  #list-fab .fab-counts { font-size:11px; color:#d8cdbd; }
+  #list-fab .fab-arrow { font-size:18px; }
+  #list-overlay { display:none; position:fixed; inset:0; z-index:30; background:rgba(20,17,14,.55); align-items:flex-end; justify-content:center; }
+  #list-overlay.open { display:flex; }
+  .list-modal { background:var(--bg); width:100%; max-width:560px; max-height:88vh; border-radius:18px 18px 0 0; display:flex; flex-direction:column; overflow:hidden; }
+  @media (min-width:640px) { #list-overlay { align-items:center; } .list-modal { border-radius:18px; max-height:80vh; } }
+  .list-modal-head { display:flex; align-items:center; justify-content:space-between; padding:14px 16px 0; }
+  .list-modal-head h3 { margin:0; font-size:17px; font-family:var(--font-display); }
+  .list-close { border:none; background:var(--card-bg); border:1px solid var(--border); width:32px; height:32px; border-radius:50%; font-size:16px; cursor:pointer; }
+  #list-tabs { display:flex; gap:6px; padding:12px 16px 0; overflow-x:auto; }
+  .list-tab { flex:0 0 auto; border:1px solid var(--border); background:var(--card-bg); border-radius:16px; padding:8px 13px; font-size:12.5px; cursor:pointer; color:var(--ink); }
+  .list-tab.active { background:var(--ink); color:#fff; border-color:var(--ink); }
+  #list-panel { flex:1; overflow-y:auto; padding:14px 16px 18px; }
+  .list-empty { text-align:center; color:var(--ink-soft); font-size:13px; padding:30px 10px; }
+  .list-item-row { display:flex; align-items:center; gap:10px; padding:9px 0; border-bottom:1px solid var(--border); }
+  .list-item-row.picked .list-item-name { text-decoration:line-through; color:var(--ink-soft); }
+  .pick-btn { flex-shrink:0; width:26px; height:26px; border-radius:6px; border:1px solid var(--border); background:#fff; font-size:14px; cursor:pointer; display:flex; align-items:center; justify-content:center; padding:0; }
+  .list-item-img { width:34px; height:34px; object-fit:contain; border-radius:6px; background:#fff; border:1px solid var(--border); flex-shrink:0; }
+  .list-item-name { flex:1; font-size:13px; min-width:0; }
+  .list-item-price { font-size:13px; font-weight:700; color:var(--accent2); white-space:nowrap; }
+  .remove-btn { flex-shrink:0; width:24px; height:24px; border-radius:50%; border:none; background:transparent; color:var(--ink-soft); font-size:16px; cursor:pointer; }
+  .remove-btn:hover { color:var(--accent); }
+  .list-total { text-align:right; font-size:14px; font-weight:800; padding:12px 0 4px; color:var(--ink); }
+  .clear-store-btn { width:100%; margin-top:8px; padding:9px; border-radius:10px; border:1px solid var(--border); background:#fff; color:var(--ink-soft); font-size:12.5px; cursor:pointer; }
+
+  footer { text-align:center; padding:26px 20px 86px; font-size:11px; color:var(--ink-soft); }
   .footer-meta { font-size:13px; font-weight:600; color:var(--ink); margin:0 0 10px; }
 </style>
 </head>
@@ -362,6 +531,11 @@ const html = `<!DOCTYPE html>
   <h1>🛒 Каталог знижок тижня</h1>
 </header>
 <nav>${navHtml}</nav>
+<div id="stale-banner">
+  <span>Список покупок збережено <b class="stale-date"></b> — товари могли змінитися.</span>
+  <button class="stale-keep" type="button">Лишити список</button>
+  <button class="stale-clear" type="button">Почати новий</button>
+</div>
 ${sections}
 ${extraBlock}
 <footer>
@@ -370,6 +544,24 @@ ${extraBlock}
   з сайтів магазинів. Групування однакових товарів між магазинами — евристичне
   (за схожістю назв), тому час від часу звір руками.
 </footer>
+
+<button id="list-fab" type="button">
+  <span><span class="fab-title">🛒 Список покупок</span><br><span class="fab-counts"></span></span>
+  <span class="fab-arrow">›</span>
+</button>
+
+<div id="list-overlay">
+  <div class="list-modal">
+    <div class="list-modal-head">
+      <h3>Список покупок</h3>
+      <button class="list-close" type="button" aria-label="Закрити">×</button>
+    </div>
+    <div id="list-tabs"></div>
+    <div id="list-panel"></div>
+  </div>
+</div>
+
+<script>${LIST_SCRIPT}</script>
 </body>
 </html>`;
 
