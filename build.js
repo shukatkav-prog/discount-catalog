@@ -10,6 +10,22 @@ const ROOT = __dirname;
 const DATA_DIR = path.join(ROOT, "data");
 const TODAY = new Date().toISOString().slice(0, 10);
 
+// маленькі іконки магазинів (assets/) — вбудовуємо як base64, щоб не тягнути
+// окремі файли й не залежати від живих сайтів у самому HTML.
+const STORE_ICON_FILES = {
+  "Сільпо": "icon-silpo-32.png",
+  "АТБ": "icon-atb-32.png",
+  "Novus": "icon-novus-32.png",
+  "Фора": "icon-fora-32.png",
+};
+const STORE_ICON = {};
+for (const [label, file] of Object.entries(STORE_ICON_FILES)) {
+  const p = path.join(ROOT, "assets", file);
+  if (fs.existsSync(p)) {
+    STORE_ICON[label] = `data:image/png;base64,${fs.readFileSync(p).toString("base64")}`;
+  }
+}
+
 function loadStore(key) {
   const p = path.join(DATA_DIR, `${key}.json`);
   if (!fs.existsSync(p)) return [];
@@ -182,13 +198,16 @@ for (const cat of EXTRA_CATEGORIES) extraGrouped[cat.id] = groupCategory(byExtra
 function esc(s) { return String(s).replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c])); }
 function money(v) { return v == null ? "—" : `${v} ₴`; }
 
-function renderEntry(e, cheapestStore) {
-  const isCheap = e.store === cheapestStore && cheapestStore;
+function renderEntry(e, cheapestStore, multi) {
+  // "найдешевше" має сенс лише якщо є з чим порівнювати — якщо товар знайдено
+  // лише в одному магазині, зірку не показуємо (порівняння не відбулось).
+  const isCheap = multi && e.store === cheapestStore && cheapestStore;
   const pctHtml = e.pct != null ? `<span class="pct">-${e.pct}%</span>` : "";
   const oldHtml = e.oldPrice ? `<span class="old">${money(e.oldPrice)}</span>` : "";
   const star = isCheap ? ` <span class="star">★ найдешевше</span>` : "";
+  const icon = STORE_ICON[e.store] ? `<img class="store-icon" src="${STORE_ICON[e.store]}" alt="">` : "";
   return `<div class="entry ${isCheap ? "cheapest" : ""}">
-    <div class="store-row"><span class="store">${esc(e.store)}${star}</span>${pctHtml}</div>
+    <div class="store-row"><span class="store">${icon}${esc(e.store)}${star}</span>${pctHtml}</div>
     <div class="price-row">${oldHtml}<span class="new">${money(e.newPrice)}</span></div>
   </div>`;
 }
@@ -202,7 +221,7 @@ function renderGroup(g, catIcon) {
     : `<div class="thumb thumb-fallback"><span>${catIcon}</span></div>`;
   const entriesHtml = g.entries
     .sort((a, b) => (a.newPrice ?? 1e9) - (b.newPrice ?? 1e9))
-    .map(e => renderEntry(e, g.cheapestStore)).join("\n");
+    .map(e => renderEntry(e, g.cheapestStore, multi)).join("\n");
   return `<div class="card">
     ${thumb}
     <div class="card-body">
@@ -283,7 +302,8 @@ const html = `<!DOCTYPE html>
   .extra-divider { max-width:1180px; margin:34px auto 4px; padding:0 14px; display:flex; align-items:center; gap:10px; color:var(--ink-soft); font-size:12px; text-transform:uppercase; letter-spacing:.04em; }
   .extra-divider::before, .extra-divider::after { content:""; flex:1; height:1px; background:var(--border); }
   .extra-category h2 { border-bottom-color:var(--ink-soft); }
-  .nav-extra { opacity:.75; }
+  .nav-extra { color:#000; background:#dedad2; border-color:#c7c2b6; }
+  .nav-extra:hover { background:#c7c2b6; color:#000; }
   .count { margin-left:auto; font-size:12px; font-weight:400; color:var(--ink-soft); background:var(--bg); border-radius:10px; padding:2px 9px; }
   .cat-note { font-size:12px; color:var(--ink-soft); background:#fff6e6; border:1px dashed var(--gold); border-radius:8px; padding:8px 12px; margin:8px 0 14px; }
   .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(210px,1fr)); gap:12px; }
@@ -298,7 +318,8 @@ const html = `<!DOCTYPE html>
   .entry { border:1px solid var(--border); border-radius:8px; padding:6px 9px; background:#fbf9f5; }
   .entry.cheapest { background:var(--cheap-bg); border-color:var(--cheap-border); }
   .store-row { display:flex; justify-content:space-between; align-items:center; }
-  .store { font-size:11px; font-weight:700; }
+  .store { font-size:11px; font-weight:700; display:inline-flex; align-items:center; gap:4px; }
+  .store-icon { width:14px; height:14px; object-fit:contain; border-radius:3px; vertical-align:middle; }
   .star { color:var(--accent2); font-size:9.5px; font-weight:700; }
   .pct { font-size:10.5px; font-weight:700; color:#fff; background:var(--accent); border-radius:6px; padding:1px 6px; }
   .price-row { margin-top:3px; display:flex; align-items:baseline; gap:7px; }
