@@ -45,15 +45,6 @@
     "localImage": "images/atb/маквир-400г-своя-лінія-casa-della-pasta-вермішель-85af6135.jpg"
   },
   {
-    "name": "Мак.вир. 400 г Своя Лінія Casa Della Pasta Спіралі м/уп",
-    "oldPrice": 47.5,
-    "newPrice": 28.5,
-    "img": "https://src.zakaz.atbmarket.com/cache/photos/99779/catalog_list_99779.png",
-    "sourceUrl": "https://www.atbmarket.com/catalog/348-makaronni-virobi",
-    "sourceCategory": "pasta",
-    "localImage": "images/atb/маквир-400-г-своя-лінія-casa-della-pasta-спіралі-м-уп-d4d9fcef.png"
-  },
-  {
     "name": "Мак.вир. 400г Своя Лінія Casa della pasta труб. довг. Соломка",
     "oldPrice": 47.5,
     "newPrice": 28.5,
@@ -79,6 +70,15 @@
     "sourceUrl": "https://www.atbmarket.com/catalog/348-makaronni-virobi",
     "sourceCategory": "pasta",
     "localImage": "images/atb/маквир-400-г-своя-лінія-casa-della-pasta-пера-м-уп-c6f2d147.jpg"
+  },
+  {
+    "name": "Мак.вир. 400 г Своя Лінія Casa Della Pasta Спіралі м/уп",
+    "oldPrice": 47.5,
+    "newPrice": 28.5,
+    "img": "https://src.zakaz.atbmarket.com/cache/photos/99779/catalog_list_99779.png",
+    "sourceUrl": "https://www.atbmarket.com/catalog/348-makaronni-virobi",
+    "sourceCategory": "pasta",
+    "localImage": "images/atb/маквир-400-г-своя-лінія-casa-della-pasta-спіралі-м-уп-d4d9fcef.png"
   },
   {
     "name": "Мак.вир. 400г Своя Лінія Casa Della Pasta Витки",
@@ -207,15 +207,6 @@
     "localImage": "images/atb/морська-капуста-05-кг-розумний-вибір-ecbc5550.jpg"
   },
   {
-    "name": "Шоколад 32г Millenmium пористий молочний та білий",
-    "oldPrice": 24.3,
-    "newPrice": 15.9,
-    "img": "https://src.zakaz.atbmarket.com/cache/photos/2157/catalog_list_2157.jpg",
-    "sourceUrl": "https://www.atbmarket.com/promo/sale_tovari?page=1",
-    "sourceCategory": null,
-    "localImage": "images/atb/шоколад-32г-millenmium-пористий-молочний-та-білий-77e07bd5.jpg"
-  },
-  {
     "name": "Шоколад 32г Millenmium пористий молочний",
     "oldPrice": 24.3,
     "newPrice": 15.9,
@@ -223,6 +214,15 @@
     "sourceUrl": "https://www.atbmarket.com/promo/sale_tovari?page=1",
     "sourceCategory": null,
     "localImage": "images/atb/шоколад-32г-millenmium-пористий-молочний-fa707b71.jpg"
+  },
+  {
+    "name": "Шоколад 32г Millenmium пористий молочний та білий",
+    "oldPrice": 24.3,
+    "newPrice": 15.9,
+    "img": "https://src.zakaz.atbmarket.com/cache/photos/2157/catalog_list_2157.jpg",
+    "sourceUrl": "https://www.atbmarket.com/promo/sale_tovari?page=1",
+    "sourceCategory": null,
+    "localImage": "images/atb/шоколад-32г-millenmium-пористий-молочний-та-білий-77e07bd5.jpg"
   },
   {
     "name": "Кaвa 70г Jacobs Barista Americano розчиннa сублімовaнa",
@@ -1453,8 +1453,8 @@
     "oldPrice": 24.9,
     "newPrice": 18.6,
     "img": "https://src.zakaz.atbmarket.com/cache/photos/72351/catalog_list_72351.jpg",
-    "sourceUrl": "https://www.atbmarket.com/catalog/294-napoi-bezalkogol-ni",
-    "sourceCategory": "drinks",
+    "sourceUrl": "https://www.atbmarket.com/promo/sale_tovari?page=5",
+    "sourceCategory": null,
     "localImage": "images/atb/холодний-чай-05-л-своя-лінія-зелений-зі-смаком-саусеп-debbed7e.jpg"
   },
   {
@@ -1588,8 +1588,8 @@
     "oldPrice": 47.9,
     "newPrice": 35.9,
     "img": "https://src.zakaz.atbmarket.com/cache/photos/101305/catalog_list_101305.jpg",
-    "sourceUrl": "https://www.atbmarket.com/promo/sale_tovari?page=5",
-    "sourceCategory": null,
+    "sourceUrl": "https://www.atbmarket.com/catalog/294-napoi-bezalkogol-ni",
+    "sourceCategory": "drinks",
     "localImage": "images/atb/напій-2-л-день-у-день-зі-смаком-персика-та-малини-пет-f2b66796.jpg"
   },
   {
@@ -2097,15 +2097,6 @@
     "localImage": "images/atb/сир-мякий-120-г-president-камамбер-60-e6fab21b.jpg"
   },
   {
-    "name": "Сир вершковий 150г Hochland Almette без лактози 65% п/стакан Польща",
-    "oldPrice": 87.9,
-    "newPrice": 59.9,
-    "img": "https://src.zakaz.atbmarket.com/cache/photos/113611/catalog_list_113611.jpg",
-    "sourceUrl": "https://www.atbmarket.com/catalog/439-siri-plavleni",
-    "sourceCategory": "cheese",
-    "localImage": "images/atb/сир-вершковий-150г-hochland-almette-без-лактози-65-п-стакан--53e31b32.jpg"
-  },
-  {
     "name": "Сир вершковий 150г Hochland Almette 60% п/стакан Польща",
     "oldPrice": 87.9,
     "newPrice": 59.9,
@@ -2383,6 +2374,15 @@
     "sourceUrl": "https://www.atbmarket.com/catalog/439-siri-plavleni",
     "sourceCategory": "cheese",
     "localImage": "images/atb/сир-плавлений-150-г-president-з-сиром-мааздам-45-п-стакан-7652d15e.jpg"
+  },
+  {
+    "name": "Крем-сир 170 г Ферма Вершковий 50% п/ванночка",
+    "oldPrice": null,
+    "newPrice": 85.3,
+    "img": "https://src.zakaz.atbmarket.com/cache/photos/91373/catalog_list_91373.jpg",
+    "sourceUrl": "https://www.atbmarket.com/catalog/439-siri-plavleni",
+    "sourceCategory": "cheese",
+    "localImage": "images/atb/крем-сир-170-г-ферма-вершковий-50-п-ванночка-b16c719d.jpg"
   },
   {
     "name": "Олія 0,5л Pietro Coricelli з виноградних кісточок",
@@ -3456,15 +3456,6 @@
     "localImage": "images/atb/філе-куряче-су-від-бащинський-підсолене-охолоджене-300-г-00ce26ea.jpg"
   },
   {
-    "name": "Грудинка Своя лінія Особлива",
-    "oldPrice": 512.65,
-    "newPrice": 347.89,
-    "img": "https://src.zakaz.atbmarket.com/cache/photos/654/catalog_list_654.jpg",
-    "sourceUrl": "https://www.atbmarket.com/catalog/narizki-ta-delikatesi",
-    "sourceCategory": null,
-    "localImage": "images/atb/грудинка-своя-лінія-особлива-8c0aaa67.jpg"
-  },
-  {
     "name": "Грудинка 120 г Добров Особлива к/в нарізка вак/упак",
     "oldPrice": 65.9,
     "newPrice": 54.4,
@@ -3643,6 +3634,15 @@
     "sourceUrl": "https://www.atbmarket.com/catalog/narizki-ta-delikatesi",
     "sourceCategory": null,
     "localImage": "images/atb/балик-добров-дарницький-5d1d7bfa.jpg"
+  },
+  {
+    "name": "Грудинка Своя лінія Особлива",
+    "oldPrice": 512.65,
+    "newPrice": 347.89,
+    "img": "https://src.zakaz.atbmarket.com/cache/photos/654/catalog_list_654.jpg",
+    "sourceUrl": "https://www.atbmarket.com/catalog/narizki-ta-delikatesi",
+    "sourceCategory": null,
+    "localImage": "images/atb/грудинка-своя-лінія-особлива-8c0aaa67.jpg"
   },
   {
     "name": "Масляна 150г Своя Лінія філе-шматок зі шкірою х/к вак/упак",
@@ -3951,15 +3951,6 @@
     "localImage": "images/atb/камбала-norven-тушка-6fad7c39.jpg"
   },
   {
-    "name": "Лящ Аris",
-    "oldPrice": null,
-    "newPrice": 293.69,
-    "img": "https://src.zakaz.atbmarket.com/cache/photos/2140/catalog_list_2140.jpg",
-    "sourceUrl": "https://www.atbmarket.com/catalog/riba",
-    "sourceCategory": "fish",
-    "localImage": "images/atb/лящ-аris-d201b786.jpg"
-  },
-  {
     "name": "Набір для супу із червоної риби",
     "oldPrice": null,
     "newPrice": 107.99,
@@ -3969,6 +3960,15 @@
     "localImage": "images/atb/набір-для-супу-із-червоної-риби-c9e2d1c6.jpg"
   },
   {
+    "name": "Сьомга Master Fish охолоджена філе-шматок н/ш п/конт",
+    "oldPrice": null,
+    "newPrice": 899.99,
+    "img": "https://src.zakaz.atbmarket.com/cache/photos/117841/catalog_list_117841.jpg",
+    "sourceUrl": "https://www.atbmarket.com/catalog/riba",
+    "sourceCategory": "fish",
+    "localImage": "images/atb/сьомга-master-fish-охолоджена-філе-шматок-н-ш-п-конт-44b8fbd2.jpg"
+  },
+  {
     "name": "М'ясо креветки 400 г Своя лінія варено-морожене глазуроване",
     "oldPrice": 236.3,
     "newPrice": 176.9,
@@ -3976,15 +3976,6 @@
     "sourceUrl": "https://www.atbmarket.com/catalog/moreprodukti",
     "sourceCategory": "fish",
     "localImage": "images/atb/мясо-креветки-400-г-своя-лінія-варено-морожене-глазуроване-4e666cae.jpg"
-  },
-  {
-    "name": "М'ясо мідії 170г Norven охолоджeні вaрeні п/конт",
-    "oldPrice": 105.9,
-    "newPrice": 95.3,
-    "img": "https://src.zakaz.atbmarket.com/cache/photos/117835/catalog_list_117835.jpg",
-    "sourceUrl": "https://www.atbmarket.com/catalog/moreprodukti",
-    "sourceCategory": "fish",
-    "localImage": "images/atb/мясо-мідії-170г-norven-охолоджeні-вaрeні-п-конт-8878c71b.jpg"
   },
   {
     "name": "Креветка 230 г Norven ціла охолоджена варена п/конт",
@@ -4147,6 +4138,15 @@
     "sourceUrl": "https://www.atbmarket.com/catalog/moreprodukti",
     "sourceCategory": "fish",
     "localImage": "images/atb/котлети-400-г-master-fish-рибні-з-червоної-риби-смажені-замо-8bf46b9a.jpg"
+  },
+  {
+    "name": "М'ясо мідії 170г Norven охолоджeні вaрeні п/конт",
+    "oldPrice": 105.9,
+    "newPrice": 95.3,
+    "img": "https://src.zakaz.atbmarket.com/cache/photos/117835/catalog_list_117835.jpg",
+    "sourceUrl": "https://www.atbmarket.com/catalog/moreprodukti",
+    "sourceCategory": "fish",
+    "localImage": "images/atb/мясо-мідії-170г-norven-охолоджeні-вaрeні-п-конт-8878c71b.jpg"
   },
   {
     "name": "Печінка куряча Наша Ряба охолоджена 700 г",
@@ -6417,13 +6417,13 @@
     "localImage": "images/atb/чипси-200г-своя-лінія-хвилясті-картопляні-зі-смаком-крилець--07ef86ea.png"
   },
   {
-    "name": "Грінки 125 г Flint житні зі смаком томату Спайс",
+    "name": "Арахіс 120 г Своя Лінія смажений з сіллю м/уп",
     "oldPrice": null,
-    "newPrice": 37.9,
-    "img": "https://src.zakaz.atbmarket.com/cache/photos/84021/catalog_list_84021.jpg",
+    "newPrice": 40.3,
+    "img": "https://src.zakaz.atbmarket.com/cache/photos/76155/catalog_list_76155.jpg",
     "sourceUrl": "https://www.atbmarket.com/catalog/cipsi-sneki",
     "sourceCategory": "snacks",
-    "localImage": "images/atb/грінки-125-г-flint-житні-зі-смаком-томату-спайс-7908b74d.jpg"
+    "localImage": "images/atb/арахіс-120-г-своя-лінія-смажений-з-сіллю-м-уп-431dfc06.jpg"
   },
   {
     "name": "Крекер 400г Своя лінія Ніжний",
@@ -6966,15 +6966,6 @@
     "localImage": "images/atb/цукерки-своя-лінія-чарівний-віночок-вагові-7212d98d.jpg"
   },
   {
-    "name": "Цукерки Своя Лінія Cocos Paradise вагові",
-    "oldPrice": 239.9,
-    "newPrice": 179.9,
-    "img": "https://src.zakaz.atbmarket.com/cache/photos/51271/catalog_list_51271.jpg",
-    "sourceUrl": "https://www.atbmarket.com/catalog/321-tsukerki",
-    "sourceCategory": "sweets",
-    "localImage": "images/atb/цукерки-своя-лінія-cocos-paradise-вагові-82d92a74.jpg"
-  },
-  {
     "name": "Цукерки Желе 190 г Goplana зі смаком апельсину/ зі смаком вишні покриті шоколадною глазур'ю к/уп",
     "oldPrice": 115.5,
     "newPrice": 86.7,
@@ -7182,6 +7173,15 @@
     "localImage": "images/atb/карамeль-11-г-chupa-chups-фруктoва-асoртi-d9c52e82.jpg"
   },
   {
+    "name": "Цукерки 125 г Любімов молочний шоколад",
+    "oldPrice": null,
+    "newPrice": 123.6,
+    "img": "https://src.zakaz.atbmarket.com/cache/photos/3412/catalog_list_3412.jpg",
+    "sourceUrl": "https://www.atbmarket.com/catalog/321-tsukerki",
+    "sourceCategory": "sweets",
+    "localImage": "images/atb/цукерки-125-г-любімов-молочний-шоколад-bd06c39b.jpg"
+  },
+  {
     "name": "Торт 130 г Festory оригінальний Чізкейк Нью-Йорк",
     "oldPrice": 67.4,
     "newPrice": 55.4,
@@ -7200,15 +7200,6 @@
     "localImage": "images/atb/тістечкo-360-г-кбкк-заварне-з-кремoм-5c280c91.jpg"
   },
   {
-    "name": "Тоpт 450г TARTA повітpяно-аpахіcовий Гpильяжний De Lux п/уп",
-    "oldPrice": 342.6,
-    "newPrice": 304.3,
-    "img": "https://src.zakaz.atbmarket.com/cache/photos/91445/catalog_list_91445.jpg",
-    "sourceUrl": "https://www.atbmarket.com/catalog/351-torti-i-tistechka",
-    "sourceCategory": "sweets",
-    "localImage": "images/atb/тоpт-450г-tarta-повітpяно-аpахіcовий-гpильяжний-de-lux-п-уп-bb06e977.jpg"
-  },
-  {
     "name": "Торт 115г Вацак Red Velvet  к/уп",
     "oldPrice": null,
     "newPrice": 50.7,
@@ -7225,15 +7216,6 @@
     "sourceUrl": "https://www.atbmarket.com/catalog/351-torti-i-tistechka",
     "sourceCategory": "sweets",
     "localImage": "images/atb/тістечко-60-г-кбкк-заварні-еклер-з-кремом-флоупак-efb4fde4.jpg"
-  },
-  {
-    "name": "Торт 450г КБКК Київський дарунок з арахісом",
-    "oldPrice": null,
-    "newPrice": 374.3,
-    "img": "https://src.zakaz.atbmarket.com/cache/photos/3934/catalog_list_3934.jpg",
-    "sourceUrl": "https://www.atbmarket.com/catalog/351-torti-i-tistechka",
-    "sourceCategory": "sweets",
-    "localImage": "images/atb/торт-450г-кбкк-київський-дарунок-з-арахісом-be89f196.jpg"
   },
   {
     "name": "Торт 1 кг Вацак Вельвет чорносмородиновий п/уп",
@@ -7324,24 +7306,6 @@
     "sourceUrl": "https://www.atbmarket.com/catalog/351-torti-i-tistechka",
     "sourceCategory": "sweets",
     "localImage": "images/atb/торт-450-г-tarta-berry-cake-бісквітний-к-уп-1764398f.png"
-  },
-  {
-    "name": "Торт 400г Вацак Пташине молоко п/уп",
-    "oldPrice": null,
-    "newPrice": 168.5,
-    "img": "https://src.zakaz.atbmarket.com/cache/photos/54065/catalog_list_54065.jpg",
-    "sourceUrl": "https://www.atbmarket.com/catalog/351-torti-i-tistechka",
-    "sourceCategory": "sweets",
-    "localImage": "images/atb/торт-400г-вацак-пташине-молоко-п-уп-02756859.jpg"
-  },
-  {
-    "name": "Тістечко 210 г Вацак заварні Профітролі з масляним кремом  п/уп",
-    "oldPrice": null,
-    "newPrice": 83.6,
-    "img": "https://src.zakaz.atbmarket.com/cache/photos/36111/catalog_list_36111.jpg",
-    "sourceUrl": "https://www.atbmarket.com/catalog/351-torti-i-tistechka",
-    "sourceCategory": "sweets",
-    "localImage": "images/atb/тістечко-210-г-вацак-заварні-профітролі-з-масляним-кремом-п--29883b04.jpg"
   },
   {
     "name": "Торт 450г TARTA повітряно-арахісовий Легенда Києва к/уп",
@@ -7452,6 +7416,24 @@
     "localImage": "images/atb/торт-180г-tarta-вафельний-зі-згущеним-молоком-d78643d2.jpg"
   },
   {
+    "name": "Тоpт 450г TARTA повітpяно-аpахіcовий Гpильяжний De Lux п/уп",
+    "oldPrice": 342.6,
+    "newPrice": 304.3,
+    "img": "https://src.zakaz.atbmarket.com/cache/photos/91445/catalog_list_91445.jpg",
+    "sourceUrl": "https://www.atbmarket.com/catalog/351-torti-i-tistechka",
+    "sourceCategory": "sweets",
+    "localImage": "images/atb/тоpт-450г-tarta-повітpяно-аpахіcовий-гpильяжний-de-lux-п-уп-bb06e977.jpg"
+  },
+  {
+    "name": "Торт 450г КБКК Київський дарунок з арахісом",
+    "oldPrice": null,
+    "newPrice": 374.3,
+    "img": "https://src.zakaz.atbmarket.com/cache/photos/3934/catalog_list_3934.jpg",
+    "sourceUrl": "https://www.atbmarket.com/catalog/351-torti-i-tistechka",
+    "sourceCategory": "sweets",
+    "localImage": "images/atb/торт-450г-кбкк-київський-дарунок-з-арахісом-be89f196.jpg"
+  },
+  {
     "name": "Торт 0,5кг Вацак Фруктова феєрія п/уп",
     "oldPrice": null,
     "newPrice": 198.7,
@@ -7486,6 +7468,24 @@
     "sourceUrl": "https://www.atbmarket.com/catalog/351-torti-i-tistechka",
     "sourceCategory": "sweets",
     "localImage": "images/atb/торт-450-г-tarta-прaзький-з-вишнею-бiсквiтний-к-уп-cfa6877f.png"
+  },
+  {
+    "name": "Торт 400г Вацак Пташине молоко п/уп",
+    "oldPrice": null,
+    "newPrice": 168.5,
+    "img": "https://src.zakaz.atbmarket.com/cache/photos/54065/catalog_list_54065.jpg",
+    "sourceUrl": "https://www.atbmarket.com/catalog/351-torti-i-tistechka",
+    "sourceCategory": "sweets",
+    "localImage": "images/atb/торт-400г-вацак-пташине-молоко-п-уп-02756859.jpg"
+  },
+  {
+    "name": "Тістечко 210 г Вацак заварні Профітролі з масляним кремом  п/уп",
+    "oldPrice": null,
+    "newPrice": 83.6,
+    "img": "https://src.zakaz.atbmarket.com/cache/photos/36111/catalog_list_36111.jpg",
+    "sourceUrl": "https://www.atbmarket.com/catalog/351-torti-i-tistechka",
+    "sourceCategory": "sweets",
+    "localImage": "images/atb/тістечко-210-г-вацак-заварні-профітролі-з-масляним-кремом-п--29883b04.jpg"
   },
   {
     "name": "Рулет 250 г Вацак Персик п/уп",
@@ -7605,24 +7605,6 @@
     "localImage": "images/atb/морозиво-05-кг-рудь-100-морозиво-73ac9d3c.png"
   },
   {
-    "name": "Морозиво 75 г  Хладик Каштан Полуничний в білій кондитерскій глазурі",
-    "oldPrice": 42.5,
-    "newPrice": 22.9,
-    "img": "https://src.zakaz.atbmarket.com/cache/photos/47307/catalog_list_47307.jpg",
-    "sourceUrl": "https://www.atbmarket.com/catalog/334-morozivo",
-    "sourceCategory": "icecream",
-    "localImage": "images/atb/морозиво-75-г-хладик-каштан-полуничний-в-білій-кондитерскій--edc45002.jpg"
-  },
-  {
-    "name": "Морозиво 75 г  Хладик Каштан Солона карамель в  кондитерскій глазурі",
-    "oldPrice": 42.5,
-    "newPrice": 22.9,
-    "img": "https://src.zakaz.atbmarket.com/cache/photos/47305/catalog_list_47305.jpg",
-    "sourceUrl": "https://www.atbmarket.com/catalog/334-morozivo",
-    "sourceCategory": "icecream",
-    "localImage": "images/atb/морозиво-75-г-хладик-каштан-солона-карамель-в-кондитерскій-г-e62af62c.jpg"
-  },
-  {
     "name": "Морозиво 70 г Три Ведмеді пломбір шоколадний в конд. глазурі ескімо п/ет",
     "oldPrice": 47.9,
     "newPrice": 25.9,
@@ -7720,6 +7702,24 @@
     "sourceUrl": "https://www.atbmarket.com/catalog/334-morozivo",
     "sourceCategory": "icecream",
     "localImage": "images/atb/морозиво-75г-розумний-вибір-каштан-ескімо-з-комбскладом-сиро-06d242b6.jpg"
+  },
+  {
+    "name": "Морозиво 75г  Розумний вибір Каштан з комбінованим складом сировини в кондитерській глазур",
+    "oldPrice": null,
+    "newPrice": 19.9,
+    "img": "https://src.zakaz.atbmarket.com/cache/photos/95599/catalog_list_95599.jpg",
+    "sourceUrl": "https://www.atbmarket.com/catalog/334-morozivo",
+    "sourceCategory": "icecream",
+    "localImage": "images/atb/морозиво-75г-розумний-вибір-каштан-з-комбінованим-складом-си-15319032.jpg"
+  },
+  {
+    "name": "Морозиво 80г Київський пломбір без цукру ваф/стак п/ет",
+    "oldPrice": null,
+    "newPrice": 51.9,
+    "img": "https://src.zakaz.atbmarket.com/cache/photos/95107/catalog_list_95107.jpg",
+    "sourceUrl": "https://www.atbmarket.com/catalog/334-morozivo",
+    "sourceCategory": "icecream",
+    "localImage": "images/atb/морозиво-80г-київський-пломбір-без-цукру-ваф-стак-п-ет-81447069.jpg"
   },
   {
     "name": "Нaпій 2л Coca-Cola Zero бeзaлкoгoльний сильнoгaзoвaний ПЕТ",
@@ -10008,6 +10008,15 @@
     "localImage": "images/atb/млинці-370-г-своя-лінія-французькі-з-куркою-та-грибами-п-ет-d7b5b312.jpg"
   },
   {
+    "name": "Чебуреки 0,5 кг Левада п/ет",
+    "oldPrice": 102.2,
+    "newPrice": 78.9,
+    "img": "https://src.zakaz.atbmarket.com/cache/photos/75987/catalog_list_75987.jpg",
+    "sourceUrl": "https://www.atbmarket.com/catalog/322-zamorozheni-produkti",
+    "sourceCategory": "frozen",
+    "localImage": "images/atb/чебуреки-05-кг-левада-п-ет-5d6a38ef.jpg"
+  },
+  {
     "name": "Пельмені 0,9 кг Левада З яловичиною та свининою",
     "oldPrice": 240.7,
     "newPrice": 186.5,
@@ -10249,15 +10258,6 @@
     "sourceUrl": "https://www.atbmarket.com/catalog/356-vareniki-pel-meni-mlintsi",
     "sourceCategory": "frozen",
     "localImage": "images/atb/вареники-09-кг-своя-лінія-з-картоплею-та-грибами-заморожені--2e3fe802.jpg"
-  },
-  {
-    "name": "Вареники 400 гр Своя Лінія з вишнею без кісточки заморожені п/ет",
-    "oldPrice": null,
-    "newPrice": 92.3,
-    "img": "https://src.zakaz.atbmarket.com/cache/photos/117031/catalog_list_117031.jpg",
-    "sourceUrl": "https://www.atbmarket.com/catalog/356-vareniki-pel-meni-mlintsi",
-    "sourceCategory": "frozen",
-    "localImage": "images/atb/вареники-400-гр-своя-лінія-з-вишнею-без-кісточки-заморожені--44774e6b.jpg"
   },
   {
     "name": "Млинці 300 г Valesto з манго заморожені пласт/упак",
