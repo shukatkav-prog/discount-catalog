@@ -2988,28 +2988,28 @@
     "localImage": "images/fora/віскі-old-smuggler-07л-ce6b47f0.png"
   },
   {
-    "name": "Текіла Jose Cuervo Especial, 0,7л",
-    "oldPrice": 849,
-    "newPrice": 499,
-    "img": "https://content.fora.ua/sku/ecommerce/32/480x480wwm/327384_480x480wwm_19cb2ce7-c8a0-8614-c660-a7434634fd06.png",
+    "name": "Кава розчинна Jacobs Monarch економ-пакет, 300г",
+    "oldPrice": 649,
+    "newPrice": 479.9,
+    "img": "https://content.fora.ua/sku/ecommerce/72/480x480wwm/723039_480x480wwm_ec6abab1-d987-2e75-2fc2-64146acb4deb.png",
     "sourceUrl": "https://fora.ua/all-offers?to=12&from=12",
     "sourceCategory": null,
     "localImage": "images/fora/текіла-jose-cuervo-especial-07л-6aec2330.png"
   },
   {
-    "name": "Вино ігр Cavas Hill PanotGaudi GranReserv Brut біл, 0,75л",
-    "oldPrice": 699,
-    "newPrice": 499,
-    "img": "https://content.fora.ua/app/no_photo.png",
+    "name": "Напій на основі рому Captain Morgan Sliced Applе, 0,7л",
+    "oldPrice": 659,
+    "newPrice": 489,
+    "img": "https://content.fora.ua/sku/ecommerce/93/480x480wwm/931227_480x480wwm_a6482ac2-76ce-906b-5a7a-a78e53f038d1.png",
     "sourceUrl": "https://fora.ua/all-offers?to=12&from=12",
     "sourceCategory": null,
     "localImage": "images/fora/вино-ігр-cavas-hill-panotgaudi-granreserv-brut-біл-075л-5d005699.png"
   },
   {
-    "name": "Віскі Grant's Triple Wood, 0,5л",
-    "oldPrice": 599,
-    "newPrice": 499,
-    "img": "https://content.fora.ua/sku/ecommerce/0/480x480wwm/4130_480x480wwm_68a8d73b-661a-7af3-7334-60cfd0c5c5b9.png",
+    "name": "Напій на основі рому Captain Morgan Tiki Mango & Pineapple, 0,7л",
+    "oldPrice": 659,
+    "newPrice": 489,
+    "img": "https://content.fora.ua/sku/ecommerce/87/480x480wwm/873720_480x480wwm_ec9046ea-f999-d02a-1145-1ffc1a461729.png",
     "sourceUrl": "https://fora.ua/all-offers?to=12&from=12",
     "sourceCategory": null,
     "localImage": "images/fora/віскі-grants-triple-wood-05л-aa3b5f14.png"
@@ -3026,8 +3026,40 @@
   {
     "name": "Текіла Sierra Reposado 35%, 0,7л",
     "oldPrice": 899,
+    "newPrice": 499,
+    "img": "https://content.fora.ua/sku/ecommerce/5/480x480wwm/55192_480x480wwm_29122b23-2dcd-b394-7d91-719c1e1d8799.png",
+    "sourceUrl": "https://fora.ua/all-offers?to=12&from=12",
+    "localImage": "images/fora/віскі-teachers-07л-a343a482.png"
+  },
+  {
+    "name": "Засіб для прання темних і чорних речей Perwoll Renew Black, 2970мл",
+    "oldPrice": 909,
+    "newPrice": 499,
+    "img": "https://content.fora.ua/sku/ecommerce/92/480x480wwm/921424_480x480wwm_2a64d844-a86a-ceaf-96a7-d5cc24c4cb77.png",
+    "sourceUrl": "https://fora.ua/all-offers?to=12&from=12",
+    "localImage": "images/fora/засіб-для-прання-темних-і-чорних-речей-perwoll-renew-black-2-cc11a717.png"
+  },
+  {
+    "name": "Капсули для посудомийних машин Finish Ultimate Plus All in 1, 45шт",
+    "oldPrice": 1399,
+    "newPrice": 549,
+    "img": "https://content.fora.ua/sku/ecommerce/93/480x480wwm/932146_480x480wwm_ed3b5ff1-0903-c3cc-30c5-3c141aa847df.png",
+    "sourceUrl": "https://fora.ua/all-offers?to=12&from=12",
+    "localImage": "images/fora/капсули-для-посудомийних-машин-finish-ultimate-plus-all-in-1-94511e15.png"
+  },
+  {
+    "name": "Джин Gordon’s Premium Pink, 0,7л",
+    "oldPrice": 759,
+    "newPrice": 549,
+    "img": "https://content.fora.ua/sku/ecommerce/82/480x480wwm/821483_480x480wwm_b89e3de9-c6bb-e34a-699b-0b6599a14ca1.png",
+    "sourceUrl": "https://fora.ua/all-offers?to=12&from=12",
+    "localImage": "images/fora/джин-gordon-s-premium-pink-07л-7f2bdf6b.png"
+  },
+  {
+    "name": "Джин Beefeater 40%, 0,7л",
+    "oldPrice": 799,
     "newPrice": 599,
-    "img": "https://content.fora.ua/sku/ecommerce/101/480x480wwm/1010794_480x480wwm_50378e52-20b2-8c85-0c03-6f9760115b5e.png",
+    "img": "https://content.fora.ua/sku/ecommerce/84/480x480wwm/840708_480x480wwm_e6d024fc-2a3a-e5ef-a713-c20a5d879e56.png",
     "sourceUrl": "https://fora.ua/all-offers?to=12&from=12",
     "sourceCategory": null,
     "localImage": "images/fora/текіла-sierra-reposado-35-07л-392d38fa.png"
@@ -4997,8 +5029,8 @@
   {
     "name": "Сардельки «Глобино» «Пузяки» 1 ґ н/о г/п, 100г",
     "oldPrice": null,
-    "newPrice": 42.9,
-    "img": "https://content.fora.ua/sku/ecommerce/70/480x480wwm/709974_480x480wwm_402af22d-859c-9e61-b595-e67bf273cb17.png",
+    "newPrice": 44.7,
+    "img": "https://content.fora.ua/shop/uploads/pictures/587328-677e79802c0ff_fora.png",
     "sourceUrl": "https://fora.ua/category/kovbasy-ta-syry-2738",
     "sourceCategory": null,
     "localImage": "images/fora/сардельки-глобино-пузяки-1-ґ-н-о-г-п-100г-d4cafbaf.png"
@@ -5193,7 +5225,7 @@
     "localImage": "images/fora/ковбаса-зірковий-вибір-салямі-н-к-1с-ц-б-в-уп-400г-6c71c8f7.png"
   },
   {
-    "name": "Олія соняшникова «Олейна» «Традиційна» рафінована, 3л",
+    "name": "Сосиски «Глобино» «Нямські» з телятиною б/о в/ґ, 275г",
     "oldPrice": null,
     "newPrice": 363,
     "img": "https://content.fora.ua/sku/ecommerce/87/480x480wwm/878597_480x480wwm_227252ca-efe3-c9ad-0418-6c3848342112.png",

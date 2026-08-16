@@ -3078,10 +3078,10 @@
     "localImage": "images/novus/масло-селянське-725-180г-eb4b47b8.jpg"
   },
   {
-    "name": "Маргарин Чумак Вершковий 72% 250г",
+    "name": "Маргарин Щедро Вершковий особливий 250г",
     "oldPrice": null,
-    "newPrice": 43.49,
-    "img": "https://img2.zakaz.ua/eea8e30d15674d31be4ae93277e71b17/1684221352-s150x150.jpg",
+    "newPrice": 42.99,
+    "img": "https://img2.zakaz.ua/d679dfbade3445e5a3e57a7ec1b60a60/1767349809-s150x150.jpg",
     "sourceUrl": "https://novus.zakaz.ua/uk/categories/butter/",
     "sourceCategory": "oils",
     "localImage": "images/novus/маргарин-чумак-вершковий-72-250г-6723a5de.jpg"
@@ -4230,7 +4230,15 @@
     "localImage": "images/novus/хек-філе-свіжоморожений-e86c8db2.jpg"
   },
   {
-    "name": "Креветки Norven чищені з хвостами варені охолоджені 250г",
+    "name": "Кальмар чищений туби свіжоморожений",
+    "oldPrice": 324,
+    "newPrice": 269,
+    "img": "https://img3.zakaz.ua/23e7b160d55f443b81d535404b7ab9f7/1780577311-s150x150.jpg",
+    "sourceUrl": "https://novus.zakaz.ua/uk/categories/fish-and-seafood-novus/",
+    "localImage": "images/novus/кальмар-чищений-туби-свіжоморожений-50a244d6.jpg"
+  },
+  {
+    "name": "Філе хека Norven без шкіри свіжеморожене 3х200г",
     "oldPrice": null,
     "newPrice": 294,
     "img": "https://img2.zakaz.ua/321f491247dd4383ab98c421d745b402/1749199820-s150x150.jpg",
@@ -7499,8 +7507,8 @@
   {
     "name": "Капуста морська Vegas по-корейськи 400г",
     "oldPrice": null,
-    "newPrice": 114,
-    "img": "https://img3.zakaz.ua/7c5c0caee9784bf1a5870b6c8c72696d/1786620055-s150x150.jpg",
+    "newPrice": 95.99,
+    "img": "https://img3.zakaz.ua/6dff0041bd5e46f5a39bf9d86d540044/1786620055-s150x150.jpg",
     "sourceUrl": "https://novus.zakaz.ua/uk/categories/salads-and-pickles/",
     "sourceCategory": "salads",
     "localImage": "images/novus/капуста-морська-vegas-по-корейськи-400г-03eda90c.jpg"
@@ -8274,7 +8282,7 @@
     "name": "Селера стебло",
     "oldPrice": null,
     "newPrice": 129,
-    "img": "https://img2.zakaz.ua/upload.version_1.0.5b1f8c693208b4b3f9f59393313105d8.150x150.jpeg",
+    "img": "https://img3.zakaz.ua/upload.version_1.0.5b1f8c693208b4b3f9f59393313105d8.150x150.jpeg",
     "sourceUrl": "https://novus.zakaz.ua/uk/categories/fresh-greens/",
     "sourceCategory": "produce",
     "localImage": "images/novus/селера-стебло-57ab7f54.jpg"
@@ -8310,7 +8318,7 @@
     "name": "Салат Айсберг ~400г",
     "oldPrice": null,
     "newPrice": 64.99,
-    "img": "https://img3.zakaz.ua/9a17b853806245779ddd8a5766202e89/1769608904-s150x150.jpg",
+    "img": "https://img2.zakaz.ua/9a17b853806245779ddd8a5766202e89/1769608904-s150x150.jpg",
     "sourceUrl": "https://novus.zakaz.ua/uk/categories/fresh-greens/",
     "sourceCategory": "produce",
     "localImage": "images/novus/салат-айсберг-400г-6098892e.jpg"
@@ -8319,7 +8327,7 @@
     "name": "Шпинат Good for Life Бебі 75г",
     "oldPrice": null,
     "newPrice": 64.99,
-    "img": "https://img3.zakaz.ua/f3a3ea06a93f49c09d538769926f6eb9/1762756869-s150x150.jpg",
+    "img": "https://img2.zakaz.ua/f3a3ea06a93f49c09d538769926f6eb9/1762756869-s150x150.jpg",
     "sourceUrl": "https://novus.zakaz.ua/uk/categories/fresh-greens/",
     "sourceCategory": "produce",
     "localImage": "images/novus/шпинат-good-for-life-бебі-75г-fb329ab4.jpg"
@@ -8337,7 +8345,7 @@
     "name": "Шпинат пучок 50г",
     "oldPrice": null,
     "newPrice": 19.99,
-    "img": "https://img2.zakaz.ua/1072fbbac01b487fb43e81328f8cd4f8/1782704240-s150x150.jpg",
+    "img": "https://img3.zakaz.ua/1072fbbac01b487fb43e81328f8cd4f8/1782704240-s150x150.jpg",
     "sourceUrl": "https://novus.zakaz.ua/uk/categories/fresh-greens/",
     "sourceCategory": "produce",
     "localImage": "images/novus/шпинат-пучок-50г-bbfe4ba4.jpg"
@@ -8427,7 +8435,7 @@
     "name": "Кінза пучок 50г",
     "oldPrice": null,
     "newPrice": 44.99,
-    "img": "https://img2.zakaz.ua/49ebb4fc87d94072a84ae29148a24033/1783501194-s150x150.jpg",
+    "img": "https://img3.zakaz.ua/49ebb4fc87d94072a84ae29148a24033/1783501194-s150x150.jpg",
     "sourceUrl": "https://novus.zakaz.ua/uk/categories/fresh-greens/",
     "sourceCategory": "produce",
     "localImage": "images/novus/кінза-пучок-50г-57f42f09.jpg"
@@ -8661,7 +8669,7 @@
     "name": "Чипси Lay's Strong зі смаком чилі та лайму 95г",
     "oldPrice": null,
     "newPrice": 72.99,
-    "img": "https://img2.zakaz.ua/2ea36931f8dd4b48ab3ee46e3103b6f7/1777276607-s150x150.jpg",
+    "img": "https://img2.zakaz.ua/b18b628e2e384746984494c2a41ed205/1777276607-s150x150.jpg",
     "sourceUrl": "https://novus.zakaz.ua/uk/categories/chips/",
     "sourceCategory": "snacks",
     "localImage": "images/novus/чипси-lays-strong-зі-смаком-чилі-та-лайму-95г-a2cc9b95.jpg"
@@ -9000,10 +9008,10 @@
     "localImage": "images/novus/насіння-соняшника-справжня-лакомка-смажене-120г-d3f3a6a7.jpg"
   },
   {
-    "name": "Насіння соняшника Semki Преміум смажене солоне 120г",
+    "name": "Насіння соняшника Semki класичне смажене 100г",
     "oldPrice": null,
-    "newPrice": 67.99,
-    "img": "https://img2.zakaz.ua/d5e653a9f9bb4acebbc5913a8385fa5c/1780505427-s150x150.jpg",
+    "newPrice": 59.99,
+    "img": "https://img2.zakaz.ua/f53919cc44bf4c349ecd1a4d962036cf/1743152236-s150x150.jpg",
     "sourceUrl": "https://novus.zakaz.ua/uk/categories/seeds/",
     "sourceCategory": "snacks",
     "localImage": "images/novus/насіння-соняшника-semki-преміум-смажене-солоне-120г-7bfdb5b1.jpg"
@@ -9672,6 +9680,30 @@
     "img": "https://img2.zakaz.ua/a3c564de0ca546f1898fb54ba6cc2b46/1782826864-s150x150.jpg",
     "sourceUrl": "https://novus.zakaz.ua/uk/categories/popcorn/",
     "sourceCategory": "snacks",
+    "localImage": "images/novus/попкорн-top-of-the-pop-зі-смаком-зеленої-цибулі-та-сметани-д-9876065b.jpg"
+  },
+  {
+    "name": "Попкорн Top of the Pop зі смаком сиру для мікрохвильової печі 100г",
+    "oldPrice": null,
+    "newPrice": 47.99,
+    "img": "https://img3.zakaz.ua/a8f612a94a274566a8b2fa7ad6cdeee9/1782826864-s150x150.jpg",
+    "sourceUrl": "https://novus.zakaz.ua/uk/categories/popcorn/",
+    "localImage": "images/novus/попкорн-top-of-the-pop-зі-смаком-сиру-для-мікрохвильової-печ-62f3183b.jpg"
+  },
+  {
+    "name": "Попкорн Top of Pop зі смаком шоколаду і карамелі для мікрохвильової печі 100г",
+    "oldPrice": null,
+    "newPrice": 47.99,
+    "img": "https://img2.zakaz.ua/e84a4daec4804cc49707c625488861ba/1782826864-s150x150.jpg",
+    "sourceUrl": "https://novus.zakaz.ua/uk/categories/popcorn/",
+    "localImage": "images/novus/попкорн-top-of-pop-зі-смаком-шоколаду-і-карамелі-для-мікрохв-d8bcb4e1.jpg"
+  },
+  {
+    "name": "Попкорн Top of the Pop зі смаком зеленої цибулі та сметани для мікрохвильовоі печі 100г",
+    "oldPrice": null,
+    "newPrice": 47.99,
+    "img": "https://img2.zakaz.ua/a3c564de0ca546f1898fb54ba6cc2b46/1782826864-s150x150.jpg",
+    "sourceUrl": "https://novus.zakaz.ua/uk/categories/popcorn/",
     "localImage": "images/novus/попкорн-top-of-the-pop-зі-смаком-зеленої-цибулі-та-сметани-д-9876065b.jpg"
   },
   {
@@ -12312,10 +12344,18 @@
     "localImage": "images/novus/напій-соковмісний-моршинська-негазований-зі-смаком-чорниці-т-b43c9957.jpg"
   },
   {
+    "name": "Напій соковмісний Моршинська негазований зі смаком чорниці та екстрактом м'яти 1,5л",
+    "oldPrice": null,
+    "newPrice": 39.99,
+    "img": "https://img3.zakaz.ua/32d591e4f18147b5a9a3493277f6de9e/1776836763-s150x150.jpg",
+    "sourceUrl": "https://novus.zakaz.ua/uk/categories/mineral-water/",
+    "localImage": "images/novus/напій-соковмісний-моршинська-негазований-зі-смаком-чорниці-т-3b3017b1.jpg"
+  },
+  {
     "name": "Напій соковмісний Моршинська негазований зі смаком малини та екстрактом лаванди 1,5л",
     "oldPrice": null,
     "newPrice": 39.99,
-    "img": "https://img3.zakaz.ua/d6fbf1063e684cc584e7380add9d8734/1776836763-s150x150.jpg",
+    "img": "https://img2.zakaz.ua/d6fbf1063e684cc584e7380add9d8734/1776836763-s150x150.jpg",
     "sourceUrl": "https://novus.zakaz.ua/uk/categories/mineral-water/",
     "sourceCategory": "drinks",
     "localImage": "images/novus/напій-соковмісний-моршинська-негазований-зі-смаком-малини-та-2900d4ae.jpg"
@@ -13179,7 +13219,7 @@
     "name": "Комбуча Jiva Пристрасне манго 0,33л",
     "oldPrice": null,
     "newPrice": 76.99,
-    "img": "https://img2.zakaz.ua/3c207f12ce2649ffb10ebcb6e990d9e4/1753069216-s150x150.jpg",
+    "img": "https://img2.zakaz.ua/d462fba691d74c76a3853a5e1779f4ee/1753069216-s150x150.jpg",
     "sourceUrl": "https://novus.zakaz.ua/uk/categories/kombucha-novus/",
     "sourceCategory": "drinks",
     "localImage": "images/novus/комбуча-jiva-пристрасне-манго-033л-9ef18172.jpg"
@@ -14859,10 +14899,10 @@
     "localImage": "images/novus/крупа-перлова-екород-органічна-400г-85b14d31.jpg"
   },
   {
-    "name": "Крупа пшенична Арнаут Екород органічна 400г",
-    "oldPrice": null,
-    "newPrice": 56.99,
-    "img": "https://img2.zakaz.ua/ec5a981e3d774da2b3c900c7ad706f05/1782453276-s150x150.jpg",
+    "name": "Амарант Екород органічний 400г",
+    "oldPrice": 109,
+    "newPrice": 94.99,
+    "img": "https://img2.zakaz.ua/upload.version_1.0.f675df1a417f12e152f23530d1cf0a0b.150x150.jpeg",
     "sourceUrl": "https://novus.zakaz.ua/uk/categories/pulses-and-grain/",
     "sourceCategory": "pasta",
     "localImage": "images/novus/крупа-пшенична-арнаут-екород-органічна-400г-930cca2b.jpg"
