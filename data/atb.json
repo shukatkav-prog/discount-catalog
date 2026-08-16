@@ -927,15 +927,6 @@
     "localImage": "images/atb/бpeндi-05-л-old-kakheti-тpи-pоки-40-об-ск-пл-гpузiя-92d46c35.jpg"
   },
   {
-    "name": "Пельмені 0,6 кг Своя Лінія філейні п/ет",
-    "oldPrice": 113.9,
-    "newPrice": 82.9,
-    "img": "https://src.zakaz.atbmarket.com/cache/photos/102623/catalog_list_102623.jpg",
-    "sourceUrl": "https://www.atbmarket.com/catalog/356-vareniki-pel-meni-mlintsi",
-    "sourceCategory": "frozen",
-    "localImage": "images/atb/пельмені-06-кг-своя-лінія-філейні-п-ет-8372f461.jpg"
-  },
-  {
     "name": "Сир м'який 100г Steffel Гран Баварезе з блакитною пліснявою 48% газ/упак",
     "oldPrice": 105.3,
     "newPrice": 76.8,
@@ -1300,7 +1291,7 @@
     "oldPrice": 46.8,
     "newPrice": 34.9,
     "img": "https://src.zakaz.atbmarket.com/cache/photos/12438/catalog_list_12438.jpg",
-    "sourceUrl": "https://www.atbmarket.com/promo/sale_tovari?page=5",
+    "sourceUrl": "https://www.atbmarket.com/promo/sale_tovari?page=4",
     "sourceCategory": null,
     "localImage": "images/atb/козинаки-150-г-своя-лінія-асорті-193916ed.jpg"
   },
@@ -1618,6 +1609,15 @@
     "sourceUrl": "https://www.atbmarket.com/catalog/318-chay",
     "sourceCategory": "tea",
     "localImage": "images/atb/чай-80г-de-luxe-f-g-selected-зелений-з-цитрусом-та-пелюсткам-0b314be8.jpg"
+  },
+  {
+    "name": "Чай 100г De Luxe Foods&Goods Selected зелений байховий з жасмином",
+    "oldPrice": 83.9,
+    "newPrice": 62.9,
+    "img": "https://src.zakaz.atbmarket.com/cache/photos/3395/catalog_list_3395.jpg",
+    "sourceUrl": "https://www.atbmarket.com/catalog/318-chay",
+    "sourceCategory": "tea",
+    "localImage": "images/atb/чай-100г-de-luxe-foods-goods-selected-зелений-байховий-з-жас-df431ca2.jpg"
   },
   {
     "name": "Сир твердий 150 г Комо Чеддер 50% флоу-пак",
@@ -4147,15 +4147,6 @@
     "sourceUrl": "https://www.atbmarket.com/catalog/moreprodukti",
     "sourceCategory": "fish",
     "localImage": "images/atb/котлети-400-г-master-fish-рибні-з-червоної-риби-смажені-замо-8bf46b9a.jpg"
-  },
-  {
-    "name": "Креветки 330 г Norven охолоджені без голови з цитрусовою сіллю п/конт",
-    "oldPrice": null,
-    "newPrice": 299.9,
-    "img": "https://src.zakaz.atbmarket.com/cache/photos/117845/catalog_list_117845.jpg",
-    "sourceUrl": "https://www.atbmarket.com/catalog/moreprodukti",
-    "sourceCategory": "fish",
-    "localImage": "images/atb/креветки-330-г-norven-охолоджені-без-голови-з-цитрусовою-сіл-a411d45b.jpg"
   },
   {
     "name": "Печінка куряча Наша Ряба охолоджена 700 г",
@@ -10357,15 +10348,6 @@
     "sourceUrl": "https://www.atbmarket.com/catalog/318-chay",
     "sourceCategory": "tea",
     "localImage": "images/atb/чай-40-ф-п-х-2-г-день-у-день-чорний-байховий-цейлонський-к-у-e75504d4.jpg"
-  },
-  {
-    "name": "Чай 100г De Luxe Foods&Goods Selected зелений байховий з жасмином",
-    "oldPrice": 83.9,
-    "newPrice": 62.9,
-    "img": "https://src.zakaz.atbmarket.com/cache/photos/3395/catalog_list_3395.jpg",
-    "sourceUrl": "https://www.atbmarket.com/catalog/318-chay",
-    "sourceCategory": "tea",
-    "localImage": "images/atb/чай-100г-de-luxe-foods-goods-selected-зелений-байховий-з-жас-df431ca2.jpg"
   },
   {
     "name": "Чай(20ф/п*1,5г) Pickwick чорний набір фруктових чаїв/Суміш травяна(20ф/п*1,9г) фруктовий набір к/уп",
