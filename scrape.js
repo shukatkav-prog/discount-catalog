@@ -43,6 +43,12 @@ function parseNum(s) {
 // ---------- per-site екстрактори: виконуються в page.evaluate ----------
 const STORE_EXTRACTORS = {
   // Сільпо: .product-card з чіткими класами (Angular SSR)
+  // Важливо: для свіжого м'яса/риби/сиру "на вагу" Сільпо показує ціну ЗА
+  // ОДИНИЦЮ ВАГИ (найчастіше 100г), а не за кг чи за пакунок — і ніде явно
+  // цього не підписує (той самий текст "100г" виглядає як вага пакунка).
+  // Тому завжди зберігаємо цю вагову позначку як unit і завжди показуємо її
+  // біля ціни в каталозі — це правдиво в обох випадках (чи то вага пакунка,
+  // чи то розрахункова одиниця), і знімає двозначність.
   silpo: function () {
     function num(s) {
       if (!s) return null;
@@ -58,14 +64,16 @@ const STORE_EXTRACTORS = {
       let src = img?.currentSrc || img?.getAttribute("src") || img?.getAttribute("data-src");
       const newPrice = num(card.querySelector(".product-card-price__displayPrice")?.textContent);
       const oldPrice = num(card.querySelector(".product-card-price__displayOldPrice")?.textContent);
+      const unit = card.querySelector(".ft-typo-14-semibold, .ft-typo-16-semibold")?.textContent.trim() || null;
       if (!name || !src || newPrice == null) return;
       if (src.startsWith("//")) src = "https:" + src;
-      out.push({ name, oldPrice: oldPrice || null, newPrice, img: src });
+      out.push({ name, oldPrice: oldPrice || null, newPrice, img: src, unit });
     });
     return out;
   },
 
-  // АТБ: <article class="catalog-item"> — ціни в атрибуті value на <data>
+  // АТБ: <article class="catalog-item"> — ціни в атрибуті value на <data>,
+  // одиниця ("/шт" або "/кг") — чистий текст у .product-price__unit.
   atb: function () {
     const out = [];
     document.querySelectorAll("article.catalog-item").forEach(card => {
@@ -76,15 +84,18 @@ const STORE_EXTRACTORS = {
       const bottomData = card.querySelector(".product-price__bottom");
       const topVal = topData ? parseFloat(topData.getAttribute("value")) : null;
       const bottomVal = bottomData ? parseFloat(bottomData.getAttribute("value")) : null;
+      const unitText = card.querySelector(".product-price__unit")?.textContent.trim() || null;
+      const unit = unitText && unitText.replace("/", "") !== "шт" ? unitText.replace("/", "") : null;
       if (!name || !src || topVal == null) return;
       if (src.startsWith("//")) src = "https:" + src;
       // top = поточна (акційна) ціна, bottom = стара, коли товар зі знижкою
-      out.push({ name, oldPrice: bottomVal || null, newPrice: topVal, img: src });
+      out.push({ name, oldPrice: bottomVal || null, newPrice: topVal, img: src, unit });
     });
     return out;
   },
 
-  // Novus: Magento-стандарт, li.product-item, data-price-amount/data-price-type
+  // Novus: Magento-стандарт, li.product-item, data-price-amount/data-price-type.
+  // Вагові товари підписані текстом типу "за 1 кг" в .product-item-details.
   novus: function () {
     const out = [];
     document.querySelectorAll("li.product-item").forEach(card => {
@@ -95,14 +106,19 @@ const STORE_EXTRACTORS = {
       const oldEl = card.querySelector('[data-price-type="oldPrice"]');
       const newPrice = finalEl ? parseFloat(finalEl.getAttribute("data-price-amount")) : null;
       const oldPrice = oldEl ? parseFloat(oldEl.getAttribute("data-price-amount")) : null;
+      const weightText = card.querySelector(".product-item-details")?.textContent || "";
+      const unit = /за\s*1?\s*кг/i.test(weightText) ? "кг" : null;
       if (!name || !src || newPrice == null) return;
       if (src.startsWith("//")) src = "https:" + src;
-      out.push({ name, oldPrice: oldPrice || null, newPrice, img: src });
+      out.push({ name, oldPrice: oldPrice || null, newPrice, img: src, unit });
     });
     return out;
   },
 
-  // Фора: .product-list-item, ціна розбита на current-integer + current-fraction
+  // Фора: .product-list-item, ціна розбита на current-integer + current-fraction.
+  // .product-weight — або конкретна вага пакунка ("500г" — інформативно, не
+  // двозначно), або гола одиниця ("кг"/"г" без числа — означає "ціна за кг/г",
+  // ось це і показуємо як unit; конкретну вагу пакунка — ні, не потрібно).
   fora: function () {
     function num(s) {
       if (!s) return null;
@@ -124,9 +140,11 @@ const STORE_EXTRACTORS = {
         newPrice = parseFloat(intPart) + fracNum / 100;
       }
       const oldPrice = num(card.querySelector(".old-price .old-integer")?.textContent);
+      const weightText = card.querySelector(".product-weight")?.textContent.trim() || "";
+      const unit = /^(кг|г)$/i.test(weightText) ? weightText.toLowerCase() : null;
       if (!name || !src || newPrice == null) return;
       if (src.startsWith("//")) src = "https:" + src;
-      out.push({ name, oldPrice: oldPrice || null, newPrice, img: src });
+      out.push({ name, oldPrice: oldPrice || null, newPrice, img: src, unit });
     });
     return out;
   },
@@ -147,9 +165,11 @@ const STORE_EXTRACTORS = {
       let src = img?.getAttribute("src") || img?.getAttribute("data-src");
       const newPrice = num(card.querySelector('[data-marker="Discounted Price"] .Price__value_caption')?.textContent);
       const oldPrice = num(card.querySelector('[data-marker="Old Price"] .Price__value_body')?.textContent);
+      const weightText = card.querySelector(".ProductTile__weight")?.textContent || "";
+      const unit = /^\s*(за\s*)?1?\s*кг\s*$/i.test(weightText) ? "кг" : null;
       if (!name || !src || newPrice == null) return;
       if (src.startsWith("//")) src = "https:" + src;
-      out.push({ name, oldPrice: oldPrice || null, newPrice, img: src });
+      out.push({ name, oldPrice: oldPrice || null, newPrice, img: src, unit });
     });
     return out;
   },

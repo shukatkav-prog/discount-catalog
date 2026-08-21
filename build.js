@@ -142,6 +142,7 @@ for (const item of allItems) {
     newPrice: item.newPrice,
     pct: pct(item.oldPrice, item.newPrice),
     image: item.localImage || null,
+    unit: item.unit || null,
     words: words(item.name),
   };
   // Якщо товар зішкрябано зі сторінки, яка на сайті МАГАЗИНУ й так є однією
@@ -200,7 +201,12 @@ function groupCategory(items) {
     g.image = g.entries.find(e => e.image)?.image || null;
     g.displayName = g.entries.sort((a,b)=>b.name.length-a.name.length)[0].name;
   }
-  groups.sort((a, b) => b.maxPct - a.maxPct);
+  // Алфавітно за назвою, а не за розміром знижки — товари одного типу
+  // (напр. усі "Йогурт ...") в українських назвах завжди починаються з того
+  // самого слова, тому такий порядок групує однотипні товари поруч і зручний
+  // для послідовного перегляду категорії, а не розкидає їх по картках
+  // випадково залежно від того, в кого яка знижка цього тижня.
+  groups.sort((a, b) => a.displayName.localeCompare(b.displayName, "uk"));
   return groups;
 }
 
@@ -223,13 +229,19 @@ function renderEntry(e, cheapestStore, multi, groupName, groupImage) {
   const pctHtml = e.pct != null ? `<span class="pct">-${e.pct}%</span>` : "";
   const oldHtml = e.oldPrice ? `<span class="old">${money(e.oldPrice)}</span>` : "";
   const icon = STORE_ICON[e.store] ? `<img class="store-icon" src="${STORE_ICON[e.store]}" alt="">` : "";
+  // Для вагових товарів ціна за замовчуванням двозначна (за 100г? за кг? за
+  // штуку?) — напр. Сільпо показує "18.4 ₴" на свіже філе, і це насправді
+  // ціна ЗА 100Г, а не за кг чи за пакунок, ніде прямо не підписано. unit
+  // прийшов зі scrape.js (де в кожного магазину свій спосіб це показати) —
+  // просто дописуємо його одиницею виміру одразу біля ціни.
+  const unitHtml = e.unit ? `<span class="unit">/${esc(e.unit)}</span>` : "";
   // pct-бейдж живе в price-row (поруч зі старою/новою ціною), а не в store-row
   // разом з назвою магазину — інакше в вузькій 2-колонковій сітці рядок з
   // назвою переносився через тісноту, і картки виходили різної висоти.
   // data-* атрибути читає script.js для списку покупок (додати/прибрати).
   return `<div class="entry ${isCheap ? "cheapest" : ""}" data-store="${esc(e.store)}" data-name="${esc(groupName)}" data-price="${e.newPrice}" data-img="${esc(groupImage || "")}">
     <div class="store-row"><span class="store">${icon}${esc(e.store)}</span><button class="add-btn" type="button" aria-label="Додати у список ${esc(e.store)}">+</button></div>
-    <div class="price-row">${oldHtml}${pctHtml}<span class="new">${money(e.newPrice)}</span></div>
+    <div class="price-row">${oldHtml}${pctHtml}<span class="new">${money(e.newPrice)}${unitHtml}</span></div>
   </div>`;
 }
 
@@ -484,6 +496,30 @@ const html = `<!DOCTYPE html>
   .price-row { display:flex; align-items:baseline; gap:5px; flex-wrap:wrap; }
   .old { font-size:11px; color:#a39a8d; text-decoration:line-through; }
   .new { font-size:14px; font-weight:800; color:var(--accent2); }
+  .unit { font-size:10px; font-weight:600; color:var(--ink-soft); margin-left:1px; }
+
+  /* Мобільний перегляд: 2 картки в ряд (замість 1) — фото лишається головним
+     елементом, а текст (назва, ціни) стискається, щоб влізло щонайменше 4
+     товари на екран без нескінченного скролу. */
+  @media (max-width:640px) {
+    .grid { grid-template-columns:repeat(2,1fr); gap:8px; }
+    .thumb { height:96px; }
+    .thumb-fallback { font-size:26px; }
+    .card-body { padding:7px 8px 8px; }
+    .card-name { font-size:11px; line-height:1.25; margin-bottom:3px; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+    .cmp-badge { font-size:8.5px; padding:1px 5px; margin-bottom:4px; }
+    .entries { gap:4px; margin-top:4px; }
+    .entry { padding:4px 6px; gap:2px; }
+    .store-row { gap:3px; }
+    .store { font-size:9.5px; gap:3px; }
+    .store-icon { width:12px; height:12px; }
+    .add-btn { width:18px; height:18px; font-size:12px; }
+    .pct { font-size:8.5px; padding:1px 4px; }
+    .price-row { gap:4px; }
+    .old { font-size:9.5px; }
+    .new { font-size:12px; }
+    .unit { font-size:8.5px; }
+  }
 
   /* ---- список покупок (додати товар / переглянути по магазинах) ---- */
   .add-btn { flex-shrink:0; width:22px; height:22px; border-radius:50%; border:1px solid var(--border); background:#fff; color:var(--accent2); font-size:15px; font-weight:700; line-height:1; display:flex; align-items:center; justify-content:center; cursor:pointer; padding:0; }
