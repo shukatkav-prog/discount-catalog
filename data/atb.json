@@ -1,15 +1,5 @@
 [
   {
-    "name": "Шоколад 100г Millennium La Creme мусовий молочний з начинкою полуничний чізкейк м/уп",
-    "oldPrice": 70.9,
-    "newPrice": 41.6,
-    "img": "https://src.zakaz.atbmarket.com/cache/photos/114629/catalog_list_114629.jpg",
-    "unit": null,
-    "sourceUrl": "https://www.atbmarket.com/catalog/303-shokolad",
-    "sourceCategory": "sweets",
-    "localImage": "images/atb/шоколад-100г-millennium-la-creme-мусовий-молочний-з-начинкою-faed1037.jpg"
-  },
-  {
     "name": "Шоколад 100г Millennium La Creme мусовий молочний з начинкою тірамісу м/уп",
     "oldPrice": 70.9,
     "newPrice": 41.6,
@@ -18,6 +8,16 @@
     "sourceUrl": "https://www.atbmarket.com/catalog/303-shokolad",
     "sourceCategory": "sweets",
     "localImage": "images/atb/шоколад-100г-millennium-la-creme-мусовий-молочний-з-начинкою-f00fa23b.jpg"
+  },
+  {
+    "name": "Шоколад 100г Millennium La Creme мусовий молочний з начинкою полуничний чізкейк м/уп",
+    "oldPrice": 70.9,
+    "newPrice": 41.6,
+    "img": "https://src.zakaz.atbmarket.com/cache/photos/114629/catalog_list_114629.jpg",
+    "unit": null,
+    "sourceUrl": "https://www.atbmarket.com/catalog/303-shokolad",
+    "sourceCategory": "sweets",
+    "localImage": "images/atb/шоколад-100г-millennium-la-creme-мусовий-молочний-з-начинкою-faed1037.jpg"
   },
   {
     "name": "Добавка дієтична 30г VALE зі смаком апельсину та смаком полуниці м/уп",
@@ -6010,6 +6010,16 @@
     "localImage": "images/atb/яйце-куряче-10-шт-це-яйце-полтавське-вища-категорія-фас-карт-5cca9b30.jpg"
   },
   {
+    "name": "Хліб 330 г Кулиничі Тостовий білий з молоком нарізаний в/г п/ет",
+    "oldPrice": 30.9,
+    "newPrice": 24.9,
+    "img": "https://src.zakaz.atbmarket.com/cache/photos/112565/catalog_list_112565.jpg",
+    "unit": null,
+    "sourceUrl": "https://www.atbmarket.com/catalog/331-khlib",
+    "sourceCategory": "bread",
+    "localImage": "images/atb/хліб-330-г-кулиничі-тостовий-білий-з-молоком-нарізаний-в-г-п-fcf77c29.jpg"
+  },
+  {
     "name": "Хліб 300 г Кpиcтинопіль Хліб Тостовий ніжний п/ет",
     "oldPrice": 24.8,
     "newPrice": 20.9,
@@ -6028,6 +6038,16 @@
     "sourceUrl": "https://www.atbmarket.com/catalog/331-khlib",
     "sourceCategory": "bread",
     "localImage": "images/atb/хліб-06-кг-кулиничі-пушкарівський-нарізанний-3ed48d0f.jpg"
+  },
+  {
+    "name": "Хліб 350 г Кулиничі Геркулес Тостовий з висівками п/ет",
+    "oldPrice": null,
+    "newPrice": 32.4,
+    "img": "https://src.zakaz.atbmarket.com/cache/photos/115655/catalog_list_115655.jpg",
+    "unit": null,
+    "sourceUrl": "https://www.atbmarket.com/catalog/331-khlib",
+    "sourceCategory": "bread",
+    "localImage": "images/atb/хліб-350-г-кулиничі-геркулес-тостовий-з-висівками-п-ет-f27f7869.jpg"
   },
   {
     "name": "Хліб 0,5 кг Кулиничі Житній заварний класичний нарізаний ж/пш+2г п/ет",
@@ -6118,6 +6138,16 @@
     "sourceUrl": "https://www.atbmarket.com/catalog/331-khlib",
     "sourceCategory": "bread",
     "localImage": "images/atb/хлiб-06-кг-agrola-монастирський-ж-пш-пaп-уп-76668d24.jpg"
+  },
+  {
+    "name": "Хліб 350 г Кулиничі Гурман з родзинками нарізаний половинка ж/пш п/ет",
+    "oldPrice": null,
+    "newPrice": 32.9,
+    "img": "https://src.zakaz.atbmarket.com/cache/photos/108115/catalog_list_108115.png",
+    "unit": null,
+    "sourceUrl": "https://www.atbmarket.com/catalog/331-khlib",
+    "sourceCategory": "bread",
+    "localImage": "images/atb/хліб-350-г-кулиничі-гурман-з-родзинками-нарізаний-половинка--32ec490a.png"
   },
   {
     "name": "Хліб 0,5 кг Агробізнес Цільнозерновий на черені нарізаний пш п/ет",
@@ -6268,36 +6298,6 @@
     "sourceUrl": "https://www.atbmarket.com/catalog/331-khlib",
     "sourceCategory": "bread",
     "localImage": "images/atb/хліб-420г-агробізнес-зерновий-f79e332a.jpg"
-  },
-  {
-    "name": "Хліб 330 г Кулиничі Тостовий білий з молоком нарізаний в/г п/ет",
-    "oldPrice": 30.9,
-    "newPrice": 24.9,
-    "img": "https://src.zakaz.atbmarket.com/cache/photos/112565/catalog_list_112565.jpg",
-    "unit": null,
-    "sourceUrl": "https://www.atbmarket.com/catalog/331-khlib",
-    "sourceCategory": "bread",
-    "localImage": "images/atb/хліб-330-г-кулиничі-тостовий-білий-з-молоком-нарізаний-в-г-п-fcf77c29.jpg"
-  },
-  {
-    "name": "Хліб 350 г Кулиничі Геркулес Тостовий з висівками п/ет",
-    "oldPrice": null,
-    "newPrice": 32.4,
-    "img": "https://src.zakaz.atbmarket.com/cache/photos/115655/catalog_list_115655.jpg",
-    "unit": null,
-    "sourceUrl": "https://www.atbmarket.com/catalog/331-khlib",
-    "sourceCategory": "bread",
-    "localImage": "images/atb/хліб-350-г-кулиничі-геркулес-тостовий-з-висівками-п-ет-f27f7869.jpg"
-  },
-  {
-    "name": "Хліб 350 г Кулиничі Гурман з родзинками нарізаний половинка ж/пш п/ет",
-    "oldPrice": null,
-    "newPrice": 32.9,
-    "img": "https://src.zakaz.atbmarket.com/cache/photos/108115/catalog_list_108115.png",
-    "unit": null,
-    "sourceUrl": "https://www.atbmarket.com/catalog/331-khlib",
-    "sourceCategory": "bread",
-    "localImage": "images/atb/хліб-350-г-кулиничі-гурман-з-родзинками-нарізаний-половинка--32ec490a.png"
   },
   {
     "name": "Тортилья 240г Своя Лінія пшенична п/ет",

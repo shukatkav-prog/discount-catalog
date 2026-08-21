@@ -290,6 +290,16 @@
     "localImage": "images/silpo/пиво-kronenbourg-бланк-з-б-41cb423f.webp"
   },
   {
+    "name": "Шашлик із свинини Львівський напівфабрикат кулінарний",
+    "oldPrice": 24.9,
+    "newPrice": 19.9,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/3d4f6386-8dfd-4ccd-9a0b-ea2431cb7213.png",
+    "unit": "100г",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=1",
+    "sourceCategory": null,
+    "localImage": "images/silpo/шашлик-із-свинини-львівський-напівфабрикат-кулінарний-e2516e83.webp"
+  },
+  {
     "name": "Манго натуральне сушене",
     "oldPrice": 117,
     "newPrice": 79.99,
@@ -458,16 +468,6 @@
     "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=1",
     "sourceCategory": null,
     "localImage": "images/silpo/гель-somat-excellence-duo-для-посудомийних-машин-15d8d038.webp"
-  },
-  {
-    "name": "Гель для душу Fa Men Sport Energy Boost",
-    "oldPrice": 179,
-    "newPrice": 144,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/2f7a3003-95b9-4e46-9aa0-0518b8b2649c.png",
-    "unit": "400мл",
-    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=1",
-    "sourceCategory": null,
-    "localImage": "images/silpo/гель-для-душу-fa-men-sport-energy-boost-4fca8505.webp"
   },
   {
     "name": "Шампунь Syoss Men Clean&Cool для нормального і жирного волосся",
@@ -950,6 +950,16 @@
     "localImage": "images/silpo/хамон-sierra-morena-серано-бодега-нарізка-e4602e9f.webp"
   },
   {
+    "name": "Снеки Natural Garden норі з кунжутовою олією смажені",
+    "oldPrice": 44.49,
+    "newPrice": 19.99,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/55523759-21d5-44f7-9d1a-ac8ca8160260.png",
+    "unit": "5г",
+    "sourceUrl": "https://silpo.ua/category/veganski-produkty-4866",
+    "sourceCategory": "vegan",
+    "localImage": "images/silpo/снеки-natural-garden-норі-з-кунжутовою-олією-смажені-eb1c9cb3.webp"
+  },
+  {
     "name": "Снеки Taro рибні зі смаком барбекю",
     "oldPrice": 149,
     "newPrice": 69.99,
@@ -958,6 +968,16 @@
     "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=3",
     "sourceCategory": null,
     "localImage": "images/silpo/снеки-taro-рибні-зі-смаком-барбекю-89999901.webp"
+  },
+  {
+    "name": "Серветки для прибирання «Премія»® віскозні",
+    "oldPrice": 41.49,
+    "newPrice": 28.99,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/bfb5f8af-0024-4ef7-8d8c-30c2cb5a4fd6.png",
+    "unit": "3шт/уп",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=3",
+    "sourceCategory": null,
+    "localImage": "images/silpo/серветки-для-прибирання-премія-віскозні-1839ea76.webp"
   },
   {
     "name": "Молоко ультрапастеризоване Feels good Protein 2%",
@@ -1010,16 +1030,6 @@
     "localImage": "images/silpo/сир-плавлений-rupp-з-чедером-30-скибочки-4394da75.webp"
   },
   {
-    "name": "Серветки для прибирання «Премія»® віскозні",
-    "oldPrice": 41.49,
-    "newPrice": 28.99,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/bfb5f8af-0024-4ef7-8d8c-30c2cb5a4fd6.png",
-    "unit": "3шт/уп",
-    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=3",
-    "sourceCategory": null,
-    "localImage": "images/silpo/серветки-для-прибирання-премія-віскозні-1839ea76.webp"
-  },
-  {
     "name": "Палички крабові Vici з м'ясом натурального краба охолоджені",
     "oldPrice": 299,
     "newPrice": 199,
@@ -1030,14 +1040,14 @@
     "localImage": "images/silpo/палички-крабові-vici-з-мясом-натурального-краба-охолоджені-fc29ecdc.webp"
   },
   {
-    "name": "Снеки Taro рибні зі смаком чилі",
-    "oldPrice": 149,
-    "newPrice": 69.99,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/c4c8bef1-b04a-476d-b4d2-647d6181cd09.png",
-    "unit": "52г",
+    "name": "Папір туалетний «Премія»® білий кольорове тиснення 3-шаровий",
+    "oldPrice": 82.99,
+    "newPrice": 59.99,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/8f08c34e-88c8-4d77-99d3-18366dfa9f90.png",
+    "unit": "4шт",
     "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=3",
     "sourceCategory": null,
-    "localImage": "images/silpo/снеки-taro-рибні-зі-смаком-чилі-755ae40a.webp"
+    "localImage": "images/silpo/папір-туалетний-премія-білий-кольорове-тиснення-3-шаровий-fa8aa805.webp"
   },
   {
     "name": "Морозиво Magnat Peanuts&Salty caramel, стакан",
@@ -1060,14 +1070,14 @@
     "localImage": "images/silpo/сир-крафтяр-моцарела-копчена-міні-157e7ca8.webp"
   },
   {
-    "name": "Папір туалетний «Премія»® білий кольорове тиснення 3-шаровий",
-    "oldPrice": 82.99,
-    "newPrice": 59.99,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/8f08c34e-88c8-4d77-99d3-18366dfa9f90.png",
-    "unit": "4шт",
+    "name": "Снек пікантний Pringles зі смаком сиру чеддер",
+    "oldPrice": 299,
+    "newPrice": 149,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/ea7dfd4a-9ff3-466f-8bd4-2a2545622a27.png",
+    "unit": "158г",
     "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=3",
     "sourceCategory": null,
-    "localImage": "images/silpo/папір-туалетний-премія-білий-кольорове-тиснення-3-шаровий-fa8aa805.webp"
+    "localImage": "images/silpo/снек-пікантний-pringles-зі-смаком-сиру-чеддер-5f679f17.webp"
   },
   {
     "name": "Кава мелена Jacobs Kronung натуральна смажена",
@@ -1130,16 +1140,6 @@
     "localImage": "images/silpo/свинина-биток-без-кістки-охолоджений-cc486e73.webp"
   },
   {
-    "name": "Палички ватні «Премія»® в круглій коробці",
-    "oldPrice": 35.99,
-    "newPrice": 26.99,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/21d7336b-9f73-4d5f-b316-efd3e0b859fb.png",
-    "unit": "100шт/уп",
-    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=3",
-    "sourceCategory": null,
-    "localImage": "images/silpo/палички-ватні-премія-в-круглій-коробці-d6e551bb.webp"
-  },
-  {
     "name": "Сир Paturages Comtois Брі 60% з коров'ячого молока",
     "oldPrice": 469,
     "newPrice": 279,
@@ -1168,6 +1168,16 @@
     "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=3",
     "sourceCategory": null,
     "localImage": "images/silpo/засіб-дезінфекційний-премія-блю-лайн-лайт-bbd68b19.webp"
+  },
+  {
+    "name": "Морозиво Bounty батончик",
+    "oldPrice": 62.99,
+    "newPrice": 37.99,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/ac468dc5-f697-4475-a680-7e812047d193.png",
+    "unit": "39г",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=3",
+    "sourceCategory": null,
+    "localImage": "images/silpo/морозиво-bounty-батончик-1ce6a8e8.webp"
   },
   {
     "name": "Сир плавлений Rupp з моцарелою скибочки 40%",
@@ -1230,14 +1240,44 @@
     "localImage": "images/silpo/грінки-flint-craft-житньо-пшеничні-зі-смаком-часнику-54eae195.webp"
   },
   {
-    "name": "Диски ватні «Премія»® косметичні круглі",
-    "oldPrice": 77.99,
-    "newPrice": 49.99,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/312c2726-30a4-4d8b-8db4-6af0ecf88b39.png",
-    "unit": "120шт/уп",
+    "name": "Сардельки «Алан» з сиром «Женевські» в/ґ н/о",
+    "oldPrice": 53.9,
+    "newPrice": 39.9,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/ca7c3948-2159-44b4-8443-d396ca2fb288.png",
+    "unit": "100г",
     "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=3",
     "sourceCategory": null,
-    "localImage": "images/silpo/диски-ватні-премія-косметичні-круглі-d88071cc.webp"
+    "localImage": "images/silpo/сардельки-алан-з-сиром-женевські-в-ґ-н-о-abf52ed2.webp"
+  },
+  {
+    "name": "Губки кухонні Фрекен Бок Максима",
+    "oldPrice": 64.49,
+    "newPrice": 48.99,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/2154ba4e-eb9f-4fc0-aad3-cff50b3ea19c.png",
+    "unit": "5шт/уп",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=3",
+    "sourceCategory": null,
+    "localImage": "images/silpo/губки-кухонні-фрекен-бок-максима-20a8c510.webp"
+  },
+  {
+    "name": "Палички ватні «Премія»® в круглій коробці",
+    "oldPrice": 35.99,
+    "newPrice": 26.99,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/21d7336b-9f73-4d5f-b316-efd3e0b859fb.png",
+    "unit": "100шт/уп",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=3",
+    "sourceCategory": null,
+    "localImage": "images/silpo/палички-ватні-премія-в-круглій-коробці-d6e551bb.webp"
+  },
+  {
+    "name": "Корм для котів Cat Chef з тунцем, м'ясом курки та креветками",
+    "oldPrice": 79.99,
+    "newPrice": 49.99,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/af6a6665-012b-44aa-9f92-08e54d59b249.png",
+    "unit": "80г",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=3",
+    "sourceCategory": null,
+    "localImage": "images/silpo/корм-для-котів-cat-chef-з-тунцем-мясом-курки-та-креветками-f83a647c.webp"
   },
   {
     "name": "Сік «Наш Сік» мультивітамінний",
@@ -1280,16 +1320,6 @@
     "localImage": "images/silpo/локшина-швидкого-приготування-reeva-зі-смаком-грибів-fca37d91.webp"
   },
   {
-    "name": "Морозиво Три ведмеді White 12%",
-    "oldPrice": 349,
-    "newPrice": 174,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/f129307d-69fa-443a-bdb6-7405d209f83f.png",
-    "unit": "1кг",
-    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=3",
-    "sourceCategory": null,
-    "localImage": "images/silpo/морозиво-три-ведмеді-white-12-908c9c34.webp"
-  },
-  {
     "name": "Скатертина «Премія»® поліетиленова 120х150 см",
     "oldPrice": 24.49,
     "newPrice": 18.99,
@@ -1308,16 +1338,6 @@
     "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=3",
     "sourceCategory": null,
     "localImage": "images/silpo/папір-туалетний-премія-з-екстрактом-ромашки-вологий-f4651d6c.webp"
-  },
-  {
-    "name": "Корм для котів Cat Chef з тунцем, м'ясом курки та креветками",
-    "oldPrice": 79.99,
-    "newPrice": 49.99,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/af6a6665-012b-44aa-9f92-08e54d59b249.png",
-    "unit": "80г",
-    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=3",
-    "sourceCategory": null,
-    "localImage": "images/silpo/корм-для-котів-cat-chef-з-тунцем-мясом-курки-та-креветками-f83a647c.webp"
   },
   {
     "name": "Лосось шматочки слабосолені в олії",
@@ -1370,6 +1390,16 @@
     "localImage": "images/silpo/снек-пікантний-pringles-зі-смаком-піци-51ac77d9.webp"
   },
   {
+    "name": "Снеки Taro рибні зі смаком чилі",
+    "oldPrice": 149,
+    "newPrice": 69.99,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/c4c8bef1-b04a-476d-b4d2-647d6181cd09.png",
+    "unit": "52г",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=3",
+    "sourceCategory": null,
+    "localImage": "images/silpo/снеки-taro-рибні-зі-смаком-чилі-755ae40a.webp"
+  },
+  {
     "name": "Котлета яловича для бургера охолоджена",
     "oldPrice": 159,
     "newPrice": 139,
@@ -1385,7 +1415,7 @@
     "newPrice": 69.99,
     "img": "https://images.silpo.ua/v2/products/300x300/webp/c4524977-22d7-42ad-8268-2cd53edafbd4.png",
     "unit": "150г",
-    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=3",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=4",
     "sourceCategory": null,
     "localImage": "images/silpo/десерт-ласунка-кокос-манго-чиа-з-наповнювачем-кокос-вершки-54178cb1.webp"
   },
@@ -1395,19 +1425,19 @@
     "newPrice": 64.99,
     "img": "https://images.silpo.ua/v2/products/300x300/webp/c3d99999-fac2-446c-adc1-4f22e72d0229.png",
     "unit": "2,25л",
-    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=3",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=4",
     "sourceCategory": null,
     "localImage": "images/silpo/пиво-чернігівське-світле-2eeee7ed.webp"
   },
   {
-    "name": "Морозиво Bounty батончик",
-    "oldPrice": 62.99,
-    "newPrice": 37.99,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/ac468dc5-f697-4475-a680-7e812047d193.png",
-    "unit": "39г",
-    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=3",
+    "name": "Морозиво Три ведмеді White 12%",
+    "oldPrice": 349,
+    "newPrice": 174,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/f129307d-69fa-443a-bdb6-7405d209f83f.png",
+    "unit": "1кг",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=4",
     "sourceCategory": null,
-    "localImage": "images/silpo/морозиво-bounty-батончик-1ce6a8e8.webp"
+    "localImage": "images/silpo/морозиво-три-ведмеді-white-12-908c9c34.webp"
   },
   {
     "name": "Туалетний папір Zewa Pure Moist вологий",
@@ -1618,6 +1648,16 @@
     "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=4",
     "sourceCategory": null,
     "localImage": "images/silpo/паштет-podravka-з-курячого-мяса-класичний-239c9447.webp"
+  },
+  {
+    "name": "Диски ватні «Премія»® косметичні круглі",
+    "oldPrice": 77.99,
+    "newPrice": 49.99,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/312c2726-30a4-4d8b-8db4-6af0ecf88b39.png",
+    "unit": "120шт/уп",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=4",
+    "sourceCategory": null,
+    "localImage": "images/silpo/диски-ватні-премія-косметичні-круглі-d88071cc.webp"
   },
   {
     "name": "Батончик Nestle Lion з арахісом",
@@ -1840,6 +1880,26 @@
     "localImage": "images/silpo/десерт-деліссімо-тирамісу-5-стакан-51a8c6d2.webp"
   },
   {
+    "name": "Рушники паперові «Премія»® 2 шари 150 арк.",
+    "oldPrice": 79.99,
+    "newPrice": 55.99,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/6dd9e19d-b10e-4f42-ade6-b0444e0bacd6.png",
+    "unit": "шт",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=5",
+    "sourceCategory": null,
+    "localImage": "images/silpo/рушники-паперові-премія-2-шари-150-арк-81b2c409.webp"
+  },
+  {
+    "name": "Чипси Nibblez лососеві з оригінальним смаком",
+    "oldPrice": 129,
+    "newPrice": 79.99,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/e35bf006-b21b-4092-a636-29acfa08ffd4.png",
+    "unit": "50г",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=5",
+    "sourceCategory": null,
+    "localImage": "images/silpo/чипси-nibblez-лососеві-з-оригінальним-смаком-b3dff077.webp"
+  },
+  {
     "name": "Морозиво Хрещатик Лимон вершкове у соковому покритті",
     "oldPrice": 53.99,
     "newPrice": 22.99,
@@ -1900,6 +1960,16 @@
     "localImage": "images/silpo/морепродукти-arbi-в-томатному-соусі-з-молюсками-та-креветкам-783fdc8b.webp"
   },
   {
+    "name": "Палички лососеві VICI Сlassic в паніровці",
+    "oldPrice": 164,
+    "newPrice": 124,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/0e10b08e-6aee-4453-86d1-1087efd83c0c.png",
+    "unit": "250г",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=5",
+    "sourceCategory": null,
+    "localImage": "images/silpo/палички-лососеві-vici-сlassic-в-паніровці-29ec1fe3.webp"
+  },
+  {
     "name": "Локшина швидкого приготування Reeva зі смаком яловичини",
     "oldPrice": 53.49,
     "newPrice": 37.99,
@@ -1948,6 +2018,26 @@
     "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=5",
     "sourceCategory": null,
     "localImage": "images/silpo/торт-tarta-легенда-києва-повітряно-арахісовий-a85dc1c4.webp"
+  },
+  {
+    "name": "Ананас шматочками «Премія»® в легкому сиропі",
+    "oldPrice": 126,
+    "newPrice": 79.99,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/82a9b9d5-31a0-401f-8e87-3ccc8049244b.png",
+    "unit": "565г",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=5",
+    "sourceCategory": null,
+    "localImage": "images/silpo/ананас-шматочками-премія-в-легкому-сиропі-13982fff.webp"
+  },
+  {
+    "name": "Горошок «Премія»® зелений консервований",
+    "oldPrice": 57.49,
+    "newPrice": 39.99,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/ae785183-24d0-4c3a-86d1-03571662b3c1.png",
+    "unit": "420г",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=5",
+    "sourceCategory": null,
+    "localImage": "images/silpo/горошок-премія-зелений-консервований-d47be375.webp"
   },
   {
     "name": "Губка банна Фрекен Бок «Океан» з масажною поверхнею",
@@ -2030,6 +2120,16 @@
     "localImage": "images/silpo/сирок-чудо-персик-збитий-5-стакан-8f0ff52b.webp"
   },
   {
+    "name": "Шоколад «Світоч» «Десерт» смак тірамісу",
+    "oldPrice": 68.49,
+    "newPrice": 47.99,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/9fc416f1-2b85-43cd-81b1-c210bf8eddd3.png",
+    "unit": "85г",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=5",
+    "sourceCategory": null,
+    "localImage": "images/silpo/шоколад-світоч-десерт-смак-тірамісу-5f526a31.webp"
+  },
+  {
     "name": "Батончик Lion Black&White зі смаком брауні",
     "oldPrice": 29.99,
     "newPrice": 20.99,
@@ -2080,16 +2180,6 @@
     "localImage": "images/silpo/тістечко-бкк-заварне-з-кремом-в-упаковці-983226f8.webp"
   },
   {
-    "name": "Печиво Biscotti Американське з родзинками",
-    "oldPrice": 89.99,
-    "newPrice": 54.99,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/5dac1916-505f-450c-a84d-21f0dbd4cead.png",
-    "unit": "0,215кг",
-    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=5",
-    "sourceCategory": null,
-    "localImage": "images/silpo/печиво-biscotti-американське-з-родзинками-af88a56f.webp"
-  },
-  {
     "name": "Рушники паперові Nua Hand&Face",
     "oldPrice": 99,
     "newPrice": 69.99,
@@ -2108,6 +2198,16 @@
     "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=5",
     "sourceCategory": null,
     "localImage": "images/silpo/кефір-ґокарпати-ложковий-22-пет-322bd6ff.webp"
+  },
+  {
+    "name": "Шашлик PREMIA Party line курячий Тропічний вогонь охолоджений в/у",
+    "oldPrice": 27.9,
+    "newPrice": 21.9,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/e980da38-e3b0-488a-b0c5-ede8ad1731f3.png",
+    "unit": "100г",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=5",
+    "sourceCategory": null,
+    "localImage": "images/silpo/шашлик-premia-party-line-курячий-тропічний-вогонь-охолоджени-2746c303.webp"
   },
   {
     "name": "Вино Iveriuli Алазанська долина біле напівсолодке",
@@ -2180,16 +2280,6 @@
     "localImage": "images/silpo/губки-кухонні-fino-мікропористі-5-1-39687f3b.webp"
   },
   {
-    "name": "Пюре Galicia Baby яблучно-сливово-бананове",
-    "oldPrice": 34.99,
-    "newPrice": 24.99,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/98e10bec-312f-48d4-a50a-db1bb6b5f21c.png",
-    "unit": "90г",
-    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=5",
-    "sourceCategory": null,
-    "localImage": "images/silpo/пюре-galicia-baby-яблучно-сливово-бананове-176d7b76.webp"
-  },
-  {
     "name": "Сидр Dolcelini Con Gusto Lambrusko Bianco солодкий з/б",
     "oldPrice": 41.99,
     "newPrice": 23.99,
@@ -2210,26 +2300,6 @@
     "localImage": "images/silpo/блок-туалетний-bref-harmony-spa-moments-ed9336b7.webp"
   },
   {
-    "name": "Сир кисломолочний ПростоНаше 9% в/у",
-    "oldPrice": 99,
-    "newPrice": 72.99,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/c1f64c62-d1c6-4cf5-8f0b-5b636a5a33f6.png",
-    "unit": "300г",
-    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=5",
-    "sourceCategory": null,
-    "localImage": "images/silpo/сир-кисломолочний-простонаше-9-в-у-daeb3887.webp"
-  },
-  {
-    "name": "Палички лососеві VICI Сlassic в паніровці",
-    "oldPrice": 164,
-    "newPrice": 124,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/0e10b08e-6aee-4453-86d1-1087efd83c0c.png",
-    "unit": "250г",
-    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=5",
-    "sourceCategory": null,
-    "localImage": "images/silpo/палички-лососеві-vici-сlassic-в-паніровці-29ec1fe3.webp"
-  },
-  {
     "name": "Таблетки для посудомийних машин Somat Classic Lemon fresh",
     "oldPrice": 689,
     "newPrice": 439,
@@ -2238,6 +2308,16 @@
     "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=5",
     "sourceCategory": null,
     "localImage": "images/silpo/таблетки-для-посудомийних-машин-somat-classic-lemon-fresh-fcae240e.webp"
+  },
+  {
+    "name": "Морозиво Рудь Фісташка у ріжку",
+    "oldPrice": 42.49,
+    "newPrice": 19.99,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/facec3da-6d4e-4729-9516-97aecfb8365d.png",
+    "unit": "70г",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=5",
+    "sourceCategory": null,
+    "localImage": "images/silpo/морозиво-рудь-фісташка-у-ріжку-0c3c0aba.webp"
   },
   {
     "name": "Лікер Valhalla Herbal Shot",
@@ -2260,24 +2340,14 @@
     "localImage": "images/silpo/віскі-hankey-bannister-в-коробці-9e35c648.webp"
   },
   {
-    "name": "Ковбаса «Ювілейний» «Дрогобицька» н/к в/ґ",
-    "oldPrice": 89.9,
-    "newPrice": 49.9,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/4fdf7230-0a2f-4f69-ba76-f12889ca1803.png",
-    "unit": "100г",
-    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=5",
+    "name": "Ікра Veladis з крабом в соусі",
+    "oldPrice": 99,
+    "newPrice": 75.99,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/12253afe-9ec0-4209-ae9d-b002325be219.png",
+    "unit": "160г",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=6",
     "sourceCategory": null,
-    "localImage": "images/silpo/ковбаса-ювілейний-дрогобицька-н-к-в-ґ-b7fe2ee0.webp"
-  },
-  {
-    "name": "Джин Beefeater 40%",
-    "oldPrice": 699,
-    "newPrice": 499,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/3fee443c-d678-4c13-b971-28838402975b.png",
-    "unit": "0,7л",
-    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=5",
-    "sourceCategory": null,
-    "localImage": "images/silpo/джин-beefeater-40-07a98dc6.webp"
+    "localImage": "images/silpo/ікра-veladis-з-крабом-в-соусі-1c4faa39.webp"
   },
   {
     "name": "Тістечко «Сан Пауло»",
@@ -2285,9 +2355,19 @@
     "newPrice": 73.9,
     "img": "https://images.silpo.ua/v2/products/300x300/webp/b94647f1-1fe2-4fec-84a1-7d35973a1848.png",
     "unit": "100г",
-    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=5",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=6",
     "sourceCategory": null,
     "localImage": "images/silpo/тістечко-сан-пауло-5bb93e69.webp"
+  },
+  {
+    "name": "Ополіскувач для рота Listerine «Свіжа м'ята» м'який смак",
+    "oldPrice": 109,
+    "newPrice": 73.99,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/28f84630-5134-4ab9-addf-b2d7aaff454f.png",
+    "unit": "250мл",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=6",
+    "sourceCategory": null,
+    "localImage": "images/silpo/ополіскувач-для-рота-listerine-свіжа-мята-мякий-смак-1a4d11f5.webp"
   },
   {
     "name": "Пиво Eichbaum Premium Hefeweizen Hell світле нефільтроване",
@@ -2295,7 +2375,7 @@
     "newPrice": 44.99,
     "img": "https://images.silpo.ua/v2/products/300x300/webp/9e392d5f-e738-4038-b568-554925cc3d52.png",
     "unit": "0,5л",
-    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=5",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=6",
     "sourceCategory": null,
     "localImage": "images/silpo/пиво-eichbaum-premium-hefeweizen-hell-світле-нефільтроване-e507258d.webp"
   },
@@ -2305,9 +2385,29 @@
     "newPrice": 40.99,
     "img": "https://images.silpo.ua/v2/products/300x300/webp/0d01b1a9-5612-45b3-899f-85b07527dfe5.png",
     "unit": "90г",
-    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=5",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=6",
     "sourceCategory": null,
     "localImage": "images/silpo/чипси-doritos-кукурудзяний-смак-мексиканський-буріто-з-ялови-c315a825.webp"
+  },
+  {
+    "name": "Папір туалетний «Премія»® 2-шаровий",
+    "oldPrice": 254,
+    "newPrice": 179,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/c77be7a8-4982-42d2-bac6-866cbf710cbf.png",
+    "unit": "16шт",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=6",
+    "sourceCategory": null,
+    "localImage": "images/silpo/папір-туалетний-премія-2-шаровий-1003b24a.webp"
+  },
+  {
+    "name": "Кекс Biscotti Брауні",
+    "oldPrice": 43.49,
+    "newPrice": 21.99,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/5a39932f-9798-4fa7-808e-a9e7011f60f6.png",
+    "unit": "55г",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=6",
+    "sourceCategory": null,
+    "localImage": "images/silpo/кекс-biscotti-брауні-f1abd09a.webp"
   },
   {
     "name": "Паста Mills з ікри тріски",
@@ -2318,16 +2418,6 @@
     "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=6",
     "sourceCategory": null,
     "localImage": "images/silpo/паста-mills-з-ікри-тріски-3c9d28dd.webp"
-  },
-  {
-    "name": "Торт Прага",
-    "oldPrice": 219,
-    "newPrice": 119,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/f986f892-8a6a-482c-b7d4-f3c2d1ebca94.png",
-    "unit": "380г",
-    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=6",
-    "sourceCategory": null,
-    "localImage": "images/silpo/торт-прага-cb424f7e.webp"
   },
   {
     "name": "Снек пікантний Pringles зі смаком барбекю",
@@ -2348,6 +2438,16 @@
     "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=6",
     "sourceCategory": null,
     "localImage": "images/silpo/круасани-schulstad-600c9ea3.webp"
+  },
+  {
+    "name": "Насіння гарбуза «Премія»® смажене солоне",
+    "oldPrice": 58.49,
+    "newPrice": 37.99,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/6531f4e6-585f-4d8f-9769-63cd297732ae.png",
+    "unit": "80г",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=6",
+    "sourceCategory": null,
+    "localImage": "images/silpo/насіння-гарбуза-премія-смажене-солоне-0d667aab.webp"
   },
   {
     "name": "Засіб для прання Perwoll для кольорових речей",
@@ -2390,6 +2490,16 @@
     "localImage": "images/silpo/соус-щедро-кисло-солодкий-д-п-54ec3582.webp"
   },
   {
+    "name": "Йогурт Ростишка персик-абрикос питний 1,5%",
+    "oldPrice": 27.99,
+    "newPrice": 20.99,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/6a4565f7-25af-455f-9849-1a5264ce375e.png",
+    "unit": "207г",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=6",
+    "sourceCategory": null,
+    "localImage": "images/silpo/йогурт-ростишка-персик-абрикос-питний-15-74ce5e15.webp"
+  },
+  {
     "name": "Молоко ультрапастеризоване Слов'яночка 2,5% т/п",
     "oldPrice": 70.99,
     "newPrice": 49.99,
@@ -2400,14 +2510,14 @@
     "localImage": "images/silpo/молоко-ультрапастеризоване-словяночка-25-т-п-7396b8d7.webp"
   },
   {
-    "name": "Ікра Veladis з крабом в соусі",
+    "name": "Сир кисломолочний ПростоНаше 9% в/у",
     "oldPrice": 99,
-    "newPrice": 75.99,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/12253afe-9ec0-4209-ae9d-b002325be219.png",
-    "unit": "160г",
+    "newPrice": 72.99,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/c1f64c62-d1c6-4cf5-8f0b-5b636a5a33f6.png",
+    "unit": "300г",
     "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=6",
     "sourceCategory": null,
-    "localImage": "images/silpo/ікра-veladis-з-крабом-в-соусі-1c4faa39.webp"
+    "localImage": "images/silpo/сир-кисломолочний-простонаше-9-в-у-daeb3887.webp"
   },
   {
     "name": "Тістечко Чизкейк карамельний",
@@ -2440,16 +2550,6 @@
     "localImage": "images/silpo/йогурт-злагода-малятко-банан-полуниця-для-дітей-від-9-місяці-35ad91a7.webp"
   },
   {
-    "name": "Вермішель Мівіна Saucy noodles зі смаком Теріякі",
-    "oldPrice": 63.99,
-    "newPrice": 39.99,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/9f4ba3cd-aac2-44c8-b150-0c95cee79d3a.png",
-    "unit": "92,5г",
-    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=6",
-    "sourceCategory": null,
-    "localImage": "images/silpo/вермішель-мівіна-saucy-noodles-зі-смаком-теріякі-0709fbb6.webp"
-  },
-  {
     "name": "Морозиво Хрещатик Полуниця вершкове у соковому покритті",
     "oldPrice": 53.99,
     "newPrice": 22.99,
@@ -2458,16 +2558,6 @@
     "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=6",
     "sourceCategory": null,
     "localImage": "images/silpo/морозиво-хрещатик-полуниця-вершкове-у-соковому-покритті-f45cdbf7.webp"
-  },
-  {
-    "name": "Сир плавлений Edeldam Дружба 20%",
-    "oldPrice": 21.99,
-    "newPrice": 14.99,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/1f41bfc9-f447-4e50-9fd9-a79f0a014e0c.png",
-    "unit": "64г",
-    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=6",
-    "sourceCategory": null,
-    "localImage": "images/silpo/сир-плавлений-edeldam-дружба-20-75f845e7.webp"
   },
   {
     "name": "Сир плавлений Edeldam Вершковий 20%",
@@ -2500,6 +2590,16 @@
     "localImage": "images/silpo/вино-ігристе-winetruck-asti-docg-біле-708f53c4.webp"
   },
   {
+    "name": "Сир плавлений Edeldam Дружба 20%",
+    "oldPrice": 21.99,
+    "newPrice": 14.99,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/1f41bfc9-f447-4e50-9fd9-a79f0a014e0c.png",
+    "unit": "64г",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=6",
+    "sourceCategory": null,
+    "localImage": "images/silpo/сир-плавлений-edeldam-дружба-20-75f845e7.webp"
+  },
+  {
     "name": "Засіб для миття посуду Fairy Лимон",
     "oldPrice": 154,
     "newPrice": 129,
@@ -2528,16 +2628,6 @@
     "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=6",
     "sourceCategory": null,
     "localImage": "images/silpo/кетчуп-premia-чилі-д-п-36c2d4f5.webp"
-  },
-  {
-    "name": "Кекс Biscotti Брауні",
-    "oldPrice": 43.49,
-    "newPrice": 21.99,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/5a39932f-9798-4fa7-808e-a9e7011f60f6.png",
-    "unit": "55г",
-    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=6",
-    "sourceCategory": null,
-    "localImage": "images/silpo/кекс-biscotti-брауні-f1abd09a.webp"
   },
   {
     "name": "Парфум-кондиц для білизни Silan Квітуча черешня",
@@ -2570,24 +2660,14 @@
     "localImage": "images/silpo/вермішель-премія-зі-смаком-курки-негостра-швидкого-приготува-a4bdeb55.webp"
   },
   {
-    "name": "Кекс Biscotti Кейк з ароматом лимона",
-    "oldPrice": 43.49,
-    "newPrice": 21.99,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/a2933550-f623-402f-b667-e622d5b0b593.png",
-    "unit": "65г",
+    "name": "Морозиво Gel'Amo! Тірамісу вершкове з шоколадним соусом 8%",
+    "oldPrice": 119,
+    "newPrice": 69.99,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/dc4e6aea-8b19-4cb9-8c7e-631dd48067ca.png",
+    "unit": "150г",
     "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=6",
     "sourceCategory": null,
-    "localImage": "images/silpo/кекс-biscotti-кейк-з-ароматом-лимона-32104606.webp"
-  },
-  {
-    "name": "Папір туалетний «Премія»® 2-шаровий",
-    "oldPrice": 254,
-    "newPrice": 179,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/c77be7a8-4982-42d2-bac6-866cbf710cbf.png",
-    "unit": "16шт",
-    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=6",
-    "sourceCategory": null,
-    "localImage": "images/silpo/папір-туалетний-премія-2-шаровий-1003b24a.webp"
+    "localImage": "images/silpo/морозиво-gelamo-тірамісу-вершкове-з-шоколадним-соусом-8-d4b76f65.webp"
   },
   {
     "name": "Морозиво Ма? Макарун пломбір, смородина та шоколад",
@@ -2720,26 +2800,6 @@
     "localImage": "images/silpo/пластівці-start-кукурудзяні-натуральні-94059438.webp"
   },
   {
-    "name": "Заварник 1 л 1005426",
-    "oldPrice": 499,
-    "newPrice": 169,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/a625a1ce-e5b9-49ff-aa3e-bc85bdc2f804.png",
-    "unit": "шт",
-    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=6",
-    "sourceCategory": null,
-    "localImage": "images/silpo/заварник-1-л-1005426-701c343f.webp"
-  },
-  {
-    "name": "Морозиво Gel'Amo! Тірамісу вершкове з шоколадним соусом 8%",
-    "oldPrice": 119,
-    "newPrice": 69.99,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/dc4e6aea-8b19-4cb9-8c7e-631dd48067ca.png",
-    "unit": "150г",
-    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=6",
-    "sourceCategory": null,
-    "localImage": "images/silpo/морозиво-gelamo-тірамісу-вершкове-з-шоколадним-соусом-8-d4b76f65.webp"
-  },
-  {
     "name": "Пакети для сміття Fino Стандарт з затяжками 35 л",
     "oldPrice": 199,
     "newPrice": 149,
@@ -2755,7 +2815,7 @@
     "newPrice": 8.99,
     "img": "https://images.silpo.ua/v2/products/300x300/webp/b8bdc21b-6ecd-4d7a-8b8c-47f6eb9c8012.png",
     "unit": "15г",
-    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=6",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=7",
     "sourceCategory": null,
     "localImage": "images/silpo/напій-кавовий-jacobs-3-в-1-карамель-396dd235.webp"
   },
@@ -2908,6 +2968,16 @@
     "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=7",
     "sourceCategory": null,
     "localImage": "images/silpo/напій-кавовий-jacobs-3в1-choco-6cf2368a.webp"
+  },
+  {
+    "name": "Кекс Biscotti Кейк з ароматом лимона",
+    "oldPrice": 43.49,
+    "newPrice": 21.99,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/a2933550-f623-402f-b667-e622d5b0b593.png",
+    "unit": "65г",
+    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=7",
+    "sourceCategory": null,
+    "localImage": "images/silpo/кекс-biscotti-кейк-з-ароматом-лимона-32104606.webp"
   },
   {
     "name": "Іграшка Мильні бульбашки Динозавр 60 мл в асортименті 1004605",
@@ -3178,16 +3248,6 @@
     "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=8",
     "sourceCategory": null,
     "localImage": "images/silpo/майонез-національні-українські-традиції-столовий-67-c7b1470c.webp"
-  },
-  {
-    "name": "Йогурт Ростишка персик-абрикос питний 1,5%",
-    "oldPrice": 27.99,
-    "newPrice": 20.99,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/6a4565f7-25af-455f-9849-1a5264ce375e.png",
-    "unit": "207г",
-    "sourceUrl": "https://silpo.ua/offers/cinotyzhyky?page=8",
-    "sourceCategory": null,
-    "localImage": "images/silpo/йогурт-ростишка-персик-абрикос-питний-15-74ce5e15.webp"
   },
   {
     "name": "Диски для прання Persil Expert Видалення плям",
@@ -4072,7 +4132,7 @@
   {
     "name": "Пиво Corona Zero світле безалкогольне",
     "oldPrice": null,
-    "newPrice": 86.49,
+    "newPrice": 89.99,
     "img": "https://images.silpo.ua/v2/products/300x300/webp/b8975137-4db5-4665-bb85-024944c78e9f.png",
     "unit": "0,33л",
     "sourceUrl": "https://silpo.ua/category/bezalkogolne-pyvo-4484",
@@ -4122,7 +4182,7 @@
   {
     "name": "Пиво Stella Artois світле безалкогольне з/б",
     "oldPrice": null,
-    "newPrice": 56.49,
+    "newPrice": 57.49,
     "img": "https://images.silpo.ua/v2/products/300x300/webp/a9a52298-c014-422f-afe3-38624b87bb6d.png",
     "unit": "0,33л",
     "sourceUrl": "https://silpo.ua/category/bezalkogolne-pyvo-4484",
@@ -4210,16 +4270,6 @@
     "localImage": "images/silpo/пиво-gosser-naturgold-світле-безалкогольне-02146adc.webp"
   },
   {
-    "name": "Пиво Lowenbrau Original світле безалкольне з/б",
-    "oldPrice": null,
-    "newPrice": 46.49,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/f7415424-7545-40a4-9525-5cbf0e9a19c9.png",
-    "unit": "0,5л",
-    "sourceUrl": "https://silpo.ua/category/bezalkogolne-pyvo-4484",
-    "sourceCategory": "nabeer",
-    "localImage": "images/silpo/пиво-lowenbrau-original-світле-безалкольне-з-б-582878fd.webp"
-  },
-  {
     "name": "Пиво Seth & Riley's Garage Fun Zero №0 Lime безалкогольне з/б",
     "oldPrice": null,
     "newPrice": 50.99,
@@ -4271,8 +4321,8 @@
   },
   {
     "name": "Пиво Guinness Draught 0% темне безалкогольне з/б",
-    "oldPrice": 191.65,
-    "newPrice": 144,
+    "oldPrice": null,
+    "newPrice": 191.65,
     "img": "https://images.silpo.ua/v2/products/300x300/webp/b1bb5f81-bdc1-45f1-9d3d-64d9bfa23457.png",
     "unit": "0,44л",
     "sourceUrl": "https://silpo.ua/category/bezalkogolne-pyvo-4484",
@@ -4401,8 +4451,8 @@
   },
   {
     "name": "Пиво Estrella Damm Alcohol Free світле безалкогольне з/б",
-    "oldPrice": null,
-    "newPrice": 94.49,
+    "oldPrice": 84.49,
+    "newPrice": 59.99,
     "img": "https://images.silpo.ua/v2/products/300x300/webp/61230f97-f964-4492-90a2-03a42727ff9e.png",
     "unit": "0,5л",
     "sourceUrl": "https://silpo.ua/category/bezalkogolne-pyvo-4484",
@@ -4481,8 +4531,8 @@
   },
   {
     "name": "Пиво Lacplesis світле безалкогольне з/б",
-    "oldPrice": 49.99,
-    "newPrice": 39.99,
+    "oldPrice": 51.99,
+    "newPrice": 41.99,
     "img": "https://images.silpo.ua/v2/products/300x300/webp/ab2d963f-8f13-41c9-98d9-b41641c2b773.png",
     "unit": "0,5л",
     "sourceUrl": "https://silpo.ua/category/bezalkogolne-pyvo-4484",
@@ -4511,8 +4561,8 @@
   },
   {
     "name": "Пиво Damm Free світле безалкогольне з/б",
-    "oldPrice": 56.49,
-    "newPrice": 46.99,
+    "oldPrice": 55.49,
+    "newPrice": 45.99,
     "img": "https://images.silpo.ua/v2/products/300x300/webp/d5a8f296-2c11-40a7-93dd-8c0575c44f7a.png",
     "unit": "0,33л",
     "sourceUrl": "https://silpo.ua/category/bezalkogolne-pyvo-4484",
@@ -4520,9 +4570,29 @@
     "localImage": "images/silpo/пиво-damm-free-світле-безалкогольне-з-б-494b2ec1.webp"
   },
   {
+    "name": "Пиво Gosser NaturGold світле безалкогольне з/б",
+    "oldPrice": 50.49,
+    "newPrice": 42.92,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/cc1cb874-8adc-455e-a94d-6a9e95f4d3c2.png",
+    "unit": "0,5л",
+    "sourceUrl": "https://silpo.ua/category/bezalkogolne-pyvo-4484",
+    "sourceCategory": "nabeer",
+    "localImage": "images/silpo/пиво-gosser-naturgold-світле-безалкогольне-з-б-9882f1df.webp"
+  },
+  {
+    "name": "Хумус Hungry Papa класичний",
+    "oldPrice": null,
+    "newPrice": 78.99,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/680d2ef9-90af-4ccf-86b3-dc06ba8043c8.png",
+    "unit": "250г",
+    "sourceUrl": "https://silpo.ua/category/veganski-produkty-4866",
+    "sourceCategory": "vegan",
+    "localImage": "images/silpo/хумус-hungry-papa-класичний-ffae9b55.webp"
+  },
+  {
     "name": "Хумус Hungry Papa з тхіною",
     "oldPrice": null,
-    "newPrice": 94.99,
+    "newPrice": 99,
     "img": "https://images.silpo.ua/v2/products/300x300/webp/b126d0db-7ca3-4777-a505-b73874f312e6.png",
     "unit": "250г",
     "sourceUrl": "https://silpo.ua/category/veganski-produkty-4866",
@@ -4592,7 +4662,7 @@
   {
     "name": "Напій Spraga Комбуча Полуниця та м'ята слабогазований",
     "oldPrice": null,
-    "newPrice": 79.99,
+    "newPrice": 84.49,
     "img": "https://images.silpo.ua/v2/products/300x300/webp/a6024ece-612f-4e80-8379-fe7cdb3870f6.png",
     "unit": "0,25л",
     "sourceUrl": "https://silpo.ua/category/veganski-produkty-4866",
@@ -4631,33 +4701,13 @@
   },
   {
     "name": "Напій Vega Milk вівсяний ультрапастеризований з бананом 1,5%",
-    "oldPrice": null,
-    "newPrice": 102.99,
+    "oldPrice": 81.99,
+    "newPrice": 72.99,
     "img": "https://images.silpo.ua/v2/products/300x300/webp/e469b7e0-ca20-4738-88de-bee10ef63f23.png",
     "unit": "950мл",
     "sourceUrl": "https://silpo.ua/category/veganski-produkty-4866",
     "sourceCategory": "vegan",
     "localImage": "images/silpo/напій-vega-milk-вівсяний-ультрапастеризований-з-бананом-15-00e4838b.webp"
-  },
-  {
-    "name": "Снеки Natural Garden норі з кунжутовою олією смажені",
-    "oldPrice": 44.49,
-    "newPrice": 19.99,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/55523759-21d5-44f7-9d1a-ac8ca8160260.png",
-    "unit": "5г",
-    "sourceUrl": "https://silpo.ua/category/veganski-produkty-4866",
-    "sourceCategory": "vegan",
-    "localImage": "images/silpo/снеки-natural-garden-норі-з-кунжутовою-олією-смажені-eb1c9cb3.webp"
-  },
-  {
-    "name": "Хумус Yofi! з бобових з грибами",
-    "oldPrice": null,
-    "newPrice": 73.49,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/db5b87a5-8075-4f11-860f-3be0f26c8058.png",
-    "unit": "250г",
-    "sourceUrl": "https://silpo.ua/category/veganski-produkty-4866",
-    "sourceCategory": "vegan",
-    "localImage": "images/silpo/хумус-yofi-з-бобових-з-грибами-ea34ff59.webp"
   },
   {
     "name": "Десерт Alpro соєвий ферментований з персиком",
@@ -4672,12 +4722,22 @@
   {
     "name": "Тофу Alive класичний пастеризований",
     "oldPrice": null,
-    "newPrice": 72.99,
+    "newPrice": 81.99,
     "img": "https://images.silpo.ua/v2/products/300x300/webp/ee261e47-997f-4590-af4e-60520b062797.png",
     "unit": "200г",
     "sourceUrl": "https://silpo.ua/category/veganski-produkty-4866",
     "sourceCategory": "vegan",
     "localImage": "images/silpo/тофу-alive-класичний-пастеризований-5f1d6d14.webp"
+  },
+  {
+    "name": "Закуска YoFi! Hummus класичний з нуту",
+    "oldPrice": null,
+    "newPrice": 82.49,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/36eca667-6ef8-4d02-b507-749625210a85.png",
+    "unit": "250г",
+    "sourceUrl": "https://silpo.ua/category/veganski-produkty-4866",
+    "sourceCategory": "vegan",
+    "localImage": "images/silpo/закуска-yofi-hummus-класичний-з-нуту-a05c782f.webp"
   },
   {
     "name": "Десерт Alpro соєвий з шоколадним смаком, стакан",
@@ -4698,16 +4758,6 @@
     "sourceUrl": "https://silpo.ua/category/veganski-produkty-4866",
     "sourceCategory": "vegan",
     "localImage": "images/silpo/закуска-yofi-hummus-з-томатами-і-базиліком-з-нуту-3d359b17.webp"
-  },
-  {
-    "name": "Закуска YoFi! Hummus класичний з нуту",
-    "oldPrice": null,
-    "newPrice": 82.49,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/36eca667-6ef8-4d02-b507-749625210a85.png",
-    "unit": "250г",
-    "sourceUrl": "https://silpo.ua/category/veganski-produkty-4866",
-    "sourceCategory": "vegan",
-    "localImage": "images/silpo/закуска-yofi-hummus-класичний-з-нуту-a05c782f.webp"
   },
   {
     "name": "Напій Spraga Комбуча Манго та маракуйя сильногазований",
@@ -4760,6 +4810,16 @@
     "localImage": "images/silpo/капуста-kyivkraut-кімчі-ферментована-веганська-5a4c8ed5.webp"
   },
   {
+    "name": "Хумус Yofi! з бобових з грибами",
+    "oldPrice": null,
+    "newPrice": 73.49,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/db5b87a5-8075-4f11-860f-3be0f26c8058.png",
+    "unit": "250г",
+    "sourceUrl": "https://silpo.ua/category/veganski-produkty-4866",
+    "sourceCategory": "vegan",
+    "localImage": "images/silpo/хумус-yofi-з-бобових-з-грибами-ea34ff59.webp"
+  },
+  {
     "name": "Десерт Alpro соєвий з ванільним смаком, стакан",
     "oldPrice": null,
     "newPrice": 49.99,
@@ -4802,7 +4862,7 @@
   {
     "name": "Напій соєвий Alpro Plant Protein Chocolate flavour",
     "oldPrice": null,
-    "newPrice": 194,
+    "newPrice": 199,
     "img": "https://images.silpo.ua/v2/products/300x300/webp/0cbdfc86-32d2-4305-888b-6ce2b5c217f6.png",
     "unit": "1л",
     "sourceUrl": "https://silpo.ua/category/veganski-produkty-4866",
@@ -4828,6 +4888,16 @@
     "sourceUrl": "https://silpo.ua/category/veganski-produkty-4866",
     "sourceCategory": "vegan",
     "localImage": "images/silpo/міні-хлібці-екі-некі-кукурудзяні-з-прованськими-травами-ad9afc5f.webp"
+  },
+  {
+    "name": "Хлібці «Хлібці-Удальці» пшенично-вівсяні",
+    "oldPrice": null,
+    "newPrice": 19.99,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/30ce3fbf-52de-4b1f-8603-919f590111bf.png",
+    "unit": "100г",
+    "sourceUrl": "https://silpo.ua/category/veganski-produkty-4866",
+    "sourceCategory": "vegan",
+    "localImage": "images/silpo/хлібці-хлібці-удальці-пшенично-вівсяні-e70494fc.webp"
   },
   {
     "name": "Напій Vega Milk рисово-кокосовий ультрапастеризований 1,5%",
@@ -4862,7 +4932,7 @@
   {
     "name": "Хумус-снек Лавка Традицій Frango пряний смак",
     "oldPrice": null,
-    "newPrice": 98.49,
+    "newPrice": 87.99,
     "img": "https://images.silpo.ua/v2/products/300x300/webp/54c8ea00-e08f-425c-8256-2c0d24062814.png",
     "unit": "40г",
     "sourceUrl": "https://silpo.ua/category/veganski-produkty-4866",
@@ -4872,7 +4942,7 @@
   {
     "name": "Хумус Hungry Papa гострий",
     "oldPrice": null,
-    "newPrice": 112,
+    "newPrice": 109,
     "img": "https://images.silpo.ua/v2/products/300x300/webp/cc14762e-19c0-422a-97e2-9d56726a36b7.png",
     "unit": "250г",
     "sourceUrl": "https://silpo.ua/category/veganski-produkty-4866",
@@ -4930,14 +5000,14 @@
     "localImage": "images/silpo/напій-spraga-комбуча-вишня-слабогазований-ead3fbd0.webp"
   },
   {
-    "name": "Хлібці «Хлібці-Удальці» пшенично-вівсяні",
+    "name": "Цукерки Лавка традицій Korиsni",
     "oldPrice": null,
-    "newPrice": 19.99,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/30ce3fbf-52de-4b1f-8603-919f590111bf.png",
-    "unit": "100г",
+    "newPrice": 119,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/ee34bfed-68e1-46c7-8f83-72fc2b404585.png",
+    "unit": "110г",
     "sourceUrl": "https://silpo.ua/category/veganski-produkty-4866",
     "sourceCategory": "vegan",
-    "localImage": "images/silpo/хлібці-хлібці-удальці-пшенично-вівсяні-e70494fc.webp"
+    "localImage": "images/silpo/цукерки-лавка-традицій-korиsni-71e2fc5b.webp"
   },
   {
     "name": "Паста арахісова «Премія»® з сіллю і кранчами",
@@ -4968,26 +5038,6 @@
     "sourceUrl": "https://silpo.ua/category/veganski-produkty-4866",
     "sourceCategory": "vegan",
     "localImage": "images/silpo/напій-alpro-соєвий-з-ванільним-смаком-583cc2e4.webp"
-  },
-  {
-    "name": "Хлібці Лавка Традицій Frango нутові оригінальні",
-    "oldPrice": null,
-    "newPrice": 103.95,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/9f41535d-b6a7-4694-95ce-0646852d97b1.png",
-    "unit": "100г",
-    "sourceUrl": "https://silpo.ua/category/veganski-produkty-4866",
-    "sourceCategory": "vegan",
-    "localImage": "images/silpo/хлібці-лавка-традицій-frango-нутові-оригінальні-28fd026f.webp"
-  },
-  {
-    "name": "Напій Лавка традицій Spraga Комбуча Кола з/б",
-    "oldPrice": null,
-    "newPrice": 73.99,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/ca4dccb0-6f73-41db-805e-eab2ab13c8ab.png",
-    "unit": "0,33л",
-    "sourceUrl": "https://silpo.ua/category/veganski-produkty-4866",
-    "sourceCategory": "vegan",
-    "localImage": "images/silpo/напій-лавка-традицій-spraga-комбуча-кола-з-б-9e489164.webp"
   },
   {
     "name": "Чай чорний Hillway Exclusive Golden Ceylon",
@@ -5611,8 +5661,8 @@
   },
   {
     "name": "Філейки Healthy Choice мангові натурально сушені",
-    "oldPrice": 194,
-    "newPrice": 135.8,
+    "oldPrice": null,
+    "newPrice": 194,
     "img": "https://images.silpo.ua/v2/products/300x300/webp/fd3e2444-6ed6-4331-9bc4-5f492ebfda6e.png",
     "unit": "45г",
     "sourceUrl": "https://silpo.ua/category/frukty-ovochi-4788",
@@ -5621,8 +5671,8 @@
   },
   {
     "name": "Кеш'ю Winway смажене",
-    "oldPrice": 164,
-    "newPrice": 147.6,
+    "oldPrice": 154,
+    "newPrice": 138.6,
     "img": "https://images.silpo.ua/v2/products/300x300/webp/fb049cd5-c2b3-42ba-aee1-59c24c53aa52.png",
     "unit": "100г",
     "sourceUrl": "https://silpo.ua/category/frukty-ovochi-4788",
@@ -5652,7 +5702,7 @@
   {
     "name": "Хумус Hungry Papa класичний",
     "oldPrice": null,
-    "newPrice": 78.49,
+    "newPrice": 75.99,
     "img": "https://images.silpo.ua/v2/products/300x300/webp/680d2ef9-90af-4ccf-86b3-dc06ba8043c8.png",
     "unit": "250г",
     "sourceUrl": "https://silpo.ua/category/frukty-ovochi-4788",
@@ -5720,16 +5770,6 @@
     "localImage": "images/silpo/мигдаль-премія-ядра-горіхів-сушені-84f7ec10.webp"
   },
   {
-    "name": "Родзинки темні «Премія»®",
-    "oldPrice": null,
-    "newPrice": 63.99,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/062faa3d-83f8-4ee3-abd0-778c9e5813a9.png",
-    "unit": "200г",
-    "sourceUrl": "https://silpo.ua/category/frukty-ovochi-4788",
-    "sourceCategory": "produce",
-    "localImage": "images/silpo/родзинки-темні-премія-55618632.webp"
-  },
-  {
     "name": "Мигдаль Winway смажений",
     "oldPrice": null,
     "newPrice": 129,
@@ -5738,6 +5778,16 @@
     "sourceUrl": "https://silpo.ua/category/frukty-ovochi-4788",
     "sourceCategory": "produce",
     "localImage": "images/silpo/мигдаль-winway-смажений-572d6e29.webp"
+  },
+  {
+    "name": "Родзинки темні «Премія»®",
+    "oldPrice": null,
+    "newPrice": 63.99,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/062faa3d-83f8-4ee3-abd0-778c9e5813a9.png",
+    "unit": "200г",
+    "sourceUrl": "https://silpo.ua/category/frukty-ovochi-4788",
+    "sourceCategory": "produce",
+    "localImage": "images/silpo/родзинки-темні-премія-55618632.webp"
   },
   {
     "name": "Мигдалеві пластівці",
@@ -5808,16 +5858,6 @@
     "sourceUrl": "https://silpo.ua/category/frukty-ovochi-4788",
     "sourceCategory": "produce",
     "localImage": "images/silpo/суміш-горіхова-winway-вітамінна-baf00f81.webp"
-  },
-  {
-    "name": "Капуста білоголова «По-домашньому»",
-    "oldPrice": null,
-    "newPrice": 99,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/4375d87a-7cc9-42a1-8046-06cab0edbcaa.png",
-    "unit": "1000г",
-    "sourceUrl": "https://silpo.ua/category/frukty-ovochi-4788",
-    "sourceCategory": "produce",
-    "localImage": "images/silpo/капуста-білоголова-по-домашньому-5a3fe001.webp"
   },
   {
     "name": "Кунжут Santa Vita білий",
@@ -5892,12 +5932,22 @@
   {
     "name": "Хумус Hungry Papa з тхіною",
     "oldPrice": null,
-    "newPrice": 99,
+    "newPrice": 96.99,
     "img": "https://images.silpo.ua/v2/products/300x300/webp/b126d0db-7ca3-4777-a505-b73874f312e6.png",
     "unit": "250г",
     "sourceUrl": "https://silpo.ua/category/frukty-ovochi-4788",
     "sourceCategory": "produce",
     "localImage": "images/silpo/хумус-hungry-papa-з-тхіною-d791342c.webp"
+  },
+  {
+    "name": "Суміш фруктово-горіхова",
+    "oldPrice": 259,
+    "newPrice": 164,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/6ced15f4-9d9c-4d89-9ba2-f3c66115c0c3.png",
+    "unit": "500г",
+    "sourceUrl": "https://silpo.ua/category/frukty-ovochi-4788",
+    "sourceCategory": "produce",
+    "localImage": "images/silpo/суміш-фруктово-горіхова-4c6436fd.webp"
   },
   {
     "name": "Суміш сухофруктів «Компот VIP»",
@@ -7150,6 +7200,16 @@
     "localImage": "images/silpo/ковбаса-мясна-гільдія-салямі-золотиста-с-к-в-ґ-нарізка-51033bf0.webp"
   },
   {
+    "name": "Ковбаса «Лавка Традицій» «Смачні Справи» «Асторія» с/в в/с",
+    "oldPrice": null,
+    "newPrice": 99.9,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/7b3f6699-3b0a-45e4-a876-993995f7f82d.png",
+    "unit": "100г",
+    "sourceUrl": "https://silpo.ua/category/syrov-ialena-syrokopchena-kovbasa-4738",
+    "sourceCategory": "sausage",
+    "localImage": "images/silpo/ковбаса-лавка-традицій-смачні-справи-асторія-с-в-в-с-bfdcae56.webp"
+  },
+  {
     "name": "Ковбаса «Лавка Традицій» «Смачні Справи» «Бурштинова» с/к",
     "oldPrice": 99.9,
     "newPrice": 84.9,
@@ -7178,16 +7238,6 @@
     "sourceUrl": "https://silpo.ua/category/syrov-ialena-syrokopchena-kovbasa-4738",
     "sourceCategory": "sausage",
     "localImage": "images/silpo/набір-ковбас-алан-мікс-в-ґ-0735b56c.webp"
-  },
-  {
-    "name": "Ковбаса «Лавка Традицій» «Смачні Справи» «Асторія» с/в в/с",
-    "oldPrice": null,
-    "newPrice": 99.9,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/7b3f6699-3b0a-45e4-a876-993995f7f82d.png",
-    "unit": "100г",
-    "sourceUrl": "https://silpo.ua/category/syrov-ialena-syrokopchena-kovbasa-4738",
-    "sourceCategory": "sausage",
-    "localImage": "images/silpo/ковбаса-лавка-традицій-смачні-справи-асторія-с-в-в-с-bfdcae56.webp"
   },
   {
     "name": "Ковбаса «Премія»® Українська с/к в/ґ, нарізка",
@@ -7282,7 +7332,7 @@
   {
     "name": "Салямі «Глобино» «Золотиста» с/к в/у",
     "oldPrice": null,
-    "newPrice": 98.9,
+    "newPrice": 91.9,
     "img": "https://images.silpo.ua/v2/products/300x300/webp/ebefa606-6663-43ba-ba8a-3e23afd15955.png",
     "unit": "100г",
     "sourceUrl": "https://silpo.ua/category/syrov-ialena-syrokopchena-kovbasa-4738",
@@ -7320,16 +7370,6 @@
     "localImage": "images/silpo/ковбаса-укрпромпостач-міланська-с-в-в-ґ-70124fb9.webp"
   },
   {
-    "name": "Ковбаса Beretta Салямі Наполі нарізка",
-    "oldPrice": 229,
-    "newPrice": 159,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/2a0275f4-5c37-4dd2-a36f-8786a92ee94f.png",
-    "unit": "100г",
-    "sourceUrl": "https://silpo.ua/category/syrov-ialena-syrokopchena-kovbasa-4738",
-    "sourceCategory": "sausage",
-    "localImage": "images/silpo/ковбаса-beretta-салямі-наполі-нарізка-b9afa4ed.webp"
-  },
-  {
     "name": "Ковбаса «Премія»® Українська с/к в/ґ в/у ДСТУ",
     "oldPrice": 139.9,
     "newPrice": 99.9,
@@ -7362,32 +7402,12 @@
   {
     "name": "Ковбаса «Глобино» «Брізоло» с/к в/ґ нарізка",
     "oldPrice": null,
-    "newPrice": 115,
+    "newPrice": 117,
     "img": "https://images.silpo.ua/v2/products/300x300/webp/ae1575a3-b3a7-40c0-9128-44c35305814d.png",
     "unit": "80г",
     "sourceUrl": "https://silpo.ua/category/syrov-ialena-syrokopchena-kovbasa-4738",
     "sourceCategory": "sausage",
     "localImage": "images/silpo/ковбаса-глобино-брізоло-с-к-в-ґ-нарізка-08539288.webp"
-  },
-  {
-    "name": "Ковбаса «Ятрань» «Салямі Датська» с/к 1 с",
-    "oldPrice": null,
-    "newPrice": 99.9,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/5176a09c-6ba7-440c-9497-586ad7e302c6.png",
-    "unit": "100г",
-    "sourceUrl": "https://silpo.ua/category/syrov-ialena-syrokopchena-kovbasa-4738",
-    "sourceCategory": "sausage",
-    "localImage": "images/silpo/ковбаса-ятрань-салямі-датська-с-к-1-с-9f0a0707.webp"
-  },
-  {
-    "name": "Ковбаса «Ювілейний» «Асорті Сервірувальна» с/к, нарізка",
-    "oldPrice": null,
-    "newPrice": 259,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/dad414a5-e52f-4aa7-834c-ca3ac8703f49.png",
-    "unit": "160г",
-    "sourceUrl": "https://silpo.ua/category/syrov-ialena-syrokopchena-kovbasa-4738",
-    "sourceCategory": "sausage",
-    "localImage": "images/silpo/ковбаса-ювілейний-асорті-сервірувальна-с-к-нарізка-83c95c06.webp"
   },
   {
     "name": "Ковбаса «Фарро» Баварська с/к в/ґ нарізка",
@@ -7470,14 +7490,44 @@
     "localImage": "images/silpo/ковбаса-укрпромпостач-салямі-наполі-с-к-в-ґ-431d93fb.webp"
   },
   {
-    "name": "Ковбаса Фарро Бургундія с/к в/ґ",
-    "oldPrice": 349,
-    "newPrice": 249,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/887d0a50-541d-4a85-8600-f5113d8f2260.png",
-    "unit": "350г",
+    "name": "Ковбаса Алан Салямі делікатесна с/к в/ґ",
+    "oldPrice": null,
+    "newPrice": 299,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/9060bc59-6713-449e-9729-5dba3df7a2f6.png",
+    "unit": "330г",
     "sourceUrl": "https://silpo.ua/category/syrov-ialena-syrokopchena-kovbasa-4738",
     "sourceCategory": "sausage",
-    "localImage": "images/silpo/ковбаса-фарро-бургундія-с-к-в-ґ-2062162a.webp"
+    "localImage": "images/silpo/ковбаса-алан-салямі-делікатесна-с-к-в-ґ-6af68ca6.webp"
+  },
+  {
+    "name": "Ковбаса Український МК Валенсія с/к в/ґ",
+    "oldPrice": null,
+    "newPrice": 69.9,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/d746353e-2a44-4ead-b26b-21f54540d0f5.png",
+    "unit": "100г",
+    "sourceUrl": "https://silpo.ua/category/syrov-ialena-syrokopchena-kovbasa-4738",
+    "sourceCategory": "sausage",
+    "localImage": "images/silpo/ковбаса-український-мк-валенсія-с-к-в-ґ-68ac18af.webp"
+  },
+  {
+    "name": "Ковбаса Michel Ogier Розетта Традиційна с/в",
+    "oldPrice": null,
+    "newPrice": 899,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/c1d3bd57-5e28-4c70-b40c-36afb239a5be.png",
+    "unit": "450г",
+    "sourceUrl": "https://silpo.ua/category/syrov-ialena-syrokopchena-kovbasa-4738",
+    "sourceCategory": "sausage",
+    "localImage": "images/silpo/ковбаса-michel-ogier-розетта-традиційна-с-в-024ea9e0.webp"
+  },
+  {
+    "name": "Ковбаса Ювілейний Преміум Салямі в прованських травах с/в в/ґ",
+    "oldPrice": null,
+    "newPrice": 99.9,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/7d902159-e600-4081-ad7d-7b243d94a738.png",
+    "unit": "100г",
+    "sourceUrl": "https://silpo.ua/category/syrov-ialena-syrokopchena-kovbasa-4738",
+    "sourceCategory": "sausage",
+    "localImage": "images/silpo/ковбаса-ювілейний-преміум-салямі-в-прованських-травах-с-в-в--63ce52f7.webp"
   },
   {
     "name": "Джерки PREMIA Теріякі курячі",
@@ -9270,16 +9320,6 @@
     "localImage": "images/silpo/курячі-крильця-баффало-гриль-621a7fa4.webp"
   },
   {
-    "name": "Тальятеле Карбонара",
-    "oldPrice": 159,
-    "newPrice": 133.56,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/9ecb892a-cfd1-45f9-a4fc-8e3f307872f2.png",
-    "unit": "250г",
-    "sourceUrl": "https://silpo.ua/category/gotovi-stravy-i-kulinariia-4761",
-    "sourceCategory": null,
-    "localImage": "images/silpo/тальятеле-карбонара-e5c4941c.webp"
-  },
-  {
     "name": "Смажене філе риби",
     "oldPrice": 65.9,
     "newPrice": 56.02,
@@ -9308,16 +9348,6 @@
     "sourceUrl": "https://silpo.ua/category/gotovi-stravy-i-kulinariia-4761",
     "sourceCategory": null,
     "localImage": "images/silpo/котлети-по-київськи-8ea7bec2.webp"
-  },
-  {
-    "name": "Рибний суп Калакейтто в упаковці",
-    "oldPrice": 109,
-    "newPrice": 93.74,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/6e37858b-4fc1-453f-9b00-5d4be6a448ef.png",
-    "unit": "350г",
-    "sourceUrl": "https://silpo.ua/category/gotovi-stravy-i-kulinariia-4761",
-    "sourceCategory": null,
-    "localImage": "images/silpo/рибний-суп-калакейтто-в-упаковці-8fe6d79f.webp"
   },
   {
     "name": "Піца італійська з куркою та овочами",
@@ -9362,7 +9392,7 @@
   {
     "name": "Салат Вінегрет сімейна упаковка",
     "oldPrice": null,
-    "newPrice": 139,
+    "newPrice": 129,
     "img": "https://images.silpo.ua/v2/products/300x300/webp/d0183b57-e93a-497a-b660-b4ab60c5dd04.png",
     "unit": "500г",
     "sourceUrl": "https://silpo.ua/category/gotovi-stravy-i-kulinariia-4761",
@@ -9552,7 +9582,7 @@
   {
     "name": "Картопляні зрази з капустою",
     "oldPrice": null,
-    "newPrice": 43.9,
+    "newPrice": 41.9,
     "img": "https://images.silpo.ua/v2/products/300x300/webp/eebd090a-21a1-48df-ad1c-e673b1ef395f.png",
     "unit": "100г",
     "sourceUrl": "https://silpo.ua/category/gotovi-stravy-i-kulinariia-4761",
@@ -9660,6 +9690,16 @@
     "localImage": "images/silpo/піца-верона-053e6ff0.webp"
   },
   {
+    "name": "Свиняча відбивна фарширована грибами",
+    "oldPrice": null,
+    "newPrice": 56.9,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/3408a9db-b114-4f88-8f18-cfeb60876a98.png",
+    "unit": "100г",
+    "sourceUrl": "https://silpo.ua/category/gotovi-stravy-i-kulinariia-4761",
+    "sourceCategory": null,
+    "localImage": "images/silpo/свиняча-відбивна-фарширована-грибами-5ce046d2.webp"
+  },
+  {
     "name": "Смугасте желе в упаковці",
     "oldPrice": null,
     "newPrice": 64.99,
@@ -9670,16 +9710,6 @@
     "localImage": "images/silpo/смугасте-желе-в-упаковці-f313fc1e.webp"
   },
   {
-    "name": "Салат оселедець під шубою сімейна упаковка",
-    "oldPrice": null,
-    "newPrice": 179,
-    "img": "https://images.silpo.ua/v2/products/300x300/webp/aa4ed26e-051f-4514-92da-1f8d0a3f6071.png",
-    "unit": "500г",
-    "sourceUrl": "https://silpo.ua/category/gotovi-stravy-i-kulinariia-4761",
-    "sourceCategory": null,
-    "localImage": "images/silpo/салат-оселедець-під-шубою-сімейна-упаковка-1568d0be.webp"
-  },
-  {
     "name": "Різані малосольні огірки",
     "oldPrice": null,
     "newPrice": 19.9,
@@ -9688,6 +9718,26 @@
     "sourceUrl": "https://silpo.ua/category/gotovi-stravy-i-kulinariia-4761",
     "sourceCategory": null,
     "localImage": "images/silpo/різані-малосольні-огірки-0ba41dbf.webp"
+  },
+  {
+    "name": "Салат зі свіжих огірків та помідорів",
+    "oldPrice": null,
+    "newPrice": 30.9,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/49e9a7d8-efc3-4ebc-aaa2-c68979070a5a.png",
+    "unit": "100г",
+    "sourceUrl": "https://silpo.ua/category/gotovi-stravy-i-kulinariia-4761",
+    "sourceCategory": null,
+    "localImage": "images/silpo/салат-зі-свіжих-огірків-та-помідорів-25e2e8e8.webp"
+  },
+  {
+    "name": "Салат з шинкою яйцями та грибами",
+    "oldPrice": null,
+    "newPrice": 41.9,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/30f044d9-120f-46bf-9536-05ac6f2cb576.png",
+    "unit": "100г",
+    "sourceUrl": "https://silpo.ua/category/gotovi-stravy-i-kulinariia-4761",
+    "sourceCategory": null,
+    "localImage": "images/silpo/салат-з-шинкою-яйцями-та-грибами-8926bb4e.webp"
   },
   {
     "name": "Напій Spraga Комбуча Полуниця та м'ята слабогазований",
@@ -9748,6 +9798,16 @@
     "sourceUrl": "https://silpo.ua/category/kombucha-i-fermentovani-napoi-5109",
     "sourceCategory": "drinks",
     "localImage": "images/silpo/напій-jiva-комбуча-малиновий-рай-6b5f64df.webp"
+  },
+  {
+    "name": "Напій Лавка традицій Spraga Комбуча Кола з/б",
+    "oldPrice": null,
+    "newPrice": 73.99,
+    "img": "https://images.silpo.ua/v2/products/300x300/webp/ca4dccb0-6f73-41db-805e-eab2ab13c8ab.png",
+    "unit": "0,33л",
+    "sourceUrl": "https://silpo.ua/category/kombucha-i-fermentovani-napoi-5109",
+    "sourceCategory": "drinks",
+    "localImage": "images/silpo/напій-лавка-традицій-spraga-комбуча-кола-з-б-9e489164.webp"
   },
   {
     "name": "Комбуча Green Chef Herbal",
