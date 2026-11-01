@@ -207,8 +207,14 @@ function groupCategory(items) {
   // для послідовного перегляду категорії, а не розкидає їх по картках
   // випадково залежно від того, в кого яка знижка цього тижня.
   groups.sort((a, b) => a.displayName.localeCompare(b.displayName, "uk"));
-  return groups;
+  // Каталог — про ЗНИЖКИ: картка без жодної знижки (товар лише за звичайною
+  // ціною скрізь) тільки засмічує перегляд. Звичайні ціни інших магазинів
+  // лишаються всередині карток зі знижкою — вони потрібні для порівняння.
+  const discounted = groups.filter(g => g.maxPct > 0);
+  hiddenNoDiscount += groups.length - discounted.length;
+  return discounted;
 }
+let hiddenNoDiscount = 0;
 
 const grouped = {};
 for (const cat of CATEGORIES) grouped[cat.id] = groupCategory(byCategory[cat.id]);
@@ -255,7 +261,10 @@ function renderGroup(g, catIcon) {
   const entriesHtml = g.entries
     .sort((a, b) => (a.newPrice ?? 1e9) - (b.newPrice ?? 1e9))
     .map(e => renderEntry(e, g.cheapestStore, multi, g.displayName, g.image)).join("\n");
-  return `<div class="card">
+  // data-* для пошуку/фільтрів на сторінці (filters.js): назва, макс. знижка,
+  // чи є порівняння, і в яких магазинах САМЕ знижка (фільтр "магазин").
+  const discStores = [...new Set(g.entries.filter(e => e.pct != null).map(e => e.store))].join("|");
+  return `<div class="card" data-name="${esc(g.displayName.toLowerCase())}" data-pct="${g.maxPct}" data-multi="${multi ? 1 : 0}" data-disc="${esc(discStores)}">
     ${thumb}
     <div class="card-body">
       <div class="card-name">${fire}${esc(g.displayName)}</div>
@@ -275,12 +284,7 @@ const CAT_ICON = {
 
 const sections = CATEGORIES.map((cat, i) => {
   const groups = grouped[cat.id];
-  if (!groups.length) {
-    return `<section class="category" id="${cat.id}">
-      <h2><span class="cat-icon">${CAT_ICON[cat.id]}</span>${i+1}. ${esc(cat.title)} <span class="count">0</span></h2>
-      <div class="cat-note">ℹ️ Нічого не знайдено в цьому запуску — або скрапер не отримав даних з відповідних сторінок (перевір debug/), або цього тижня знижок у категорії справді нема.</div>
-    </section>`;
-  }
+  if (!groups.length) return "";   // у розділі цього тижня нема знижок — не показуємо порожній
   const cardsHtml = groups.map(g => renderGroup(g, CAT_ICON[cat.id])).join("\n");
   return `<section class="category" id="${cat.id}">
     <h2><span class="cat-icon">${CAT_ICON[cat.id]}</span>${i+1}. ${esc(cat.title)} <span class="count">${groups.length}</span></h2>
@@ -307,11 +311,40 @@ const hasExtra = EXTRA_CATEGORIES.some(cat => extraGrouped[cat.id].length);
 const extraBlock = hasExtra ? `<div class="extra-divider"><span>Інші категорії (поза основним списком)</span></div>
 ${extraSections}` : "";
 
-const navHtml = CATEGORIES.map(cat => `<a href="#${cat.id}">${CAT_ICON[cat.id]} ${esc(cat.title.split(" (")[0])}</a>`).join("\n")
+const navHtml = CATEGORIES.filter(cat => grouped[cat.id].length).map(cat => `<a href="#${cat.id}">${CAT_ICON[cat.id]} ${esc(cat.title.split(" (")[0])}</a>`).join("\n")
   + (hasExtra ? "\n" + EXTRA_CATEGORIES.filter(cat => extraGrouped[cat.id].length)
       .map(cat => `<a href="#${cat.id}" class="nav-extra">${CAT_ICON[cat.id]} ${esc(cat.title)}</a>`).join("\n") : "");
 const totalGroups = Object.values(grouped).reduce((s, g) => s + g.length, 0);
 const withPhotos = Object.values(grouped).reduce((s, g) => s + g.filter(x => x.image).length, 0);
+
+// Пошук/фільтри/згортання розділів — окремий файл assets/filters.js (звичайний
+// JS без екранування), build.js лише вставляє його в сторінку.
+const FILTER_SCRIPT = fs.readFileSync(path.join(ROOT, "assets", "filters.js"), "utf-8");
+const storeChips = ["Сільпо", "АТБ", "Novus", "Фора"].map(st =>
+  `<button type="button" class="chip" data-store="${st}">${STORE_ICON[st] ? `<img class="store-icon" src="${STORE_ICON[st]}" alt="">` : ""}${st}</button>`).join("");
+const toolbarHtml = `<div id="toolbar">
+  <div class="tb-row">
+    <input id="q" type="search" placeholder="Пошук: креветки, йогурт, Philadelphia…" autocomplete="off" enterkeyhint="search">
+    <button id="filter-toggle" type="button" aria-expanded="false" aria-controls="filter-panel">Фільтри<span class="fbadge" style="display:none"></span></button>
+  </div>
+  <div id="filter-panel">
+    <div class="f-group"><span class="f-label">Магазин зі знижкою</span><div class="f-chips">${storeChips}</div></div>
+    <div class="f-group"><span class="f-label">Знижка</span><div class="f-chips">
+      <button type="button" class="chip on" data-pct="0">Будь-яка</button>
+      <button type="button" class="chip" data-pct="20">від 20%</button>
+      <button type="button" class="chip" data-pct="30">від 30%</button>
+      <button type="button" class="chip" data-pct="40">від 40%</button>
+    </div></div>
+    <div class="f-group"><span class="f-label">Порівняння</span><div class="f-chips">
+      <button type="button" class="chip" id="chip-multi">Лише де є ціна в кількох магазинах</button>
+    </div></div>
+    <div class="f-group"><span class="f-label">Порядок</span>
+      <select id="sort-select"><option value="alpha">За алфавітом</option><option value="discount">Найбільша знижка спочатку</option></select>
+      <button type="button" id="filter-reset">Скинути фільтри</button>
+    </div>
+  </div>
+  <div id="result-line"></div>
+</div>`;
 
 // Клієнтський JS для списку покупок (додати товар / переглянути по магазинах).
 // Ніяких залежностей, зберігається в localStorage браузера — сайт статичний,
@@ -460,7 +493,7 @@ const html = `<!DOCTYPE html>
   /* max-height = рівно 3 ряди пігулок (8px padding + 3×44px + 2×6px gap +
      8px padding) — будь-яке інше число обрізає 4-й ряд пігулок посередині,
      і виглядає як зламаний скрол замість чіткого краю. */
-  nav { position:sticky; top:0; z-index:10; background:#fffaf2; border-bottom:1px solid var(--border); padding:8px 10px; display:flex; flex-wrap:wrap; gap:6px; max-height:calc(16px + 3*44px + 2*6px); overflow-y:auto; }
+  nav { background:#fffaf2; border-bottom:1px solid var(--border); padding:8px 10px; display:flex; flex-wrap:wrap; gap:6px; max-height:calc(16px + 3*44px + 2*6px); overflow-y:auto; }
   nav a { flex:0 0 auto; font-size:12.5px; color:var(--ink); text-decoration:none; background:var(--card-bg); border:1px solid var(--border); border-radius:20px; padding:12px 14px; display:inline-flex; align-items:center; }
   nav a:hover { background:var(--gold); color:#fff; }
   .category { max-width:1180px; margin:0 auto; padding:22px 14px 4px; }
@@ -525,7 +558,7 @@ const html = `<!DOCTYPE html>
   .add-btn { flex-shrink:0; width:22px; height:22px; border-radius:50%; border:1px solid var(--border); background:#fff; color:var(--accent2); font-size:15px; font-weight:700; line-height:1; display:flex; align-items:center; justify-content:center; cursor:pointer; padding:0; }
   .add-btn:hover { background:var(--cheap-bg); border-color:var(--cheap-border); }
   .add-btn.added { background:var(--accent2); border-color:var(--accent2); color:#fff; }
-  #stale-banner { display:none; position:sticky; top:44px; z-index:9; background:#fff6e6; border-bottom:1px solid var(--gold); padding:8px 14px; font-size:12.5px; color:var(--ink); align-items:center; justify-content:center; gap:10px; flex-wrap:wrap; text-align:center; }
+  #stale-banner { display:none; background:#fff6e6; border-bottom:1px solid var(--gold); padding:8px 14px; font-size:12.5px; color:var(--ink); align-items:center; justify-content:center; gap:10px; flex-wrap:wrap; text-align:center; }
   #stale-banner button { border:1px solid var(--border); background:#fff; border-radius:16px; padding:5px 12px; font-size:12px; cursor:pointer; }
   #stale-banner .stale-clear { border-color:var(--accent); color:var(--accent); }
   /* Маленька кругла кнопка в кутку, а не широка панель на весь низ екрана —
@@ -557,6 +590,30 @@ const html = `<!DOCTYPE html>
   .clear-store-btn { width:100%; margin-top:8px; padding:9px; border-radius:10px; border:1px solid var(--border); background:#fff; color:var(--ink-soft); font-size:12.5px; cursor:pointer; }
 
   footer { text-align:center; padding:26px 20px 86px; font-size:11px; color:var(--ink-soft); }
+
+  /* ---- пошук і фільтри (sticky зверху) ---- */
+  #toolbar { position:sticky; top:0; z-index:12; background:#fffaf2; border-bottom:1px solid var(--border); padding:8px 10px 6px; box-shadow:0 2px 8px rgba(0,0,0,.06); }
+  .tb-row { display:flex; gap:8px; max-width:1180px; margin:0 auto; }
+  #q { flex:1; min-width:0; font:inherit; font-size:16px; padding:10px 14px; border:1px solid var(--border); border-radius:22px; background:#fff; color:var(--ink); }
+  #q:focus { outline:2px solid var(--accent2); outline-offset:1px; }
+  #filter-toggle { flex:0 0 auto; position:relative; font:inherit; font-size:14px; padding:0 16px; min-height:44px; border:1px solid var(--border); border-radius:22px; background:#fff; color:var(--ink); cursor:pointer; }
+  #filter-toggle[aria-expanded="true"] { background:var(--ink); color:#fff; border-color:var(--ink); }
+  .fbadge { display:inline-flex; align-items:center; justify-content:center; min-width:18px; height:18px; margin-left:6px; padding:0 5px; border-radius:9px; background:var(--accent); color:#fff; font-size:11px; font-weight:700; }
+  #filter-panel { display:none; max-width:1180px; margin:8px auto 0; max-height:55vh; overflow-y:auto; padding-bottom:4px; }
+  #filter-panel.open { display:block; }
+  .f-group { display:flex; flex-wrap:wrap; align-items:center; gap:6px 10px; padding:6px 2px; }
+  .f-label { flex:0 0 100%; font-size:11px; text-transform:uppercase; letter-spacing:.04em; color:var(--ink-soft); }
+  .f-chips { display:flex; flex-wrap:wrap; gap:6px; }
+  .chip { display:inline-flex; align-items:center; gap:5px; min-height:38px; padding:0 13px; border:1px solid var(--border); border-radius:19px; background:#fff; color:var(--ink); font:inherit; font-size:13px; cursor:pointer; }
+  .chip.on { background:var(--accent2); border-color:var(--accent2); color:#fff; }
+  #sort-select { font:inherit; font-size:14px; min-height:38px; padding:0 10px; border:1px solid var(--border); border-radius:10px; background:#fff; color:var(--ink); }
+  #filter-reset { font:inherit; font-size:13px; min-height:38px; padding:0 14px; border:1px solid var(--border); border-radius:19px; background:transparent; color:var(--accent); cursor:pointer; }
+  #result-line { max-width:1180px; margin:4px auto 0; font-size:12px; color:var(--ink-soft); padding:0 4px; }
+  #result-line.active { color:var(--accent2); font-weight:600; }
+  .is-hidden { display:none !important; }
+  nav a.nav-empty { opacity:.4; }
+  .more-btn { display:block; width:100%; margin:10px 0 4px; min-height:44px; border:1px solid var(--border); border-radius:12px; background:#fff; color:var(--accent2); font:inherit; font-size:14px; font-weight:600; cursor:pointer; }
+  .more-btn:hover { background:var(--cheap-bg); }
   .footer-meta { font-size:13px; font-weight:600; color:var(--ink); margin:0 0 10px; }
 </style>
 </head>
@@ -564,6 +621,7 @@ const html = `<!DOCTYPE html>
 <header>
   <h1>🛒 Каталог знижок тижня</h1>
 </header>
+${toolbarHtml}
 <nav>${navHtml}</nav>
 <div id="stale-banner">
   <span>Список покупок збережено <b class="stale-date"></b> — товари могли змінитися.</span>
@@ -573,7 +631,7 @@ const html = `<!DOCTYPE html>
 ${sections}
 ${extraBlock}
 <footer>
-  <p class="footer-meta">Сільпо · Novus · Фора · АТБ · станом на ${TODAY} · ${totalGroups} товарних груп, фото знайдено для ${withPhotos}</p>
+  <p class="footer-meta">Сільпо · Novus · Фора · АТБ · станом на ${TODAY} · ${totalGroups} товарів зі знижкою, фото знайдено для ${withPhotos}</p>
   Оновлюється щоп'ятниці автоматично (GitHub Actions) — реальні фото качаються напряму
   з сайтів магазинів. Групування однакових товарів між магазинами — евристичне
   (за схожістю назв), тому час від часу звір руками.
@@ -595,6 +653,7 @@ ${extraBlock}
 </div>
 
 <script>${LIST_SCRIPT}</script>
+<script>${FILTER_SCRIPT}</script>
 </body>
 </html>`;
 
